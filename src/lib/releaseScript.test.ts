@@ -57,6 +57,36 @@ function fixture(overrides: Record<string, string> = {}) {
     mkdirSync(dirname(join(cwd, file)), { recursive: true })
     copyFileSync(join(root, file), join(cwd, file))
   }
+  // Keep the release scenarios anchored to 1.7.5 after the repository version advances.
+  for (const file of ['package.json', 'src-tauri/tauri.conf.json']) {
+    const path = join(cwd, file)
+    const value = JSON.parse(readFileSync(path, 'utf8'))
+    value.version = '1.7.5'
+    writeFileSync(path, `${JSON.stringify(value, null, 2)}\n`)
+  }
+  const lockPath = join(cwd, 'package-lock.json')
+  const lock = JSON.parse(readFileSync(lockPath, 'utf8'))
+  lock.version = '1.7.5'
+  lock.packages[''].version = '1.7.5'
+  writeFileSync(lockPath, `${JSON.stringify(lock, null, 2)}\n`)
+  for (const [file, pattern] of [
+    ['src-tauri/Cargo.toml', /(^version\s*=\s*")[^"]+(")/m],
+    ['src-tauri/Cargo.lock', /(name = "mosaico"\r?\nversion = ")[^"]+(")/],
+  ] as const) {
+    const path = join(cwd, file)
+    const content = readFileSync(path, 'utf8')
+    writeFileSync(
+      path,
+      content.replace(pattern, (_, prefix, suffix) => `${prefix}1.7.5${suffix}`),
+    )
+  }
+  const changelogPath = join(cwd, 'src/lib/changelogData.ts')
+  const changelog = readFileSync(changelogPath, 'utf8')
+  const releaseList = changelog.indexOf('export const CHANGELOG_RELEASES')
+  const firstEntry = changelog.indexOf('\n', releaseList) + 1
+  const baselineEntry = changelog.indexOf("  { version: '1.7.5'", firstEntry)
+  if (releaseList < 0 || baselineEntry < 0) throw new Error('Missing release fixture baseline')
+  writeFileSync(changelogPath, changelog.slice(0, firstEntry) + changelog.slice(baselineEntry))
   const calls: string[][] = []
   const logs: string[] = []
   const replies: Record<string, string> = {

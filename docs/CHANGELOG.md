@@ -4,14 +4,16 @@ Notable user-facing changes to **mosAIco** are documented here. The format is ba
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project follows
 [Semantic Versioning](https://semver.org/). Dates use UTC.
 
-The application currently identifies itself as version 1.7.5. Sections inherited from the
-upstream source below describe its development history; they are not mosAIco installer releases.
+The application currently identifies itself as version 1.7.6. Sections before 1.7.6 document
+development history; v1.7.6 is the first public installer release.
 
 > **Rule:** every feature addition, change, or removal must be recorded under
 > `[Unreleased]` in the same task. During a release, `[Unreleased]` becomes the new
 > dated version and a new empty `[Unreleased]` section is added at the top.
 
 ## [Unreleased]
+
+## [1.7.6] - 2026-11-20
 
 - Plugin discovery now fetches the catalogue from the canonical project repository, matching the bundled index and documentation.
 - Agent and editor controls now use neutral icons, and the remote companion uses text badges, replacing third-party logos with unverified provenance or incompatible brand requirements.
