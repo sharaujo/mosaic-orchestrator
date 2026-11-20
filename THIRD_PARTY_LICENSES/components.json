@@ -1,0 +1,397 @@
+{
+  "schema": 1,
+  "target": "x86_64-pc-windows-msvc",
+  "nativeGeneration": "sherpa-onnx-2.0.1-win-x64-static-MT-Release-lib",
+  "onnxruntime": "1.28.2",
+  "removedRuntimeComponents": [
+    "eSpeak NG",
+    "piper-phonemize",
+    "eSpeak UCD tools"
+  ],
+  "components": [
+    {
+      "id": "mosaico",
+      "name": "mosAIco",
+      "version": "application version in package.json",
+      "license": "AGPL-3.0-or-later",
+      "redistributed": true,
+      "status": "NEEDS SOURCE NOTICE",
+      "legalFiles": [
+        "mosaico/LICENSE"
+      ],
+      "sourceFiles": [],
+      "obligation": "The full corresponding application source is installed as sources/mosaico-source.zip; it includes build/install scripts, legal resources and a content manifest. The AGPL remains the application license."
+    },
+    {
+      "id": "sherpa",
+      "name": "Sherpa ONNX C API/core",
+      "version": "2.0.1",
+      "license": "Apache-2.0",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "native/sherpa-2.0.1/LICENSE"
+      ],
+      "sourceFiles": [],
+      "obligation": "Preserve the supplied original copyright/license/NOTICE texts."
+    },
+    {
+      "id": "onnxruntime",
+      "name": "ONNX Runtime",
+      "version": "1.28.2",
+      "license": "MIT + dependency notices",
+      "redistributed": true,
+      "status": "NEEDS SOURCE NOTICE",
+      "legalFiles": [
+        "native/onnxruntime-1.28.2/LICENSE",
+        "native/onnxruntime-1.28.2/ThirdPartyNotices.txt"
+      ],
+      "sourceFiles": [
+        "sources/eigen-onnx.zip"
+      ],
+      "obligation": "Deliver the complete upstream ThirdPartyNotices; the exact Eigen source selected by this ONNX build is supplied alongside its MPL notice."
+    },
+    {
+      "id": "utf8proc",
+      "name": "utf8proc",
+      "version": "2.12.0",
+      "license": "MIT + Unicode data terms",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "native/utf8proc-2.12.0/LICENSE.md"
+      ],
+      "sourceFiles": [],
+      "obligation": "Preserve the supplied original copyright/license/NOTICE texts."
+    },
+    {
+      "id": "fbank",
+      "name": "kaldi-native-fbank",
+      "version": "1.22.4",
+      "license": "Apache-2.0",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "native/kaldi-native-fbank-1.22.4/LICENSE"
+      ],
+      "sourceFiles": [],
+      "obligation": "Preserve the supplied original copyright/license/NOTICE texts."
+    },
+    {
+      "id": "decoder",
+      "name": "kaldi-decoder",
+      "version": "0.3.0",
+      "license": "Apache-2.0",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "native/kaldi-decoder-0.3.0/LICENSE"
+      ],
+      "sourceFiles": [],
+      "obligation": "Preserve the supplied original copyright/license/NOTICE texts."
+    },
+    {
+      "id": "kaldifst",
+      "name": "kaldifst",
+      "version": "1.8.0",
+      "license": "Apache-2.0",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "native/kaldifst-1.8.0/LICENSE"
+      ],
+      "sourceFiles": [],
+      "obligation": "Preserve the supplied original copyright/license/NOTICE texts."
+    },
+    {
+      "id": "openfst",
+      "name": "OpenFST / fstfar",
+      "version": "1.8.5-2026-07-09",
+      "license": "Apache-2.0",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "native/openfst-1.8.5/COPYING"
+      ],
+      "sourceFiles": [],
+      "obligation": "Preserve the supplied original copyright/license/NOTICE texts."
+    },
+    {
+      "id": "kissfft",
+      "name": "KissFFT",
+      "version": "febd4caeed32e33ad8b2e0bb5ea77542c40f18ec",
+      "license": "BSD-3-Clause",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "native/kissfft/COPYING"
+      ],
+      "sourceFiles": [],
+      "obligation": "Preserve the supplied original copyright/license/NOTICE texts."
+    },
+    {
+      "id": "sentencepiece",
+      "name": "simple-sentencepiece / darts / threadpool",
+      "version": "0.7",
+      "license": "Apache-2.0 / BSD-2-Clause / Zlib",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "native/simple-sentencepiece-0.7/LICENSE",
+        "native/simple-sentencepiece-0.7/darts.h",
+        "native/simple-sentencepiece-0.7/threadpool.h"
+      ],
+      "sourceFiles": [],
+      "obligation": "Preserve the supplied original copyright/license/NOTICE texts."
+    },
+    {
+      "id": "eigen",
+      "name": "Eigen (Sherpa headers)",
+      "version": "5.0.1",
+      "license": "MPL-2.0",
+      "redistributed": true,
+      "status": "NEEDS SOURCE NOTICE",
+      "legalFiles": [
+        "native/eigen-5.0.1/COPYING.MPL2",
+        "native/eigen-5.0.1/COPYING.README"
+      ],
+      "sourceFiles": [
+        "sources/eigen-5.0.1.tar.gz"
+      ],
+      "obligation": "Unmodified exact source archive and original notices are supplied. MPL applies to covered files; it does not relicense the separate application."
+    },
+    {
+      "id": "json",
+      "name": "nlohmann JSON",
+      "version": "3.12.0",
+      "license": "MIT",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "native/nlohmann-json-3.12.0/LICENSE.MIT"
+      ],
+      "sourceFiles": [],
+      "obligation": "Preserve the supplied original copyright/license/NOTICE texts."
+    },
+    {
+      "id": "fonts",
+      "name": "CaskaydiaCove / Nerd Fonts",
+      "version": "Cascadia 2407.24 / Nerd Fonts 3.5.0",
+      "license": "OFL-1.1 / CC-BY-4.0 / MIT / Apache-2.0 / Bitstream Vera / Unlicense",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "fonts/CascadiaCode-OFL.txt",
+        "fonts/CascadiaCode-README.md",
+        "fonts/CC-BY-4.0.txt",
+        "fonts/codicons__LICENSE.txt",
+        "fonts/Devicon-2.17.0-LICENSE",
+        "fonts/Font-Awesome-Extension-LICENCE",
+        "fonts/font-awesome__LICENSE.txt",
+        "fonts/Font-Logos-1.3.0-LICENSE",
+        "fonts/Hack-3.003-LICENSE.md",
+        "fonts/IEC-Power-Symbols-LICENSE.txt",
+        "fonts/materialdesign__LICENSE",
+        "fonts/Nerd-Fonts-LICENSE",
+        "fonts/octicons__LICENSE",
+        "fonts/pomicons__LICENSE",
+        "fonts/powerline-extra__LICENSE",
+        "fonts/powerline-symbols__LICENSE.txt",
+        "fonts/Seti-UI-0.8.1-LICENSE.md",
+        "fonts/weather-icons__OFL.txt",
+        "fonts/ATTRIBUTION.md"
+      ],
+      "sourceFiles": [],
+      "obligation": "Preserve base-font and glyph notices. Nerd Fonts merged, scaled/remapped glyphs and renamed the preprocessed Cascadia family; mosAIco uses the four upstream patched TTFs unchanged. Attribution and changes are documented in fonts/ATTRIBUTION.md. No trademark permission is inferred."
+    },
+    {
+      "id": "webview2",
+      "name": "Microsoft WebView2 Evergreen bootstrapper",
+      "version": "NSIS 1.3.275.13 / MSI 1.3.315.17",
+      "license": "Microsoft proprietary runtime terms",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "webview2/LICENSE.txt",
+        "webview2/LICENSE.html",
+        "WINDOWS-TERMS.txt",
+        "WINDOWS-TERMS.rtf"
+      ],
+      "sourceFiles": [],
+      "obligation": "Microsoft distribution terms and SmartScreen/update disclosures are supplied and presented through the supported NSIS/MSI license agreement page. Microsoft binaries remain separate from the AGPL license."
+    },
+    {
+      "id": "nsis",
+      "name": "NSIS runtime/plugins/LZMA",
+      "version": "3.11",
+      "license": "Zlib / CPL-1.0 with LZMA linking exception",
+      "redistributed": true,
+      "status": "NEEDS SOURCE NOTICE",
+      "legalFiles": [
+        "installers/NSIS-3.11-COPYING"
+      ],
+      "sourceFiles": [
+        "sources/nsis-3.11-source.zip",
+        "sources/nsis-3.11-source-manifest.json"
+      ],
+      "obligation": "Original notices, the CPL text/linking exception and the complete upstream root source/build/resource tree are supplied with a pinned per-file manifest. Only the redundant nested trunk mirror is omitted. The linking exception does not apply CPL to the separate app."
+    },
+    {
+      "id": "nsis-utils",
+      "name": "nsis-tauri-utils",
+      "version": "0.5.3",
+      "license": "MIT OR Apache-2.0",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "installers/nsis-tauri-utils-0.5.3-LICENSE_MIT",
+        "installers/nsis-tauri-utils-0.5.3-LICENSE_APACHE-2.0"
+      ],
+      "sourceFiles": [],
+      "obligation": "Preserve the supplied original copyright/license/NOTICE texts."
+    },
+    {
+      "id": "wix",
+      "name": "WiX UI custom action",
+      "version": "3.14.1",
+      "license": "MS-RL",
+      "redistributed": true,
+      "status": "NEEDS SOURCE NOTICE",
+      "legalFiles": [
+        "installers/WiX-3.14.1-LICENSE.TXT"
+      ],
+      "sourceFiles": [
+        "sources/wix-3.14.1.zip",
+        "sources/wix-3.14.1-source-manifest.json"
+      ],
+      "obligation": "Unmodified UI extension/resources, dutil/wcautil and shared source/build files are supplied in a reviewed source-only snapshot with original MS-RL terms and a pinned per-file manifest. Unrelated binary redistributables and test fixtures are excluded. File-level reciprocity applies to covered helper files, not the separate app."
+    },
+    {
+      "id": "rust-mpl",
+      "name": "Rust CSS/selector/formatting helpers",
+      "version": "cssparser 0.36.0; macros 0.6.1; selectors 0.36.1; dtoa-short 0.3.5; option-ext 0.2.0",
+      "license": "MPL-2.0",
+      "redistributed": true,
+      "status": "NEEDS SOURCE NOTICE",
+      "legalFiles": [
+        "overrides/cargo/selectors-0.36.1/LICENSE-MPL-2.0"
+      ],
+      "sourceFiles": [
+        "sources/cssparser-macros-0.6.1.crate",
+        "sources/cssparser-0.36.0.crate",
+        "sources/dtoa-short-0.3.5.crate",
+        "sources/option-ext-0.2.0.crate",
+        "sources/selectors-0.36.1.crate"
+      ],
+      "obligation": "The exact registry source crates and full original notices are supplied conservatively, including build/generated-output candidates. No modified covered file is asserted."
+    },
+    {
+      "id": "ghostty-adaptation",
+      "name": "Ghostty adapted source",
+      "version": "project adaptation; upstream MIT notice pinned",
+      "license": "MIT",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "source-adaptations/Ghostty-LICENSE"
+      ],
+      "sourceFiles": [],
+      "obligation": "MIT attribution for adapted shim/source is retained in the supplied application source. GhosttyKit is not a Windows binary dependency.",
+      "binaryWindows": false
+    },
+    {
+      "id": "sqlite",
+      "name": "SQLite",
+      "version": "3.45.0",
+      "license": "Public domain",
+      "redistributed": true,
+      "status": "CLEAR",
+      "legalFiles": [
+        "native/sqlite-3.45.0/NOTICE.txt"
+      ],
+      "sourceFiles": [],
+      "obligation": "No license/source restriction is imposed by the SQLite authors; the original blessing is preserved."
+    },
+    {
+      "id": "zstd",
+      "name": "Zstandard",
+      "version": "1.5.7 (zstd-sys 2.1.2)",
+      "license": "BSD-3-Clause (selected)",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "cargo/zstd-sys-2.1.2_zstd.1.5.7/LICENSE",
+        "cargo/zstd-sys-2.1.2_zstd.1.5.7/LICENSE.BSD-3-Clause",
+        "cargo/zstd-sys-2.1.2_zstd.1.5.7/zstd/COPYING",
+        "cargo/zstd-sys-2.1.2_zstd.1.5.7/zstd/LICENSE"
+      ],
+      "sourceFiles": [],
+      "obligation": "Use the BSD option and preserve its original notice; an unselected GPL alternative in source/legal files does not relicense the app."
+    },
+    {
+      "id": "bzip2",
+      "name": "libbzip2",
+      "version": "1.0.8",
+      "license": "bzip2-1.0.6",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "cargo/bzip2-sys-0.1.13_1.0.8/LICENSE-APACHE",
+        "cargo/bzip2-sys-0.1.13_1.0.8/LICENSE-MIT",
+        "cargo/bzip2-sys-0.1.13_1.0.8/bzip2-1.0.8/LICENSE"
+      ],
+      "sourceFiles": [],
+      "obligation": "Preserve the full Julian Seward custom permissive notice and original-source attribution."
+    },
+    {
+      "id": "ring",
+      "name": "ring / BoringSSL-derived crypto",
+      "version": "0.17.14",
+      "license": "Apache-2.0 AND ISC AND MIT",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "cargo/ring-0.17.14/LICENSE",
+        "cargo/ring-0.17.14/LICENSE-BoringSSL",
+        "cargo/ring-0.17.14/LICENSE-other-bits",
+        "cargo/ring-0.17.14/src/polyfill/once_cell/LICENSE-APACHE",
+        "cargo/ring-0.17.14/src/polyfill/once_cell/LICENSE-MIT",
+        "cargo/ring-0.17.14/third_party/fiat/LICENSE"
+      ],
+      "sourceFiles": [],
+      "obligation": "Preserve all package and vendored-code license/notice texts."
+    },
+    {
+      "id": "msvc",
+      "name": "Microsoft CRT/static runtime fragments",
+      "version": "MSVC 14.44 toolchain / v143 native archive",
+      "license": "Microsoft runtime/Visual Studio redistribution terms",
+      "redistributed": true,
+      "status": "CLEAR WITH NOTICE",
+      "legalFiles": [
+        "native/msvc-runtime/LICENSE.docx",
+        "native/msvc-runtime/LICENSE.txt",
+        "WINDOWS-TERMS.txt",
+        "WINDOWS-TERMS.rtf"
+      ],
+      "sourceFiles": [],
+      "obligation": "Preserve Microsoft notices and applicable runtime terms. No standalone Visual C++ redistributable installer or Windows/UCRT DLL is bundled. Producer/build-tool distribution rights remain governed by Visual Studio terms."
+    }
+  ],
+  "licenseSelections": {
+    "npm:dompurify@3.4.16": "Apache-2.0"
+  },
+  "upstreamSources": {
+    "sherpa": "https://github.com/k2-fsa/sherpa-onnx/tree/v2.0.1",
+    "onnxruntime": "https://github.com/microsoft/onnxruntime/tree/v1.28.2",
+    "onnxProducer": "https://github.com/csukuangfj/onnxruntime-build",
+    "fbank": "https://github.com/csukuangfj/kaldi-native-fbank/tree/v1.22.4",
+    "decoder": "https://github.com/k2-fsa/kaldi-decoder/tree/v0.3.0",
+    "kaldifst": "https://github.com/k2-fsa/kaldifst/tree/v1.8.0",
+    "openfst": "https://github.com/csukuangfj/openfst/tree/v1.8.5-2026-07-09",
+    "kissfft": "https://github.com/mborgerding/kissfft/tree/febd4caeed32e33ad8b2e0bb5ea77542c40f18ec",
+    "sentencepiece": "https://github.com/pkufool/simple-sentencepiece/tree/v0.7",
+    "utf8proc": "https://github.com/JuliaStrings/utf8proc/tree/v2.12.0",
+    "json": "https://github.com/nlohmann/json/tree/v3.12.0"
+  }
+}

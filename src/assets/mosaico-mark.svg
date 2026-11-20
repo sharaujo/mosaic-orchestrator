@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="mosAIco">
+  <rect x="5" y="5" width="43" height="94" rx="2" fill="#36BFA6"/>
+  <rect x="5" y="107" width="43" height="48" rx="2" fill="#9180D4"/>
+  <path d="M54 13 80 45v58L54 76Z" fill="#171A1D" stroke="#F3F1EA" stroke-width="1"/>
+  <path d="M86 45 114 13v90H86Z" fill="#36BFA6"/>
+  <rect x="121" y="5" width="34" height="48" rx="2" fill="#171A1D" stroke="#F3F1EA" stroke-width="1"/>
+  <rect x="121" y="61" width="34" height="46" rx="2" fill="#E3B35A"/>
+  <rect x="121" y="115" width="34" height="40" rx="2" fill="#171A1D" stroke="#F3F1EA" stroke-width="1"/>
+</svg>

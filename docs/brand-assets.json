@@ -1,0 +1,1983 @@
+{
+  "schemaVersion": 2,
+  "reviewedAt": "2026-11-19",
+  "report": "docs/BRAND-ASSETS.md",
+  "hashPolicy": "Retained SVG sha256 values normalize CRLF to LF for cross-platform Git checkouts; other retained assets and historical removed-file digests use exact bytes. Frontend byte-match paths are observations of the audited Windows build.",
+  "distributionEvidence": {
+    "frontend": "Observed by digest in npm run build output; byte-equivalent matches do not prove the original path was imported",
+    "windowsExecutable": "Inferred from Tauri frontendDist/resources and Rust embedding; no new linked executable inspected",
+    "nsisMsi": "Inferred from bundle configuration and corresponding-source policy; no new installer payload claimed"
+  },
+  "groups": {
+    "mosaico-generated": {
+      "name": "mosAIco generated artwork",
+      "ownership": "OWNED / PROJECT ASSET",
+      "classification": "CLEAR",
+      "origin": "scripts/generate-mosaico-branding.ps1; 124 tracked outputs matched regeneration",
+      "officialUrl": "https://github.com/sharaujo/mosaic-orchestrator/blob/main/scripts/generate-mosaico-branding.ps1",
+      "sourcePath": "scripts/generate-mosaico-branding.ps1",
+      "copyright": "Copyright (C) 2026 Schubert Araujo for original mosAIco contributions and branding; NOTICE",
+      "license": "Reserved project branding; see TRADEMARK.md and NOTICE",
+      "trademarkGuidance": "TRADEMARK.md",
+      "attribution": "NOTICE; not a third-party asset",
+      "decision": "Retain unchanged"
+    },
+    "mosaico-vector": {
+      "name": "mosAIco vector mark",
+      "ownership": "OWNED / PROJECT ASSET",
+      "classification": "CLEAR",
+      "origin": "src/assets/mosaico-mark.svg; same modular geometry as the project generator",
+      "officialUrl": "https://github.com/sharaujo/mosaic-orchestrator/blob/main/src/assets/mosaico-mark.svg",
+      "sourcePath": "src/assets/mosaico-mark.svg",
+      "copyright": "Copyright (C) 2026 Schubert Araujo for original mosAIco contributions and branding; NOTICE",
+      "license": "Reserved project branding; see TRADEMARK.md and NOTICE",
+      "trademarkGuidance": "TRADEMARK.md",
+      "attribution": "NOTICE; not a third-party asset",
+      "decision": "Retain unchanged"
+    },
+    "nerd-fonts": {
+      "name": "CaskaydiaCove Nerd Font Mono including brand glyphs",
+      "ownership": "THIRD PARTY",
+      "classification": "ATTRIBUTION REQUIRED",
+      "origin": "Official CascadiaCode archive; exact pinned digests and glyph sources in THIRD_PARTY_LICENSES/provenance.json and fonts/ATTRIBUTION.md",
+      "officialUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/CascadiaCode.zip",
+      "revision": "Nerd Fonts 3.5.0 / Cascadia 2407.24",
+      "copyright": "Microsoft Corporation and each upstream glyph copyright holder, as preserved in THIRD_PARTY_LICENSES/fonts/",
+      "license": "OFL-1.1; glyph components CC-BY-4.0, MIT, Apache-2.0, Bitstream Vera, Unlicense; see fonts/ATTRIBUTION.md",
+      "trademarkGuidance": "Font/glyph software licenses do not grant brand endorsement; no host UI vendor logos selected from these fonts",
+      "attribution": "THIRD_PARTY_LICENSES/fonts/ATTRIBUTION.md and original adjacent legal texts (already delivered)",
+      "decision": "Retain all four official font files unchanged; do not remove legitimate name/copyright metadata"
+    },
+    "lucide-category": {
+      "name": "Neutral category icons including all replacements",
+      "ownership": "THIRD PARTY",
+      "classification": "ATTRIBUTION REQUIRED",
+      "origin": "Locked lucide-react npm package",
+      "officialUrl": "https://github.com/lucide-icons/lucide/tree/0.460.0",
+      "revision": "lucide-react 0.460.0; integrity in package-lock.json",
+      "copyright": "Lucide Contributors; Feather portions Cole Bemis, per original package LICENSE",
+      "license": "ISC; package notice preserves Feather attribution",
+      "trademarkGuidance": "https://lucide.dev/brand-logo-statement; only category geometry selected, not vendor logos",
+      "attribution": "THIRD_PARTY_LICENSES/npm/lucide-react-0.460.0/LICENSE (already delivered)",
+      "decision": "Use neutral category symbols; do not import Github or vendor marks"
+    },
+    "project-inline": {
+      "name": "Generic project inline SVG and remote text badges",
+      "ownership": "OWNED / PROJECT ASSET",
+      "classification": "CLEAR",
+      "origin": "Project source geometry, charts, CSS chevron, and text identifiers; adapted generic Lucide/Feather paths retain their package notice",
+      "officialUrl": "https://github.com/sharaujo/mosaic-orchestrator",
+      "copyright": "Project contributions and inherited-source notices in NOTICE; Lucide/Feather where applicable",
+      "license": "AGPL-3.0-or-later for generic source; original third-party notices preserved",
+      "trademarkGuidance": "No vendor logo or stylized wordmark; factual names only",
+      "attribution": "NOTICE and existing Lucide notice",
+      "decision": "Retain generic geometry and badges; no exclusive ownership claim over third-party names"
+    }
+  },
+  "inlineAssets": [
+    {
+      "file": "src/components/icons/AgentIcons.tsx",
+      "group": "lucide-category",
+      "symbols": [
+        "MessageSquare",
+        "Code2",
+        "Terminal",
+        "ListChecks",
+        "Braces",
+        "MousePointer2",
+        "Rocket",
+        "Bot",
+        "Keyboard",
+        "Sparkles"
+      ],
+      "distribution": ["frontend", "binary", "NSIS", "MSI", "source"]
+    },
+    {
+      "file": "src/components/icons/AgentIcons.tsx",
+      "group": "project-inline",
+      "symbols": ["ShellIcon", "WslIcon", "MimoIcon"],
+      "distribution": ["frontend", "binary", "NSIS", "MSI", "source"]
+    },
+    {
+      "files": [
+        "src/components/HomeView/index.tsx",
+        "src/components/modals/OnboardingModal.tsx",
+        "src/components/modals/SyncModal.tsx"
+      ],
+      "group": "lucide-category",
+      "symbols": ["GitBranch"],
+      "distribution": ["frontend", "binary", "NSIS", "MSI", "source"]
+    },
+    {
+      "file": "src-tauri/remote/app.js",
+      "group": "project-inline",
+      "symbols": ["agentLetters", "agentBadge"],
+      "distribution": ["binary", "NSIS", "MSI", "source"]
+    }
+  ],
+  "retained": [
+    {
+      "path": "src-tauri/icons/128x128.png",
+      "sha256": "3ed5856825612d7c9335236c21fcba337accaa7480bffdb0fe3f9b2b84cd4e09",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": ["Rust include_bytes!"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/128x128@2x.png",
+      "sha256": "d5fc26c4b27a00bda0d36b66ba6a07f91c0be9a43884f2558e6830031ca70e0c",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/32x32.png",
+      "sha256": "779e60826f832c44cebbfe98078f255eddde9b2c5e10b7af116ca700e8b5203d",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/64x64.png",
+      "sha256": "fa6906474a4c9571521f33af12fbeed9da06e7f6da724bccc8e6cb83d2ec9efc",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/Square107x107Logo.png",
+      "sha256": "4eca5bb174d2247f8fad67d161ed9b78954bd1cff04e216a09f2bf91223155d5",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/Square142x142Logo.png",
+      "sha256": "a98e225557defc3ffafecb3d4c8c1e17b8cd440279731bac8d690735462d046f",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/Square150x150Logo.png",
+      "sha256": "097a20d8a8003c49699a31a1aa0540192bd2a6996cc87f7f3fcd605401179417",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/Square284x284Logo.png",
+      "sha256": "dc98cf63f8b5b5be52d2fc2f9fd864444c0141c3cc92bb7a864fd374cf4b0e96",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/Square30x30Logo.png",
+      "sha256": "a5da7db1faacb29c860b570bd53379b2cbb1bfe9cbf48fc282e6b10fa26ce93c",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/Square310x310Logo.png",
+      "sha256": "dda9f221f70583faee4834a3a62a8fb1af74a2999bf8f33535533c1de4e7155b",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/Square44x44Logo.png",
+      "sha256": "c88b04a1c8c1632cadd871352403be708705ed4acb061203786a3b3c3be7c48a",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/Square71x71Logo.png",
+      "sha256": "93ecc7be3bbffd7cab353ea7f399218455b744b5fb471420a64cd163de7573ba",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/Square89x89Logo.png",
+      "sha256": "87baf1f8202739eb438e5fe197d6222ea271a4d9fd4670ac8f0e9066fb2df14b",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/StoreLogo.png",
+      "sha256": "7c9fa7bc3af57278f9ff43013279fa0e200fe098c10613edd9a0b882c539cbd4",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-hdpi/ic_launcher.png",
+      "sha256": "f5a3e92f750ad4abad37018cb0f004b0f289907be175dd4c572565aa955782f8",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-hdpi/ic_launcher_foreground.png",
+      "sha256": "8ceadde39f91107fa0f2b93d5f23ef4940709b5e5a7b3ee36bc67e4202045dfb",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-hdpi/ic_launcher_round.png",
+      "sha256": "f5a3e92f750ad4abad37018cb0f004b0f289907be175dd4c572565aa955782f8",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-mdpi/ic_launcher.png",
+      "sha256": "7b119c60a25ad72ced616a6f67a950e0e8fa4b58216164f39f32951bd6380c80",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-mdpi/ic_launcher_foreground.png",
+      "sha256": "3c9a8c15bf81f119db788e18b3831f117391b40d2c915323e1ddd5a5f35df4bf",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-mdpi/ic_launcher_round.png",
+      "sha256": "7b119c60a25ad72ced616a6f67a950e0e8fa4b58216164f39f32951bd6380c80",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xhdpi/ic_launcher.png",
+      "sha256": "65998b26a24c6d6d683ca7d72e439f7ff1cd93964fb4a63dc06af6571470bb2a",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xhdpi/ic_launcher_foreground.png",
+      "sha256": "996abaee2a27a941c29b1e0a66e4891638bb66b5571792bba9ad2cb0f23c6828",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xhdpi/ic_launcher_round.png",
+      "sha256": "65998b26a24c6d6d683ca7d72e439f7ff1cd93964fb4a63dc06af6571470bb2a",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xxhdpi/ic_launcher.png",
+      "sha256": "f0f141b8777c549528bfdf8944fb134ca509257ab1d30d1ea32a6391db742133",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "sha256": "8fbc557241e5a31d86f21896a79330529219850b94b57179f789e765c558c4dc",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_round.png",
+      "sha256": "f0f141b8777c549528bfdf8944fb134ca509257ab1d30d1ea32a6391db742133",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher.png",
+      "sha256": "0f2a543b5bdb6e7efed75cda2654669a7754ea38e9efabb8747a0ee7200034ab",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "sha256": "04ffb7b0ec40bb97ce05e48ec72670ebfdf4c3494269d27937277d3ab17e6f2c",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_round.png",
+      "sha256": "0f2a543b5bdb6e7efed75cda2654669a7754ea38e9efabb8747a0ee7200034ab",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/icon.icns",
+      "sha256": "142c40b6dbe4a58bce7efd38b8276940a70d4e43dafa90d630e4955d46e951b0",
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/icon.ico",
+      "sha256": "a1aa6fffbfe767b77a26823e5466159f728e95a57de638765e785e9d70dd1974",
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": ["Tauri Windows executable icon resource"],
+      "nsisInclusion": ["binary", "installer-artwork", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/icon.png",
+      "sha256": "bc95cd55e33c9e25b4470e9ee660f88891f6e13959d4a1e11f8c066f20546537",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-20x20@1x.png",
+      "sha256": "3289c6ff5e3c98c52ad92d972fd1f5c7af0795e0de144dd8b2ec34e0b2e5a21d",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-20x20@2x-1.png",
+      "sha256": "9dbcfa4a747a981f60882a64a6a32e07947f1a4a29048a998fe009d79edebb4c",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-20x20@2x.png",
+      "sha256": "9dbcfa4a747a981f60882a64a6a32e07947f1a4a29048a998fe009d79edebb4c",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-20x20@3x.png",
+      "sha256": "62e8ee7d3f9b7160cfef600ff815cb31860e489b407d6ebf2f9b5fdf4591afac",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-29x29@1x.png",
+      "sha256": "527d05e9146f48eff03b7182abae8259ba6596edcffbb843eb0feb81748010f3",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-29x29@2x-1.png",
+      "sha256": "03abeb01de474ade0c637f4cb3bcacf2be6540d62dd8f8a68cb72965f2458cca",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-29x29@2x.png",
+      "sha256": "03abeb01de474ade0c637f4cb3bcacf2be6540d62dd8f8a68cb72965f2458cca",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-29x29@3x.png",
+      "sha256": "b9b62ae7fdc04073e0fb9205b30c224ca091128ea58887a4f76bd0a7abe08f97",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-40x40@1x.png",
+      "sha256": "9dbcfa4a747a981f60882a64a6a32e07947f1a4a29048a998fe009d79edebb4c",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-40x40@2x-1.png",
+      "sha256": "676c291960c9041906e63ccff29a944f72128dce06ee6363623f271571d31f63",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-40x40@2x.png",
+      "sha256": "676c291960c9041906e63ccff29a944f72128dce06ee6363623f271571d31f63",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-40x40@3x.png",
+      "sha256": "f0287c829e47f831f6b3d971fa4a330dec5f6433588042c121946d8857e1a0c8",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-512@2x.png",
+      "sha256": "19ad77f06db09211c64a28769a2704e2f6041f3755c5049cd1a57a804b851936",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-60x60@2x.png",
+      "sha256": "f0287c829e47f831f6b3d971fa4a330dec5f6433588042c121946d8857e1a0c8",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-60x60@3x.png",
+      "sha256": "332e3d232e6895abcf24683e6189d0274e4d6f786d40533c52ff1c037f4dd8f9",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-76x76@1x.png",
+      "sha256": "b8a600a6b335be68659597734cd9179ee5e038c3a3a3c901004f43af95beaa93",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-76x76@2x.png",
+      "sha256": "365e4ed191723f36a0a785b240d42e50a37094c739f7469205dfd3f7c899fa5f",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-83.5x83.5@2x.png",
+      "sha256": "b69b16ade91b1f6dcde6c78b50ef984fcf4eb6e90724e97c326abd09dd6fdba2",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/installer/header.bmp",
+      "sha256": "3a800b98b9cea79b9802da18a1141dc4c84f8db55c125ae751a8bce56fa079f2",
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["installer-artwork", "corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src-tauri/installer/sidebar.bmp",
+      "sha256": "a7cf29e512a9a7bc9c88115a4768791ed82adf8ba7c16cc013a51fffe3eecbbd",
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["installer-artwork", "corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src/assets/fonts/CaskaydiaCoveNerdFontMono-Bold.ttf",
+      "sha256": "1fdd13d9ec39db7ffb39df3f0a8dd0c8217a45cd6d01dc0335ee8bb70d8a9ef9",
+      "group": "nerd-fonts",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/CaskaydiaCoveNerdFontMono-Bold-CDhAF_Bx.ttf"],
+      "windowsExecutableInclusion": ["frontendDist byte presence", "Rust include_bytes!"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/fonts/CaskaydiaCoveNerdFontMono-BoldItalic.ttf",
+      "sha256": "f04977708eb6b3c47587a32b8f957edae1753d6874bbc149ed26a2075a01ebe7",
+      "group": "nerd-fonts",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/CaskaydiaCoveNerdFontMono-BoldItalic-mIkpfa3e.ttf"],
+      "windowsExecutableInclusion": ["frontendDist byte presence", "Rust include_bytes!"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/fonts/CaskaydiaCoveNerdFontMono-Italic.ttf",
+      "sha256": "fa35c7b0056663cc7620a4b0623dd902b59b02d6c63f8e677b75fcc3389ee2c9",
+      "group": "nerd-fonts",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/CaskaydiaCoveNerdFontMono-Italic-DUqP_PNM.ttf"],
+      "windowsExecutableInclusion": ["frontendDist byte presence", "Rust include_bytes!"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/fonts/CaskaydiaCoveNerdFontMono-Regular.ttf",
+      "sha256": "8605b12bd380fb11588dbe41b7ef77ae44b152f560fa72965d4bc851270198ac",
+      "group": "nerd-fonts",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/CaskaydiaCoveNerdFontMono-Regular-DgGNYz-0.ttf"],
+      "windowsExecutableInclusion": ["frontendDist byte presence", "Rust include_bytes!"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/home-bg-right.png",
+      "sha256": "81c0d3221fc8d6b390bc62e6078b73b91dddb66ab563859816450b866d1271d3",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/home-bg-right-CQpetUpS.png"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/logo-loading.png",
+      "sha256": "2a99d219c9e8c9b80301af9c52d0c37ac8ba0e0bcc56f3c94a648ed657bc7c97",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src/assets/mosaico-loading-mark.png",
+      "sha256": "264f70d82cee8197d2bccb308b776b1b370114b371b282748a144784487a0126",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src/assets/mosaico-logo.png",
+      "sha256": "2a99d219c9e8c9b80301af9c52d0c37ac8ba0e0bcc56f3c94a648ed657bc7c97",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src/assets/mosaico-mark.svg",
+      "sha256": "62f5ed5b1f78dc35dd8b6fc3ed9199d2b4a0f2aa86339ee7abd0a0cd1dcc0015",
+      "metadata": {
+        "comments": false,
+        "activeContent": false,
+        "editorMetadata": false,
+        "ids": []
+      },
+      "group": "mosaico-vector",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": ["frontendDist transformed SVG geometry"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"],
+      "frontendDistTransformedMatches": [
+        "dist/assets/index-BaC9gCjn.js (transformed inline SVG)",
+        "dist/assets/index-ZGccklru.css (transformed inline SVG)"
+      ]
+    },
+    {
+      "path": "src/assets/theme-icons/32/dark-lemon.png",
+      "sha256": "779e60826f832c44cebbfe98078f255eddde9b2c5e10b7af116ca700e8b5203d",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/dark.png",
+      "sha256": "16fbf44d2933ce58320583d4e0ae4a9fb93dbe60805da5bb5789810cb97b365e",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/dracula.png",
+      "sha256": "2046ed6a1e9bc7a1953d1533609c47823bd63ef591035ce0df92e839efa528b4",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/elite-blush.png",
+      "sha256": "8ce01c2b770f2f979c7bbbe8e63f28b6eaa6be3f31fbda473155330c4006ad0e",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/elite-indigo.png",
+      "sha256": "611308033a84d72325d622e504e717588c4c389f61b647dcc151f58f50c2825a",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/elite-original.png",
+      "sha256": "779e60826f832c44cebbfe98078f255eddde9b2c5e10b7af116ca700e8b5203d",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/elite-pure-black.png",
+      "sha256": "16fbf44d2933ce58320583d4e0ae4a9fb93dbe60805da5bb5789810cb97b365e",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/gruvbox.png",
+      "sha256": "d7e09229817b2bf083d7a3c9a4a86b55f5998ba8a85d8b916936cf4f8578742e",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/light.png",
+      "sha256": "dc3e594dccda4aefd3c021ee63ed24889cae7e907d4bcf6e54ec3d514a93c8c1",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/min-dark.png",
+      "sha256": "16fbf44d2933ce58320583d4e0ae4a9fb93dbe60805da5bb5789810cb97b365e",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/min-light.png",
+      "sha256": "dc3e594dccda4aefd3c021ee63ed24889cae7e907d4bcf6e54ec3d514a93c8c1",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/mosaico.png",
+      "sha256": "779e60826f832c44cebbfe98078f255eddde9b2c5e10b7af116ca700e8b5203d",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/nord.png",
+      "sha256": "45a5b7d83d1659ba466fafc514ffa11aaaca1eea43480378d566432c10204fcd",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/orca.png",
+      "sha256": "779e60826f832c44cebbfe98078f255eddde9b2c5e10b7af116ca700e8b5203d",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/solarized.png",
+      "sha256": "dc3e594dccda4aefd3c021ee63ed24889cae7e907d4bcf6e54ec3d514a93c8c1",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/tokyo-night.png",
+      "sha256": "611308033a84d72325d622e504e717588c4c389f61b647dcc151f58f50c2825a",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/32/vscode.png",
+      "sha256": "779e60826f832c44cebbfe98078f255eddde9b2c5e10b7af116ca700e8b5203d",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/dark-lemon.png",
+      "sha256": "7b119c60a25ad72ced616a6f67a950e0e8fa4b58216164f39f32951bd6380c80",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/dark.png",
+      "sha256": "c0acf7a9aaae7e05053cae3a9d45da6c192e2661304018d421ac87828d8a7fa1",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/dracula.png",
+      "sha256": "367ded03dad40c9cbb373bce7384c2c7d568e4ea9c2c4702d0aec7a66763122f",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/elite-blush.png",
+      "sha256": "909b8f15ae3b2eb84442ac0e34ddd42a390cb305a8a9e1234579c5cd623c28a6",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/elite-indigo.png",
+      "sha256": "80087895f0d1682d5f5f11e25ef1e0dc8f80b003f3858a99bf2189b0b1e2ae3b",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/elite-original.png",
+      "sha256": "7b119c60a25ad72ced616a6f67a950e0e8fa4b58216164f39f32951bd6380c80",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/elite-pure-black.png",
+      "sha256": "c0acf7a9aaae7e05053cae3a9d45da6c192e2661304018d421ac87828d8a7fa1",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/gruvbox.png",
+      "sha256": "21771f3fc7494e5242c798968b96a7216358e01a6cd89c41586139f81f3fa0ff",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/light.png",
+      "sha256": "d55b81cac5ae82d865785ac2df1b3b39d54c864f25d16056c537bbc4e74e4296",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/min-dark.png",
+      "sha256": "c0acf7a9aaae7e05053cae3a9d45da6c192e2661304018d421ac87828d8a7fa1",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/min-light.png",
+      "sha256": "d55b81cac5ae82d865785ac2df1b3b39d54c864f25d16056c537bbc4e74e4296",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/mosaico.png",
+      "sha256": "7b119c60a25ad72ced616a6f67a950e0e8fa4b58216164f39f32951bd6380c80",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/nord.png",
+      "sha256": "a97ca8b6ab7bed59a60572f5144679023fdabff4d86b267d444313053b9f2e6d",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/orca.png",
+      "sha256": "7b119c60a25ad72ced616a6f67a950e0e8fa4b58216164f39f32951bd6380c80",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/solarized.png",
+      "sha256": "d55b81cac5ae82d865785ac2df1b3b39d54c864f25d16056c537bbc4e74e4296",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/tokyo-night.png",
+      "sha256": "80087895f0d1682d5f5f11e25ef1e0dc8f80b003f3858a99bf2189b0b1e2ae3b",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/48/vscode.png",
+      "sha256": "7b119c60a25ad72ced616a6f67a950e0e8fa4b58216164f39f32951bd6380c80",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/dark-lemon.png",
+      "sha256": "fa6906474a4c9571521f33af12fbeed9da06e7f6da724bccc8e6cb83d2ec9efc",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/dark.png",
+      "sha256": "9ecc3906893f17c501ea4ecd43239fde33fb900222f84acf9b5983d9945be52b",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/dracula.png",
+      "sha256": "8a55056c7243433e320268c66409d525ee930b711ef5c0a6222d5c06ae08817f",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/elite-blush.png",
+      "sha256": "ab9de84236283eb308ac63c2113d40642f7248d06090a3a6c936add4d15a34b2",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/elite-indigo.png",
+      "sha256": "9fecf764fc4d82dd34e1034fe4dc50debbdeb18554c6e8320a8f0b97dca657ac",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/elite-original.png",
+      "sha256": "fa6906474a4c9571521f33af12fbeed9da06e7f6da724bccc8e6cb83d2ec9efc",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/elite-pure-black.png",
+      "sha256": "9ecc3906893f17c501ea4ecd43239fde33fb900222f84acf9b5983d9945be52b",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/gruvbox.png",
+      "sha256": "db4acb74f5c6277eac62031ade927a5d309718e4a3b9c14bea93697ba78b4a20",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/light.png",
+      "sha256": "6219457878f4ff6f5a2e93ecc144b7f1d37bbf5b99da1638e592c359e047b96b",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/min-dark.png",
+      "sha256": "9ecc3906893f17c501ea4ecd43239fde33fb900222f84acf9b5983d9945be52b",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/min-light.png",
+      "sha256": "6219457878f4ff6f5a2e93ecc144b7f1d37bbf5b99da1638e592c359e047b96b",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/mosaico.png",
+      "sha256": "fa6906474a4c9571521f33af12fbeed9da06e7f6da724bccc8e6cb83d2ec9efc",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/nord.png",
+      "sha256": "b18499cda096efc105c16a70d652a1a3e2204c2026756744a8f9f2ff7d0a5e26",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/orca.png",
+      "sha256": "fa6906474a4c9571521f33af12fbeed9da06e7f6da724bccc8e6cb83d2ec9efc",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/solarized.png",
+      "sha256": "6219457878f4ff6f5a2e93ecc144b7f1d37bbf5b99da1638e592c359e047b96b",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/tokyo-night.png",
+      "sha256": "9fecf764fc4d82dd34e1034fe4dc50debbdeb18554c6e8320a8f0b97dca657ac",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/64/vscode.png",
+      "sha256": "fa6906474a4c9571521f33af12fbeed9da06e7f6da724bccc8e6cb83d2ec9efc",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/dark-lemon.png",
+      "sha256": "be0d72fd7982c27c1981d1ee21048b53f1a2b872467eba0127c150e5e3fdd9b9",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/dark.png",
+      "sha256": "3e07ffb9893af2b7dd6f8de3e04989fc9db32ab3a51b1a305b6f223aa9efc111",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/dracula.png",
+      "sha256": "f1be67550c44f17d9420fd6f9726c55d23c65bebc34581df1864636dcf521c3a",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/elite-blush.png",
+      "sha256": "b5e9ccf41530781b3bdc698cdc98df2d1f55e5b4c2c5297df7aa3798aa1025ad",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": ["Rust include_bytes!"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/elite-indigo.png",
+      "sha256": "ac300ef9692d53f79655646cd4d7b8f566777d1ecd1075e3e5bf988111d2076b",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/elite-original.png",
+      "sha256": "be0d72fd7982c27c1981d1ee21048b53f1a2b872467eba0127c150e5e3fdd9b9",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": ["Rust include_bytes!"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/elite-pure-black.png",
+      "sha256": "3e07ffb9893af2b7dd6f8de3e04989fc9db32ab3a51b1a305b6f223aa9efc111",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence", "Rust include_bytes!"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/gruvbox.png",
+      "sha256": "38dc4d3926d425b2733e8129404dc57e9cb1ed0feb2e27e7f47585e48827cf6b",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/light.png",
+      "sha256": "e7fe2832b0002902c58ff8e80c8e96d3ee6e5c1d8755a775d24bc0b535f32de7",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/min-dark.png",
+      "sha256": "3e07ffb9893af2b7dd6f8de3e04989fc9db32ab3a51b1a305b6f223aa9efc111",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": ["dist/assets/index-DDWx9yBa.js (inline base64)"],
+      "windowsExecutableInclusion": ["frontendDist byte presence"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/min-light.png",
+      "sha256": "e7fe2832b0002902c58ff8e80c8e96d3ee6e5c1d8755a775d24bc0b535f32de7",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/mosaico.png",
+      "sha256": "be0d72fd7982c27c1981d1ee21048b53f1a2b872467eba0127c150e5e3fdd9b9",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": ["Rust include_bytes!"],
+      "nsisInclusion": ["binary", "corresponding-source"],
+      "msiInclusion": ["binary", "corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/nord.png",
+      "sha256": "e22b69a6ec710cffe577c9aa0a16c6cfd2ca853e567fd029abdaf527146aacd1",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/orca.png",
+      "sha256": "be0d72fd7982c27c1981d1ee21048b53f1a2b872467eba0127c150e5e3fdd9b9",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/solarized.png",
+      "sha256": "e7fe2832b0002902c58ff8e80c8e96d3ee6e5c1d8755a775d24bc0b535f32de7",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/tokyo-night.png",
+      "sha256": "ac300ef9692d53f79655646cd4d7b8f566777d1ecd1075e3e5bf988111d2076b",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    },
+    {
+      "path": "src/assets/theme-icons/vscode.png",
+      "sha256": "be0d72fd7982c27c1981d1ee21048b53f1a2b872467eba0127c150e5e3fdd9b9",
+      "metadata": {
+        "chunks": ["IHDR", "sRGB", "gAMA", "pHYs", "IDAT", "IEND"],
+        "privateMetadata": false
+      },
+      "group": "mosaico-generated",
+      "sourceRepository": true,
+      "frontendDistByteMatches": [],
+      "windowsExecutableInclusion": [],
+      "nsisInclusion": ["corresponding-source"],
+      "msiInclusion": ["corresponding-source"]
+    }
+  ],
+  "removed": [
+    {
+      "path": "src/assets/antigravity.png",
+      "sha256": "e0cd08ccd10cd8d08ccf0ba449823ee88495825c0841619618100d3ab089f51e",
+      "classification": "REPLACE BEFORE PUBLIC",
+      "origin": "Acquisition URL, revision and file-specific redistribution permission not demonstrated",
+      "currentTreePresent": false
+    },
+    {
+      "path": "src/assets/claude-code.png",
+      "sha256": "ca96b41c53e5397da067cbeb49d9f7658c57343801c90f42b08140d8fff0a461",
+      "classification": "REPLACE BEFORE PUBLIC",
+      "origin": "Acquisition URL, revision and file-specific redistribution permission not demonstrated",
+      "currentTreePresent": false
+    },
+    {
+      "path": "src/assets/codex.png",
+      "sha256": "55dcc99f3155cf73cb96afaa07f1249abcdcf5e7fce60b3812e04204aadcbeb6",
+      "classification": "REPLACE BEFORE PUBLIC",
+      "origin": "Acquisition URL, revision and file-specific redistribution permission not demonstrated",
+      "currentTreePresent": false
+    },
+    {
+      "path": "src/assets/default-profile.svg",
+      "sha256": "1338216d8a9441ee61277decc20a091d75f4ec44b1fee91e798dd558507fc963",
+      "classification": "NOT DISTRIBUTED",
+      "origin": "Acquisition URL, revision and file-specific redistribution permission not demonstrated",
+      "currentTreePresent": false
+    },
+    {
+      "path": "src/assets/freebuff.png",
+      "sha256": "264415d913c6231508d740acb223f1396412004b26b66e57e1dd5c78c2a879f3",
+      "classification": "REPLACE BEFORE PUBLIC",
+      "origin": "Acquisition URL, revision and file-specific redistribution permission not demonstrated",
+      "currentTreePresent": false
+    },
+    {
+      "path": "src/assets/kiro.svg",
+      "sha256": "5ae59a67119f1c1ee822afcfb8269d8b809b661f2e7cc7c18a68d39c28fa3296",
+      "classification": "REPLACE BEFORE PUBLIC",
+      "origin": "Acquisition URL, revision and file-specific redistribution permission not demonstrated",
+      "currentTreePresent": false
+    },
+    {
+      "path": "src/assets/open-black.png",
+      "sha256": "6347b24503c423005376ca1aad17c305747f07137f6b31f866562a04c5776f67",
+      "classification": "REPLACE BEFORE PUBLIC",
+      "origin": "Acquisition URL, revision and file-specific redistribution permission not demonstrated",
+      "currentTreePresent": false
+    },
+    {
+      "path": "src/assets/open-white.png",
+      "sha256": "f1d9f33de2a6db8ae82455759cf937defc50e2499e920a70b6780d8678f12403",
+      "classification": "REPLACE BEFORE PUBLIC",
+      "origin": "Acquisition URL, revision and file-specific redistribution permission not demonstrated",
+      "currentTreePresent": false
+    },
+    {
+      "path": "src/assets/shell.svg",
+      "sha256": "3d342f5ef26d3455b7189479aad719ed713454e55bd19aa66cc83f7977a061a0",
+      "classification": "NOT DISTRIBUTED",
+      "origin": "Acquisition URL, revision and file-specific redistribution permission not demonstrated",
+      "currentTreePresent": false
+    },
+    {
+      "path": "src/assets/terminal.svg",
+      "sha256": "8d7d16175a6921a872d322923e640071ae901f7e9b5ee526d9b5657a56349ae8",
+      "classification": "NOT DISTRIBUTED",
+      "origin": "Acquisition URL, revision and file-specific redistribution permission not demonstrated",
+      "currentTreePresent": false
+    },
+    {
+      "path": "src/assets/vscode.svg",
+      "sha256": "3187f18971e7ee80db2b9755ee6764c8f1ff76b6f732fee964b79ff2d7931427",
+      "classification": "REPLACE BEFORE PUBLIC",
+      "origin": "Acquisition URL, revision and file-specific redistribution permission not demonstrated",
+      "currentTreePresent": false
+    }
+  ],
+  "publication": {
+    "currentTree": "No standalone third-party brand logo retained; font licenses and neutral category-icon attribution preserved",
+    "scope": "Current tracked source and its distribution outputs; retired artwork must not be reintroduced, and source/binary releases must pass inventory and installer validation"
+  }
+}

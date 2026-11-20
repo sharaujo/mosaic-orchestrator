@@ -1,0 +1,83 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "mosAIco",
+  "version": "1.7.5",
+  "identifier": "com.mosaico.agents",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:1422",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "mosAIco",
+        "width": 1280,
+        "height": 800,
+        "minWidth": 800,
+        "minHeight": 500,
+        "resizable": true,
+        "decorations": false
+      }
+    ],
+    "security": {
+      "csp": {
+        "default-src": ["'none'"],
+        "object-src": ["'none'"],
+        "base-uri": ["'none'"],
+        "form-action": ["'none'"],
+        "frame-ancestors": ["'none'"],
+        "script-src": ["'self'", "mosaico-plugin:", "http://mosaico-plugin.localhost"],
+        "style-src": ["'self'", "'unsafe-inline'", "mosaico-plugin:", "http://mosaico-plugin.localhost"],
+        "img-src": [
+          "'self'",
+          "data:",
+          "asset:",
+          "http://asset.localhost",
+          "mosaico-plugin:",
+          "http://mosaico-plugin.localhost",
+          "http:",
+          "https:"
+        ],
+        "media-src": ["'self'", "asset:", "http://asset.localhost", "mediastream:", "blob:"],
+        "font-src": ["'self'", "mosaico-plugin:", "http://mosaico-plugin.localhost"],
+        "connect-src": [
+          "'self'",
+          "ipc:",
+          "http://ipc.localhost",
+          "https://registry.npmjs.org",
+          "https://api.github.com"
+        ],
+        "worker-src": ["'none'"],
+        "frame-src": ["asset:", "http://asset.localhost", "http:", "https:"]
+      },
+      "devCsp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "createUpdaterArtifacts": false,
+    "targets": "all",
+    "publisher": "sharaujo",
+    "shortDescription": "Workspace for coding agents and terminals",
+    "longDescription": "mosAIco organizes multiple coding agents and terminals in one persistent workspace. Many intelligences. One direction.",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "webviewInstallMode": {
+        "type": "embedBootstrapper"
+      },
+      "nsis": {
+        "installerIcon": "icons/icon.ico",
+        "headerImage": "installer/header.bmp",
+        "sidebarImage": "installer/sidebar.bmp"
+      }
+    }
+  }
+}

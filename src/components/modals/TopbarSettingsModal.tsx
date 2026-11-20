@@ -1,0 +1,112 @@
+import { Check, Cloud, MemoryStick, UserRound, Waypoints } from 'lucide-react'
+
+import { useT } from '../../lib/i18n'
+import type { Preferences } from '../../lib/types'
+import { useProjectsStore } from '../../stores/projectsStore'
+import { useUiStore } from '../../stores/uiStore'
+import { AgentIcon, AntigravityIcon, ClaudeIcon, CodexIcon } from '../icons/AgentIcons'
+import { Modal } from './Modal'
+import styles from './TopbarSettingsModal.module.css'
+
+type ToggleKey = keyof Pick<
+  Preferences,
+  | 'topbarShowClaudeUsage'
+  | 'topbarShowCodexUsage'
+  | 'topbarShowAntigravityUsage'
+  | 'topbarShowCopilotUsage'
+  | 'topbarShowGeminiUsage'
+  | 'topbarShowSync'
+  | 'topbarShowProfile'
+  | 'topbarShowMemory'
+  | 'topbarShowRouter9'
+>
+
+export function TopbarSettingsModal() {
+  const t = useT()
+  const open = useUiStore((state) => state.openModal === 'topbarSettings')
+  const closeModal = useUiStore((state) => state.closeModal)
+  const preferences = useProjectsStore((state) => state.preferences)
+  const setPreferences = useProjectsStore((state) => state.setPreferences)
+  const items: Array<{
+    key?: ToggleKey
+    label: string
+    icon: React.ReactNode
+    disabled?: boolean
+    title?: string
+  }> = [
+    {
+      key: 'topbarShowClaudeUsage',
+      label: t('ui.titlebar.itemClaude'),
+      icon: <ClaudeIcon size={18} />,
+    },
+    {
+      key: 'topbarShowCodexUsage',
+      label: t('ui.titlebar.itemCodex'),
+      icon: <CodexIcon size={18} />,
+    },
+    {
+      key: 'topbarShowAntigravityUsage',
+      label: t('ui.titlebar.itemAntigravity'),
+      icon: <AntigravityIcon size={18} />,
+    },
+    {
+      key: 'topbarShowCopilotUsage',
+      label: t('usageCopilot.label'),
+      icon: <AgentIcon type="copilot" size={18} theme={preferences.uiTheme} />,
+    },
+    {
+      key: 'topbarShowGeminiUsage',
+      label: t('usageGemini.label'),
+      icon: <AgentIcon type="gemini" size={18} theme={preferences.uiTheme} />,
+      disabled: true,
+      title: t('usageGemini.topbarUnavailable'),
+    },
+    { key: 'topbarShowSync', label: t('ui.titlebar.itemSync'), icon: <Cloud size={18} /> },
+    {
+      key: 'topbarShowProfile',
+      label: t('ui.titlebar.itemProfile'),
+      icon: <UserRound size={18} />,
+    },
+    {
+      key: 'topbarShowMemory',
+      label: t('ui.titlebar.itemMemory'),
+      icon: <MemoryStick size={18} />,
+    },
+    {
+      key: 'topbarShowRouter9',
+      label: t('ui.titlebar.itemRouter9'),
+      icon: <Waypoints size={18} />,
+    },
+  ]
+
+  return (
+    <Modal open={open} onClose={closeModal} title={t('ui.titlebar.customizeTitle')} width={440}>
+      <p className={styles.description}>{t('ui.titlebar.customizeDescription')}</p>
+      <div className={styles.list}>
+        {items.map((item) => {
+          const enabled = item.key ? preferences[item.key] : false
+          return (
+            <button
+              key={item.key ?? 'copilotUsageUnavailable'}
+              type="button"
+              className={styles.item}
+              role="switch"
+              aria-checked={enabled}
+              disabled={item.disabled}
+              title={item.title}
+              onClick={() => {
+                if (item.key) setPreferences({ [item.key]: !enabled })
+              }}
+            >
+              <span className={styles.icon}>{item.icon}</span>
+              <span className={styles.label}>{item.label}</span>
+              <span className={`${styles.check} ${enabled ? styles.checkActive : ''}`}>
+                {enabled ? <Check size={14} /> : null}
+              </span>
+            </button>
+          )
+        })}
+      </div>
+    </Modal>
+  )
+}

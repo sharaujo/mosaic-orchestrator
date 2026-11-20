@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "plugins": [
+    {
+      "id": "example.notes",
+      "name": "Scratch Notes",
+      "description": "A scratchpad in the left sidebar. Demonstrates translated strings and a command.",
+      "author": "mosAIco",
+      "repo": "SHARAUJO/mosaic-orchestrator",
+      "downloadUrl": "https://github.com/SHARAUJO/mosaic-orchestrator/tree/main/docs/examples/notes-plugin",
+      "version": "1.0.0",
+      "minApiVersion": 1,
+      "capabilities": ["ui.sidebarTab", "ui.command"]
+    }
+  ]
+}

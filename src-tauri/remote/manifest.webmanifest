@@ -1,0 +1,18 @@
+{
+  "name": "mosAIco Remote",
+  "short_name": "mosAIco",
+  "description": "mosAIco LAN remote workspace",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#171A1D",
+  "theme_color": "#171A1D",
+  "icons": [
+    {
+      "src": "/brand-icon.png",
+      "sizes": "220x220",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

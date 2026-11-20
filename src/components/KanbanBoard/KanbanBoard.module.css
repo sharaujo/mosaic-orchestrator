@@ -1,0 +1,70 @@
+.board { display: flex; flex-direction: column; width: 100%; height: 100%; min-width: 0; min-height: 0; background: var(--bg); color: var(--fg); }
+.toolbar { display: flex; align-items: center; gap: 10px; min-height: 58px; padding: 10px 18px; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 9px; margin-right: auto; color: var(--accent); font-size: 15px; letter-spacing: .02em; }
+.search, .filter { display: flex; align-items: center; gap: 7px; height: 34px; padding: 0 10px; border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--bg-sunken); color: var(--fg-faint); }
+.search { min-width: 180px; flex: 0 1 260px; }
+.search input, .filter select { min-width: 0; width: 100%; border: 0; outline: 0; background: transparent; color: var(--fg); font: inherit; font-size: 12px; }
+.filter { min-width: 150px; max-width: 220px; }
+.filter select option, .editor select option { background: var(--bg-elevated); color: var(--fg); }
+.primary, .secondary { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 34px; padding: 0 12px; border-radius: var(--radius-md); font: inherit; font-size: 12px; font-weight: 650; cursor: pointer; white-space: nowrap; }
+.primary { border: 1px solid var(--accent); background: var(--accent); color: var(--accent-on); }
+.secondary { border: 1px solid var(--border); background: var(--bg-elevated); color: var(--fg); }
+.primary:hover { background: var(--accent-strong); }
+.secondary:hover { border-color: var(--border-strong); }
+.scroller { flex: 1; min-height: 0; overflow: auto; padding: 16px; }
+.columns { display: flex; align-items: stretch; gap: 12px; min-width: min-content; min-height: 100%; }
+.column { display: flex; flex-direction: column; width: clamp(238px, 23vw, 310px); flex: 0 0 auto; min-height: 350px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--bg-sunken); overflow: hidden; }
+.columnDrop { border-color: var(--accent); }
+.columnHeader { display: flex; align-items: center; gap: 7px; min-height: 44px; padding: 0 10px; border-bottom: 1px solid var(--border); color: var(--fg-muted); }
+.column_pending .columnHeader { color: var(--status-waiting); }
+.column_inProgress .columnHeader { color: var(--accent); }
+.column_testing .columnHeader { color: var(--agent-antigravity, var(--status-waiting)); }
+.column_completed .columnHeader { color: var(--status-working); }
+.columnTitle { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 12px; font-weight: 700; }
+.count { min-width: 20px; padding: 2px 5px; border-radius: 999px; background: var(--bg-elevated); color: var(--fg); text-align: center; font-size: 10px; }
+.iconButton { display: grid; place-items: center; width: 22px; height: 22px; flex: 0 0 22px; margin-left: auto; border: 0; border-radius: var(--radius-sm); background: transparent; color: var(--fg-faint); cursor: pointer; }
+.iconButton + .iconButton { margin-left: 0; }
+.iconButton:hover { background: var(--surface-card-default); color: var(--fg); }
+.cards { display: flex; flex-direction: column; gap: 9px; flex: 1; padding: 10px; }
+.empty { display: grid; place-items: center; min-height: 130px; color: var(--fg-faint); font-size: 12px; text-align: center; }
+.card { display: flex; flex-direction: column; gap: 9px; padding: 11px; border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--bg-elevated); cursor: grab; box-shadow: var(--shadow-sm); touch-action: none; user-select: none; }
+.card:hover, .card:focus-visible { border-color: var(--border-strong); outline: 0; }
+.card:active { cursor: grabbing; }
+.dragging { opacity: .5; }
+.card strong { overflow-wrap: anywhere; font-size: 12px; line-height: 1.4; }
+.card p { display: -webkit-box; margin: 0; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 2; color: var(--fg-muted); font-size: 11px; line-height: 1.45; }
+.cardMeta { min-height: 16px; }
+.projectTag { display: inline-block; max-width: 100%; overflow: hidden; padding: 2px 6px; border-radius: var(--radius-sm); background: var(--accent-soft); color: var(--accent); font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
+.cardFooter { display: flex; align-items: center; justify-content: space-between; min-height: 17px; color: var(--fg-faint); font-size: 10px; }
+.cardFooter button { display: grid; place-items: center; width: 24px; height: 22px; border: 0; border-radius: var(--radius-sm); background: transparent; color: var(--fg-faint); cursor: pointer; }
+.cardFooter button:hover { background: var(--accent-soft); color: var(--accent); }
+.sent { display: flex; align-items: center; gap: 4px; min-width: 0; overflow: hidden; color: var(--status-working); font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
+.addColumn { width: 220px; flex: 0 0 220px; }
+.addColumn > button, .addColumn form { display: flex; align-items: center; gap: 6px; width: 100%; min-height: 40px; padding: 7px; border: 1px dashed var(--border-strong); border-radius: var(--radius-md); background: var(--bg-elevated); color: var(--fg-muted); }
+.addColumn > button { cursor: pointer; }
+.addColumn input { width: 100%; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--fg); }
+.addColumn form button { border: 0; background: transparent; color: var(--accent); cursor: pointer; }
+.loading { padding: 24px; color: var(--fg-muted); }
+.error { display: flex; align-items: center; justify-content: space-between; padding: 8px 16px; background: var(--status-offline-soft); color: var(--status-offline); font-size: 12px; }
+.error button { border: 0; background: transparent; color: inherit; cursor: pointer; }
+.overlay { position: fixed; z-index: 800; inset: 0; display: grid; place-items: center; padding: 16px; background: color-mix(in srgb, var(--bg) 80%, transparent); }
+.editor { display: flex; flex-direction: column; gap: 16px; width: min(480px, 100%); padding: 20px; border: 1px solid var(--border-strong); border-radius: var(--radius-lg); background: var(--surface-modal); box-shadow: var(--shadow-lg); }
+.editorHeader { display: flex; align-items: center; justify-content: space-between; }
+.editorHeader h2 { margin: 0; font-size: 17px; }
+.editorHeader button { border: 0; background: transparent; color: var(--fg-muted); cursor: pointer; }
+.editor label { display: flex; flex-direction: column; gap: 6px; color: var(--fg-muted); font-size: 12px; }
+.editor input, .editor textarea, .editor select { width: 100%; padding: 9px 10px; border: 1px solid var(--border); border-radius: var(--radius-md); outline: 0; background: var(--bg-sunken); color: var(--fg); font: inherit; font-size: 13px; }
+.editor label select { height: 40px; min-height: 40px; padding-block: 0; line-height: normal; }
+.editor input:focus, .editor textarea:focus, .editor select:focus { border-color: var(--accent); }
+.editor textarea { resize: vertical; }
+.editorActions { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
+.danger { margin-right: auto; border: 0; background: transparent; color: var(--status-offline); cursor: pointer; }
+.contextMenu { position: fixed; z-index: 900; width: 290px; max-height: min(400px, 75vh); overflow: auto; padding: 5px; border: 1px solid var(--border-strong); border-radius: var(--radius-md); background: var(--surface-modal); box-shadow: var(--shadow-lg); }
+.menuLabel { padding: 7px 8px; color: var(--fg-faint); font-size: 10px; font-weight: 700; text-transform: uppercase; }
+.menuProjects, .menuTerminals { display: flex; flex-direction: column; gap: 2px; }
+.menuProjects { max-height: 132px; overflow: auto; }
+.menuTerminals { margin-top: 5px; padding-top: 5px; border-top: 1px solid var(--border); max-height: 140px; overflow: auto; }
+.menuProjects button, .menuTerminals button { display: flex; align-items: center; gap: 8px; width: 100%; min-height: 28px; padding: 5px 8px; border: 0; border-radius: var(--radius-sm); background: transparent; color: var(--fg); font-size: 11px; text-align: left; cursor: pointer; }
+.menuProjects button svg:last-child { margin-left: auto; }
+.menuProjects button:hover, .menuTerminals button:hover, .menuSelected { background: var(--accent-soft) !important; }
+.menuHint { padding: 9px; color: var(--fg-faint); font-size: 11px; }

@@ -1,0 +1,11 @@
+{
+  "bundle": {
+    "createUpdaterArtifacts": false,
+    "licenseFile": "../THIRD_PARTY_LICENSES/WINDOWS-TERMS.rtf",
+    "resources": {
+      "../THIRD-PARTY-NOTICES.md": "THIRD-PARTY-NOTICES.md",
+      "../THIRD_PARTY_LICENSES/": "THIRD_PARTY_LICENSES/",
+      "target/license-source/mosaico-source.zip": "THIRD_PARTY_LICENSES/sources/mosaico-source.zip"
+    }
+  }
+}

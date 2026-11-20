@@ -1,0 +1,338 @@
+[
+  {
+    "path": "fonts/CC-BY-4.0.txt",
+    "source": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+    "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+  },
+  {
+    "path": "fonts/CascadiaCode-OFL.txt",
+    "source": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.0",
+    "sha256": "82c05d6c53dfa0c9025985c19e371810020b74ed2c61d51d370f2a8ab2506d52"
+  },
+  {
+    "path": "fonts/CascadiaCode-README.md",
+    "source": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.0",
+    "sha256": "147134ae99a2a0df6594ecd752dd070eb96d1981a91feb2bd74728ffcd348a3d"
+  },
+  {
+    "path": "fonts/Devicon-2.17.0-LICENSE",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/LICENSE",
+    "sha256": "121194741d4a915b9f5890fdd6dd95121f9b1f816517c792358d72d7c838d664"
+  },
+  {
+    "path": "fonts/Font-Awesome-Extension-LICENCE",
+    "source": "https://raw.githubusercontent.com/AndreLZGava/font-awesome-extension/09d80249058ee8018a45da30add4339289dbb466/LICENCE",
+    "sha256": "b47b15d771c4507a75ff65beca3a78168d6af4cca9b45177a1aa817139c64ba5"
+  },
+  {
+    "path": "fonts/Font-Logos-1.3.0-LICENSE",
+    "source": "https://github.com/lukas-w/font-logos/blob/v1.3.0/LICENSE",
+    "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd"
+  },
+  {
+    "path": "fonts/Hack-3.003-LICENSE.md",
+    "source": "https://github.com/source-foundry/Hack/blob/v3.003/LICENSE.md",
+    "sha256": "1f61bb7c790c59b4b0ecdf304628b94e42ae4c8020094a8c3da73381ab212623"
+  },
+  {
+    "path": "fonts/IEC-Power-Symbols-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/jloughry/Unicode/805536fb6f93604da985d80e0c6b099f98f8b4d9/LICENSE.txt",
+    "sha256": "11aef1cdf2d58d822e6857e2574870ccc59d4900052bf5c098e319d750e7ac3d"
+  },
+  {
+    "path": "fonts/Nerd-Fonts-LICENSE",
+    "source": "https://github.com/ryanoasis/nerd-fonts/blob/v3.5.0/LICENSE",
+    "sha256": "1f6ad4edae6479aaace3112ede5279a23284ae54b2a34db66357aef5f64df160"
+  },
+  {
+    "path": "fonts/Seti-UI-0.8.1-LICENSE.md",
+    "source": "https://raw.githubusercontent.com/jesseweed/seti-ui/6c358eb9ce5cc20bccd72cc4d7179fd485cd8fe7/LICENSE.md",
+    "sha256": "d4d2d888c6a0a220a7b0e2d6013cf37539b0e05ef937002b3b33bdb364575b88"
+  },
+  {
+    "path": "fonts/codicons__LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.0/src/glyphs/codicons/LICENSE.txt",
+    "sha256": "d6239afa918961b465b07bf7411cbe34ff6685854f58553db7966f4881a0211f"
+  },
+  {
+    "path": "fonts/font-awesome__LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.0/src/glyphs/font-awesome/LICENSE.txt",
+    "sha256": "de784a808496d49f5f80dd9d1d6e9a51cff712cfbc339e7c25155631ae3cdb5d"
+  },
+  {
+    "path": "fonts/materialdesign__LICENSE",
+    "source": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.0/src/glyphs/materialdesign/LICENSE",
+    "sha256": "3bae6305bcaa6d10219b999f65c342034c2d40b1c0e8567fa08605e73ccba829"
+  },
+  {
+    "path": "fonts/octicons__LICENSE",
+    "source": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.0/src/glyphs/octicons/LICENSE",
+    "sha256": "4f886642f9e8d99eeadd484acdac011c3fde8a338faf52f5ca1408c13b9a9b63"
+  },
+  {
+    "path": "fonts/pomicons__LICENSE",
+    "source": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.0/src/glyphs/pomicons/LICENSE",
+    "sha256": "cb4797a9745683f287c28833db596e9d68ec43082d59359b3a49c504f0f610ce"
+  },
+  {
+    "path": "fonts/powerline-extra__LICENSE",
+    "source": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.0/src/glyphs/powerline-extra/LICENSE",
+    "sha256": "544307a58e6826c24145b2af1c3578b53e2e21ae0e6c67ab4c6abd544304d26a"
+  },
+  {
+    "path": "fonts/powerline-symbols__LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.0/src/glyphs/powerline-symbols/LICENSE.txt",
+    "sha256": "46d5355e4734468135d8e4a30d0916292cc4df2b3ec30aa68c866f82497933be"
+  },
+  {
+    "path": "fonts/weather-icons__OFL.txt",
+    "source": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.0/src/glyphs/weather-icons/OFL.txt",
+    "sha256": "69cdedc8a4f57a30d68e4f045af8b9cce0ec3b1a6e7eec1ad41737c894f26790"
+  },
+  {
+    "path": "installers/NSIS-3.11-COPYING",
+    "source": "https://nsis.sourceforge.io/License",
+    "sha256": "e7dd514003ab96cb3ddccbc028fe5c795fccf57dc41f21cfb9d4dd16ead23bf5"
+  },
+  {
+    "path": "installers/WiX-3.14.1-LICENSE.TXT",
+    "source": "https://github.com/wixtoolset/wix3/blob/wix3141rtm/LICENSE.TXT",
+    "sha256": "dfdf2048787635215a6baf3b9d461dee89a2904d246787258a44f072a98d4786"
+  },
+  {
+    "path": "installers/nsis-tauri-utils-0.5.3-LICENSE_APACHE-2.0",
+    "source": "https://github.com/tauri-apps/nsis-tauri-utils/tree/nsis_tauri_utils-v0.5.3",
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "path": "installers/nsis-tauri-utils-0.5.3-LICENSE_MIT",
+    "source": "https://github.com/tauri-apps/nsis-tauri-utils/tree/nsis_tauri_utils-v0.5.3",
+    "sha256": "1c1020fa10a6bf318717e82c911bcc54ebdfb9bb280460ae332bcb2f82f57fbe"
+  },
+  {
+    "path": "mosaico/LICENSE",
+    "source": "https://github.com/sharaujo/mosaic-orchestrator",
+    "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e"
+  },
+  {
+    "path": "native/eigen-5.0.1/COPYING.MPL2",
+    "source": "https://gitlab.com/libeigen/eigen/-/blob/5.0.1/COPYING.MPL2",
+    "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172"
+  },
+  {
+    "path": "native/eigen-5.0.1/COPYING.README",
+    "source": "https://gitlab.com/libeigen/eigen/-/blob/5.0.1/COPYING.README",
+    "sha256": "db640ff2bd90c6abd6a4d3fbb351e0ee4d555417cf840492054d1cbb2ea85644"
+  },
+  {
+    "path": "native/kaldi-decoder-0.3.0/LICENSE",
+    "source": "https://github.com/k2-fsa/kaldi-decoder/blob/v0.3.0/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "native/kaldi-native-fbank-1.22.4/LICENSE",
+    "source": "https://github.com/csukuangfj/kaldi-native-fbank/blob/v1.22.4/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "native/kaldifst-1.8.0/LICENSE",
+    "source": "https://github.com/k2-fsa/kaldifst/blob/v1.8.0/LICENSE",
+    "sha256": "a682d6efd1ee5dee08a8e405c233c2c198ea70ae0718129daa83ab58cfe31c5d"
+  },
+  {
+    "path": "native/kissfft/COPYING",
+    "source": "https://github.com/mborgerding/kissfft/blob/febd4caeed32e33ad8b2e0bb5ea77542c40f18ec/COPYING",
+    "sha256": "a2840585f8411be8e6826a31ef15ae65c950bd74a2437a73b013398a934ad0c6"
+  },
+  {
+    "path": "native/nlohmann-json-3.12.0/LICENSE.MIT",
+    "source": "https://github.com/nlohmann/json/blob/v3.12.0/LICENSE.MIT",
+    "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603"
+  },
+  {
+    "path": "native/onnxruntime-1.28.2/LICENSE",
+    "source": "https://github.com/microsoft/onnxruntime/blob/v1.28.2/LICENSE",
+    "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+  },
+  {
+    "path": "native/onnxruntime-1.28.2/ThirdPartyNotices.txt",
+    "source": "https://github.com/microsoft/onnxruntime/blob/v1.28.2/ThirdPartyNotices.txt",
+    "sha256": "0e07b95f3a8d6230037707c5c4a2b554d12c4cb67369669ac255635528ffcee2"
+  },
+  {
+    "path": "native/openfst-1.8.5/COPYING",
+    "source": "https://github.com/csukuangfj/openfst/blob/v1.8.5-2026-07-09/COPYING",
+    "sha256": "4300529197035fd3452350718a0b8cee984e9412c9932d7f35fcde849fc97a4b"
+  },
+  {
+    "path": "native/sherpa-2.0.1/LICENSE",
+    "source": "https://github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "native/simple-sentencepiece-0.7/LICENSE",
+    "source": "https://github.com/pkufool/simple-sentencepiece/blob/v0.7/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "native/simple-sentencepiece-0.7/darts.h",
+    "source": "https://github.com/pkufool/simple-sentencepiece/blob/v0.7/ssentencepiece/csrc/darts.h",
+    "sha256": "a0ff15abf69e2651dedef5acacf474b7b8d20ace8cd5dd79dd201e99ccfee91d"
+  },
+  {
+    "path": "native/simple-sentencepiece-0.7/threadpool.h",
+    "source": "https://github.com/pkufool/simple-sentencepiece/blob/v0.7/ssentencepiece/csrc/threadpool.h",
+    "sha256": "a0737647480c4fbab218b3540b4be0cb35edf9b4e869e275f56f79f0d25d2830"
+  },
+  {
+    "path": "native/utf8proc-2.12.0/LICENSE.md",
+    "source": "https://github.com/JuliaStrings/utf8proc/blob/v2.12.0/LICENSE.md",
+    "sha256": "3b510150d34f248a221bb88e1d811238d6c6c18b51231822c42974c39bb07256"
+  },
+  {
+    "path": "overrides/cargo/alloc-stdlib-0.2.4/LICENSE",
+    "source": "https://raw.githubusercontent.com/dropbox/rust-alloc-no-stdlib/ae42d22078b98549e987d2f03d12df7b984fde47/LICENSE",
+    "sha256": "c0c56f26d9c051cac4d200c34c84e7ae9aaa853e01a982a1df08b09931e518ae"
+  },
+  {
+    "path": "overrides/cargo/dasp_sample-0.11.0/LICENSE-MIT",
+    "source": "https://raw.githubusercontent.com/rustaudio/sample/97c3bb9b2363c0b46ac1633858bf1054fd02a980/LICENSE-MIT",
+    "sha256": "b1d6df41ed3aa96806e74c729444d7c121d90e6660a6aed01d298e03fde475a0"
+  },
+  {
+    "path": "overrides/cargo/selectors-0.36.1/LICENSE-MPL-2.0",
+    "source": "https://www.mozilla.org/MPL/2.0/",
+    "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85"
+  },
+  {
+    "path": "overrides/cargo/serial-0.4.0/LICENSE",
+    "source": "https://raw.githubusercontent.com/dcuddeback/serial-rs/7ed6540c2789b7c7365cd7a89fcb7bac7c567de8/LICENSE",
+    "sha256": "871afd9d691846de71e0b83812ba9c7ff00bc7b3ad102dedcaa109f2246d52ad"
+  },
+  {
+    "path": "overrides/cargo/unic-char-property-0.9.0/LICENSE-MIT",
+    "source": "https://raw.githubusercontent.com/open-i18n/rust-unic/5878605364af97a3358368a6eaef02104af2e016/LICENSE-MIT",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+  },
+  {
+    "path": "overrides/cargo/unic-char-range-0.9.0/LICENSE-MIT",
+    "source": "https://raw.githubusercontent.com/open-i18n/rust-unic/5878605364af97a3358368a6eaef02104af2e016/LICENSE-MIT",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+  },
+  {
+    "path": "overrides/cargo/unic-common-0.9.0/LICENSE-MIT",
+    "source": "https://raw.githubusercontent.com/open-i18n/rust-unic/5878605364af97a3358368a6eaef02104af2e016/LICENSE-MIT",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+  },
+  {
+    "path": "overrides/cargo/unic-ucd-ident-0.9.0/LICENSE-MIT",
+    "source": "https://raw.githubusercontent.com/open-i18n/rust-unic/8a6ce83063d90b91ae2ce59eddb803edd393fca9/LICENSE-MIT",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+  },
+  {
+    "path": "overrides/cargo/unic-ucd-version-0.9.0/LICENSE-MIT",
+    "source": "https://raw.githubusercontent.com/open-i18n/rust-unic/5878605364af97a3358368a6eaef02104af2e016/LICENSE-MIT",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+  },
+  {
+    "path": "overrides/cargo/webview2-com-0.38.2/LICENSE",
+    "source": "https://raw.githubusercontent.com/wravery/webview2-rs/b74dc5e2b394044bea5191052868ce7a106c202c/LICENSE",
+    "sha256": "0dcf41516e608bbcb6cdc5229feb7b86fe4a643b85e7df251133c93408fdac73"
+  },
+  {
+    "path": "overrides/cargo/webview2-com-sys-0.38.2/LICENSE",
+    "source": "https://raw.githubusercontent.com/wravery/webview2-rs/b74dc5e2b394044bea5191052868ce7a106c202c/LICENSE",
+    "sha256": "0dcf41516e608bbcb6cdc5229feb7b86fe4a643b85e7df251133c93408fdac73"
+  },
+  {
+    "path": "overrides/npm/_radix-ui_react-compose-refs-1.1.2/LICENSE",
+    "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+    "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+  },
+  {
+    "path": "overrides/npm/_radix-ui_react-context-1.1.2/LICENSE",
+    "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+    "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+  },
+  {
+    "path": "overrides/npm/_radix-ui_react-id-1.1.1/LICENSE",
+    "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+    "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+  },
+  {
+    "path": "overrides/npm/_radix-ui_react-use-callback-ref-1.1.1/LICENSE",
+    "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+    "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+  },
+  {
+    "path": "overrides/npm/_radix-ui_react-use-escape-keydown-1.1.1/LICENSE",
+    "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+    "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+  },
+  {
+    "path": "overrides/npm/_radix-ui_react-use-layout-effect-1.1.1/LICENSE",
+    "source": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+    "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+  },
+  {
+    "path": "overrides/npm/react-remove-scroll-bar-2.3.8/LICENSE",
+    "source": "https://raw.githubusercontent.com/theKashey/react-remove-scroll-bar/8ca9ba5ea52de03308fe8ced94f7b159a44d28ff/LICENSE",
+    "sha256": "a79aae0c0f21990d9d963bb3c5a79cdcea9a46f8523ba55c58d7fe776b6ebc84"
+  },
+  {
+    "path": "source-adaptations/Ghostty-LICENSE",
+    "source": "https://github.com/ghostty-org/ghostty/blob/ee02d019e8459ed4d09fac55753ad2363c5a8b01/LICENSE",
+    "sha256": "386211873e5b7a02f663ae4d7adf96285999f91608f8f9f31fecfd0f4095e6f1"
+  },
+  {
+    "path": "sources/cssparser-0.36.0.crate",
+    "source": "https://crates.io/api/v1/crates/cssparser/0.36.0/download",
+    "sha256": "dae61cf9c0abb83bd659dab65b7e4e38d8236824c85f0f804f173567bda257d2"
+  },
+  {
+    "path": "sources/cssparser-macros-0.6.1.crate",
+    "source": "https://crates.io/api/v1/crates/cssparser-macros/0.6.1/download",
+    "sha256": "13b588ba4ac1a99f7f2964d24b3d896ddc6bf847ee3855dbd4366f058cfcd331"
+  },
+  {
+    "path": "sources/dtoa-short-0.3.5.crate",
+    "source": "https://crates.io/api/v1/crates/dtoa-short/0.3.5/download",
+    "sha256": "cd1511a7b6a56299bd043a9c167a6d2bfb37bf84a6dfceaba651168adfb43c87"
+  },
+  {
+    "path": "sources/eigen-5.0.1.tar.gz",
+    "source": "https://gitlab.com/libeigen/eigen/-/archive/5.0.1/eigen-5.0.1.tar.gz",
+    "sha256": "e9c326dc8c05cd1e044c71f30f1b2e34a6161a3b6ecf445d56b53ff1669e3dec"
+  },
+  {
+    "path": "sources/eigen-onnx.zip",
+    "source": "https://github.com/eigen-mirror/eigen/archive/1d8b82b0740839c0de7f1242a3585e3390ff5f33.zip",
+    "sha256": "6a60d76351f97132669daeeb721d6bf14b008101883ad2d687a3201c5c461eb0"
+  },
+  {
+    "path": "sources/nsis-3.11-source.zip",
+    "source": "https://github.com/NSIS-Dev/nsis/archive/7359413009afd4f0fff472d841fc2f2cc0e0a5f8.zip",
+    "sha256": "f4d62f728351609c6f22e5efde50f537c238f14eb4b389c1aa9bd94a75681db7",
+    "upstreamSHA256": "e114ddaf187c12725938095e600d242041f978664c332e14740da7c359c167f3",
+    "selectionManifest": "sources/nsis-3.11-source-manifest.json",
+    "note": "Complete root source tree retained byte-for-byte; redundant nested trunk mirror omitted."
+  },
+  {
+    "path": "sources/option-ext-0.2.0.crate",
+    "source": "https://crates.io/api/v1/crates/option-ext/0.2.0/download",
+    "sha256": "04744f49eae99ab78e0d5c0b603ab218f515ea8cfe5a456d7629ad883a3b6e7d"
+  },
+  {
+    "path": "sources/selectors-0.36.1.crate",
+    "source": "https://crates.io/api/v1/crates/selectors/0.36.1/download",
+    "sha256": "c5d9c0c92a92d33f08817311cf3f2c29a3538a8240e94a6a3c622ce652d7e00c"
+  },
+  {
+    "path": "sources/wix-3.14.1.zip",
+    "source": "https://github.com/wixtoolset/wix3/archive/b40e9a32c24033e11b77baf2c91a704382f898ed.zip",
+    "sha256": "9b9e71a6efe2a4188702782395b9664486573a9d688fade8fd92640c248be3de",
+    "upstreamSHA256": "3cc4bdaca8070042a182675b047882211d042f35139efcb0eeac35eeb81bf9d3",
+    "selectionManifest": "sources/wix-3.14.1-source-manifest.json",
+    "note": "Repackaged reviewed source/build inputs only; selected file bytes are unchanged. Upstream precompiled redistributables and test fixtures are excluded."
+  }
+]

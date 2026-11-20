@@ -1,0 +1,2 @@
+# Vite SSR must recognize the executable Node entry point's shebang.
+/scripts/release.mjs text eol=lf

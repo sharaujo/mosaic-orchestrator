@@ -1,0 +1,102 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+# Cancela runs antigos do mesmo branch/PR quando um novo chega.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  frontend:
+    name: Frontend (typecheck + build)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify versioned Windows license resources (offline)
+        run: node scripts/license-inventory.mjs --check --source-only
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Check formatting
+        run: npm run format:check
+        # Existing formatting drift is tracked separately; keep the signal visible.
+        continue-on-error: true
+
+      # vitest run — suíte única, todo teste vive colocado como src/**/*.test.ts.
+      - name: Run unit tests
+        run: npm test
+
+      # `npm run build` = tsc (typecheck) + vite build. Falha se houver erro de tipo.
+      - name: Typecheck and build
+        run: npm run build
+
+  rust:
+    name: Rust check (${{ matrix.label }})
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: windows-latest
+            label: Windows
+          - platform: ubuntu-22.04
+            label: Linux
+    runs-on: ${{ matrix.platform }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Install Linux dependencies
+        if: matrix.platform == 'ubuntu-22.04'
+        run: |
+          sudo apt-get update
+          # libasound2-dev is ALSA: `cpal` (on-device voice dictation) links against it
+          # through alsa-sys, and without it the Linux build panics in its build script.
+          sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf libasound2-dev
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@7e38f4b43b4db5c8dd498af069a4f6196df1d067 # master
+        with:
+          toolchain: stable
+          components: clippy
+
+      - name: Rust cache
+        uses: swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6 # v2
+        with:
+          workspaces: './src-tauri -> target'
+          key: registry-only-v1
+          cache-targets: 'false'
+
+      - name: cargo check
+        working-directory: src-tauri
+        run: cargo check
+
+      # Não-bloqueante por enquanto: já há ~37 warnings pré-existentes no
+      # código atual (nenhum deles deste PR). Endurecer pra `-D warnings`
+      # depois de uma limpeza dedicada, não junto de outra tarefa.
+      - name: cargo clippy
+        working-directory: src-tauri
+        run: cargo clippy --all-targets
+        continue-on-error: true
+
+      - name: cargo test
+        working-directory: src-tauri
+        run: cargo test

@@ -1,0 +1,256 @@
+[
+  {
+    "ecosystem": "cargo",
+    "name": "alloc-stdlib",
+    "version": "0.2.4",
+    "license": "BSD-3-Clause",
+    "repository": "https://github.com/dropbox/rust-alloc-no-stdlib",
+    "revision": "ae42d22078b98549e987d2f03d12df7b984fde47",
+    "files": [
+      {
+        "path": "overrides/cargo/alloc-stdlib-0.2.4/LICENSE",
+        "sha256": "c0c56f26d9c051cac4d200c34c84e7ae9aaa853e01a982a1df08b09931e518ae"
+      }
+    ]
+  },
+  {
+    "ecosystem": "cargo",
+    "name": "dasp_sample",
+    "version": "0.11.0",
+    "license": "MIT OR Apache-2.0",
+    "repository": "https://github.com/rustaudio/sample",
+    "revision": "97c3bb9b2363c0b46ac1633858bf1054fd02a980",
+    "files": [
+      {
+        "path": "overrides/cargo/dasp_sample-0.11.0/LICENSE-MIT",
+        "sha256": "b1d6df41ed3aa96806e74c729444d7c121d90e6660a6aed01d298e03fde475a0"
+      }
+    ]
+  },
+  {
+    "ecosystem": "cargo",
+    "name": "selectors",
+    "version": "0.36.1",
+    "license": "MPL-2.0",
+    "repository": "https://github.com/servo/stylo",
+    "revision": "635e1a19d02960588a00e189bd4bd5bdb150ec3d",
+    "legalBasis": "MPL-2.0 declaration and source-file headers; complete exact source crate is bundled; canonical MPL-2.0 text is also supplied by cssparser.",
+    "files": [
+      {
+        "path": "overrides/cargo/selectors-0.36.1/LICENSE-MPL-2.0",
+        "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85"
+      }
+    ]
+  },
+  {
+    "ecosystem": "cargo",
+    "name": "serial",
+    "version": "0.4.0",
+    "license": "MIT",
+    "repository": "https://github.com/dcuddeback/serial-rs",
+    "revision": "7ed6540c2789b7c7365cd7a89fcb7bac7c567de8",
+    "files": [
+      {
+        "path": "overrides/cargo/serial-0.4.0/LICENSE",
+        "sha256": "871afd9d691846de71e0b83812ba9c7ff00bc7b3ad102dedcaa109f2246d52ad"
+      }
+    ]
+  },
+  {
+    "ecosystem": "cargo",
+    "name": "unic-char-property",
+    "version": "0.9.0",
+    "license": "MIT/Apache-2.0",
+    "repository": "https://github.com/open-i18n/rust-unic",
+    "revision": "5878605364af97a3358368a6eaef02104af2e016",
+    "files": [
+      {
+        "path": "overrides/cargo/unic-char-property-0.9.0/LICENSE-MIT",
+        "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      }
+    ]
+  },
+  {
+    "ecosystem": "cargo",
+    "name": "unic-char-range",
+    "version": "0.9.0",
+    "license": "MIT/Apache-2.0",
+    "repository": "https://github.com/open-i18n/rust-unic",
+    "revision": "5878605364af97a3358368a6eaef02104af2e016",
+    "files": [
+      {
+        "path": "overrides/cargo/unic-char-range-0.9.0/LICENSE-MIT",
+        "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      }
+    ]
+  },
+  {
+    "ecosystem": "cargo",
+    "name": "unic-common",
+    "version": "0.9.0",
+    "license": "MIT/Apache-2.0",
+    "repository": "https://github.com/open-i18n/rust-unic",
+    "revision": "5878605364af97a3358368a6eaef02104af2e016",
+    "files": [
+      {
+        "path": "overrides/cargo/unic-common-0.9.0/LICENSE-MIT",
+        "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      }
+    ]
+  },
+  {
+    "ecosystem": "cargo",
+    "name": "unic-ucd-ident",
+    "version": "0.9.0",
+    "license": "MIT/Apache-2.0",
+    "repository": "https://github.com/open-i18n/rust-unic",
+    "revision": "8a6ce83063d90b91ae2ce59eddb803edd393fca9",
+    "files": [
+      {
+        "path": "overrides/cargo/unic-ucd-ident-0.9.0/LICENSE-MIT",
+        "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      }
+    ]
+  },
+  {
+    "ecosystem": "cargo",
+    "name": "unic-ucd-version",
+    "version": "0.9.0",
+    "license": "MIT/Apache-2.0",
+    "repository": "https://github.com/open-i18n/rust-unic",
+    "revision": "5878605364af97a3358368a6eaef02104af2e016",
+    "files": [
+      {
+        "path": "overrides/cargo/unic-ucd-version-0.9.0/LICENSE-MIT",
+        "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      }
+    ]
+  },
+  {
+    "ecosystem": "cargo",
+    "name": "webview2-com",
+    "version": "0.38.2",
+    "license": "MIT",
+    "repository": "https://github.com/wravery/webview2-rs",
+    "revision": "b74dc5e2b394044bea5191052868ce7a106c202c",
+    "files": [
+      {
+        "path": "overrides/cargo/webview2-com-0.38.2/LICENSE",
+        "sha256": "0dcf41516e608bbcb6cdc5229feb7b86fe4a643b85e7df251133c93408fdac73"
+      }
+    ]
+  },
+  {
+    "ecosystem": "cargo",
+    "name": "webview2-com-sys",
+    "version": "0.38.2",
+    "license": "MIT",
+    "repository": "https://github.com/wravery/webview2-rs",
+    "revision": "b74dc5e2b394044bea5191052868ce7a106c202c",
+    "files": [
+      {
+        "path": "overrides/cargo/webview2-com-sys-0.38.2/LICENSE",
+        "sha256": "0dcf41516e608bbcb6cdc5229feb7b86fe4a643b85e7df251133c93408fdac73"
+      }
+    ]
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-compose-refs",
+    "version": "1.1.2",
+    "license": "MIT",
+    "repository": "https://github.com/radix-ui/primitives",
+    "revision": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+    "files": [
+      {
+        "path": "overrides/npm/_radix-ui_react-compose-refs-1.1.2/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-context",
+    "version": "1.1.2",
+    "license": "MIT",
+    "repository": "https://github.com/radix-ui/primitives",
+    "revision": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+    "files": [
+      {
+        "path": "overrides/npm/_radix-ui_react-context-1.1.2/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-id",
+    "version": "1.1.1",
+    "license": "MIT",
+    "repository": "https://github.com/radix-ui/primitives",
+    "revision": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+    "files": [
+      {
+        "path": "overrides/npm/_radix-ui_react-id-1.1.1/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-use-callback-ref",
+    "version": "1.1.1",
+    "license": "MIT",
+    "repository": "https://github.com/radix-ui/primitives",
+    "revision": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+    "files": [
+      {
+        "path": "overrides/npm/_radix-ui_react-use-callback-ref-1.1.1/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-use-escape-keydown",
+    "version": "1.1.1",
+    "license": "MIT",
+    "repository": "https://github.com/radix-ui/primitives",
+    "revision": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+    "files": [
+      {
+        "path": "overrides/npm/_radix-ui_react-use-escape-keydown-1.1.1/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-use-layout-effect",
+    "version": "1.1.1",
+    "license": "MIT",
+    "repository": "https://github.com/radix-ui/primitives",
+    "revision": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+    "files": [
+      {
+        "path": "overrides/npm/_radix-ui_react-use-layout-effect-1.1.1/LICENSE",
+        "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+      }
+    ]
+  },
+  {
+    "ecosystem": "npm",
+    "name": "react-remove-scroll-bar",
+    "version": "2.3.8",
+    "license": "MIT",
+    "repository": "https://github.com/theKashey/react-remove-scroll-bar",
+    "revision": "8ca9ba5ea52de03308fe8ced94f7b159a44d28ff",
+    "files": [
+      {
+        "path": "overrides/npm/react-remove-scroll-bar-2.3.8/LICENSE",
+        "sha256": "a79aae0c0f21990d9d963bb3c5a79cdcea9a46f8523ba55c58d7fe776b6ebc84"
+      }
+    ],
+    "legalBasis": "The published MIT package omits its legal file and its npm gitHead is unresolved. All 12 distributed JavaScript files are byte-identical to the integrity-verified 2.3.7 package; the official upstream MIT copyright/permission text is preserved at the pinned revision, whose package.json reports 2.3.7."
+  }
+]

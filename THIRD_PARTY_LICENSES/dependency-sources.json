@@ -1,0 +1,4390 @@
+{
+  "purpose": "Locked public dependency-source coordinates for the supplied application source; package archives are the exact published build inputs, with upstream source repositories identified separately.",
+  "npm": [
+    {
+      "name": "@antfu/install-pkg",
+      "version": "1.1.0",
+      "archive": "https://registry.npmjs.org/@antfu/install-pkg/-/install-pkg-1.1.0.tgz",
+      "integrity": "sha512-MGQsmw10ZyI+EJo45CdSER4zEb+p31LpDAFp2Z3gkSd1yqVZGi0Ebx++YTEMonJy4oChEMLsxZ64j8FH6sSqtQ==",
+      "upstreamSource": "git+https://github.com/antfu/install-pkg.git"
+    },
+    {
+      "name": "@braintree/sanitize-url",
+      "version": "7.1.2",
+      "archive": "https://registry.npmjs.org/@braintree/sanitize-url/-/sanitize-url-7.1.2.tgz",
+      "integrity": "sha512-jigsZK+sMF/cuiB7sERuo9V7N9jx+dhmHHnQyDSVdpZwVutaBu7WvNYqMDLSgFgfB30n452TP3vjDAvFC973mA==",
+      "upstreamSource": "git+https://github.com/braintree/sanitize-url.git"
+    },
+    {
+      "name": "@chevrotain/types",
+      "version": "11.1.2",
+      "archive": "https://registry.npmjs.org/@chevrotain/types/-/types-11.1.2.tgz",
+      "integrity": "sha512-U+HFai5+zmJCkK86QsaJtoITlboZHBqrVketcO2ROv865xfCMSFpELQoz1GkX5GzME8pTa+3kbKrZHQtI0gdbw==",
+      "upstreamSource": "git://github.com/Chevrotain/chevrotain.git"
+    },
+    {
+      "name": "@dnd-kit/accessibility",
+      "version": "3.1.1",
+      "archive": "https://registry.npmjs.org/@dnd-kit/accessibility/-/accessibility-3.1.1.tgz",
+      "integrity": "sha512-2P+YgaXF+gRsIihwwY1gCsQSYnu9Zyj2py8kY5fFvUM1qm2WA2u639R6YNVfU4GWr+ZM5mqEsfHZZLoRONbemw==",
+      "upstreamSource": "git+https://github.com/clauderic/dnd-kit.git"
+    },
+    {
+      "name": "@dnd-kit/core",
+      "version": "6.3.1",
+      "archive": "https://registry.npmjs.org/@dnd-kit/core/-/core-6.3.1.tgz",
+      "integrity": "sha512-xkGBRQQab4RLwgXxoqETICr6S5JlogafbhNsidmrkVv2YRs5MLwpjoF2qpiGjQt8S9AoxtIV603s0GIUpY5eYQ==",
+      "upstreamSource": "git+https://github.com/clauderic/dnd-kit.git"
+    },
+    {
+      "name": "@dnd-kit/utilities",
+      "version": "3.2.2",
+      "archive": "https://registry.npmjs.org/@dnd-kit/utilities/-/utilities-3.2.2.tgz",
+      "integrity": "sha512-+MKAJEOfaBe5SmV6t34p80MMKhjvUz0vRrvVJbPT0WElzaOJ/1xs+D+KDv+tD/NE5ujfrChEcshd4fLn0wpiqg==",
+      "upstreamSource": "git+https://github.com/clauderic/dnd-kit.git"
+    },
+    {
+      "name": "@iconify/types",
+      "version": "2.0.0",
+      "archive": "https://registry.npmjs.org/@iconify/types/-/types-2.0.0.tgz",
+      "integrity": "sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==",
+      "upstreamSource": "https://github.com/iconify/iconify.git"
+    },
+    {
+      "name": "@iconify/utils",
+      "version": "3.1.3",
+      "archive": "https://registry.npmjs.org/@iconify/utils/-/utils-3.1.3.tgz",
+      "integrity": "sha512-LPKOXPn/zV+zis1oOfGWogaXVpqUybF3ZS6SCZIsz8vg0ivVp9+fVqyYB7xq0aiST/VhUQYGO1qo6uoYSiEJqw==",
+      "upstreamSource": "https://github.com/iconify/iconify.git"
+    },
+    {
+      "name": "@mermaid-js/parser",
+      "version": "1.2.1",
+      "archive": "https://registry.npmjs.org/@mermaid-js/parser/-/parser-1.2.1.tgz",
+      "integrity": "sha512-n12NohV3mrUyUL2o93IgG/ifeW9FTyeJn3zDxkhwa8MJ9Fxg3HQMlA3RiGmD/3UnJvheztkjjQAjA2T4LmUcpw==",
+      "upstreamSource": "https://github.com/mermaid-js/mermaid.git"
+    },
+    {
+      "name": "@radix-ui/primitive",
+      "version": "1.1.3",
+      "archive": "https://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.1.3.tgz",
+      "integrity": "sha512-JTF99U/6XIjCBo0wqkU5sK10glYe27MRRsfwoiq5zzOEZLHU3A3KCMa5X/azekYRCJ0HlwI0crAXS/5dEHTzDg==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-compose-refs",
+      "version": "1.1.2",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.2.tgz",
+      "integrity": "sha512-z4eqJvfiNnFMHIIvXP3CY57y2WJs5g2v3X0zm9mEJkrkNv4rDxu+sg9Jh8EkXyeqBkB7SOcboo9dMVqhyrACIg==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-context",
+      "version": "1.1.2",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.1.2.tgz",
+      "integrity": "sha512-jCi/QKUM2r1Ju5a3J64TH2A5SpKAgh0LpknyqdQ4m6DCV0xJ2HG1xARRwNGPQfi1SLdLWZ1OJz6F4OMBBNiGJA==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-dialog",
+      "version": "1.1.15",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.15.tgz",
+      "integrity": "sha512-TCglVRtzlffRNxRMEyR36DGBLJpeusFcgMVD9PZEzAKnUs1lKCgX5u9BmC2Yg+LL9MgZDugFFs1Vl+Jp4t/PGw==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-dismissable-layer",
+      "version": "1.1.11",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.11.tgz",
+      "integrity": "sha512-Nqcp+t5cTB8BinFkZgXiMJniQH0PsUt2k51FUhbdfeKvc4ACcG2uQniY/8+h1Yv6Kza4Q7lD7PQV0z0oicE0Mg==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-focus-guards",
+      "version": "1.1.3",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-focus-guards/-/react-focus-guards-1.1.3.tgz",
+      "integrity": "sha512-0rFg/Rj2Q62NCm62jZw0QX7a3sz6QCQU0LpZdNrJX8byRGaGVTqbrW9jAoIAHyMQqsNpeZ81YgSizOt5WXq0Pw==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-focus-scope",
+      "version": "1.1.7",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.7.tgz",
+      "integrity": "sha512-t2ODlkXBQyn7jkl6TNaw/MtVEVvIGelJDCG41Okq/KwUsJBwQ4XVZsHAVUkK4mBv3ewiAS3PGuUWuY2BoK4ZUw==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-id",
+      "version": "1.1.1",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-id/-/react-id-1.1.1.tgz",
+      "integrity": "sha512-kGkGegYIdQsOb4XjsfM97rXsiHaBwco+hFI66oO4s9LU+PLAC5oJ7khdOVFxkhsmlbpUqDAvXw11CluXP+jkHg==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-portal",
+      "version": "1.1.9",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.9.tgz",
+      "integrity": "sha512-bpIxvq03if6UNwXZ+HTK71JLh4APvnXntDc6XOX8UVq4XQOVl7lwok0AvIl+b8zgCw3fSaVTZMpAPPagXbKmHQ==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-presence",
+      "version": "1.1.5",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.5.tgz",
+      "integrity": "sha512-/jfEwNDdQVBCNvjkGit4h6pMOzq8bHkopq458dPt2lMjx+eBQUohZNG9A7DtO/O5ukSbxuaNGXMjHicgwy6rQQ==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-primitive",
+      "version": "2.1.3",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.3.tgz",
+      "integrity": "sha512-m9gTwRkhy2lvCPe6QJp4d3G1TYEUHn/FzJUtq9MjH46an1wJU+GdoGC5VLof8RX8Ft/DlpshApkhswDLZzHIcQ==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-slot",
+      "version": "1.2.3",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.3.tgz",
+      "integrity": "sha512-aeNmHnBxbi2St0au6VBVC7JXFlhLlOnvIIlePNniyUNAClzmtAUEY8/pBiK3iHjufOlwA+c20/8jngo7xcrg8A==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-use-callback-ref",
+      "version": "1.1.1",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.1.1.tgz",
+      "integrity": "sha512-FkBMwD+qbGQeMu1cOHnuGB6x4yzPjho8ap5WtbEJ26umhgqVXbhekKUQO+hZEL1vU92a3wHwdp0HAcqAUF5iDg==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-use-controllable-state",
+      "version": "1.2.2",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.2.2.tgz",
+      "integrity": "sha512-BjasUjixPFdS+NKkypcyyN5Pmg83Olst0+c6vGov0diwTEo6mgdqVR6hxcEgFuh4QrAs7Rc+9KuGJ9TVCj0Zzg==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-use-effect-event",
+      "version": "0.0.2",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-use-effect-event/-/react-use-effect-event-0.0.2.tgz",
+      "integrity": "sha512-Qp8WbZOBe+blgpuUT+lw2xheLP8q0oatc9UpmiemEICxGvFLYmHm9QowVZGHtJlGbS6A6yJ3iViad/2cVjnOiA==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-use-escape-keydown",
+      "version": "1.1.1",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.1.1.tgz",
+      "integrity": "sha512-Il0+boE7w/XebUHyBjroE+DbByORGR9KKmITzbR7MyQ4akpORYP/ZmbhAr0DG7RmmBqoOnZdy2QlvajJ2QA59g==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@radix-ui/react-use-layout-effect",
+      "version": "1.1.1",
+      "archive": "https://registry.npmjs.org/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.1.1.tgz",
+      "integrity": "sha512-RbJRS4UWQFkzHTTwVymMTUv8EqYhOp8dOOviLj2ugtTiXRaRQS7GLGxZTLL1jWhMeoSCf5zmcZkqTl9IiYfXcQ==",
+      "upstreamSource": "git+https://github.com/radix-ui/primitives.git"
+    },
+    {
+      "name": "@tauri-apps/api",
+      "version": "2.11.0",
+      "archive": "https://registry.npmjs.org/@tauri-apps/api/-/api-2.11.0.tgz",
+      "integrity": "sha512-7CinYODhky9lmO23xHnUFv0Xt43fbtWMyxZcLcRBlFkcgXKuEirBvHpmtJ89YMhyeGcq20Wuc47Fa4XjyniywA==",
+      "upstreamSource": "git+https://github.com/tauri-apps/tauri.git"
+    },
+    {
+      "name": "@tauri-apps/plugin-dialog",
+      "version": "2.7.1",
+      "archive": "https://registry.npmjs.org/@tauri-apps/plugin-dialog/-/plugin-dialog-2.7.1.tgz",
+      "integrity": "sha512-OK1UBXYt+ojcmxMktzzuyonYIFta8CmAASpX+CA+DTGK24KlHjhYI6x2iOJ/TjZF4N7/ACK1oFmEOjIY9IhzOQ==",
+      "upstreamSource": "https://github.com/tauri-apps/plugins-workspace"
+    },
+    {
+      "name": "@tauri-apps/plugin-notification",
+      "version": "2.4.0",
+      "archive": "https://registry.npmjs.org/@tauri-apps/plugin-notification/-/plugin-notification-2.4.0.tgz",
+      "integrity": "sha512-xlJXMcUoKOjNupzDue5wrEsa1wytf+l/2gCAPhafHyP683Y3N7J/8clUWLZ3vpnwkpT2C1zcLMMQFjjecIG2xg==",
+      "upstreamSource": "https://github.com/tauri-apps/plugins-workspace"
+    },
+    {
+      "name": "@tauri-apps/plugin-process",
+      "version": "2.3.1",
+      "archive": "https://registry.npmjs.org/@tauri-apps/plugin-process/-/plugin-process-2.3.1.tgz",
+      "integrity": "sha512-nCa4fGVaDL/B9ai03VyPOjfAHRHSBz5v6F/ObsB73r/dA3MHHhZtldaDMIc0V/pnUw9ehzr2iEG+XkSEyC0JJA==",
+      "upstreamSource": "https://github.com/tauri-apps/plugins-workspace"
+    },
+    {
+      "name": "@tauri-apps/plugin-updater",
+      "version": "2.12.0",
+      "archive": "https://registry.npmjs.org/@tauri-apps/plugin-updater/-/plugin-updater-2.12.0.tgz",
+      "integrity": "sha512-74+g7rSIHXQje3ttR6tYap3FJP/UtZqqYxGVF9EE0Kpz0YADxHX2Ynw/eIlNPMy9D1aG+F8oBosT+6nphSa8Og==",
+      "upstreamSource": "https://github.com/tauri-apps/plugins-workspace"
+    },
+    {
+      "name": "@ungap/structured-clone",
+      "version": "1.3.1",
+      "archive": "https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.3.1.tgz",
+      "integrity": "sha512-mUFwbeTqrVgDQxFveS+df2yfap6iuP20NAKAsBt5jDEoOTDew+zwLAOilHCeQJOVSvmgCX4ogqIrA0mnyr08yQ==",
+      "upstreamSource": "git+https://github.com/ungap/structured-clone.git"
+    },
+    {
+      "name": "@upsetjs/venn.js",
+      "version": "2.0.0",
+      "archive": "https://registry.npmjs.org/@upsetjs/venn.js/-/venn.js-2.0.0.tgz",
+      "integrity": "sha512-WbBhLrooyePuQ1VZxrJjtLvTc4NVfpOyKx0sKqioq9bX1C1m7Jgykkn8gLrtwumBioXIqam8DLxp88Adbue6Hw==",
+      "upstreamSource": "https://github.com/upsetjs/venn.js.git"
+    },
+    {
+      "name": "@xterm/addon-fit",
+      "version": "0.10.0",
+      "archive": "https://registry.npmjs.org/@xterm/addon-fit/-/addon-fit-0.10.0.tgz",
+      "integrity": "sha512-UFYkDm4HUahf2lnEyHvio51TNGiLK66mqP2JoATy7hRZeXaGMRDr00JiSF7m63vR5WKATF605yEggJKsw0JpMQ==",
+      "upstreamSource": "https://github.com/xtermjs/xterm.js/tree/master/addons/addon-fit"
+    },
+    {
+      "name": "@xterm/addon-search",
+      "version": "0.16.0",
+      "archive": "https://registry.npmjs.org/@xterm/addon-search/-/addon-search-0.16.0.tgz",
+      "integrity": "sha512-9OeuBFu0/uZJPu+9AHKY6g/w0Czyb/Ut0A5t79I4ULoU4IfU5BEpPFVGQxP4zTTMdfZEYkVIRYbHBX1xWwjeSA==",
+      "upstreamSource": "https://github.com/xtermjs/xterm.js/tree/master/addons/addon-search"
+    },
+    {
+      "name": "@xterm/addon-unicode11",
+      "version": "0.9.0",
+      "archive": "https://registry.npmjs.org/@xterm/addon-unicode11/-/addon-unicode11-0.9.0.tgz",
+      "integrity": "sha512-FxDnYcyuXhNl+XSqGZL/t0U9eiNb/q3EWT5rYkQT/zuig8Gz/VagnQANKHdDWFM2lTMk9ly0EFQxxxtZUoRetw==",
+      "upstreamSource": "https://github.com/xtermjs/xterm.js/tree/master/addons/addon-unicode11"
+    },
+    {
+      "name": "@xterm/xterm",
+      "version": "5.5.0",
+      "archive": "https://registry.npmjs.org/@xterm/xterm/-/xterm-5.5.0.tgz",
+      "integrity": "sha512-hqJHYaQb5OptNunnyAnkHyM8aCjZ1MEIDTQu1iIbbTD/xops91NB5yq1ZK/dC2JDbVWtF23zUtl9JE2NqwT87A==",
+      "upstreamSource": "https://github.com/xtermjs/xterm.js"
+    },
+    {
+      "name": "aria-hidden",
+      "version": "1.2.6",
+      "archive": "https://registry.npmjs.org/aria-hidden/-/aria-hidden-1.2.6.tgz",
+      "integrity": "sha512-ik3ZgC9dY/lYVVM++OISsaYDeg1tb0VtP5uL3ouh1koGOaUMDPpbFIei4JkFimWUFPn90sbMNMXQAIVOlnYKJA==",
+      "upstreamSource": "git+https://github.com/theKashey/aria-hidden.git"
+    },
+    {
+      "name": "bail",
+      "version": "2.0.2",
+      "archive": "https://registry.npmjs.org/bail/-/bail-2.0.2.tgz",
+      "integrity": "sha512-0xO6mYd7JB2YesxDKplafRpsiOzPt9V02ddPCLbY1xYGPOX24NTyN50qnUxgCPcSoYMhKpAuBTjQoRZCAkUDRw==",
+      "upstreamSource": "wooorm/bail"
+    },
+    {
+      "name": "ccount",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/ccount/-/ccount-2.0.1.tgz",
+      "integrity": "sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==",
+      "upstreamSource": "wooorm/ccount"
+    },
+    {
+      "name": "character-entities",
+      "version": "2.0.2",
+      "archive": "https://registry.npmjs.org/character-entities/-/character-entities-2.0.2.tgz",
+      "integrity": "sha512-shx7oQ0Awen/BRIdkjkvz54PnEEI/EjwXDSIZp86/KKdbafHh1Df/RYGBhn4hbe2+uKC9FnT5UCEdyPz3ai9hQ==",
+      "upstreamSource": "wooorm/character-entities"
+    },
+    {
+      "name": "character-entities-html4",
+      "version": "2.1.0",
+      "archive": "https://registry.npmjs.org/character-entities-html4/-/character-entities-html4-2.1.0.tgz",
+      "integrity": "sha512-1v7fgQRj6hnSwFpq1Eu0ynr/CDEw0rXo2B61qXrLNdHZmPKgb7fqS1a2JwF0rISo9q77jDI8VMEHoApn8qDoZA==",
+      "upstreamSource": "wooorm/character-entities-html4"
+    },
+    {
+      "name": "character-entities-legacy",
+      "version": "3.0.0",
+      "archive": "https://registry.npmjs.org/character-entities-legacy/-/character-entities-legacy-3.0.0.tgz",
+      "integrity": "sha512-RpPp0asT/6ufRm//AJVwpViZbGM/MkjQFxJccQRHmISF/22NBtsHqAWmL+/pmkPWoIUJdWyeVleTl1wydHATVQ==",
+      "upstreamSource": "wooorm/character-entities-legacy"
+    },
+    {
+      "name": "character-reference-invalid",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/character-reference-invalid/-/character-reference-invalid-2.0.1.tgz",
+      "integrity": "sha512-iBZ4F4wRbyORVsu0jPV7gXkOsGYjGHPmAyv+HiHG8gi5PtC9KI2j1+v8/tlibRvjoWX027ypmG/n0HtO5t7unw==",
+      "upstreamSource": "wooorm/character-reference-invalid"
+    },
+    {
+      "name": "comma-separated-tokens",
+      "version": "2.0.3",
+      "archive": "https://registry.npmjs.org/comma-separated-tokens/-/comma-separated-tokens-2.0.3.tgz",
+      "integrity": "sha512-Fu4hJdvzeylCfQPp9SGWidpzrMs7tTrlu6Vb8XGaRGck8QSNZJJp538Wrb60Lax4fPwR64ViY468OIUTbRlGZg==",
+      "upstreamSource": "wooorm/comma-separated-tokens"
+    },
+    {
+      "name": "cose-base",
+      "version": "1.0.3",
+      "archive": "https://registry.npmjs.org/cose-base/-/cose-base-1.0.3.tgz",
+      "integrity": "sha512-s9whTXInMSgAp/NVXVNuVxVKzGH2qck3aQlVHxDCdAEPgtMKwc4Wq6/QKhgdEdgbLSi9rBTAcPoRa6JpiG4ksg==",
+      "upstreamSource": "git+https://github.com/iVis-at-Bilkent/cose-base.git"
+    },
+    {
+      "name": "csstype",
+      "version": "3.2.3",
+      "archive": "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz",
+      "integrity": "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==",
+      "upstreamSource": "https://github.com/frenic/csstype"
+    },
+    {
+      "name": "cytoscape",
+      "version": "3.34.0",
+      "archive": "https://registry.npmjs.org/cytoscape/-/cytoscape-3.34.0.tgz",
+      "integrity": "sha512-62rNSrioXw93uliKFBwjukeQyeWwH2PqDrTac31r2P6464u3AUvTk0xS4LVvT251g7IgkFunrI48ZEZGjywSOg==",
+      "upstreamSource": "https://github.com/cytoscape/cytoscape.js.git"
+    },
+    {
+      "name": "cytoscape-cose-bilkent",
+      "version": "4.1.0",
+      "archive": "https://registry.npmjs.org/cytoscape-cose-bilkent/-/cytoscape-cose-bilkent-4.1.0.tgz",
+      "integrity": "sha512-wgQlVIUJF13Quxiv5e1gstZ08rnZj2XaLHGoFMYXz7SkNfCDOOteKBE6SYRfA9WxxI/iBc3ajfDoc6hb/MRAHQ==",
+      "upstreamSource": "https://github.com/cytoscape/cytoscape.js-cose-bilkent.git"
+    },
+    {
+      "name": "cytoscape-fcose",
+      "version": "2.2.0",
+      "archive": "https://registry.npmjs.org/cytoscape-fcose/-/cytoscape-fcose-2.2.0.tgz",
+      "integrity": "sha512-ki1/VuRIHFCzxWNrsshHYPs6L7TvLu3DL+TyIGEsRcvVERmxokbf5Gdk7mFxZnTdiGtnA4cfSmjZJMviqSuZrQ==",
+      "upstreamSource": "https://github.com/iVis-at-Bilkent/cytoscape.js-fcose.git"
+    },
+    {
+      "name": "cose-base",
+      "version": "2.2.0",
+      "archive": "https://registry.npmjs.org/cose-base/-/cose-base-2.2.0.tgz",
+      "integrity": "sha512-AzlgcsCbUMymkADOJtQm3wO9S3ltPfYOFD5033keQn9NJzIbtnZj+UdBJe7DYml/8TdbtHJW3j58SOnKhWY/5g==",
+      "upstreamSource": "git+https://github.com/iVis-at-Bilkent/cose-base.git"
+    },
+    {
+      "name": "layout-base",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/layout-base/-/layout-base-2.0.1.tgz",
+      "integrity": "sha512-dp3s92+uNI1hWIpPGH3jK2kxE2lMjdXdr+DH8ynZHpd6PUlH6x6cbuXnoMmiNumznqaNO31xu9e79F0uuZ0JFg==",
+      "upstreamSource": "git+https://github.com/iVis-at-Bilkent/layout-base.git"
+    },
+    {
+      "name": "d3",
+      "version": "7.9.0",
+      "archive": "https://registry.npmjs.org/d3/-/d3-7.9.0.tgz",
+      "integrity": "sha512-e1U46jVP+w7Iut8Jt8ri1YsPOvFpg46k+K8TpCb0P+zjCkjkPnV7WzfDJzMHy1LnA+wj5pLT1wjO901gLXeEhA==",
+      "upstreamSource": "https://github.com/d3/d3.git"
+    },
+    {
+      "name": "d3-array",
+      "version": "3.2.4",
+      "archive": "https://registry.npmjs.org/d3-array/-/d3-array-3.2.4.tgz",
+      "integrity": "sha512-tdQAmyA18i4J7wprpYq8ClcxZy3SC31QMeByyCFyRt7BVHdREQZ5lpzoe5mFEYZUWe+oq8HBvk9JjpibyEV4Jg==",
+      "upstreamSource": "https://github.com/d3/d3-array.git"
+    },
+    {
+      "name": "d3-axis",
+      "version": "3.0.0",
+      "archive": "https://registry.npmjs.org/d3-axis/-/d3-axis-3.0.0.tgz",
+      "integrity": "sha512-IH5tgjV4jE/GhHkRV0HiVYPDtvfjHQlQfJHs0usq7M30XcSBvOotpmH1IgkcXsO/5gEQZD43B//fc7SRT5S+xw==",
+      "upstreamSource": "https://github.com/d3/d3-axis.git"
+    },
+    {
+      "name": "d3-brush",
+      "version": "3.0.0",
+      "archive": "https://registry.npmjs.org/d3-brush/-/d3-brush-3.0.0.tgz",
+      "integrity": "sha512-ALnjWlVYkXsVIGlOsuWH1+3udkYFI48Ljihfnh8FZPF2QS9o+PzGLBslO0PjzVoHLZ2KCVgAM8NVkXPJB2aNnQ==",
+      "upstreamSource": "https://github.com/d3/d3-brush.git"
+    },
+    {
+      "name": "d3-chord",
+      "version": "3.0.1",
+      "archive": "https://registry.npmjs.org/d3-chord/-/d3-chord-3.0.1.tgz",
+      "integrity": "sha512-VE5S6TNa+j8msksl7HwjxMHDM2yNK3XCkusIlpX5kwauBfXuyLAtNg9jCp/iHH61tgI4sb6R/EIMWCqEIdjT/g==",
+      "upstreamSource": "https://github.com/d3/d3-chord.git"
+    },
+    {
+      "name": "d3-color",
+      "version": "3.1.0",
+      "archive": "https://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz",
+      "integrity": "sha512-zg/chbXyeBtMQ1LbD/WSoW2DpC3I0mpmPdW+ynRTj/x2DAWYrIY7qeZIHidozwV24m4iavr15lNwIwLxRmOxhA==",
+      "upstreamSource": "https://github.com/d3/d3-color.git"
+    },
+    {
+      "name": "d3-contour",
+      "version": "4.0.2",
+      "archive": "https://registry.npmjs.org/d3-contour/-/d3-contour-4.0.2.tgz",
+      "integrity": "sha512-4EzFTRIikzs47RGmdxbeUvLWtGedDUNkTcmzoeyg4sP/dvCexO47AaQL7VKy/gul85TOxw+IBgA8US2xwbToNA==",
+      "upstreamSource": "https://github.com/d3/d3-contour.git"
+    },
+    {
+      "name": "d3-delaunay",
+      "version": "6.0.4",
+      "archive": "https://registry.npmjs.org/d3-delaunay/-/d3-delaunay-6.0.4.tgz",
+      "integrity": "sha512-mdjtIZ1XLAM8bm/hx3WwjfHt6Sggek7qH043O8KEjDXN40xi3vx/6pYSVTwLjEgiXQTbvaouWKynLBiUZ6SK6A==",
+      "upstreamSource": "https://github.com/d3/d3-delaunay.git"
+    },
+    {
+      "name": "d3-dispatch",
+      "version": "3.0.1",
+      "archive": "https://registry.npmjs.org/d3-dispatch/-/d3-dispatch-3.0.1.tgz",
+      "integrity": "sha512-rzUyPU/S7rwUflMyLc1ETDeBj0NRuHKKAcvukozwhshr6g6c5d8zh4c2gQjY2bZ0dXeGLWc1PF174P2tVvKhfg==",
+      "upstreamSource": "https://github.com/d3/d3-dispatch.git"
+    },
+    {
+      "name": "d3-drag",
+      "version": "3.0.0",
+      "archive": "https://registry.npmjs.org/d3-drag/-/d3-drag-3.0.0.tgz",
+      "integrity": "sha512-pWbUJLdETVA8lQNJecMxoXfH6x+mO2UQo8rSmZ+QqxcbyA3hfeprFgIT//HW2nlHChWeIIMwS2Fq+gEARkhTkg==",
+      "upstreamSource": "https://github.com/d3/d3-drag.git"
+    },
+    {
+      "name": "d3-dsv",
+      "version": "3.0.1",
+      "archive": "https://registry.npmjs.org/d3-dsv/-/d3-dsv-3.0.1.tgz",
+      "integrity": "sha512-UG6OvdI5afDIFP9w4G0mNq50dSOsXHJaRE8arAS5o9ApWnIElp8GZw1Dun8vP8OyHOZ/QJUKUJwxiiCCnUwm+Q==",
+      "upstreamSource": "https://github.com/d3/d3-dsv.git"
+    },
+    {
+      "name": "commander",
+      "version": "7.2.0",
+      "archive": "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz",
+      "integrity": "sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==",
+      "upstreamSource": "https://github.com/tj/commander.js.git"
+    },
+    {
+      "name": "d3-ease",
+      "version": "3.0.1",
+      "archive": "https://registry.npmjs.org/d3-ease/-/d3-ease-3.0.1.tgz",
+      "integrity": "sha512-wR/XK3D3XcLIZwpbvQwQ5fK+8Ykds1ip7A2Txe0yxncXSdq1L9skcG7blcedkOX+ZcgxGAmLX1FrRGbADwzi0w==",
+      "upstreamSource": "https://github.com/d3/d3-ease.git"
+    },
+    {
+      "name": "d3-fetch",
+      "version": "3.0.1",
+      "archive": "https://registry.npmjs.org/d3-fetch/-/d3-fetch-3.0.1.tgz",
+      "integrity": "sha512-kpkQIM20n3oLVBKGg6oHrUchHM3xODkTzjMoj7aWQFq5QEM+R6E4WkzT5+tojDY7yjez8KgCBRoj4aEr99Fdqw==",
+      "upstreamSource": "https://github.com/d3/d3-fetch.git"
+    },
+    {
+      "name": "d3-force",
+      "version": "3.0.0",
+      "archive": "https://registry.npmjs.org/d3-force/-/d3-force-3.0.0.tgz",
+      "integrity": "sha512-zxV/SsA+U4yte8051P4ECydjD/S+qeYtnaIyAs9tgHCqfguma/aAQDjo85A9Z6EKhBirHRJHXIgJUlffT4wdLg==",
+      "upstreamSource": "https://github.com/d3/d3-force.git"
+    },
+    {
+      "name": "d3-format",
+      "version": "3.1.2",
+      "archive": "https://registry.npmjs.org/d3-format/-/d3-format-3.1.2.tgz",
+      "integrity": "sha512-AJDdYOdnyRDV5b6ArilzCPPwc1ejkHcoyFarqlPqT7zRYjhavcT3uSrqcMvsgh2CgoPbK3RCwyHaVyxYcP2Arg==",
+      "upstreamSource": "https://github.com/d3/d3-format.git"
+    },
+    {
+      "name": "d3-geo",
+      "version": "3.1.1",
+      "archive": "https://registry.npmjs.org/d3-geo/-/d3-geo-3.1.1.tgz",
+      "integrity": "sha512-637ln3gXKXOwhalDzinUgY83KzNWZRKbYubaG+fGVuc/dxO64RRljtCTnf5ecMyE1RIdtqpkVcq0IbtU2S8j2Q==",
+      "upstreamSource": "https://github.com/d3/d3-geo.git"
+    },
+    {
+      "name": "d3-hierarchy",
+      "version": "3.1.2",
+      "archive": "https://registry.npmjs.org/d3-hierarchy/-/d3-hierarchy-3.1.2.tgz",
+      "integrity": "sha512-FX/9frcub54beBdugHjDCdikxThEqjnR93Qt7PvQTOHxyiNCAlvMrHhclk3cD5VeAaq9fxmfRp+CnWw9rEMBuA==",
+      "upstreamSource": "https://github.com/d3/d3-hierarchy.git"
+    },
+    {
+      "name": "d3-interpolate",
+      "version": "3.0.1",
+      "archive": "https://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz",
+      "integrity": "sha512-3bYs1rOD33uo8aqJfKP3JWPAibgw8Zm2+L9vBKEHJ2Rg+viTR7o5Mmv5mZcieN+FRYaAOWX5SJATX6k1PWz72g==",
+      "upstreamSource": "https://github.com/d3/d3-interpolate.git"
+    },
+    {
+      "name": "d3-path",
+      "version": "3.1.0",
+      "archive": "https://registry.npmjs.org/d3-path/-/d3-path-3.1.0.tgz",
+      "integrity": "sha512-p3KP5HCf/bvjBSSKuXid6Zqijx7wIfNW+J/maPs+iwR35at5JCbLUT0LzF1cnjbCHWhqzQTIN2Jpe8pRebIEFQ==",
+      "upstreamSource": "https://github.com/d3/d3-path.git"
+    },
+    {
+      "name": "d3-polygon",
+      "version": "3.0.1",
+      "archive": "https://registry.npmjs.org/d3-polygon/-/d3-polygon-3.0.1.tgz",
+      "integrity": "sha512-3vbA7vXYwfe1SYhED++fPUQlWSYTTGmFmQiany/gdbiWgU/iEyQzyymwL9SkJjFFuCS4902BSzewVGsHHmHtXg==",
+      "upstreamSource": "https://github.com/d3/d3-polygon.git"
+    },
+    {
+      "name": "d3-quadtree",
+      "version": "3.0.1",
+      "archive": "https://registry.npmjs.org/d3-quadtree/-/d3-quadtree-3.0.1.tgz",
+      "integrity": "sha512-04xDrxQTDTCFwP5H6hRhsRcb9xxv2RzkcsygFzmkSIOJy3PeRJP7sNk3VRIbKXcog561P9oU0/rVH6vDROAgUw==",
+      "upstreamSource": "https://github.com/d3/d3-quadtree.git"
+    },
+    {
+      "name": "d3-random",
+      "version": "3.0.1",
+      "archive": "https://registry.npmjs.org/d3-random/-/d3-random-3.0.1.tgz",
+      "integrity": "sha512-FXMe9GfxTxqd5D6jFsQ+DJ8BJS4E/fT5mqqdjovykEB2oFbTMDVdg1MGFxfQW+FBOGoB++k8swBrgwSHT1cUXQ==",
+      "upstreamSource": "https://github.com/d3/d3-random.git"
+    },
+    {
+      "name": "d3-sankey",
+      "version": "0.12.3",
+      "archive": "https://registry.npmjs.org/d3-sankey/-/d3-sankey-0.12.3.tgz",
+      "integrity": "sha512-nQhsBRmM19Ax5xEIPLMY9ZmJ/cDvd1BG3UVvt5h3WRxKg5zGRbvnteTyWAbzeSvlh3tW7ZEmq4VwR5mB3tutmQ==",
+      "upstreamSource": "https://github.com/d3/d3-sankey.git"
+    },
+    {
+      "name": "d3-array",
+      "version": "2.12.1",
+      "archive": "https://registry.npmjs.org/d3-array/-/d3-array-2.12.1.tgz",
+      "integrity": "sha512-B0ErZK/66mHtEsR1TkPEEkwdy+WDesimkM5gpZr5Dsg54BiTA5RXtYW5qTLIAcekaS9xfZrzBLF/OAkB3Qn1YQ==",
+      "upstreamSource": "https://github.com/d3/d3-array.git"
+    },
+    {
+      "name": "d3-path",
+      "version": "1.0.9",
+      "archive": "https://registry.npmjs.org/d3-path/-/d3-path-1.0.9.tgz",
+      "integrity": "sha512-VLaYcn81dtHVTjEHd8B+pbe9yHWpXKZUC87PzoFmsFrJqgFwDe/qxfp5MlfsfM1V5E/iVt0MmEbWQ7FVIXh/bg==",
+      "upstreamSource": "https://github.com/d3/d3-path.git"
+    },
+    {
+      "name": "d3-shape",
+      "version": "1.3.7",
+      "archive": "https://registry.npmjs.org/d3-shape/-/d3-shape-1.3.7.tgz",
+      "integrity": "sha512-EUkvKjqPFUAZyOlhY5gzCxCeI0Aep04LwIRpsZ/mLFelJiUfnK56jo5JMDSE7yyP2kLSb6LtF+S5chMk7uqPqw==",
+      "upstreamSource": "https://github.com/d3/d3-shape.git"
+    },
+    {
+      "name": "internmap",
+      "version": "1.0.1",
+      "archive": "https://registry.npmjs.org/internmap/-/internmap-1.0.1.tgz",
+      "integrity": "sha512-lDB5YccMydFBtasVtxnZ3MRBHuaoE8GKsppq+EchKL2U4nK/DmEpPHNH8MZe5HkMtpSiTSOZwfN0tzYjO/lJEw==",
+      "upstreamSource": "https://github.com/mbostock/internmap.git"
+    },
+    {
+      "name": "d3-scale",
+      "version": "4.0.2",
+      "archive": "https://registry.npmjs.org/d3-scale/-/d3-scale-4.0.2.tgz",
+      "integrity": "sha512-GZW464g1SH7ag3Y7hXjf8RoUuAFIqklOAq3MRl4OaWabTFJY9PN/E1YklhXLh+OQ3fM9yS2nOkCoS+WLZ6kvxQ==",
+      "upstreamSource": "https://github.com/d3/d3-scale.git"
+    },
+    {
+      "name": "d3-scale-chromatic",
+      "version": "3.1.0",
+      "archive": "https://registry.npmjs.org/d3-scale-chromatic/-/d3-scale-chromatic-3.1.0.tgz",
+      "integrity": "sha512-A3s5PWiZ9YCXFye1o246KoscMWqf8BsD9eRiJ3He7C9OBaxKhAd5TFCdEx/7VbKtxxTsu//1mMJFrEt572cEyQ==",
+      "upstreamSource": "https://github.com/d3/d3-scale-chromatic.git"
+    },
+    {
+      "name": "d3-selection",
+      "version": "3.0.0",
+      "archive": "https://registry.npmjs.org/d3-selection/-/d3-selection-3.0.0.tgz",
+      "integrity": "sha512-fmTRWbNMmsmWq6xJV8D19U/gw/bwrHfNXxrIN+HfZgnzqTHp9jOmKMhsTUjXOJnZOdZY9Q28y4yebKzqDKlxlQ==",
+      "upstreamSource": "https://github.com/d3/d3-selection.git"
+    },
+    {
+      "name": "d3-shape",
+      "version": "3.2.0",
+      "archive": "https://registry.npmjs.org/d3-shape/-/d3-shape-3.2.0.tgz",
+      "integrity": "sha512-SaLBuwGm3MOViRq2ABk3eLoxwZELpH6zhl3FbAoJ7Vm1gofKx6El1Ib5z23NUEhF9AsGl7y+dzLe5Cw2AArGTA==",
+      "upstreamSource": "https://github.com/d3/d3-shape.git"
+    },
+    {
+      "name": "d3-time",
+      "version": "3.1.0",
+      "archive": "https://registry.npmjs.org/d3-time/-/d3-time-3.1.0.tgz",
+      "integrity": "sha512-VqKjzBLejbSMT4IgbmVgDjpkYrNWUYJnbCGo874u7MMKIWsILRX+OpX/gTk8MqjpT1A/c6HY2dCA77ZN0lkQ2Q==",
+      "upstreamSource": "https://github.com/d3/d3-time.git"
+    },
+    {
+      "name": "d3-time-format",
+      "version": "4.1.0",
+      "archive": "https://registry.npmjs.org/d3-time-format/-/d3-time-format-4.1.0.tgz",
+      "integrity": "sha512-dJxPBlzC7NugB2PDLwo9Q8JiTR3M3e4/XANkreKSUxF8vvXKqm1Yfq4Q5dl8budlunRVlUUaDUgFt7eA8D6NLg==",
+      "upstreamSource": "https://github.com/d3/d3-time-format.git"
+    },
+    {
+      "name": "d3-timer",
+      "version": "3.0.1",
+      "archive": "https://registry.npmjs.org/d3-timer/-/d3-timer-3.0.1.tgz",
+      "integrity": "sha512-ndfJ/JxxMd3nw31uyKoY2naivF+r29V+Lc0svZxe1JvvIRmi8hUsrMvdOwgS1o6uBHmiz91geQ0ylPP0aj1VUA==",
+      "upstreamSource": "https://github.com/d3/d3-timer.git"
+    },
+    {
+      "name": "d3-transition",
+      "version": "3.0.1",
+      "archive": "https://registry.npmjs.org/d3-transition/-/d3-transition-3.0.1.tgz",
+      "integrity": "sha512-ApKvfjsSR6tg06xrL434C0WydLr7JewBB3V+/39RMHsaXTOG0zmt/OAXeng5M5LBm0ojmxJrpomQVZ1aPvBL4w==",
+      "upstreamSource": "https://github.com/d3/d3-transition.git"
+    },
+    {
+      "name": "d3-zoom",
+      "version": "3.0.0",
+      "archive": "https://registry.npmjs.org/d3-zoom/-/d3-zoom-3.0.0.tgz",
+      "integrity": "sha512-b8AmV3kfQaqWAuacbPuNbL6vahnOJflOhexLzMMNLga62+/nh0JzvJ0aO/5a5MVgUFGS7Hu1P9P03o3fJkDCyw==",
+      "upstreamSource": "https://github.com/d3/d3-zoom.git"
+    },
+    {
+      "name": "dagre-d3-es",
+      "version": "7.0.14",
+      "archive": "https://registry.npmjs.org/dagre-d3-es/-/dagre-d3-es-7.0.14.tgz",
+      "integrity": "sha512-P4rFMVq9ESWqmOgK+dlXvOtLwYg0i7u0HBGJER0LZDJT2VHIPAMZ/riPxqJceWMStH5+E61QxFra9kIS3AqdMg==",
+      "upstreamSource": "git+https://github.com/tbo47/dagre-es.git"
+    },
+    {
+      "name": "dayjs",
+      "version": "1.11.21",
+      "archive": "https://registry.npmjs.org/dayjs/-/dayjs-1.11.21.tgz",
+      "integrity": "sha512-98IT+HOahAisibz/yjKbzuOBwYcjJ7BCLPzARyHiyEBmRz4fatF+KPJszEHXsGYjUG234aH/cOjW1wwTbKUZlA==",
+      "upstreamSource": "https://github.com/iamkun/dayjs.git"
+    },
+    {
+      "name": "debug",
+      "version": "4.4.3",
+      "archive": "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz",
+      "integrity": "sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==",
+      "upstreamSource": "git://github.com/debug-js/debug.git"
+    },
+    {
+      "name": "decode-named-character-reference",
+      "version": "1.3.0",
+      "archive": "https://registry.npmjs.org/decode-named-character-reference/-/decode-named-character-reference-1.3.0.tgz",
+      "integrity": "sha512-GtpQYB283KrPp6nRw50q3U9/VfOutZOe103qlN7BPP6Ad27xYnOIWv4lPzo8HCAL+mMZofJ9KEy30fq6MfaK6Q==",
+      "upstreamSource": "wooorm/decode-named-character-reference"
+    },
+    {
+      "name": "delaunator",
+      "version": "5.1.0",
+      "archive": "https://registry.npmjs.org/delaunator/-/delaunator-5.1.0.tgz",
+      "integrity": "sha512-AGrQ4QSgssa1NGmWmLPqN5NY2KajF5MqxetNEO+o0n3ZwZZeTmt7bBnvzHWrmkZFxGgr4HdyFgelzgi06otLuQ==",
+      "upstreamSource": "https://github.com/mapbox/delaunator.git"
+    },
+    {
+      "name": "dequal",
+      "version": "2.0.3",
+      "archive": "https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz",
+      "integrity": "sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==",
+      "upstreamSource": "lukeed/dequal"
+    },
+    {
+      "name": "detect-node-es",
+      "version": "1.1.0",
+      "archive": "https://registry.npmjs.org/detect-node-es/-/detect-node-es-1.1.0.tgz",
+      "integrity": "sha512-ypdmJU/TbBby2Dxibuv7ZLW3Bs1QEmM7nHjEANfohJLvE0XVujisn1qPJcZxg+qDucsr+bP6fLD1rPS3AhJ7EQ==",
+      "upstreamSource": "https://github.com/thekashey/detect-node"
+    },
+    {
+      "name": "devlop",
+      "version": "1.1.0",
+      "archive": "https://registry.npmjs.org/devlop/-/devlop-1.1.0.tgz",
+      "integrity": "sha512-RWmIqhcFf1lRYBvNmr7qTNuyCt/7/ns2jbpp1+PalgE/rDQcBT0fioSMUpJ93irlUhC5hrg4cYqe6U+0ImW0rA==",
+      "upstreamSource": "wooorm/devlop"
+    },
+    {
+      "name": "dompurify",
+      "version": "3.4.16",
+      "archive": "https://registry.npmjs.org/dompurify/-/dompurify-3.4.16.tgz",
+      "integrity": "sha512-sqo+pNp3qRhCIpbgRi1y8Tgk27Bo2Ry7w0dC1NBeNTdZChWjz9Xb/KOoZbRP/R6pQZ80Qw8YhXw13hWWBbMRnQ==",
+      "upstreamSource": "git://github.com/cure53/DOMPurify.git"
+    },
+    {
+      "name": "es-toolkit",
+      "version": "1.48.1",
+      "archive": "https://registry.npmjs.org/es-toolkit/-/es-toolkit-1.48.1.tgz",
+      "integrity": "sha512-wfnXlwd5I75eXRtdD2vuEs50xHHESECDsGD7yiQnfFVNoa5522NwXEbmgo98LfiukSQHs+mBM7/YG3qKJB9/mQ==",
+      "upstreamSource": "https://github.com/toss/es-toolkit.git"
+    },
+    {
+      "name": "escape-string-regexp",
+      "version": "5.0.0",
+      "archive": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-5.0.0.tgz",
+      "integrity": "sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==",
+      "upstreamSource": "sindresorhus/escape-string-regexp"
+    },
+    {
+      "name": "estree-util-is-identifier-name",
+      "version": "3.0.0",
+      "archive": "https://registry.npmjs.org/estree-util-is-identifier-name/-/estree-util-is-identifier-name-3.0.0.tgz",
+      "integrity": "sha512-hFtqIDZTIUZ9BXLb8y4pYGyk6+wekIivNVTcmvk8NoOh+VeRn5y6cEHzbURrWbfp1fIqdVipilzj+lfaadNZmg==",
+      "upstreamSource": "syntax-tree/estree-util-is-identifier-name"
+    },
+    {
+      "name": "extend",
+      "version": "3.0.2",
+      "archive": "https://registry.npmjs.org/extend/-/extend-3.0.2.tgz",
+      "integrity": "sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==",
+      "upstreamSource": "https://github.com/justmoon/node-extend.git"
+    },
+    {
+      "name": "get-nonce",
+      "version": "1.0.1",
+      "archive": "https://registry.npmjs.org/get-nonce/-/get-nonce-1.0.1.tgz",
+      "integrity": "sha512-FJhYRoDaiatfEkUK8HKlicmu/3SGFD51q3itKDGoSTysQJBnfOcxU5GxnhE1E6soB76MbT0MBtnKJuXyAx+96Q==",
+      "upstreamSource": "git@github.com:theKashey/get-nonce.git"
+    },
+    {
+      "name": "hachure-fill",
+      "version": "0.5.2",
+      "archive": "https://registry.npmjs.org/hachure-fill/-/hachure-fill-0.5.2.tgz",
+      "integrity": "sha512-3GKBOn+m2LX9iq+JC1064cSFprJY4jL1jCXTcpnfER5HYE2l/4EfWSGzkPa/ZDBmYI0ZOEj5VHV/eKnPGkHuOg==",
+      "upstreamSource": "git+https://github.com/pshihn/hachure-fill.git"
+    },
+    {
+      "name": "hast-util-to-jsx-runtime",
+      "version": "2.3.6",
+      "archive": "https://registry.npmjs.org/hast-util-to-jsx-runtime/-/hast-util-to-jsx-runtime-2.3.6.tgz",
+      "integrity": "sha512-zl6s8LwNyo1P9uw+XJGvZtdFF1GdAkOg8ujOw+4Pyb76874fLps4ueHXDhXWdk6YHQ6OgUtinliG7RsYvCbbBg==",
+      "upstreamSource": "syntax-tree/hast-util-to-jsx-runtime"
+    },
+    {
+      "name": "hast-util-whitespace",
+      "version": "3.0.0",
+      "archive": "https://registry.npmjs.org/hast-util-whitespace/-/hast-util-whitespace-3.0.0.tgz",
+      "integrity": "sha512-88JUN06ipLwsnv+dVn+OIYOvAuvBMy/Qoi6O7mQHxdPXpjy+Cd6xRkWwux7DKO+4sYILtLBRIKgsdpS2gQc7qw==",
+      "upstreamSource": "syntax-tree/hast-util-whitespace"
+    },
+    {
+      "name": "html-url-attributes",
+      "version": "3.0.1",
+      "archive": "https://registry.npmjs.org/html-url-attributes/-/html-url-attributes-3.0.1.tgz",
+      "integrity": "sha512-ol6UPyBWqsrO6EJySPz2O7ZSr856WDrEzM5zMqp+FJJLGMW35cLYmmZnl0vztAZxRUoNZJFTCohfjuIJ8I4QBQ==",
+      "upstreamSource": "https://github.com/rehypejs/rehype-minify/tree/main/packages/html-url-attributes"
+    },
+    {
+      "name": "iconv-lite",
+      "version": "0.6.3",
+      "archive": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz",
+      "integrity": "sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==",
+      "upstreamSource": "git://github.com/ashtuchkin/iconv-lite.git"
+    },
+    {
+      "name": "import-meta-resolve",
+      "version": "4.2.0",
+      "archive": "https://registry.npmjs.org/import-meta-resolve/-/import-meta-resolve-4.2.0.tgz",
+      "integrity": "sha512-Iqv2fzaTQN28s/FwZAoFq0ZSs/7hMAHJVX+w8PZl3cY19Pxk6jFFalxQoIfW2826i/fDLXv8IiEZRIT0lDuWcg==",
+      "upstreamSource": "wooorm/import-meta-resolve"
+    },
+    {
+      "name": "inline-style-parser",
+      "version": "0.2.7",
+      "archive": "https://registry.npmjs.org/inline-style-parser/-/inline-style-parser-0.2.7.tgz",
+      "integrity": "sha512-Nb2ctOyNR8DqQoR0OwRG95uNWIC0C1lCgf5Naz5H6Ji72KZ8OcFZLz2P5sNgwlyoJ8Yif11oMuYs5pBQa86csA==",
+      "upstreamSource": "git+https://github.com/remarkablemark/inline-style-parser.git"
+    },
+    {
+      "name": "internmap",
+      "version": "2.0.3",
+      "archive": "https://registry.npmjs.org/internmap/-/internmap-2.0.3.tgz",
+      "integrity": "sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg==",
+      "upstreamSource": "https://github.com/mbostock/internmap.git"
+    },
+    {
+      "name": "is-alphabetical",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/is-alphabetical/-/is-alphabetical-2.0.1.tgz",
+      "integrity": "sha512-FWyyY60MeTNyeSRpkM2Iry0G9hpr7/9kD40mD/cGQEuilcZYS4okz8SN2Q6rLCJ8gbCt6fN+rC+6tMGS99LaxQ==",
+      "upstreamSource": "wooorm/is-alphabetical"
+    },
+    {
+      "name": "is-alphanumerical",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/is-alphanumerical/-/is-alphanumerical-2.0.1.tgz",
+      "integrity": "sha512-hmbYhX/9MUMF5uh7tOXyK/n0ZvWpad5caBA17GsC6vyuCqaWliRG5K1qS9inmUhEMaOBIW7/whAnSwveW/LtZw==",
+      "upstreamSource": "wooorm/is-alphanumerical"
+    },
+    {
+      "name": "is-decimal",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/is-decimal/-/is-decimal-2.0.1.tgz",
+      "integrity": "sha512-AAB9hiomQs5DXWcRB1rqsxGUstbRroFOPPVAomNk/3XHR5JyEZChOyTWe2oayKnsSsr/kcGqF+z6yuH6HHpN0A==",
+      "upstreamSource": "wooorm/is-decimal"
+    },
+    {
+      "name": "is-hexadecimal",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/is-hexadecimal/-/is-hexadecimal-2.0.1.tgz",
+      "integrity": "sha512-DgZQp241c8oO6cA1SbTEWiXeoxV42vlcJxgH+B3hi1AiqqKruZR3ZGF8In3fj4+/y/7rHvlOZLZtgJ/4ttYGZg==",
+      "upstreamSource": "wooorm/is-hexadecimal"
+    },
+    {
+      "name": "is-plain-obj",
+      "version": "4.1.0",
+      "archive": "https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-4.1.0.tgz",
+      "integrity": "sha512-+Pgi+vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61/mmDqg==",
+      "upstreamSource": "sindresorhus/is-plain-obj"
+    },
+    {
+      "name": "js-tokens",
+      "version": "4.0.0",
+      "archive": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz",
+      "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+      "upstreamSource": "lydell/js-tokens"
+    },
+    {
+      "name": "katex",
+      "version": "0.16.47",
+      "archive": "https://registry.npmjs.org/katex/-/katex-0.16.47.tgz",
+      "integrity": "sha512-Eeo8Ys1doU1z+x8AZsPpQu+p/QcZBI5PeOo7QGQdy2x2m0MU/hYagBbGOmXwr5KVbEfVuWv9LpnQWeehogurjg==",
+      "upstreamSource": "https://github.com/KaTeX/KaTeX.git"
+    },
+    {
+      "name": "commander",
+      "version": "8.3.0",
+      "archive": "https://registry.npmjs.org/commander/-/commander-8.3.0.tgz",
+      "integrity": "sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==",
+      "upstreamSource": "https://github.com/tj/commander.js.git"
+    },
+    {
+      "name": "khroma",
+      "version": "2.1.0",
+      "archive": "https://registry.npmjs.org/khroma/-/khroma-2.1.0.tgz",
+      "integrity": "sha512-Ls993zuzfayK269Svk9hzpeGUKob/sIgZzyHYdjQoAdQetRKpOLj+k/QQQ/6Qi0Yz65mlROrfd+Ev+1+7dz9Kw==",
+      "upstreamSource": "github:fabiospampinato/khroma"
+    },
+    {
+      "name": "layout-base",
+      "version": "1.0.2",
+      "archive": "https://registry.npmjs.org/layout-base/-/layout-base-1.0.2.tgz",
+      "integrity": "sha512-8h2oVEZNktL4BH2JCOI90iD1yXwL6iNW7KcCKT2QZgQJR2vbqDsldCTPRU9NifTCqHZci57XvQQ15YTu+sTYPg==",
+      "upstreamSource": "git+https://github.com/iVis-at-Bilkent/layout-base.git"
+    },
+    {
+      "name": "lodash-es",
+      "version": "4.18.1",
+      "archive": "https://registry.npmjs.org/lodash-es/-/lodash-es-4.18.1.tgz",
+      "integrity": "sha512-J8xewKD/Gk22OZbhpOVSwcs60zhd95ESDwezOFuA3/099925PdHJ7OFHNTGtajL3AlZkykD32HykiMo+BIBI8A==",
+      "upstreamSource": "lodash/lodash"
+    },
+    {
+      "name": "longest-streak",
+      "version": "3.1.0",
+      "archive": "https://registry.npmjs.org/longest-streak/-/longest-streak-3.1.0.tgz",
+      "integrity": "sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==",
+      "upstreamSource": "wooorm/longest-streak"
+    },
+    {
+      "name": "loose-envify",
+      "version": "1.4.0",
+      "archive": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz",
+      "integrity": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+      "upstreamSource": "git://github.com/zertosh/loose-envify.git"
+    },
+    {
+      "name": "lucide-react",
+      "version": "0.460.0",
+      "archive": "https://registry.npmjs.org/lucide-react/-/lucide-react-0.460.0.tgz",
+      "integrity": "sha512-BVtq/DykVeIvRTJvRAgCsOwaGL8Un3Bxh8MbDxMhEWlZay3T4IpEKDEpwt5KZ0KJMHzgm6jrltxlT5eXOWXDHg==",
+      "upstreamSource": "https://github.com/lucide-icons/lucide.git"
+    },
+    {
+      "name": "markdown-table",
+      "version": "3.0.4",
+      "archive": "https://registry.npmjs.org/markdown-table/-/markdown-table-3.0.4.tgz",
+      "integrity": "sha512-wiYz4+JrLyb/DqW2hkFJxP7Vd7JuTDm77fvbM8VfEQdmSMqcImWeeRbHwZjBjIFki/VaMK2BhFi7oUUZeM5bqw==",
+      "upstreamSource": "wooorm/markdown-table"
+    },
+    {
+      "name": "marked",
+      "version": "16.4.2",
+      "archive": "https://registry.npmjs.org/marked/-/marked-16.4.2.tgz",
+      "integrity": "sha512-TI3V8YYWvkVf3KJe1dRkpnjs68JUPyEa5vjKrp1XEEJUAOaQc+Qj+L1qWbPd0SJuAdQkFU0h73sXXqwDYxsiDA==",
+      "upstreamSource": "git://github.com/markedjs/marked.git"
+    },
+    {
+      "name": "mdast-util-find-and-replace",
+      "version": "3.0.2",
+      "archive": "https://registry.npmjs.org/mdast-util-find-and-replace/-/mdast-util-find-and-replace-3.0.2.tgz",
+      "integrity": "sha512-Tmd1Vg/m3Xz43afeNxDIhWRtFZgM2VLyaf4vSTYwudTyeuTneoL3qtWMA5jeLyz/O1vDJmmV4QuScFCA2tBPwg==",
+      "upstreamSource": "syntax-tree/mdast-util-find-and-replace"
+    },
+    {
+      "name": "mdast-util-from-markdown",
+      "version": "2.0.3",
+      "archive": "https://registry.npmjs.org/mdast-util-from-markdown/-/mdast-util-from-markdown-2.0.3.tgz",
+      "integrity": "sha512-W4mAWTvSlKvf8L6J+VN9yLSqQ9AOAAvHuoDAmPkz4dHf553m5gVj2ejadHJhoJmcmxEnOv6Pa8XJhpxE93kb8Q==",
+      "upstreamSource": "syntax-tree/mdast-util-from-markdown"
+    },
+    {
+      "name": "mdast-util-gfm",
+      "version": "3.1.0",
+      "archive": "https://registry.npmjs.org/mdast-util-gfm/-/mdast-util-gfm-3.1.0.tgz",
+      "integrity": "sha512-0ulfdQOM3ysHhCJ1p06l0b0VKlhU0wuQs3thxZQagjcjPrlFRqY215uZGHHJan9GEAXd9MbfPjFJz+qMkVR6zQ==",
+      "upstreamSource": "syntax-tree/mdast-util-gfm"
+    },
+    {
+      "name": "mdast-util-gfm-autolink-literal",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/mdast-util-gfm-autolink-literal/-/mdast-util-gfm-autolink-literal-2.0.1.tgz",
+      "integrity": "sha512-5HVP2MKaP6L+G6YaxPNjuL0BPrq9orG3TsrZ9YXbA3vDw/ACI4MEsnoDpn6ZNm7GnZgtAcONJyPhOP8tNJQavQ==",
+      "upstreamSource": "syntax-tree/mdast-util-gfm-autolink-literal"
+    },
+    {
+      "name": "mdast-util-gfm-footnote",
+      "version": "2.1.0",
+      "archive": "https://registry.npmjs.org/mdast-util-gfm-footnote/-/mdast-util-gfm-footnote-2.1.0.tgz",
+      "integrity": "sha512-sqpDWlsHn7Ac9GNZQMeUzPQSMzR6Wv0WKRNvQRg0KqHh02fpTz69Qc1QSseNX29bhz1ROIyNyxExfawVKTm1GQ==",
+      "upstreamSource": "syntax-tree/mdast-util-gfm-footnote"
+    },
+    {
+      "name": "mdast-util-gfm-strikethrough",
+      "version": "2.0.0",
+      "archive": "https://registry.npmjs.org/mdast-util-gfm-strikethrough/-/mdast-util-gfm-strikethrough-2.0.0.tgz",
+      "integrity": "sha512-mKKb915TF+OC5ptj5bJ7WFRPdYtuHv0yTRxK2tJvi+BDqbkiG7h7u/9SI89nRAYcmap2xHQL9D+QG/6wSrTtXg==",
+      "upstreamSource": "syntax-tree/mdast-util-gfm-strikethrough"
+    },
+    {
+      "name": "mdast-util-gfm-table",
+      "version": "2.0.0",
+      "archive": "https://registry.npmjs.org/mdast-util-gfm-table/-/mdast-util-gfm-table-2.0.0.tgz",
+      "integrity": "sha512-78UEvebzz/rJIxLvE7ZtDd/vIQ0RHv+3Mh5DR96p7cS7HsBhYIICDBCu8csTNWNO6tBWfqXPWekRuj2FNOGOZg==",
+      "upstreamSource": "syntax-tree/mdast-util-gfm-table"
+    },
+    {
+      "name": "mdast-util-gfm-task-list-item",
+      "version": "2.0.0",
+      "archive": "https://registry.npmjs.org/mdast-util-gfm-task-list-item/-/mdast-util-gfm-task-list-item-2.0.0.tgz",
+      "integrity": "sha512-IrtvNvjxC1o06taBAVJznEnkiHxLFTzgonUdy8hzFVeDun0uTjxxrRGVaNFqkU1wJR3RBPEfsxmU6jDWPofrTQ==",
+      "upstreamSource": "syntax-tree/mdast-util-gfm-task-list-item"
+    },
+    {
+      "name": "mdast-util-mdx-expression",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/mdast-util-mdx-expression/-/mdast-util-mdx-expression-2.0.1.tgz",
+      "integrity": "sha512-J6f+9hUp+ldTZqKRSg7Vw5V6MqjATc+3E4gf3CFNcuZNWD8XdyI6zQ8GqH7f8169MM6P7hMBRDVGnn7oHB9kXQ==",
+      "upstreamSource": "syntax-tree/mdast-util-mdx-expression"
+    },
+    {
+      "name": "mdast-util-mdx-jsx",
+      "version": "3.2.0",
+      "archive": "https://registry.npmjs.org/mdast-util-mdx-jsx/-/mdast-util-mdx-jsx-3.2.0.tgz",
+      "integrity": "sha512-lj/z8v0r6ZtsN/cGNNtemmmfoLAFZnjMbNyLzBafjzikOM+glrjNHPlf6lQDOTccj9n5b0PPihEBbhneMyGs1Q==",
+      "upstreamSource": "syntax-tree/mdast-util-mdx-jsx"
+    },
+    {
+      "name": "mdast-util-mdxjs-esm",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/mdast-util-mdxjs-esm/-/mdast-util-mdxjs-esm-2.0.1.tgz",
+      "integrity": "sha512-EcmOpxsZ96CvlP03NghtH1EsLtr0n9Tm4lPUJUBccV9RwUOneqSycg19n5HGzCf+10LozMRSObtVr3ee1WoHtg==",
+      "upstreamSource": "syntax-tree/mdast-util-mdxjs-esm"
+    },
+    {
+      "name": "mdast-util-phrasing",
+      "version": "4.1.0",
+      "archive": "https://registry.npmjs.org/mdast-util-phrasing/-/mdast-util-phrasing-4.1.0.tgz",
+      "integrity": "sha512-TqICwyvJJpBwvGAMZjj4J2n0X8QWp21b9l0o7eXyVJ25YNWYbJDVIyD1bZXE6WtV6RmKJVYmQAKWa0zWOABz2w==",
+      "upstreamSource": "syntax-tree/mdast-util-phrasing"
+    },
+    {
+      "name": "mdast-util-to-hast",
+      "version": "13.2.1",
+      "archive": "https://registry.npmjs.org/mdast-util-to-hast/-/mdast-util-to-hast-13.2.1.tgz",
+      "integrity": "sha512-cctsq2wp5vTsLIcaymblUriiTcZd0CwWtCbLvrOzYCDZoWyMNV8sZ7krj09FSnsiJi3WVsHLM4k6Dq/yaPyCXA==",
+      "upstreamSource": "syntax-tree/mdast-util-to-hast"
+    },
+    {
+      "name": "mdast-util-to-markdown",
+      "version": "2.1.2",
+      "archive": "https://registry.npmjs.org/mdast-util-to-markdown/-/mdast-util-to-markdown-2.1.2.tgz",
+      "integrity": "sha512-xj68wMTvGXVOKonmog6LwyJKrYXZPvlwabaryTjLh9LuvovB/KAH+kvi8Gjj+7rJjsFi23nkUxRQv1KqSroMqA==",
+      "upstreamSource": "syntax-tree/mdast-util-to-markdown"
+    },
+    {
+      "name": "mdast-util-to-string",
+      "version": "4.0.0",
+      "archive": "https://registry.npmjs.org/mdast-util-to-string/-/mdast-util-to-string-4.0.0.tgz",
+      "integrity": "sha512-0H44vDimn51F0YwvxSJSm0eCDOJTRlmN0R1yBh4HLj9wiV1Dn0QoXGbvFAWj2hSItVTlCmBF1hqKlIyUBVFLPg==",
+      "upstreamSource": "syntax-tree/mdast-util-to-string"
+    },
+    {
+      "name": "mermaid",
+      "version": "11.16.1",
+      "archive": "https://registry.npmjs.org/mermaid/-/mermaid-11.16.1.tgz",
+      "integrity": "sha512-TQsq6u22fAn3rek5VOubrhKPo1g5hwC3FXUN9hiyupTckcYiGuuKGkNQrKYwGJkXUxZdojwRG46gsSCFZMDp4g==",
+      "upstreamSource": "https://github.com/mermaid-js/mermaid"
+    },
+    {
+      "name": "micromark",
+      "version": "4.0.2",
+      "archive": "https://registry.npmjs.org/micromark/-/micromark-4.0.2.tgz",
+      "integrity": "sha512-zpe98Q6kvavpCr1NPVSCMebCKfD7CA2NqZ+rykeNhONIJBpc1tFKt9hucLGwha3jNTNI8lHpctWJWoimVF4PfA==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark"
+    },
+    {
+      "name": "micromark-core-commonmark",
+      "version": "2.0.3",
+      "archive": "https://registry.npmjs.org/micromark-core-commonmark/-/micromark-core-commonmark-2.0.3.tgz",
+      "integrity": "sha512-RDBrHEMSxVFLg6xvnXmb1Ayr2WzLAWjeSATAoxwKYJV94TeNavgoIdA0a9ytzDSVzBy2YKFK+emCPOEibLeCrg==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-core-commonmark"
+    },
+    {
+      "name": "micromark-extension-gfm",
+      "version": "3.0.0",
+      "archive": "https://registry.npmjs.org/micromark-extension-gfm/-/micromark-extension-gfm-3.0.0.tgz",
+      "integrity": "sha512-vsKArQsicm7t0z2GugkCKtZehqUm31oeGBV/KVSorWSy8ZlNAv7ytjFhvaryUiCUJYqs+NoE6AFhpQvBTM6Q4w==",
+      "upstreamSource": "micromark/micromark-extension-gfm"
+    },
+    {
+      "name": "micromark-extension-gfm-autolink-literal",
+      "version": "2.1.0",
+      "archive": "https://registry.npmjs.org/micromark-extension-gfm-autolink-literal/-/micromark-extension-gfm-autolink-literal-2.1.0.tgz",
+      "integrity": "sha512-oOg7knzhicgQ3t4QCjCWgTmfNhvQbDDnJeVu9v81r7NltNCVmhPy1fJRX27pISafdjL+SVc4d3l48Gb6pbRypw==",
+      "upstreamSource": "micromark/micromark-extension-gfm-autolink-literal"
+    },
+    {
+      "name": "micromark-extension-gfm-footnote",
+      "version": "2.1.0",
+      "archive": "https://registry.npmjs.org/micromark-extension-gfm-footnote/-/micromark-extension-gfm-footnote-2.1.0.tgz",
+      "integrity": "sha512-/yPhxI1ntnDNsiHtzLKYnE3vf9JZ6cAisqVDauhp4CEHxlb4uoOTxOCJ+9s51bIB8U1N1FJ1RXOKTIlD5B/gqw==",
+      "upstreamSource": "micromark/micromark-extension-gfm-footnote"
+    },
+    {
+      "name": "micromark-extension-gfm-strikethrough",
+      "version": "2.1.0",
+      "archive": "https://registry.npmjs.org/micromark-extension-gfm-strikethrough/-/micromark-extension-gfm-strikethrough-2.1.0.tgz",
+      "integrity": "sha512-ADVjpOOkjz1hhkZLlBiYA9cR2Anf8F4HqZUO6e5eDcPQd0Txw5fxLzzxnEkSkfnD0wziSGiv7sYhk/ktvbf1uw==",
+      "upstreamSource": "micromark/micromark-extension-gfm-strikethrough"
+    },
+    {
+      "name": "micromark-extension-gfm-table",
+      "version": "2.1.1",
+      "archive": "https://registry.npmjs.org/micromark-extension-gfm-table/-/micromark-extension-gfm-table-2.1.1.tgz",
+      "integrity": "sha512-t2OU/dXXioARrC6yWfJ4hqB7rct14e8f7m0cbI5hUmDyyIlwv5vEtooptH8INkbLzOatzKuVbQmAYcbWoyz6Dg==",
+      "upstreamSource": "micromark/micromark-extension-gfm-table"
+    },
+    {
+      "name": "micromark-extension-gfm-tagfilter",
+      "version": "2.0.0",
+      "archive": "https://registry.npmjs.org/micromark-extension-gfm-tagfilter/-/micromark-extension-gfm-tagfilter-2.0.0.tgz",
+      "integrity": "sha512-xHlTOmuCSotIA8TW1mDIM6X2O1SiX5P9IuDtqGonFhEK0qgRI4yeC6vMxEV2dgyr2TiD+2PQ10o+cOhdVAcwfg==",
+      "upstreamSource": "micromark/micromark-extension-gfm-tagfilter"
+    },
+    {
+      "name": "micromark-extension-gfm-task-list-item",
+      "version": "2.1.0",
+      "archive": "https://registry.npmjs.org/micromark-extension-gfm-task-list-item/-/micromark-extension-gfm-task-list-item-2.1.0.tgz",
+      "integrity": "sha512-qIBZhqxqI6fjLDYFTBIa4eivDMnP+OZqsNwmQ3xNLE4Cxwc+zfQEfbs6tzAo2Hjq+bh6q5F+Z8/cksrLFYWQQw==",
+      "upstreamSource": "micromark/micromark-extension-gfm-task-list-item"
+    },
+    {
+      "name": "micromark-factory-destination",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-factory-destination/-/micromark-factory-destination-2.0.1.tgz",
+      "integrity": "sha512-Xe6rDdJlkmbFRExpTOmRj9N3MaWmbAgdpSrBQvCFqhezUn4AHqJHbaEnfbVYYiexVSs//tqOdY/DxhjdCiJnIA==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-factory-destination"
+    },
+    {
+      "name": "micromark-factory-label",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-factory-label/-/micromark-factory-label-2.0.1.tgz",
+      "integrity": "sha512-VFMekyQExqIW7xIChcXn4ok29YE3rnuyveW3wZQWWqF4Nv9Wk5rgJ99KzPvHjkmPXF93FXIbBp6YdW3t71/7Vg==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-factory-label"
+    },
+    {
+      "name": "micromark-factory-space",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-factory-space/-/micromark-factory-space-2.0.1.tgz",
+      "integrity": "sha512-zRkxjtBxxLd2Sc0d+fbnEunsTj46SWXgXciZmHq0kDYGnck/ZSGj9/wULTV95uoeYiK5hRXP2mJ98Uo4cq/LQg==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-factory-space"
+    },
+    {
+      "name": "micromark-factory-title",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-factory-title/-/micromark-factory-title-2.0.1.tgz",
+      "integrity": "sha512-5bZ+3CjhAd9eChYTHsjy6TGxpOFSKgKKJPJxr293jTbfry2KDoWkhBb6TcPVB4NmzaPhMs1Frm9AZH7OD4Cjzw==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-factory-title"
+    },
+    {
+      "name": "micromark-factory-whitespace",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-factory-whitespace/-/micromark-factory-whitespace-2.0.1.tgz",
+      "integrity": "sha512-Ob0nuZ3PKt/n0hORHyvoD9uZhr+Za8sFoP+OnMcnWK5lngSzALgQYKMr9RJVOWLqQYuyn6ulqGWSXdwf6F80lQ==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-factory-whitespace"
+    },
+    {
+      "name": "micromark-util-character",
+      "version": "2.1.1",
+      "archive": "https://registry.npmjs.org/micromark-util-character/-/micromark-util-character-2.1.1.tgz",
+      "integrity": "sha512-wv8tdUTJ3thSFFFJKtpYKOYiGP2+v96Hvk4Tu8KpCAsTMs6yi+nVmGh1syvSCsaxz45J6Jbw+9DD6g97+NV67Q==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-character"
+    },
+    {
+      "name": "micromark-util-chunked",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-util-chunked/-/micromark-util-chunked-2.0.1.tgz",
+      "integrity": "sha512-QUNFEOPELfmvv+4xiNg2sRYeS/P84pTW0TCgP5zc9FpXetHY0ab7SxKyAQCNCc1eK0459uoLI1y5oO5Vc1dbhA==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-chunked"
+    },
+    {
+      "name": "micromark-util-classify-character",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-util-classify-character/-/micromark-util-classify-character-2.0.1.tgz",
+      "integrity": "sha512-K0kHzM6afW/MbeWYWLjoHQv1sgg2Q9EccHEDzSkxiP/EaagNzCm7T/WMKZ3rjMbvIpvBiZgwR3dKMygtA4mG1Q==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-classify-character"
+    },
+    {
+      "name": "micromark-util-combine-extensions",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-util-combine-extensions/-/micromark-util-combine-extensions-2.0.1.tgz",
+      "integrity": "sha512-OnAnH8Ujmy59JcyZw8JSbK9cGpdVY44NKgSM7E9Eh7DiLS2E9RNQf0dONaGDzEG9yjEl5hcqeIsj4hfRkLH/Bg==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-combine-extensions"
+    },
+    {
+      "name": "micromark-util-decode-numeric-character-reference",
+      "version": "2.0.2",
+      "archive": "https://registry.npmjs.org/micromark-util-decode-numeric-character-reference/-/micromark-util-decode-numeric-character-reference-2.0.2.tgz",
+      "integrity": "sha512-ccUbYk6CwVdkmCQMyr64dXz42EfHGkPQlBj5p7YVGzq8I7CtjXZJrubAYezf7Rp+bjPseiROqe7G6foFd+lEuw==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-decode-numeric-character-reference"
+    },
+    {
+      "name": "micromark-util-decode-string",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-util-decode-string/-/micromark-util-decode-string-2.0.1.tgz",
+      "integrity": "sha512-nDV/77Fj6eH1ynwscYTOsbK7rR//Uj0bZXBwJZRfaLEJ1iGBR6kIfNmlNqaqJf649EP0F3NWNdeJi03elllNUQ==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-decode-string"
+    },
+    {
+      "name": "micromark-util-encode",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-util-encode/-/micromark-util-encode-2.0.1.tgz",
+      "integrity": "sha512-c3cVx2y4KqUnwopcO9b/SCdo2O67LwJJ/UyqGfbigahfegL9myoEFoDYZgkT7f36T0bLrM9hZTAaAyH+PCAXjw==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-encode"
+    },
+    {
+      "name": "micromark-util-html-tag-name",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-2.0.1.tgz",
+      "integrity": "sha512-2cNEiYDhCWKI+Gs9T0Tiysk136SnR13hhO8yW6BGNyhOC4qYFnwF1nKfD3HFAIXA5c45RrIG1ub11GiXeYd1xA==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-html-tag-name"
+    },
+    {
+      "name": "micromark-util-normalize-identifier",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-2.0.1.tgz",
+      "integrity": "sha512-sxPqmo70LyARJs0w2UclACPUUEqltCkJ6PhKdMIDuJ3gSf/Q+/GIe3WKl0Ijb/GyH9lOpUkRAO2wp0GVkLvS9Q==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-normalize-identifier"
+    },
+    {
+      "name": "micromark-util-resolve-all",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-util-resolve-all/-/micromark-util-resolve-all-2.0.1.tgz",
+      "integrity": "sha512-VdQyxFWFT2/FGJgwQnJYbe1jjQoNTS4RjglmSjTUlpUMa95Htx9NHeYW4rGDJzbjvCsl9eLjMQwGeElsqmzcHg==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-resolve-all"
+    },
+    {
+      "name": "micromark-util-sanitize-uri",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-util-sanitize-uri/-/micromark-util-sanitize-uri-2.0.1.tgz",
+      "integrity": "sha512-9N9IomZ/YuGGZZmQec1MbgxtlgougxTodVwDzzEouPKo3qFWvymFHWcnDi2vzV1ff6kas9ucW+o3yzJK9YB1AQ==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-sanitize-uri"
+    },
+    {
+      "name": "micromark-util-subtokenize",
+      "version": "2.1.0",
+      "archive": "https://registry.npmjs.org/micromark-util-subtokenize/-/micromark-util-subtokenize-2.1.0.tgz",
+      "integrity": "sha512-XQLu552iSctvnEcgXw6+Sx75GflAPNED1qx7eBJ+wydBb2KCbRZe+NwvIEEMM83uml1+2WSXpBAcp9IUCgCYWA==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-subtokenize"
+    },
+    {
+      "name": "micromark-util-symbol",
+      "version": "2.0.1",
+      "archive": "https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-2.0.1.tgz",
+      "integrity": "sha512-vs5t8Apaud9N28kgCrRUdEed4UJ+wWNvicHLPxCa9ENlYuAY31M0ETy5y1vA33YoNPDFTghEbnh6efaE8h4x0Q==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-symbol"
+    },
+    {
+      "name": "micromark-util-types",
+      "version": "2.0.2",
+      "archive": "https://registry.npmjs.org/micromark-util-types/-/micromark-util-types-2.0.2.tgz",
+      "integrity": "sha512-Yw0ECSpJoViF1qTU4DC6NwtC4aWGt1EkzaQB8KPPyCRR8z9TWeV0HbEFGTO+ZY1wB22zmxnJqhPyTpOVCpeHTA==",
+      "upstreamSource": "https://github.com/micromark/micromark/tree/main/packages/micromark-util-types"
+    },
+    {
+      "name": "ms",
+      "version": "2.1.3",
+      "archive": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+      "integrity": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==",
+      "upstreamSource": "vercel/ms"
+    },
+    {
+      "name": "nanoid",
+      "version": "5.1.16",
+      "archive": "https://registry.npmjs.org/nanoid/-/nanoid-5.1.16.tgz",
+      "integrity": "sha512-kVrnsrJqMR8+oLJnGEmSWw9BivK5mt7H3FZatVRjrc5wGqFYuBxX1yG7+A7Gi5AefkX6t/oCkizcQgpu0cY1dQ==",
+      "upstreamSource": "ai/nanoid"
+    },
+    {
+      "name": "package-manager-detector",
+      "version": "1.6.0",
+      "archive": "https://registry.npmjs.org/package-manager-detector/-/package-manager-detector-1.6.0.tgz",
+      "integrity": "sha512-61A5ThoTiDG/C8s8UMZwSorAGwMJ0ERVGj2OjoW5pAalsNOg15+iQiPzrLJ4jhZ1HJzmC2PIHT2oEiH3R5fzNA==",
+      "upstreamSource": "git+https://github.com/antfu-collective/package-manager-detector.git"
+    },
+    {
+      "name": "parse-entities",
+      "version": "4.0.2",
+      "archive": "https://registry.npmjs.org/parse-entities/-/parse-entities-4.0.2.tgz",
+      "integrity": "sha512-GG2AQYWoLgL877gQIKeRPGO1xF9+eG1ujIb5soS5gPvLQ1y2o8FL90w2QWNdf9I361Mpp7726c+lj3U0qK1uGw==",
+      "upstreamSource": "wooorm/parse-entities"
+    },
+    {
+      "name": "path-data-parser",
+      "version": "0.1.0",
+      "archive": "https://registry.npmjs.org/path-data-parser/-/path-data-parser-0.1.0.tgz",
+      "integrity": "sha512-NOnmBpt5Y2RWbuv0LMzsayp3lVylAHLPUTut412ZA3l+C4uw4ZVkQbjShYCQ8TCpUMdPapr4YjUqLYD6v68j+w==",
+      "upstreamSource": "git+https://github.com/pshihn/path-data-parser.git"
+    },
+    {
+      "name": "points-on-curve",
+      "version": "0.2.0",
+      "archive": "https://registry.npmjs.org/points-on-curve/-/points-on-curve-0.2.0.tgz",
+      "integrity": "sha512-0mYKnYYe9ZcqMCWhUjItv/oHjvgEsfKvnUTg8sAtnHr3GVy7rGkXCb6d5cSyqrWqL4k81b9CPg3urd+T7aop3A==",
+      "upstreamSource": "git+https://github.com/pshihn/bezier-points.git"
+    },
+    {
+      "name": "points-on-path",
+      "version": "0.2.1",
+      "archive": "https://registry.npmjs.org/points-on-path/-/points-on-path-0.2.1.tgz",
+      "integrity": "sha512-25ClnWWuw7JbWZcgqY/gJ4FQWadKxGWk+3kR/7kD0tCaDtPPMj7oHu2ToLaVhfpnHrZzYby2w6tUA0eOIuUg8g==",
+      "upstreamSource": "git+https://github.com/pshihn/points-on-path.git"
+    },
+    {
+      "name": "property-information",
+      "version": "7.2.0",
+      "archive": "https://registry.npmjs.org/property-information/-/property-information-7.2.0.tgz",
+      "integrity": "sha512-IAtzIB6sUiWaJYrX9smp3V46pBGbBeLFRGdh25kg1334VcBlD8HzhPeNIWQH9zhGmo2itIe25EHt9dQP7G5hmg==",
+      "upstreamSource": "wooorm/property-information"
+    },
+    {
+      "name": "react",
+      "version": "18.3.1",
+      "archive": "https://registry.npmjs.org/react/-/react-18.3.1.tgz",
+      "integrity": "sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==",
+      "upstreamSource": "https://github.com/facebook/react.git"
+    },
+    {
+      "name": "react-dom",
+      "version": "18.3.1",
+      "archive": "https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz",
+      "integrity": "sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==",
+      "upstreamSource": "https://github.com/facebook/react.git"
+    },
+    {
+      "name": "react-markdown",
+      "version": "9.1.0",
+      "archive": "https://registry.npmjs.org/react-markdown/-/react-markdown-9.1.0.tgz",
+      "integrity": "sha512-xaijuJB0kzGiUdG7nc2MOMDUDBWPyGAjZtUrow9XxUeua8IqeP+VlIfAZ3bphpcLTnSZXz6z9jcVC/TCwbfgdw==",
+      "upstreamSource": "remarkjs/react-markdown"
+    },
+    {
+      "name": "react-remove-scroll",
+      "version": "2.7.2",
+      "archive": "https://registry.npmjs.org/react-remove-scroll/-/react-remove-scroll-2.7.2.tgz",
+      "integrity": "sha512-Iqb9NjCCTt6Hf+vOdNIZGdTiH1QSqr27H/Ek9sv/a97gfueI/5h1s3yRi1nngzMUaOOToin5dI1dXKdXiF+u0Q==",
+      "upstreamSource": "https://github.com/theKashey/react-remove-scroll"
+    },
+    {
+      "name": "react-remove-scroll-bar",
+      "version": "2.3.8",
+      "archive": "https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz",
+      "integrity": "sha512-9r+yi9+mgU33AKcj6IbT9oRCO78WriSj6t/cF8DWBZJ9aOGPOTEDvdUDz1FwKim7QXWwmHqtdHnRJfhAxEG46Q==",
+      "upstreamSource": "https://github.com/theKashey/react-remove-scroll-bar"
+    },
+    {
+      "name": "react-resizable-panels",
+      "version": "4.11.0",
+      "archive": "https://registry.npmjs.org/react-resizable-panels/-/react-resizable-panels-4.11.0.tgz",
+      "integrity": "sha512-LPk/AkFDGkg7SsbOyL93ojrE6E7lhrxxDwnYNjfmnSeI6BE7Sje6dB24PXgZk8DeugdeXNk1LO+ohRqIjhxiLw==",
+      "upstreamSource": "https://github.com/bvaughn/react-resizable-panels.git"
+    },
+    {
+      "name": "react-style-singleton",
+      "version": "2.2.3",
+      "archive": "https://registry.npmjs.org/react-style-singleton/-/react-style-singleton-2.2.3.tgz",
+      "integrity": "sha512-b6jSvxvVnyptAiLjbkWLE/lOnR4lfTtDAl+eUC7RZy+QQWc6wRzIV2CE6xBuMmDxc2qIihtDCZD5NPOFl7fRBQ==",
+      "upstreamSource": "https://github.com/theKashey/react-style-singleton"
+    },
+    {
+      "name": "remark-gfm",
+      "version": "4.0.1",
+      "archive": "https://registry.npmjs.org/remark-gfm/-/remark-gfm-4.0.1.tgz",
+      "integrity": "sha512-1quofZ2RQ9EWdeN34S79+KExV1764+wCUGop5CPL1WGdD0ocPpu91lzPGbwWMECpEpd42kJGQwzRfyov9j4yNg==",
+      "upstreamSource": "remarkjs/remark-gfm"
+    },
+    {
+      "name": "remark-parse",
+      "version": "11.0.0",
+      "archive": "https://registry.npmjs.org/remark-parse/-/remark-parse-11.0.0.tgz",
+      "integrity": "sha512-FCxlKLNGknS5ba/1lmpYijMUzX2esxW5xQqjWxw2eHFfS2MSdaHVINFmhjo+qN1WhZhNimq0dZATN9pH0IDrpA==",
+      "upstreamSource": "https://github.com/remarkjs/remark/tree/main/packages/remark-parse"
+    },
+    {
+      "name": "remark-rehype",
+      "version": "11.1.2",
+      "archive": "https://registry.npmjs.org/remark-rehype/-/remark-rehype-11.1.2.tgz",
+      "integrity": "sha512-Dh7l57ianaEoIpzbp0PC9UKAdCSVklD8E5Rpw7ETfbTl3FqcOOgq5q2LVDhgGCkaBv7p24JXikPdvhhmHvKMsw==",
+      "upstreamSource": "remarkjs/remark-rehype"
+    },
+    {
+      "name": "remark-stringify",
+      "version": "11.0.0",
+      "archive": "https://registry.npmjs.org/remark-stringify/-/remark-stringify-11.0.0.tgz",
+      "integrity": "sha512-1OSmLd3awB/t8qdoEOMazZkNsfVTeY4fTsgzcQFdXNq8ToTN4ZGwrMnlda4K6smTFKD+GRV6O48i6Z4iKgPPpw==",
+      "upstreamSource": "https://github.com/remarkjs/remark/tree/main/packages/remark-stringify"
+    },
+    {
+      "name": "robust-predicates",
+      "version": "3.0.3",
+      "archive": "https://registry.npmjs.org/robust-predicates/-/robust-predicates-3.0.3.tgz",
+      "integrity": "sha512-NS3levdsRIUOmiJ8FZWCP7LG3QpJyrs/TE0Zpf1yvZu8cAJJ6QMW92H1c7kWpdIHo8RvmLxN/o2JXTKHp74lUA==",
+      "upstreamSource": "https://github.com/mourner/robust-predicates.git"
+    },
+    {
+      "name": "roughjs",
+      "version": "4.6.6",
+      "archive": "https://registry.npmjs.org/roughjs/-/roughjs-4.6.6.tgz",
+      "integrity": "sha512-ZUz/69+SYpFN/g/lUlo2FXcIjRkSu3nDarreVdGGndHEBJ6cXPdKguS8JGxwj5HA5xIbVKSmLgr5b3AWxtRfvQ==",
+      "upstreamSource": "git+https://github.com/pshihn/rough.git"
+    },
+    {
+      "name": "rw",
+      "version": "1.3.3",
+      "archive": "https://registry.npmjs.org/rw/-/rw-1.3.3.tgz",
+      "integrity": "sha512-PdhdWy89SiZogBLaw42zdeqtRJ//zFd2PgQavcICDUgJT5oW10QCRKbJ6bg4r0/UY2M6BWd5tkxuGFRvCkgfHQ==",
+      "upstreamSource": "http://github.com/mbostock/rw.git"
+    },
+    {
+      "name": "safer-buffer",
+      "version": "2.1.2",
+      "archive": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz",
+      "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==",
+      "upstreamSource": "git+https://github.com/ChALkeR/safer-buffer.git"
+    },
+    {
+      "name": "scheduler",
+      "version": "0.23.2",
+      "archive": "https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz",
+      "integrity": "sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==",
+      "upstreamSource": "https://github.com/facebook/react.git"
+    },
+    {
+      "name": "space-separated-tokens",
+      "version": "2.0.2",
+      "archive": "https://registry.npmjs.org/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz",
+      "integrity": "sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==",
+      "upstreamSource": "wooorm/space-separated-tokens"
+    },
+    {
+      "name": "stringify-entities",
+      "version": "4.0.4",
+      "archive": "https://registry.npmjs.org/stringify-entities/-/stringify-entities-4.0.4.tgz",
+      "integrity": "sha512-IwfBptatlO+QCJUo19AqvrPNqlVMpW9YEL2LIVY+Rpv2qsjCGxaDLNRgeGsQWJhfItebuJhsGSLjaBbNSQ+ieg==",
+      "upstreamSource": "wooorm/stringify-entities"
+    },
+    {
+      "name": "style-to-js",
+      "version": "1.1.21",
+      "archive": "https://registry.npmjs.org/style-to-js/-/style-to-js-1.1.21.tgz",
+      "integrity": "sha512-RjQetxJrrUJLQPHbLku6U/ocGtzyjbJMP9lCNK7Ag0CNh690nSH8woqWH9u16nMjYBAok+i7JO1NP2pOy8IsPQ==",
+      "upstreamSource": "git+https://github.com/remarkablemark/style-to-js.git"
+    },
+    {
+      "name": "style-to-object",
+      "version": "1.0.14",
+      "archive": "https://registry.npmjs.org/style-to-object/-/style-to-object-1.0.14.tgz",
+      "integrity": "sha512-LIN7rULI0jBscWQYaSswptyderlarFkjQ+t79nzty8tcIAceVomEVlLzH5VP4Cmsv6MtKhs7qaAiwlcp+Mgaxw==",
+      "upstreamSource": "git+https://github.com/remarkablemark/style-to-object.git"
+    },
+    {
+      "name": "stylis",
+      "version": "4.4.0",
+      "archive": "https://registry.npmjs.org/stylis/-/stylis-4.4.0.tgz",
+      "integrity": "sha512-5Z9ZpRzfuH6l/UAvCPAPUo3665Nk2wLaZU3x+TLHKVzIz33+sbJqbtrYoC3KD4/uVOr2Zp+L0LySezP9OHV9yA==",
+      "upstreamSource": "https://github.com/thysultan/stylis.js"
+    },
+    {
+      "name": "tinyexec",
+      "version": "1.2.4",
+      "archive": "https://registry.npmjs.org/tinyexec/-/tinyexec-1.2.4.tgz",
+      "integrity": "sha512-SHf/r48b7vOrjve9PxJo3MN5v5yuyjHvdUcrQffT3WXMUfnGmHDVbC4k3sHJaJTgZCwpUplIaAo5ANtMyp3YHg==",
+      "upstreamSource": "git+https://github.com/tinylibs/tinyexec.git"
+    },
+    {
+      "name": "trim-lines",
+      "version": "3.0.1",
+      "archive": "https://registry.npmjs.org/trim-lines/-/trim-lines-3.0.1.tgz",
+      "integrity": "sha512-kRj8B+YHZCc9kQYdWfJB2/oUl9rA99qbowYYBtr4ui4mZyAQ2JpvVBd/6U2YloATfqBhBTSMhTpgBHtU0Mf3Rg==",
+      "upstreamSource": "wooorm/trim-lines"
+    },
+    {
+      "name": "trough",
+      "version": "2.2.0",
+      "archive": "https://registry.npmjs.org/trough/-/trough-2.2.0.tgz",
+      "integrity": "sha512-tmMpK00BjZiUyVyvrBK7knerNgmgvcV/KLVyuma/SC+TQN167GrMRciANTz09+k3zW8L8t60jWO1GpfkZdjTaw==",
+      "upstreamSource": "wooorm/trough"
+    },
+    {
+      "name": "ts-dedent",
+      "version": "2.3.0",
+      "archive": "https://registry.npmjs.org/ts-dedent/-/ts-dedent-2.3.0.tgz",
+      "integrity": "sha512-JfJeIHke7y2egdGGgRAvpCwYFUsHlM2gPcrVOxFkznt/4uzQ7HFmvE63iFHVLBJNDuyDOQgijDK/tXH/f6Msjg==",
+      "upstreamSource": "https://github.com/tamino-martinius/node-ts-dedent.git"
+    },
+    {
+      "name": "tslib",
+      "version": "2.8.1",
+      "archive": "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz",
+      "integrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==",
+      "upstreamSource": "https://github.com/Microsoft/tslib.git"
+    },
+    {
+      "name": "unified",
+      "version": "11.0.5",
+      "archive": "https://registry.npmjs.org/unified/-/unified-11.0.5.tgz",
+      "integrity": "sha512-xKvGhPWw3k84Qjh8bI3ZeJjqnyadK+GEFtazSfZv/rKeTkTjOJho6mFqh2SM96iIcZokxiOpg78GazTSg8+KHA==",
+      "upstreamSource": "unifiedjs/unified"
+    },
+    {
+      "name": "unist-util-is",
+      "version": "6.0.1",
+      "archive": "https://registry.npmjs.org/unist-util-is/-/unist-util-is-6.0.1.tgz",
+      "integrity": "sha512-LsiILbtBETkDz8I9p1dQ0uyRUWuaQzd/cuEeS1hoRSyW5E5XGmTzlwY1OrNzzakGowI9Dr/I8HVaw4hTtnxy8g==",
+      "upstreamSource": "syntax-tree/unist-util-is"
+    },
+    {
+      "name": "unist-util-position",
+      "version": "5.0.0",
+      "archive": "https://registry.npmjs.org/unist-util-position/-/unist-util-position-5.0.0.tgz",
+      "integrity": "sha512-fucsC7HjXvkB5R3kTCO7kUjRdrS0BJt3M/FPxmHMBOm8JQi2BsHAHFsy27E0EolP8rp0NzXsJ+jNPyDWvOJZPA==",
+      "upstreamSource": "syntax-tree/unist-util-position"
+    },
+    {
+      "name": "unist-util-stringify-position",
+      "version": "4.0.0",
+      "archive": "https://registry.npmjs.org/unist-util-stringify-position/-/unist-util-stringify-position-4.0.0.tgz",
+      "integrity": "sha512-0ASV06AAoKCDkS2+xw5RXJywruurpbC4JZSm7nr7MOt1ojAzvyyaO+UxZf18j8FCF6kmzCZKcAgN/yu2gm2XgQ==",
+      "upstreamSource": "syntax-tree/unist-util-stringify-position"
+    },
+    {
+      "name": "unist-util-visit",
+      "version": "5.1.0",
+      "archive": "https://registry.npmjs.org/unist-util-visit/-/unist-util-visit-5.1.0.tgz",
+      "integrity": "sha512-m+vIdyeCOpdr/QeQCu2EzxX/ohgS8KbnPDgFni4dQsfSCtpz8UqDyY5GjRru8PDKuYn7Fq19j1CQ+nJSsGKOzg==",
+      "upstreamSource": "syntax-tree/unist-util-visit"
+    },
+    {
+      "name": "unist-util-visit-parents",
+      "version": "6.0.2",
+      "archive": "https://registry.npmjs.org/unist-util-visit-parents/-/unist-util-visit-parents-6.0.2.tgz",
+      "integrity": "sha512-goh1s1TBrqSqukSc8wrjwWhL0hiJxgA8m4kFxGlQ+8FYQ3C/m11FcTs4YYem7V664AhHVvgoQLk890Ssdsr2IQ==",
+      "upstreamSource": "syntax-tree/unist-util-visit-parents"
+    },
+    {
+      "name": "use-callback-ref",
+      "version": "1.3.3",
+      "archive": "https://registry.npmjs.org/use-callback-ref/-/use-callback-ref-1.3.3.tgz",
+      "integrity": "sha512-jQL3lRnocaFtu3V00JToYz/4QkNWswxijDaCVNZRiRTO3HQDLsdu1ZtmIUvV4yPp+rvWm5j0y0TG/S61cuijTg==",
+      "upstreamSource": "https://github.com/theKashey/use-callback-ref/"
+    },
+    {
+      "name": "use-sidecar",
+      "version": "1.1.3",
+      "archive": "https://registry.npmjs.org/use-sidecar/-/use-sidecar-1.1.3.tgz",
+      "integrity": "sha512-Fedw0aZvkhynoPYlA5WXrMCAMm+nSWdZt6lzJQ7Ok8S6Q+VsHmHpRWndVRJ8Be0ZbkfPc5LRYH+5XrzXcEeLRQ==",
+      "upstreamSource": "https://github.com/theKashey/use-sidecar"
+    },
+    {
+      "name": "uuid",
+      "version": "14.0.1",
+      "archive": "https://registry.npmjs.org/uuid/-/uuid-14.0.1.tgz",
+      "integrity": "sha512-6ZxzVpzDXDa3bJWaHilVayA+BH/1zmxCJoVgvmqJnid/gPoKHxUrS/aC/T6LGQtNHT+XHG9fXPJB4d+IrU30Ew==",
+      "upstreamSource": "https://github.com/uuidjs/uuid.git"
+    },
+    {
+      "name": "vfile",
+      "version": "6.0.3",
+      "archive": "https://registry.npmjs.org/vfile/-/vfile-6.0.3.tgz",
+      "integrity": "sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==",
+      "upstreamSource": "vfile/vfile"
+    },
+    {
+      "name": "vfile-message",
+      "version": "4.0.3",
+      "archive": "https://registry.npmjs.org/vfile-message/-/vfile-message-4.0.3.tgz",
+      "integrity": "sha512-QTHzsGd1EhbZs4AsQ20JX1rC3cOlt/IWJruk893DfLRr57lcnOeMaWG4K0JrRta4mIJZKth2Au3mM3u03/JWKw==",
+      "upstreamSource": "vfile/vfile-message"
+    },
+    {
+      "name": "zustand",
+      "version": "5.0.13",
+      "archive": "https://registry.npmjs.org/zustand/-/zustand-5.0.13.tgz",
+      "integrity": "sha512-efI2tVaVQPqtOh114loML/Z80Y4NP3yc+Ff0fYiZJPauNeWZeIp/bRFD7I9bfmCOYBh/PHxlglQ9+wvlwnPikQ==",
+      "upstreamSource": "git+https://github.com/pmndrs/zustand.git"
+    },
+    {
+      "name": "zwitch",
+      "version": "2.0.4",
+      "archive": "https://registry.npmjs.org/zwitch/-/zwitch-2.0.4.tgz",
+      "integrity": "sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==",
+      "upstreamSource": "wooorm/zwitch"
+    }
+  ],
+  "cargo": [
+    {
+      "name": "adler2",
+      "version": "2.0.1",
+      "archive": "https://crates.io/api/v1/crates/adler2/2.0.1/download",
+      "upstreamSource": "https://github.com/oyvindln/adler2"
+    },
+    {
+      "name": "aes",
+      "version": "0.8.4",
+      "archive": "https://crates.io/api/v1/crates/aes/0.8.4/download",
+      "upstreamSource": "https://github.com/RustCrypto/block-ciphers"
+    },
+    {
+      "name": "aes",
+      "version": "0.9.4",
+      "archive": "https://crates.io/api/v1/crates/aes/0.9.4/download",
+      "upstreamSource": "https://github.com/RustCrypto/block-ciphers"
+    },
+    {
+      "name": "ahash",
+      "version": "0.8.12",
+      "archive": "https://crates.io/api/v1/crates/ahash/0.8.12/download",
+      "upstreamSource": "https://github.com/tkaitchuck/ahash"
+    },
+    {
+      "name": "aho-corasick",
+      "version": "1.1.4",
+      "archive": "https://crates.io/api/v1/crates/aho-corasick/1.1.4/download",
+      "upstreamSource": "https://github.com/BurntSushi/aho-corasick"
+    },
+    {
+      "name": "alloc-no-stdlib",
+      "version": "2.0.4",
+      "archive": "https://crates.io/api/v1/crates/alloc-no-stdlib/2.0.4/download",
+      "upstreamSource": "https://github.com/dropbox/rust-alloc-no-stdlib"
+    },
+    {
+      "name": "alloc-stdlib",
+      "version": "0.2.4",
+      "archive": "https://crates.io/api/v1/crates/alloc-stdlib/0.2.4/download",
+      "upstreamSource": "https://github.com/dropbox/rust-alloc-no-stdlib"
+    },
+    {
+      "name": "anyhow",
+      "version": "1.0.104",
+      "archive": "https://crates.io/api/v1/crates/anyhow/1.0.104/download",
+      "upstreamSource": "https://github.com/dtolnay/anyhow"
+    },
+    {
+      "name": "ascii",
+      "version": "1.1.0",
+      "archive": "https://crates.io/api/v1/crates/ascii/1.1.0/download",
+      "upstreamSource": "https://github.com/tomprogrammer/rust-ascii"
+    },
+    {
+      "name": "async-trait",
+      "version": "0.1.91",
+      "archive": "https://crates.io/api/v1/crates/async-trait/0.1.91/download",
+      "upstreamSource": "https://github.com/dtolnay/async-trait"
+    },
+    {
+      "name": "atomic-waker",
+      "version": "1.1.2",
+      "archive": "https://crates.io/api/v1/crates/atomic-waker/1.1.2/download",
+      "upstreamSource": "https://github.com/smol-rs/atomic-waker"
+    },
+    {
+      "name": "autocfg",
+      "version": "1.5.1",
+      "archive": "https://crates.io/api/v1/crates/autocfg/1.5.1/download",
+      "upstreamSource": "https://github.com/cuviper/autocfg"
+    },
+    {
+      "name": "base64",
+      "version": "0.22.1",
+      "archive": "https://crates.io/api/v1/crates/base64/0.22.1/download",
+      "upstreamSource": "https://github.com/marshallpierce/rust-base64"
+    },
+    {
+      "name": "base64",
+      "version": "0.23.1",
+      "archive": "https://crates.io/api/v1/crates/base64/0.23.1/download",
+      "upstreamSource": "https://github.com/marshallpierce/rust-base64"
+    },
+    {
+      "name": "base64ct",
+      "version": "1.8.3",
+      "archive": "https://crates.io/api/v1/crates/base64ct/1.8.3/download",
+      "upstreamSource": "https://github.com/RustCrypto/formats"
+    },
+    {
+      "name": "bit-set",
+      "version": "0.8.0",
+      "archive": "https://crates.io/api/v1/crates/bit-set/0.8.0/download",
+      "upstreamSource": "https://github.com/contain-rs/bit-set"
+    },
+    {
+      "name": "bit-vec",
+      "version": "0.8.0",
+      "archive": "https://crates.io/api/v1/crates/bit-vec/0.8.0/download",
+      "upstreamSource": "https://github.com/contain-rs/bit-vec"
+    },
+    {
+      "name": "bitflags",
+      "version": "1.3.2",
+      "archive": "https://crates.io/api/v1/crates/bitflags/1.3.2/download",
+      "upstreamSource": "https://github.com/bitflags/bitflags"
+    },
+    {
+      "name": "bitflags",
+      "version": "2.13.1",
+      "archive": "https://crates.io/api/v1/crates/bitflags/2.13.1/download",
+      "upstreamSource": "https://github.com/bitflags/bitflags"
+    },
+    {
+      "name": "block-buffer",
+      "version": "0.10.4",
+      "archive": "https://crates.io/api/v1/crates/block-buffer/0.10.4/download",
+      "upstreamSource": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "block-buffer",
+      "version": "0.12.1",
+      "archive": "https://crates.io/api/v1/crates/block-buffer/0.12.1/download",
+      "upstreamSource": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "block-padding",
+      "version": "0.3.3",
+      "archive": "https://crates.io/api/v1/crates/block-padding/0.3.3/download",
+      "upstreamSource": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "brotli-decompressor",
+      "version": "5.0.3",
+      "archive": "https://crates.io/api/v1/crates/brotli-decompressor/5.0.3/download",
+      "upstreamSource": "https://github.com/dropbox/rust-brotli-decompressor"
+    },
+    {
+      "name": "brotli",
+      "version": "8.0.4",
+      "archive": "https://crates.io/api/v1/crates/brotli/8.0.4/download",
+      "upstreamSource": "https://github.com/dropbox/rust-brotli"
+    },
+    {
+      "name": "bs58",
+      "version": "0.5.1",
+      "archive": "https://crates.io/api/v1/crates/bs58/0.5.1/download",
+      "upstreamSource": "https://github.com/Nullus157/bs58-rs"
+    },
+    {
+      "name": "bumpalo",
+      "version": "3.20.3",
+      "archive": "https://crates.io/api/v1/crates/bumpalo/3.20.3/download",
+      "upstreamSource": "https://github.com/fitzgen/bumpalo"
+    },
+    {
+      "name": "bytemuck",
+      "version": "1.25.2",
+      "archive": "https://crates.io/api/v1/crates/bytemuck/1.25.2/download",
+      "upstreamSource": "https://github.com/Lokathor/bytemuck"
+    },
+    {
+      "name": "byteorder-lite",
+      "version": "0.1.0",
+      "archive": "https://crates.io/api/v1/crates/byteorder-lite/0.1.0/download",
+      "upstreamSource": "https://github.com/image-rs/byteorder-lite"
+    },
+    {
+      "name": "byteorder",
+      "version": "1.5.0",
+      "archive": "https://crates.io/api/v1/crates/byteorder/1.5.0/download",
+      "upstreamSource": "https://github.com/BurntSushi/byteorder"
+    },
+    {
+      "name": "bytes",
+      "version": "1.12.1",
+      "archive": "https://crates.io/api/v1/crates/bytes/1.12.1/download",
+      "upstreamSource": "https://github.com/tokio-rs/bytes"
+    },
+    {
+      "name": "bzip2-sys",
+      "version": "0.1.13+1.0.8",
+      "archive": "https://crates.io/api/v1/crates/bzip2-sys/0.1.13+1.0.8/download",
+      "upstreamSource": "https://github.com/alexcrichton/bzip2-rs"
+    },
+    {
+      "name": "bzip2",
+      "version": "0.4.4",
+      "archive": "https://crates.io/api/v1/crates/bzip2/0.4.4/download",
+      "upstreamSource": "https://github.com/alexcrichton/bzip2-rs"
+    },
+    {
+      "name": "bzip2",
+      "version": "0.6.1",
+      "archive": "https://crates.io/api/v1/crates/bzip2/0.6.1/download",
+      "upstreamSource": "https://github.com/trifectatechfoundation/bzip2-rs"
+    },
+    {
+      "name": "camino",
+      "version": "1.2.4",
+      "archive": "https://crates.io/api/v1/crates/camino/1.2.4/download",
+      "upstreamSource": "https://github.com/camino-rs/camino"
+    },
+    {
+      "name": "cargo-platform",
+      "version": "0.1.9",
+      "archive": "https://crates.io/api/v1/crates/cargo-platform/0.1.9/download",
+      "upstreamSource": "https://github.com/rust-lang/cargo"
+    },
+    {
+      "name": "cargo_metadata",
+      "version": "0.19.2",
+      "archive": "https://crates.io/api/v1/crates/cargo_metadata/0.19.2/download",
+      "upstreamSource": "https://github.com/oli-obk/cargo_metadata"
+    },
+    {
+      "name": "cargo_toml",
+      "version": "0.22.3",
+      "archive": "https://crates.io/api/v1/crates/cargo_toml/0.22.3/download",
+      "upstreamSource": "https://gitlab.com/lib.rs/cargo_toml"
+    },
+    {
+      "name": "cc",
+      "version": "1.3.0",
+      "archive": "https://crates.io/api/v1/crates/cc/1.3.0/download",
+      "upstreamSource": "https://github.com/rust-lang/cc-rs"
+    },
+    {
+      "name": "cfb",
+      "version": "0.7.3",
+      "archive": "https://crates.io/api/v1/crates/cfb/0.7.3/download",
+      "upstreamSource": "https://github.com/mdsteele/rust-cfb"
+    },
+    {
+      "name": "cfg-if",
+      "version": "1.0.4",
+      "archive": "https://crates.io/api/v1/crates/cfg-if/1.0.4/download",
+      "upstreamSource": "https://github.com/rust-lang/cfg-if"
+    },
+    {
+      "name": "cfg_aliases",
+      "version": "0.2.2",
+      "archive": "https://crates.io/api/v1/crates/cfg_aliases/0.2.2/download",
+      "upstreamSource": "https://github.com/katharostech/cfg_aliases"
+    },
+    {
+      "name": "chacha20",
+      "version": "0.10.1",
+      "archive": "https://crates.io/api/v1/crates/chacha20/0.10.1/download",
+      "upstreamSource": "https://github.com/RustCrypto/stream-ciphers"
+    },
+    {
+      "name": "chrono",
+      "version": "0.4.45",
+      "archive": "https://crates.io/api/v1/crates/chrono/0.4.45/download",
+      "upstreamSource": "https://github.com/chronotope/chrono"
+    },
+    {
+      "name": "chunked_transfer",
+      "version": "1.5.0",
+      "archive": "https://crates.io/api/v1/crates/chunked_transfer/1.5.0/download",
+      "upstreamSource": "https://github.com/frewsxcv/rust-chunked-transfer"
+    },
+    {
+      "name": "cipher",
+      "version": "0.4.4",
+      "archive": "https://crates.io/api/v1/crates/cipher/0.4.4/download",
+      "upstreamSource": "https://github.com/RustCrypto/traits"
+    },
+    {
+      "name": "cipher",
+      "version": "0.5.2",
+      "archive": "https://crates.io/api/v1/crates/cipher/0.5.2/download",
+      "upstreamSource": "https://github.com/RustCrypto/traits"
+    },
+    {
+      "name": "cmov",
+      "version": "0.5.4",
+      "archive": "https://crates.io/api/v1/crates/cmov/0.5.4/download",
+      "upstreamSource": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "const-oid",
+      "version": "0.10.2",
+      "archive": "https://crates.io/api/v1/crates/const-oid/0.10.2/download",
+      "upstreamSource": "https://github.com/RustCrypto/formats"
+    },
+    {
+      "name": "constant_time_eq",
+      "version": "0.1.5",
+      "archive": "https://crates.io/api/v1/crates/constant_time_eq/0.1.5/download",
+      "upstreamSource": "https://github.com/cesarb/constant_time_eq"
+    },
+    {
+      "name": "constant_time_eq",
+      "version": "0.6.1",
+      "archive": "https://crates.io/api/v1/crates/constant_time_eq/0.6.1/download",
+      "upstreamSource": "https://codeberg.org/cesarb/constant_time_eq"
+    },
+    {
+      "name": "cookie",
+      "version": "0.18.1",
+      "archive": "https://crates.io/api/v1/crates/cookie/0.18.1/download",
+      "upstreamSource": "https://github.com/SergioBenitez/cookie-rs"
+    },
+    {
+      "name": "cpal",
+      "version": "0.15.3",
+      "archive": "https://crates.io/api/v1/crates/cpal/0.15.3/download",
+      "upstreamSource": "https://github.com/rustaudio/cpal"
+    },
+    {
+      "name": "cpubits",
+      "version": "0.1.1",
+      "archive": "https://crates.io/api/v1/crates/cpubits/0.1.1/download",
+      "upstreamSource": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "cpufeatures",
+      "version": "0.2.17",
+      "archive": "https://crates.io/api/v1/crates/cpufeatures/0.2.17/download",
+      "upstreamSource": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "cpufeatures",
+      "version": "0.3.0",
+      "archive": "https://crates.io/api/v1/crates/cpufeatures/0.3.0/download",
+      "upstreamSource": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "crc32fast",
+      "version": "1.5.0",
+      "archive": "https://crates.io/api/v1/crates/crc32fast/1.5.0/download",
+      "upstreamSource": "https://github.com/srijs/rust-crc32fast"
+    },
+    {
+      "name": "crossbeam-channel",
+      "version": "0.5.16",
+      "archive": "https://crates.io/api/v1/crates/crossbeam-channel/0.5.16/download",
+      "upstreamSource": "https://github.com/crossbeam-rs/crossbeam"
+    },
+    {
+      "name": "crossbeam-deque",
+      "version": "0.8.7",
+      "archive": "https://crates.io/api/v1/crates/crossbeam-deque/0.8.7/download",
+      "upstreamSource": "https://github.com/crossbeam-rs/crossbeam"
+    },
+    {
+      "name": "crossbeam-epoch",
+      "version": "0.9.20",
+      "archive": "https://crates.io/api/v1/crates/crossbeam-epoch/0.9.20/download",
+      "upstreamSource": "https://github.com/crossbeam-rs/crossbeam"
+    },
+    {
+      "name": "crossbeam-utils",
+      "version": "0.8.22",
+      "archive": "https://crates.io/api/v1/crates/crossbeam-utils/0.8.22/download",
+      "upstreamSource": "https://github.com/crossbeam-rs/crossbeam"
+    },
+    {
+      "name": "crypto-common",
+      "version": "0.1.7",
+      "archive": "https://crates.io/api/v1/crates/crypto-common/0.1.7/download",
+      "upstreamSource": "https://github.com/RustCrypto/traits"
+    },
+    {
+      "name": "crypto-common",
+      "version": "0.2.2",
+      "archive": "https://crates.io/api/v1/crates/crypto-common/0.2.2/download",
+      "upstreamSource": "https://github.com/RustCrypto/traits"
+    },
+    {
+      "name": "cssparser-macros",
+      "version": "0.6.1",
+      "archive": "https://crates.io/api/v1/crates/cssparser-macros/0.6.1/download",
+      "upstreamSource": "https://github.com/servo/rust-cssparser"
+    },
+    {
+      "name": "cssparser",
+      "version": "0.36.0",
+      "archive": "https://crates.io/api/v1/crates/cssparser/0.36.0/download",
+      "upstreamSource": "https://github.com/servo/rust-cssparser"
+    },
+    {
+      "name": "ctor-proc-macro",
+      "version": "0.0.7",
+      "archive": "https://crates.io/api/v1/crates/ctor-proc-macro/0.0.7/download",
+      "upstreamSource": "https://github.com/mmastrac/rust-ctor"
+    },
+    {
+      "name": "ctor",
+      "version": "0.8.0",
+      "archive": "https://crates.io/api/v1/crates/ctor/0.8.0/download",
+      "upstreamSource": "https://github.com/mmastrac/rust-ctor"
+    },
+    {
+      "name": "ctutils",
+      "version": "0.4.8",
+      "archive": "https://crates.io/api/v1/crates/ctutils/0.4.8/download",
+      "upstreamSource": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "darling",
+      "version": "0.23.0",
+      "archive": "https://crates.io/api/v1/crates/darling/0.23.0/download",
+      "upstreamSource": "https://github.com/TedDriggs/darling"
+    },
+    {
+      "name": "darling_core",
+      "version": "0.23.0",
+      "archive": "https://crates.io/api/v1/crates/darling_core/0.23.0/download",
+      "upstreamSource": "https://github.com/TedDriggs/darling"
+    },
+    {
+      "name": "darling_macro",
+      "version": "0.23.0",
+      "archive": "https://crates.io/api/v1/crates/darling_macro/0.23.0/download",
+      "upstreamSource": "https://github.com/TedDriggs/darling"
+    },
+    {
+      "name": "dasp_sample",
+      "version": "0.11.0",
+      "archive": "https://crates.io/api/v1/crates/dasp_sample/0.11.0/download",
+      "upstreamSource": "https://github.com/rustaudio/sample.git"
+    },
+    {
+      "name": "data-encoding",
+      "version": "2.11.1",
+      "archive": "https://crates.io/api/v1/crates/data-encoding/2.11.1/download",
+      "upstreamSource": "https://github.com/ia0/data-encoding"
+    },
+    {
+      "name": "deflate64",
+      "version": "0.1.12",
+      "archive": "https://crates.io/api/v1/crates/deflate64/0.1.12/download",
+      "upstreamSource": "https://github.com/anatawa12/deflate64-rs"
+    },
+    {
+      "name": "der",
+      "version": "0.8.2",
+      "archive": "https://crates.io/api/v1/crates/der/0.8.2/download",
+      "upstreamSource": "https://github.com/RustCrypto/formats"
+    },
+    {
+      "name": "deranged",
+      "version": "0.5.8",
+      "archive": "https://crates.io/api/v1/crates/deranged/0.5.8/download",
+      "upstreamSource": "https://github.com/jhpratt/deranged"
+    },
+    {
+      "name": "derive_more-impl",
+      "version": "2.1.1",
+      "archive": "https://crates.io/api/v1/crates/derive_more-impl/2.1.1/download",
+      "upstreamSource": "https://github.com/JelteF/derive_more"
+    },
+    {
+      "name": "derive_more",
+      "version": "2.1.1",
+      "archive": "https://crates.io/api/v1/crates/derive_more/2.1.1/download",
+      "upstreamSource": "https://github.com/JelteF/derive_more"
+    },
+    {
+      "name": "digest",
+      "version": "0.10.7",
+      "archive": "https://crates.io/api/v1/crates/digest/0.10.7/download",
+      "upstreamSource": "https://github.com/RustCrypto/traits"
+    },
+    {
+      "name": "digest",
+      "version": "0.11.3",
+      "archive": "https://crates.io/api/v1/crates/digest/0.11.3/download",
+      "upstreamSource": "https://github.com/RustCrypto/traits"
+    },
+    {
+      "name": "dirs-next",
+      "version": "2.0.0",
+      "archive": "https://crates.io/api/v1/crates/dirs-next/2.0.0/download",
+      "upstreamSource": "https://github.com/xdg-rs/dirs"
+    },
+    {
+      "name": "dirs-sys-next",
+      "version": "0.1.2",
+      "archive": "https://crates.io/api/v1/crates/dirs-sys-next/0.1.2/download",
+      "upstreamSource": "https://github.com/xdg-rs/dirs/tree/master/dirs-sys"
+    },
+    {
+      "name": "dirs-sys",
+      "version": "0.4.1",
+      "archive": "https://crates.io/api/v1/crates/dirs-sys/0.4.1/download",
+      "upstreamSource": "https://github.com/dirs-dev/dirs-sys-rs"
+    },
+    {
+      "name": "dirs-sys",
+      "version": "0.5.0",
+      "archive": "https://crates.io/api/v1/crates/dirs-sys/0.5.0/download",
+      "upstreamSource": "https://github.com/dirs-dev/dirs-sys-rs"
+    },
+    {
+      "name": "dirs",
+      "version": "5.0.1",
+      "archive": "https://crates.io/api/v1/crates/dirs/5.0.1/download",
+      "upstreamSource": "https://github.com/soc/dirs-rs"
+    },
+    {
+      "name": "dirs",
+      "version": "6.0.0",
+      "archive": "https://crates.io/api/v1/crates/dirs/6.0.0/download",
+      "upstreamSource": "https://github.com/soc/dirs-rs"
+    },
+    {
+      "name": "discord-rich-presence",
+      "version": "1.1.0",
+      "archive": "https://crates.io/api/v1/crates/discord-rich-presence/1.1.0/download",
+      "upstreamSource": "https://github.com/vionya/discord-rich-presence"
+    },
+    {
+      "name": "displaydoc",
+      "version": "0.2.6",
+      "archive": "https://crates.io/api/v1/crates/displaydoc/0.2.6/download",
+      "upstreamSource": "https://github.com/yaahc/displaydoc"
+    },
+    {
+      "name": "dom_query",
+      "version": "0.27.0",
+      "archive": "https://crates.io/api/v1/crates/dom_query/0.27.0/download",
+      "upstreamSource": "https://github.com/niklak/dom_query"
+    },
+    {
+      "name": "dotenvy",
+      "version": "0.15.7",
+      "archive": "https://crates.io/api/v1/crates/dotenvy/0.15.7/download",
+      "upstreamSource": "https://github.com/allan2/dotenvy"
+    },
+    {
+      "name": "downcast-rs",
+      "version": "1.2.1",
+      "archive": "https://crates.io/api/v1/crates/downcast-rs/1.2.1/download",
+      "upstreamSource": "https://github.com/marcianx/downcast-rs"
+    },
+    {
+      "name": "dpi",
+      "version": "0.1.2",
+      "archive": "https://crates.io/api/v1/crates/dpi/0.1.2/download",
+      "upstreamSource": "https://github.com/rust-windowing/winit"
+    },
+    {
+      "name": "dtoa-short",
+      "version": "0.3.5",
+      "archive": "https://crates.io/api/v1/crates/dtoa-short/0.3.5/download",
+      "upstreamSource": "https://github.com/upsuper/dtoa-short"
+    },
+    {
+      "name": "dtoa",
+      "version": "1.0.11",
+      "archive": "https://crates.io/api/v1/crates/dtoa/1.0.11/download",
+      "upstreamSource": "https://github.com/dtolnay/dtoa"
+    },
+    {
+      "name": "dtor-proc-macro",
+      "version": "0.0.6",
+      "archive": "https://crates.io/api/v1/crates/dtor-proc-macro/0.0.6/download",
+      "upstreamSource": "https://github.com/mmastrac/rust-ctor"
+    },
+    {
+      "name": "dtor",
+      "version": "0.3.0",
+      "archive": "https://crates.io/api/v1/crates/dtor/0.3.0/download",
+      "upstreamSource": "https://github.com/mmastrac/rust-ctor"
+    },
+    {
+      "name": "dunce",
+      "version": "1.0.5",
+      "archive": "https://crates.io/api/v1/crates/dunce/1.0.5/download",
+      "upstreamSource": "https://gitlab.com/kornelski/dunce"
+    },
+    {
+      "name": "dyn-clone",
+      "version": "1.0.20",
+      "archive": "https://crates.io/api/v1/crates/dyn-clone/1.0.20/download",
+      "upstreamSource": "https://github.com/dtolnay/dyn-clone"
+    },
+    {
+      "name": "either",
+      "version": "1.16.0",
+      "archive": "https://crates.io/api/v1/crates/either/1.16.0/download",
+      "upstreamSource": "https://github.com/rayon-rs/either"
+    },
+    {
+      "name": "embed-resource",
+      "version": "3.0.11",
+      "archive": "https://crates.io/api/v1/crates/embed-resource/3.0.11/download",
+      "upstreamSource": "https://github.com/nabijaczleweli/rust-embed-resource"
+    },
+    {
+      "name": "equivalent",
+      "version": "1.0.2",
+      "archive": "https://crates.io/api/v1/crates/equivalent/1.0.2/download",
+      "upstreamSource": "https://github.com/indexmap-rs/equivalent"
+    },
+    {
+      "name": "erased-serde",
+      "version": "0.4.10",
+      "archive": "https://crates.io/api/v1/crates/erased-serde/0.4.10/download",
+      "upstreamSource": "https://github.com/dtolnay/erased-serde"
+    },
+    {
+      "name": "fallible-iterator",
+      "version": "0.3.0",
+      "archive": "https://crates.io/api/v1/crates/fallible-iterator/0.3.0/download",
+      "upstreamSource": "https://github.com/sfackler/rust-fallible-iterator"
+    },
+    {
+      "name": "fallible-streaming-iterator",
+      "version": "0.1.9",
+      "archive": "https://crates.io/api/v1/crates/fallible-streaming-iterator/0.1.9/download",
+      "upstreamSource": "https://github.com/sfackler/fallible-streaming-iterator"
+    },
+    {
+      "name": "fastrand",
+      "version": "2.5.0",
+      "archive": "https://crates.io/api/v1/crates/fastrand/2.5.0/download",
+      "upstreamSource": "https://github.com/smol-rs/fastrand"
+    },
+    {
+      "name": "fdeflate",
+      "version": "0.3.7",
+      "archive": "https://crates.io/api/v1/crates/fdeflate/0.3.7/download",
+      "upstreamSource": "https://github.com/image-rs/fdeflate"
+    },
+    {
+      "name": "filedescriptor",
+      "version": "0.8.3",
+      "archive": "https://crates.io/api/v1/crates/filedescriptor/0.8.3/download",
+      "upstreamSource": "https://github.com/wezterm/wezterm"
+    },
+    {
+      "name": "filetime",
+      "version": "0.2.29",
+      "archive": "https://crates.io/api/v1/crates/filetime/0.2.29/download",
+      "upstreamSource": "https://github.com/alexcrichton/filetime"
+    },
+    {
+      "name": "find-msvc-tools",
+      "version": "0.1.9",
+      "archive": "https://crates.io/api/v1/crates/find-msvc-tools/0.1.9/download",
+      "upstreamSource": "https://github.com/rust-lang/cc-rs"
+    },
+    {
+      "name": "flate2",
+      "version": "1.1.9",
+      "archive": "https://crates.io/api/v1/crates/flate2/1.1.9/download",
+      "upstreamSource": "https://github.com/rust-lang/flate2-rs"
+    },
+    {
+      "name": "fnv",
+      "version": "1.0.7",
+      "archive": "https://crates.io/api/v1/crates/fnv/1.0.7/download",
+      "upstreamSource": "https://github.com/servo/rust-fnv"
+    },
+    {
+      "name": "foldhash",
+      "version": "0.2.0",
+      "archive": "https://crates.io/api/v1/crates/foldhash/0.2.0/download",
+      "upstreamSource": "https://github.com/orlp/foldhash"
+    },
+    {
+      "name": "form_urlencoded",
+      "version": "1.2.2",
+      "archive": "https://crates.io/api/v1/crates/form_urlencoded/1.2.2/download",
+      "upstreamSource": "https://github.com/servo/rust-url"
+    },
+    {
+      "name": "futures-channel",
+      "version": "0.3.33",
+      "archive": "https://crates.io/api/v1/crates/futures-channel/0.3.33/download",
+      "upstreamSource": "https://github.com/rust-lang/futures-rs"
+    },
+    {
+      "name": "futures-core",
+      "version": "0.3.33",
+      "archive": "https://crates.io/api/v1/crates/futures-core/0.3.33/download",
+      "upstreamSource": "https://github.com/rust-lang/futures-rs"
+    },
+    {
+      "name": "futures-io",
+      "version": "0.3.33",
+      "archive": "https://crates.io/api/v1/crates/futures-io/0.3.33/download",
+      "upstreamSource": "https://github.com/rust-lang/futures-rs"
+    },
+    {
+      "name": "futures-macro",
+      "version": "0.3.33",
+      "archive": "https://crates.io/api/v1/crates/futures-macro/0.3.33/download",
+      "upstreamSource": "https://github.com/rust-lang/futures-rs"
+    },
+    {
+      "name": "futures-sink",
+      "version": "0.3.33",
+      "archive": "https://crates.io/api/v1/crates/futures-sink/0.3.33/download",
+      "upstreamSource": "https://github.com/rust-lang/futures-rs"
+    },
+    {
+      "name": "futures-task",
+      "version": "0.3.33",
+      "archive": "https://crates.io/api/v1/crates/futures-task/0.3.33/download",
+      "upstreamSource": "https://github.com/rust-lang/futures-rs"
+    },
+    {
+      "name": "futures-util",
+      "version": "0.3.33",
+      "archive": "https://crates.io/api/v1/crates/futures-util/0.3.33/download",
+      "upstreamSource": "https://github.com/rust-lang/futures-rs"
+    },
+    {
+      "name": "generic-array",
+      "version": "0.14.7",
+      "archive": "https://crates.io/api/v1/crates/generic-array/0.14.7/download",
+      "upstreamSource": "https://github.com/fizyk20/generic-array.git"
+    },
+    {
+      "name": "getrandom",
+      "version": "0.2.17",
+      "archive": "https://crates.io/api/v1/crates/getrandom/0.2.17/download",
+      "upstreamSource": "https://github.com/rust-random/getrandom"
+    },
+    {
+      "name": "getrandom",
+      "version": "0.3.4",
+      "archive": "https://crates.io/api/v1/crates/getrandom/0.3.4/download",
+      "upstreamSource": "https://github.com/rust-random/getrandom"
+    },
+    {
+      "name": "getrandom",
+      "version": "0.4.3",
+      "archive": "https://crates.io/api/v1/crates/getrandom/0.4.3/download",
+      "upstreamSource": "https://github.com/rust-random/getrandom"
+    },
+    {
+      "name": "github-copilot-sdk",
+      "version": "1.0.16",
+      "archive": "https://crates.io/api/v1/crates/github-copilot-sdk/1.0.16/download",
+      "upstreamSource": "https://github.com/github/copilot-sdk"
+    },
+    {
+      "name": "glob",
+      "version": "0.3.4",
+      "archive": "https://crates.io/api/v1/crates/glob/0.3.4/download",
+      "upstreamSource": "https://github.com/rust-lang/glob"
+    },
+    {
+      "name": "h2",
+      "version": "0.4.19",
+      "archive": "https://crates.io/api/v1/crates/h2/0.4.19/download",
+      "upstreamSource": "https://github.com/hyperium/h2"
+    },
+    {
+      "name": "hashbrown",
+      "version": "0.12.3",
+      "archive": "https://crates.io/api/v1/crates/hashbrown/0.12.3/download",
+      "upstreamSource": "https://github.com/rust-lang/hashbrown"
+    },
+    {
+      "name": "hashbrown",
+      "version": "0.14.5",
+      "archive": "https://crates.io/api/v1/crates/hashbrown/0.14.5/download",
+      "upstreamSource": "https://github.com/rust-lang/hashbrown"
+    },
+    {
+      "name": "hashbrown",
+      "version": "0.17.1",
+      "archive": "https://crates.io/api/v1/crates/hashbrown/0.17.1/download",
+      "upstreamSource": "https://github.com/rust-lang/hashbrown"
+    },
+    {
+      "name": "hashlink",
+      "version": "0.9.1",
+      "archive": "https://crates.io/api/v1/crates/hashlink/0.9.1/download",
+      "upstreamSource": "https://github.com/kyren/hashlink"
+    },
+    {
+      "name": "heck",
+      "version": "0.5.0",
+      "archive": "https://crates.io/api/v1/crates/heck/0.5.0/download",
+      "upstreamSource": "https://github.com/withoutboats/heck"
+    },
+    {
+      "name": "hex",
+      "version": "0.4.3",
+      "archive": "https://crates.io/api/v1/crates/hex/0.4.3/download",
+      "upstreamSource": "https://github.com/KokaKiwi/rust-hex"
+    },
+    {
+      "name": "hmac",
+      "version": "0.12.1",
+      "archive": "https://crates.io/api/v1/crates/hmac/0.12.1/download",
+      "upstreamSource": "https://github.com/RustCrypto/MACs"
+    },
+    {
+      "name": "hmac",
+      "version": "0.13.0",
+      "archive": "https://crates.io/api/v1/crates/hmac/0.13.0/download",
+      "upstreamSource": "https://github.com/RustCrypto/MACs"
+    },
+    {
+      "name": "home",
+      "version": "0.5.12",
+      "archive": "https://crates.io/api/v1/crates/home/0.5.12/download",
+      "upstreamSource": "https://github.com/rust-lang/cargo"
+    },
+    {
+      "name": "html5ever",
+      "version": "0.38.0",
+      "archive": "https://crates.io/api/v1/crates/html5ever/0.38.0/download",
+      "upstreamSource": "https://github.com/servo/html5ever"
+    },
+    {
+      "name": "http-body-util",
+      "version": "0.1.4",
+      "archive": "https://crates.io/api/v1/crates/http-body-util/0.1.4/download",
+      "upstreamSource": "https://github.com/hyperium/http-body"
+    },
+    {
+      "name": "http-body",
+      "version": "1.1.0",
+      "archive": "https://crates.io/api/v1/crates/http-body/1.1.0/download",
+      "upstreamSource": "https://github.com/hyperium/http-body"
+    },
+    {
+      "name": "http",
+      "version": "1.4.2",
+      "archive": "https://crates.io/api/v1/crates/http/1.4.2/download",
+      "upstreamSource": "https://github.com/hyperium/http"
+    },
+    {
+      "name": "httparse",
+      "version": "1.10.1",
+      "archive": "https://crates.io/api/v1/crates/httparse/1.10.1/download",
+      "upstreamSource": "https://github.com/seanmonstar/httparse"
+    },
+    {
+      "name": "httpdate",
+      "version": "1.0.3",
+      "archive": "https://crates.io/api/v1/crates/httpdate/1.0.3/download",
+      "upstreamSource": "https://github.com/pyfisch/httpdate"
+    },
+    {
+      "name": "hybrid-array",
+      "version": "0.4.15",
+      "archive": "https://crates.io/api/v1/crates/hybrid-array/0.4.15/download",
+      "upstreamSource": "https://github.com/RustCrypto/hybrid-array"
+    },
+    {
+      "name": "hyper-rustls",
+      "version": "0.27.9",
+      "archive": "https://crates.io/api/v1/crates/hyper-rustls/0.27.9/download",
+      "upstreamSource": "https://github.com/rustls/hyper-rustls"
+    },
+    {
+      "name": "hyper-tls",
+      "version": "0.6.0",
+      "archive": "https://crates.io/api/v1/crates/hyper-tls/0.6.0/download",
+      "upstreamSource": "https://github.com/hyperium/hyper-tls"
+    },
+    {
+      "name": "hyper-util",
+      "version": "0.1.20",
+      "archive": "https://crates.io/api/v1/crates/hyper-util/0.1.20/download",
+      "upstreamSource": "https://github.com/hyperium/hyper-util"
+    },
+    {
+      "name": "hyper",
+      "version": "1.11.0",
+      "archive": "https://crates.io/api/v1/crates/hyper/1.11.0/download",
+      "upstreamSource": "https://github.com/hyperium/hyper"
+    },
+    {
+      "name": "ico",
+      "version": "0.5.0",
+      "archive": "https://crates.io/api/v1/crates/ico/0.5.0/download",
+      "upstreamSource": "https://github.com/mdsteele/rust-ico"
+    },
+    {
+      "name": "icu_collections",
+      "version": "2.2.0",
+      "archive": "https://crates.io/api/v1/crates/icu_collections/2.2.0/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "icu_locale_core",
+      "version": "2.2.0",
+      "archive": "https://crates.io/api/v1/crates/icu_locale_core/2.2.0/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "icu_normalizer",
+      "version": "2.2.0",
+      "archive": "https://crates.io/api/v1/crates/icu_normalizer/2.2.0/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "icu_normalizer_data",
+      "version": "2.2.0",
+      "archive": "https://crates.io/api/v1/crates/icu_normalizer_data/2.2.0/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "icu_properties",
+      "version": "2.2.0",
+      "archive": "https://crates.io/api/v1/crates/icu_properties/2.2.0/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "icu_properties_data",
+      "version": "2.2.0",
+      "archive": "https://crates.io/api/v1/crates/icu_properties_data/2.2.0/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "icu_provider",
+      "version": "2.2.0",
+      "archive": "https://crates.io/api/v1/crates/icu_provider/2.2.0/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "ident_case",
+      "version": "1.0.1",
+      "archive": "https://crates.io/api/v1/crates/ident_case/1.0.1/download",
+      "upstreamSource": "https://github.com/TedDriggs/ident_case"
+    },
+    {
+      "name": "idna",
+      "version": "1.1.0",
+      "archive": "https://crates.io/api/v1/crates/idna/1.1.0/download",
+      "upstreamSource": "https://github.com/servo/rust-url/"
+    },
+    {
+      "name": "idna_adapter",
+      "version": "1.2.2",
+      "archive": "https://crates.io/api/v1/crates/idna_adapter/1.2.2/download",
+      "upstreamSource": "https://github.com/hsivonen/idna_adapter"
+    },
+    {
+      "name": "image",
+      "version": "0.25.10",
+      "archive": "https://crates.io/api/v1/crates/image/0.25.10/download",
+      "upstreamSource": "https://github.com/image-rs/image"
+    },
+    {
+      "name": "indexmap",
+      "version": "1.9.3",
+      "archive": "https://crates.io/api/v1/crates/indexmap/1.9.3/download",
+      "upstreamSource": "https://github.com/bluss/indexmap"
+    },
+    {
+      "name": "indexmap",
+      "version": "2.14.0",
+      "archive": "https://crates.io/api/v1/crates/indexmap/2.14.0/download",
+      "upstreamSource": "https://github.com/indexmap-rs/indexmap"
+    },
+    {
+      "name": "infer",
+      "version": "0.19.0",
+      "archive": "https://crates.io/api/v1/crates/infer/0.19.0/download",
+      "upstreamSource": "https://github.com/bojand/infer"
+    },
+    {
+      "name": "inout",
+      "version": "0.1.4",
+      "archive": "https://crates.io/api/v1/crates/inout/0.1.4/download",
+      "upstreamSource": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "inout",
+      "version": "0.2.5",
+      "archive": "https://crates.io/api/v1/crates/inout/0.2.5/download",
+      "upstreamSource": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "ipnet",
+      "version": "2.12.0",
+      "archive": "https://crates.io/api/v1/crates/ipnet/2.12.0/download",
+      "upstreamSource": "https://github.com/krisprice/ipnet"
+    },
+    {
+      "name": "itoa",
+      "version": "1.0.18",
+      "archive": "https://crates.io/api/v1/crates/itoa/1.0.18/download",
+      "upstreamSource": "https://github.com/dtolnay/itoa"
+    },
+    {
+      "name": "jobserver",
+      "version": "0.1.35",
+      "archive": "https://crates.io/api/v1/crates/jobserver/0.1.35/download",
+      "upstreamSource": "https://github.com/rust-lang/jobserver-rs"
+    },
+    {
+      "name": "json-patch",
+      "version": "3.0.1",
+      "archive": "https://crates.io/api/v1/crates/json-patch/3.0.1/download",
+      "upstreamSource": "https://github.com/idubrov/json-patch"
+    },
+    {
+      "name": "jsonptr",
+      "version": "0.6.3",
+      "archive": "https://crates.io/api/v1/crates/jsonptr/0.6.3/download",
+      "upstreamSource": "https://github.com/chanced/jsonptr"
+    },
+    {
+      "name": "keyboard-types",
+      "version": "0.7.0",
+      "archive": "https://crates.io/api/v1/crates/keyboard-types/0.7.0/download",
+      "upstreamSource": "https://github.com/pyfisch/keyboard-types"
+    },
+    {
+      "name": "keyring",
+      "version": "3.6.3",
+      "archive": "https://crates.io/api/v1/crates/keyring/3.6.3/download",
+      "upstreamSource": "https://github.com/hwchen/keyring-rs.git"
+    },
+    {
+      "name": "lazy_static",
+      "version": "1.5.0",
+      "archive": "https://crates.io/api/v1/crates/lazy_static/1.5.0/download",
+      "upstreamSource": "https://github.com/rust-lang-nursery/lazy-static.rs"
+    },
+    {
+      "name": "libbz2-rs-sys",
+      "version": "0.2.6",
+      "archive": "https://crates.io/api/v1/crates/libbz2-rs-sys/0.2.6/download",
+      "upstreamSource": "https://github.com/trifectatechfoundation/libbzip2-rs"
+    },
+    {
+      "name": "libc",
+      "version": "0.2.189",
+      "archive": "https://crates.io/api/v1/crates/libc/0.2.189/download",
+      "upstreamSource": "https://github.com/rust-lang/libc"
+    },
+    {
+      "name": "libsqlite3-sys",
+      "version": "0.28.0",
+      "archive": "https://crates.io/api/v1/crates/libsqlite3-sys/0.28.0/download",
+      "upstreamSource": "https://github.com/rusqlite/rusqlite"
+    },
+    {
+      "name": "litemap",
+      "version": "0.8.2",
+      "archive": "https://crates.io/api/v1/crates/litemap/0.8.2/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "lock_api",
+      "version": "0.4.14",
+      "archive": "https://crates.io/api/v1/crates/lock_api/0.4.14/download",
+      "upstreamSource": "https://github.com/Amanieu/parking_lot"
+    },
+    {
+      "name": "log",
+      "version": "0.4.33",
+      "archive": "https://crates.io/api/v1/crates/log/0.4.33/download",
+      "upstreamSource": "https://github.com/rust-lang/log"
+    },
+    {
+      "name": "lru-slab",
+      "version": "0.1.2",
+      "archive": "https://crates.io/api/v1/crates/lru-slab/0.1.2/download",
+      "upstreamSource": "https://github.com/Ralith/lru-slab"
+    },
+    {
+      "name": "lzma-rust2",
+      "version": "0.24.0",
+      "archive": "https://crates.io/api/v1/crates/lzma-rust2/0.24.0/download",
+      "upstreamSource": "https://github.com/hasenbanck/lzma-rust2/"
+    },
+    {
+      "name": "markup5ever",
+      "version": "0.38.0",
+      "archive": "https://crates.io/api/v1/crates/markup5ever/0.38.0/download",
+      "upstreamSource": "https://github.com/servo/html5ever"
+    },
+    {
+      "name": "memchr",
+      "version": "2.8.3",
+      "archive": "https://crates.io/api/v1/crates/memchr/2.8.3/download",
+      "upstreamSource": "https://github.com/BurntSushi/memchr"
+    },
+    {
+      "name": "memoffset",
+      "version": "0.6.5",
+      "archive": "https://crates.io/api/v1/crates/memoffset/0.6.5/download",
+      "upstreamSource": "https://github.com/Gilnaa/memoffset"
+    },
+    {
+      "name": "mime",
+      "version": "0.3.17",
+      "archive": "https://crates.io/api/v1/crates/mime/0.3.17/download",
+      "upstreamSource": "https://github.com/hyperium/mime"
+    },
+    {
+      "name": "minisign-verify",
+      "version": "0.2.5",
+      "archive": "https://crates.io/api/v1/crates/minisign-verify/0.2.5/download",
+      "upstreamSource": "https://github.com/jedisct1/rust-minisign-verify"
+    },
+    {
+      "name": "miniz_oxide",
+      "version": "0.8.9",
+      "archive": "https://crates.io/api/v1/crates/miniz_oxide/0.8.9/download",
+      "upstreamSource": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide"
+    },
+    {
+      "name": "mio",
+      "version": "1.2.2",
+      "archive": "https://crates.io/api/v1/crates/mio/1.2.2/download",
+      "upstreamSource": "https://github.com/tokio-rs/mio"
+    },
+    {
+      "name": "moxcms",
+      "version": "0.8.1",
+      "archive": "https://crates.io/api/v1/crates/moxcms/0.8.1/download",
+      "upstreamSource": "https://github.com/awxkee/moxcms.git"
+    },
+    {
+      "name": "muda",
+      "version": "0.19.3",
+      "archive": "https://crates.io/api/v1/crates/muda/0.19.3/download",
+      "upstreamSource": "https://github.com/tauri-apps/muda"
+    },
+    {
+      "name": "nanoid",
+      "version": "0.4.0",
+      "archive": "https://crates.io/api/v1/crates/nanoid/0.4.0/download",
+      "upstreamSource": "https://github.com/nikolay-govorov/nanoid.git"
+    },
+    {
+      "name": "native-tls",
+      "version": "0.2.18",
+      "archive": "https://crates.io/api/v1/crates/native-tls/0.2.18/download",
+      "upstreamSource": "https://github.com/rust-native-tls/rust-native-tls"
+    },
+    {
+      "name": "new_debug_unreachable",
+      "version": "1.0.6",
+      "archive": "https://crates.io/api/v1/crates/new_debug_unreachable/1.0.6/download",
+      "upstreamSource": "https://github.com/mbrubeck/rust-debug-unreachable"
+    },
+    {
+      "name": "nix",
+      "version": "0.25.1",
+      "archive": "https://crates.io/api/v1/crates/nix/0.25.1/download",
+      "upstreamSource": "https://github.com/nix-rust/nix"
+    },
+    {
+      "name": "notify-rust",
+      "version": "4.18.0",
+      "archive": "https://crates.io/api/v1/crates/notify-rust/4.18.0/download",
+      "upstreamSource": "https://github.com/hoodie/notify-rust"
+    },
+    {
+      "name": "notify",
+      "version": "6.1.1",
+      "archive": "https://crates.io/api/v1/crates/notify/6.1.1/download",
+      "upstreamSource": "https://github.com/notify-rs/notify.git"
+    },
+    {
+      "name": "ntapi",
+      "version": "0.4.3",
+      "archive": "https://crates.io/api/v1/crates/ntapi/0.4.3/download",
+      "upstreamSource": "https://github.com/MSxDOS/ntapi"
+    },
+    {
+      "name": "num-conv",
+      "version": "0.2.2",
+      "archive": "https://crates.io/api/v1/crates/num-conv/0.2.2/download",
+      "upstreamSource": "https://github.com/jhpratt/num-conv"
+    },
+    {
+      "name": "num-traits",
+      "version": "0.2.19",
+      "archive": "https://crates.io/api/v1/crates/num-traits/0.2.19/download",
+      "upstreamSource": "https://github.com/rust-num/num-traits"
+    },
+    {
+      "name": "once_cell",
+      "version": "1.21.4",
+      "archive": "https://crates.io/api/v1/crates/once_cell/1.21.4/download",
+      "upstreamSource": "https://github.com/matklad/once_cell"
+    },
+    {
+      "name": "option-ext",
+      "version": "0.2.0",
+      "archive": "https://crates.io/api/v1/crates/option-ext/0.2.0/download",
+      "upstreamSource": "https://github.com/soc/option-ext.git"
+    },
+    {
+      "name": "parking_lot",
+      "version": "0.12.5",
+      "archive": "https://crates.io/api/v1/crates/parking_lot/0.12.5/download",
+      "upstreamSource": "https://github.com/Amanieu/parking_lot"
+    },
+    {
+      "name": "parking_lot_core",
+      "version": "0.9.12",
+      "archive": "https://crates.io/api/v1/crates/parking_lot_core/0.9.12/download",
+      "upstreamSource": "https://github.com/Amanieu/parking_lot"
+    },
+    {
+      "name": "password-hash",
+      "version": "0.4.2",
+      "archive": "https://crates.io/api/v1/crates/password-hash/0.4.2/download",
+      "upstreamSource": "https://github.com/RustCrypto/traits/tree/master/password-hash"
+    },
+    {
+      "name": "pbkdf2",
+      "version": "0.11.0",
+      "archive": "https://crates.io/api/v1/crates/pbkdf2/0.11.0/download",
+      "upstreamSource": "https://github.com/RustCrypto/password-hashes/tree/master/pbkdf2"
+    },
+    {
+      "name": "pbkdf2",
+      "version": "0.13.0",
+      "archive": "https://crates.io/api/v1/crates/pbkdf2/0.13.0/download",
+      "upstreamSource": "https://github.com/RustCrypto/password-hashes"
+    },
+    {
+      "name": "pem-rfc7468",
+      "version": "1.0.0",
+      "archive": "https://crates.io/api/v1/crates/pem-rfc7468/1.0.0/download",
+      "upstreamSource": "https://github.com/RustCrypto/formats"
+    },
+    {
+      "name": "percent-encoding",
+      "version": "2.3.2",
+      "archive": "https://crates.io/api/v1/crates/percent-encoding/2.3.2/download",
+      "upstreamSource": "https://github.com/servo/rust-url/"
+    },
+    {
+      "name": "phf",
+      "version": "0.13.1",
+      "archive": "https://crates.io/api/v1/crates/phf/0.13.1/download",
+      "upstreamSource": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "name": "phf_codegen",
+      "version": "0.13.1",
+      "archive": "https://crates.io/api/v1/crates/phf_codegen/0.13.1/download",
+      "upstreamSource": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "name": "phf_generator",
+      "version": "0.13.1",
+      "archive": "https://crates.io/api/v1/crates/phf_generator/0.13.1/download",
+      "upstreamSource": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "name": "phf_macros",
+      "version": "0.13.1",
+      "archive": "https://crates.io/api/v1/crates/phf_macros/0.13.1/download",
+      "upstreamSource": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "name": "phf_shared",
+      "version": "0.13.1",
+      "archive": "https://crates.io/api/v1/crates/phf_shared/0.13.1/download",
+      "upstreamSource": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "name": "pin-project-lite",
+      "version": "0.2.17",
+      "archive": "https://crates.io/api/v1/crates/pin-project-lite/0.2.17/download",
+      "upstreamSource": "https://github.com/taiki-e/pin-project-lite"
+    },
+    {
+      "name": "pin-utils",
+      "version": "0.1.0",
+      "archive": "https://crates.io/api/v1/crates/pin-utils/0.1.0/download",
+      "upstreamSource": "https://github.com/rust-lang-nursery/pin-utils"
+    },
+    {
+      "name": "pkg-config",
+      "version": "0.3.33",
+      "archive": "https://crates.io/api/v1/crates/pkg-config/0.3.33/download",
+      "upstreamSource": "https://github.com/rust-lang/pkg-config-rs"
+    },
+    {
+      "name": "plist",
+      "version": "1.10.0",
+      "archive": "https://crates.io/api/v1/crates/plist/1.10.0/download",
+      "upstreamSource": "https://github.com/ebarnard/rust-plist/"
+    },
+    {
+      "name": "png",
+      "version": "0.17.16",
+      "archive": "https://crates.io/api/v1/crates/png/0.17.16/download",
+      "upstreamSource": "https://github.com/image-rs/image-png"
+    },
+    {
+      "name": "png",
+      "version": "0.18.1",
+      "archive": "https://crates.io/api/v1/crates/png/0.18.1/download",
+      "upstreamSource": "https://github.com/image-rs/image-png"
+    },
+    {
+      "name": "portable-pty",
+      "version": "0.8.1",
+      "archive": "https://crates.io/api/v1/crates/portable-pty/0.8.1/download",
+      "upstreamSource": "https://github.com/wez/wezterm"
+    },
+    {
+      "name": "potential_utf",
+      "version": "0.1.5",
+      "archive": "https://crates.io/api/v1/crates/potential_utf/0.1.5/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "powerfmt",
+      "version": "0.2.0",
+      "archive": "https://crates.io/api/v1/crates/powerfmt/0.2.0/download",
+      "upstreamSource": "https://github.com/jhpratt/powerfmt"
+    },
+    {
+      "name": "ppmd-rust",
+      "version": "1.5.2",
+      "archive": "https://crates.io/api/v1/crates/ppmd-rust/1.5.2/download",
+      "upstreamSource": "https://github.com/hasenbanck/ppmd-rust"
+    },
+    {
+      "name": "ppv-lite86",
+      "version": "0.2.21",
+      "archive": "https://crates.io/api/v1/crates/ppv-lite86/0.2.21/download",
+      "upstreamSource": "https://github.com/cryptocorrosion/cryptocorrosion"
+    },
+    {
+      "name": "precomputed-hash",
+      "version": "0.1.1",
+      "archive": "https://crates.io/api/v1/crates/precomputed-hash/0.1.1/download",
+      "upstreamSource": "https://github.com/emilio/precomputed-hash"
+    },
+    {
+      "name": "proc-macro2",
+      "version": "1.0.107",
+      "archive": "https://crates.io/api/v1/crates/proc-macro2/1.0.107/download",
+      "upstreamSource": "https://github.com/dtolnay/proc-macro2"
+    },
+    {
+      "name": "pxfm",
+      "version": "0.1.30",
+      "archive": "https://crates.io/api/v1/crates/pxfm/0.1.30/download",
+      "upstreamSource": "https://github.com/awxkee/pxfm"
+    },
+    {
+      "name": "qrcode",
+      "version": "0.14.1",
+      "archive": "https://crates.io/api/v1/crates/qrcode/0.14.1/download",
+      "upstreamSource": "https://github.com/kennytm/qrcode-rust"
+    },
+    {
+      "name": "quick-xml",
+      "version": "0.41.0",
+      "archive": "https://crates.io/api/v1/crates/quick-xml/0.41.0/download",
+      "upstreamSource": "https://github.com/tafia/quick-xml"
+    },
+    {
+      "name": "quinn-proto",
+      "version": "0.11.16",
+      "archive": "https://crates.io/api/v1/crates/quinn-proto/0.11.16/download",
+      "upstreamSource": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "name": "quinn-udp",
+      "version": "0.5.15",
+      "archive": "https://crates.io/api/v1/crates/quinn-udp/0.5.15/download",
+      "upstreamSource": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "name": "quinn",
+      "version": "0.11.11",
+      "archive": "https://crates.io/api/v1/crates/quinn/0.11.11/download",
+      "upstreamSource": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "name": "quote",
+      "version": "1.0.47",
+      "archive": "https://crates.io/api/v1/crates/quote/1.0.47/download",
+      "upstreamSource": "https://github.com/dtolnay/quote"
+    },
+    {
+      "name": "rand",
+      "version": "0.10.2",
+      "archive": "https://crates.io/api/v1/crates/rand/0.10.2/download",
+      "upstreamSource": "https://github.com/rust-random/rand"
+    },
+    {
+      "name": "rand",
+      "version": "0.8.7",
+      "archive": "https://crates.io/api/v1/crates/rand/0.8.7/download",
+      "upstreamSource": "https://github.com/rust-random/rand"
+    },
+    {
+      "name": "rand",
+      "version": "0.9.5",
+      "archive": "https://crates.io/api/v1/crates/rand/0.9.5/download",
+      "upstreamSource": "https://github.com/rust-random/rand"
+    },
+    {
+      "name": "rand_chacha",
+      "version": "0.3.1",
+      "archive": "https://crates.io/api/v1/crates/rand_chacha/0.3.1/download",
+      "upstreamSource": "https://github.com/rust-random/rand"
+    },
+    {
+      "name": "rand_chacha",
+      "version": "0.9.0",
+      "archive": "https://crates.io/api/v1/crates/rand_chacha/0.9.0/download",
+      "upstreamSource": "https://github.com/rust-random/rand"
+    },
+    {
+      "name": "rand_core",
+      "version": "0.10.1",
+      "archive": "https://crates.io/api/v1/crates/rand_core/0.10.1/download",
+      "upstreamSource": "https://github.com/rust-random/rand_core"
+    },
+    {
+      "name": "rand_core",
+      "version": "0.6.4",
+      "archive": "https://crates.io/api/v1/crates/rand_core/0.6.4/download",
+      "upstreamSource": "https://github.com/rust-random/rand"
+    },
+    {
+      "name": "rand_core",
+      "version": "0.9.5",
+      "archive": "https://crates.io/api/v1/crates/rand_core/0.9.5/download",
+      "upstreamSource": "https://github.com/rust-random/rand"
+    },
+    {
+      "name": "rand_pcg",
+      "version": "0.10.2",
+      "archive": "https://crates.io/api/v1/crates/rand_pcg/0.10.2/download",
+      "upstreamSource": "https://github.com/rust-random/rngs"
+    },
+    {
+      "name": "raw-window-handle",
+      "version": "0.6.2",
+      "archive": "https://crates.io/api/v1/crates/raw-window-handle/0.6.2/download",
+      "upstreamSource": "https://github.com/rust-windowing/raw-window-handle"
+    },
+    {
+      "name": "rayon-core",
+      "version": "1.13.0",
+      "archive": "https://crates.io/api/v1/crates/rayon-core/1.13.0/download",
+      "upstreamSource": "https://github.com/rayon-rs/rayon"
+    },
+    {
+      "name": "rayon",
+      "version": "1.12.0",
+      "archive": "https://crates.io/api/v1/crates/rayon/1.12.0/download",
+      "upstreamSource": "https://github.com/rayon-rs/rayon"
+    },
+    {
+      "name": "ref-cast-impl",
+      "version": "1.0.26",
+      "archive": "https://crates.io/api/v1/crates/ref-cast-impl/1.0.26/download",
+      "upstreamSource": "https://github.com/dtolnay/ref-cast"
+    },
+    {
+      "name": "ref-cast",
+      "version": "1.0.26",
+      "archive": "https://crates.io/api/v1/crates/ref-cast/1.0.26/download",
+      "upstreamSource": "https://github.com/dtolnay/ref-cast"
+    },
+    {
+      "name": "regex-automata",
+      "version": "0.4.16",
+      "archive": "https://crates.io/api/v1/crates/regex-automata/0.4.16/download",
+      "upstreamSource": "https://github.com/rust-lang/regex"
+    },
+    {
+      "name": "regex-syntax",
+      "version": "0.8.11",
+      "archive": "https://crates.io/api/v1/crates/regex-syntax/0.8.11/download",
+      "upstreamSource": "https://github.com/rust-lang/regex"
+    },
+    {
+      "name": "regex",
+      "version": "1.13.1",
+      "archive": "https://crates.io/api/v1/crates/regex/1.13.1/download",
+      "upstreamSource": "https://github.com/rust-lang/regex"
+    },
+    {
+      "name": "reqwest",
+      "version": "0.12.28",
+      "archive": "https://crates.io/api/v1/crates/reqwest/0.12.28/download",
+      "upstreamSource": "https://github.com/seanmonstar/reqwest"
+    },
+    {
+      "name": "reqwest",
+      "version": "0.13.4",
+      "archive": "https://crates.io/api/v1/crates/reqwest/0.13.4/download",
+      "upstreamSource": "https://github.com/seanmonstar/reqwest"
+    },
+    {
+      "name": "rfd",
+      "version": "0.16.0",
+      "archive": "https://crates.io/api/v1/crates/rfd/0.16.0/download",
+      "upstreamSource": "https://github.com/PolyMeilex/rfd"
+    },
+    {
+      "name": "ring",
+      "version": "0.17.14",
+      "archive": "https://crates.io/api/v1/crates/ring/0.17.14/download",
+      "upstreamSource": "https://github.com/briansmith/ring"
+    },
+    {
+      "name": "rusqlite",
+      "version": "0.31.0",
+      "archive": "https://crates.io/api/v1/crates/rusqlite/0.31.0/download",
+      "upstreamSource": "https://github.com/rusqlite/rusqlite"
+    },
+    {
+      "name": "rustc-hash",
+      "version": "2.1.3",
+      "archive": "https://crates.io/api/v1/crates/rustc-hash/2.1.3/download",
+      "upstreamSource": "https://github.com/rust-lang/rustc-hash"
+    },
+    {
+      "name": "rustc_version",
+      "version": "0.4.1",
+      "archive": "https://crates.io/api/v1/crates/rustc_version/0.4.1/download",
+      "upstreamSource": "https://github.com/djc/rustc-version-rs"
+    },
+    {
+      "name": "rustls-pki-types",
+      "version": "1.15.0",
+      "archive": "https://crates.io/api/v1/crates/rustls-pki-types/1.15.0/download",
+      "upstreamSource": "https://github.com/rustls/pki-types"
+    },
+    {
+      "name": "rustls-platform-verifier",
+      "version": "0.7.0",
+      "archive": "https://crates.io/api/v1/crates/rustls-platform-verifier/0.7.0/download",
+      "upstreamSource": "https://github.com/rustls/rustls-platform-verifier"
+    },
+    {
+      "name": "rustls-webpki",
+      "version": "0.103.15",
+      "archive": "https://crates.io/api/v1/crates/rustls-webpki/0.103.15/download",
+      "upstreamSource": "https://github.com/rustls/webpki"
+    },
+    {
+      "name": "rustls",
+      "version": "0.23.45",
+      "archive": "https://crates.io/api/v1/crates/rustls/0.23.45/download",
+      "upstreamSource": "https://github.com/rustls/rustls"
+    },
+    {
+      "name": "rustversion",
+      "version": "1.0.23",
+      "archive": "https://crates.io/api/v1/crates/rustversion/1.0.23/download",
+      "upstreamSource": "https://github.com/dtolnay/rustversion"
+    },
+    {
+      "name": "ryu",
+      "version": "1.0.23",
+      "archive": "https://crates.io/api/v1/crates/ryu/1.0.23/download",
+      "upstreamSource": "https://github.com/dtolnay/ryu"
+    },
+    {
+      "name": "same-file",
+      "version": "1.0.6",
+      "archive": "https://crates.io/api/v1/crates/same-file/1.0.6/download",
+      "upstreamSource": "https://github.com/BurntSushi/same-file"
+    },
+    {
+      "name": "schannel",
+      "version": "0.1.29",
+      "archive": "https://crates.io/api/v1/crates/schannel/0.1.29/download",
+      "upstreamSource": "https://github.com/steffengy/schannel-rs"
+    },
+    {
+      "name": "schemars",
+      "version": "0.8.22",
+      "archive": "https://crates.io/api/v1/crates/schemars/0.8.22/download",
+      "upstreamSource": "https://github.com/GREsau/schemars"
+    },
+    {
+      "name": "schemars",
+      "version": "0.9.0",
+      "archive": "https://crates.io/api/v1/crates/schemars/0.9.0/download",
+      "upstreamSource": "https://github.com/GREsau/schemars"
+    },
+    {
+      "name": "schemars",
+      "version": "1.2.1",
+      "archive": "https://crates.io/api/v1/crates/schemars/1.2.1/download",
+      "upstreamSource": "https://github.com/GREsau/schemars"
+    },
+    {
+      "name": "schemars_derive",
+      "version": "0.8.22",
+      "archive": "https://crates.io/api/v1/crates/schemars_derive/0.8.22/download",
+      "upstreamSource": "https://github.com/GREsau/schemars"
+    },
+    {
+      "name": "scopeguard",
+      "version": "1.2.0",
+      "archive": "https://crates.io/api/v1/crates/scopeguard/1.2.0/download",
+      "upstreamSource": "https://github.com/bluss/scopeguard"
+    },
+    {
+      "name": "selectors",
+      "version": "0.36.1",
+      "archive": "https://crates.io/api/v1/crates/selectors/0.36.1/download",
+      "upstreamSource": "https://github.com/servo/stylo"
+    },
+    {
+      "name": "semver",
+      "version": "1.0.28",
+      "archive": "https://crates.io/api/v1/crates/semver/1.0.28/download",
+      "upstreamSource": "https://github.com/dtolnay/semver"
+    },
+    {
+      "name": "serde-untagged",
+      "version": "0.1.9",
+      "archive": "https://crates.io/api/v1/crates/serde-untagged/0.1.9/download",
+      "upstreamSource": "https://github.com/dtolnay/serde-untagged"
+    },
+    {
+      "name": "serde",
+      "version": "1.0.229",
+      "archive": "https://crates.io/api/v1/crates/serde/1.0.229/download",
+      "upstreamSource": "https://github.com/serde-rs/serde"
+    },
+    {
+      "name": "serde_core",
+      "version": "1.0.229",
+      "archive": "https://crates.io/api/v1/crates/serde_core/1.0.229/download",
+      "upstreamSource": "https://github.com/serde-rs/serde"
+    },
+    {
+      "name": "serde_derive",
+      "version": "1.0.229",
+      "archive": "https://crates.io/api/v1/crates/serde_derive/1.0.229/download",
+      "upstreamSource": "https://github.com/serde-rs/serde"
+    },
+    {
+      "name": "serde_derive_internals",
+      "version": "0.29.1",
+      "archive": "https://crates.io/api/v1/crates/serde_derive_internals/0.29.1/download",
+      "upstreamSource": "https://github.com/serde-rs/serde"
+    },
+    {
+      "name": "serde_json",
+      "version": "1.0.151",
+      "archive": "https://crates.io/api/v1/crates/serde_json/1.0.151/download",
+      "upstreamSource": "https://github.com/serde-rs/json"
+    },
+    {
+      "name": "serde_repr",
+      "version": "0.1.21",
+      "archive": "https://crates.io/api/v1/crates/serde_repr/0.1.21/download",
+      "upstreamSource": "https://github.com/dtolnay/serde-repr"
+    },
+    {
+      "name": "serde_spanned",
+      "version": "1.1.1",
+      "archive": "https://crates.io/api/v1/crates/serde_spanned/1.1.1/download",
+      "upstreamSource": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "serde_urlencoded",
+      "version": "0.7.1",
+      "archive": "https://crates.io/api/v1/crates/serde_urlencoded/0.7.1/download",
+      "upstreamSource": "https://github.com/nox/serde_urlencoded"
+    },
+    {
+      "name": "serde_with",
+      "version": "3.21.0",
+      "archive": "https://crates.io/api/v1/crates/serde_with/3.21.0/download",
+      "upstreamSource": "https://github.com/jonasbb/serde_with/"
+    },
+    {
+      "name": "serde_with_macros",
+      "version": "3.21.0",
+      "archive": "https://crates.io/api/v1/crates/serde_with_macros/3.21.0/download",
+      "upstreamSource": "https://github.com/jonasbb/serde_with/"
+    },
+    {
+      "name": "serial-core",
+      "version": "0.4.0",
+      "archive": "https://crates.io/api/v1/crates/serial-core/0.4.0/download",
+      "upstreamSource": "https://github.com/dcuddeback/serial-rs"
+    },
+    {
+      "name": "serial-windows",
+      "version": "0.4.0",
+      "archive": "https://crates.io/api/v1/crates/serial-windows/0.4.0/download",
+      "upstreamSource": "https://github.com/dcuddeback/serial-rs"
+    },
+    {
+      "name": "serial",
+      "version": "0.4.0",
+      "archive": "https://crates.io/api/v1/crates/serial/0.4.0/download",
+      "upstreamSource": "https://github.com/dcuddeback/serial-rs"
+    },
+    {
+      "name": "serialize-to-javascript-impl",
+      "version": "0.1.2",
+      "archive": "https://crates.io/api/v1/crates/serialize-to-javascript-impl/0.1.2/download",
+      "upstreamSource": "https://github.com/chippers/serialize-to-javascript"
+    },
+    {
+      "name": "serialize-to-javascript",
+      "version": "0.1.2",
+      "archive": "https://crates.io/api/v1/crates/serialize-to-javascript/0.1.2/download",
+      "upstreamSource": "https://github.com/chippers/serialize-to-javascript"
+    },
+    {
+      "name": "servo_arc",
+      "version": "0.4.3",
+      "archive": "https://crates.io/api/v1/crates/servo_arc/0.4.3/download",
+      "upstreamSource": "https://github.com/servo/stylo"
+    },
+    {
+      "name": "sha1",
+      "version": "0.10.7",
+      "archive": "https://crates.io/api/v1/crates/sha1/0.10.7/download",
+      "upstreamSource": "https://github.com/RustCrypto/hashes"
+    },
+    {
+      "name": "sha1",
+      "version": "0.11.0",
+      "archive": "https://crates.io/api/v1/crates/sha1/0.11.0/download",
+      "upstreamSource": "https://github.com/RustCrypto/hashes"
+    },
+    {
+      "name": "sha2",
+      "version": "0.10.9",
+      "archive": "https://crates.io/api/v1/crates/sha2/0.10.9/download",
+      "upstreamSource": "https://github.com/RustCrypto/hashes"
+    },
+    {
+      "name": "sha2",
+      "version": "0.11.1",
+      "archive": "https://crates.io/api/v1/crates/sha2/0.11.1/download",
+      "upstreamSource": "https://github.com/RustCrypto/hashes"
+    },
+    {
+      "name": "shared_library",
+      "version": "0.1.9",
+      "archive": "https://crates.io/api/v1/crates/shared_library/0.1.9/download",
+      "upstreamSource": "https://github.com/tomaka/shared_library/"
+    },
+    {
+      "name": "shell-words",
+      "version": "1.1.1",
+      "archive": "https://crates.io/api/v1/crates/shell-words/1.1.1/download",
+      "upstreamSource": "https://github.com/tmiasko/shell-words"
+    },
+    {
+      "name": "sherpa-onnx-sys",
+      "version": "2.0.1",
+      "archive": "https://crates.io/api/v1/crates/sherpa-onnx-sys/2.0.1/download",
+      "upstreamSource": "https://github.com/k2-fsa/sherpa-onnx"
+    },
+    {
+      "name": "sherpa-onnx",
+      "version": "2.0.1",
+      "archive": "https://crates.io/api/v1/crates/sherpa-onnx/2.0.1/download",
+      "upstreamSource": "https://github.com/k2-fsa/sherpa-onnx"
+    },
+    {
+      "name": "shlex",
+      "version": "2.0.1",
+      "archive": "https://crates.io/api/v1/crates/shlex/2.0.1/download",
+      "upstreamSource": "https://github.com/comex/rust-shlex"
+    },
+    {
+      "name": "simd-adler32",
+      "version": "0.3.10",
+      "archive": "https://crates.io/api/v1/crates/simd-adler32/0.3.10/download",
+      "upstreamSource": "https://github.com/mcountryman/simd-adler32"
+    },
+    {
+      "name": "siphasher",
+      "version": "1.0.3",
+      "archive": "https://crates.io/api/v1/crates/siphasher/1.0.3/download",
+      "upstreamSource": "https://github.com/jedisct1/rust-siphash"
+    },
+    {
+      "name": "slab",
+      "version": "0.4.12",
+      "archive": "https://crates.io/api/v1/crates/slab/0.4.12/download",
+      "upstreamSource": "https://github.com/tokio-rs/slab"
+    },
+    {
+      "name": "smallvec",
+      "version": "1.15.2",
+      "archive": "https://crates.io/api/v1/crates/smallvec/1.15.2/download",
+      "upstreamSource": "https://github.com/servo/rust-smallvec"
+    },
+    {
+      "name": "socket2",
+      "version": "0.6.5",
+      "archive": "https://crates.io/api/v1/crates/socket2/0.6.5/download",
+      "upstreamSource": "https://github.com/rust-lang/socket2"
+    },
+    {
+      "name": "softbuffer",
+      "version": "0.4.8",
+      "archive": "https://crates.io/api/v1/crates/softbuffer/0.4.8/download",
+      "upstreamSource": "https://github.com/rust-windowing/softbuffer"
+    },
+    {
+      "name": "stable_deref_trait",
+      "version": "1.2.1",
+      "archive": "https://crates.io/api/v1/crates/stable_deref_trait/1.2.1/download",
+      "upstreamSource": "https://github.com/storyyeller/stable_deref_trait"
+    },
+    {
+      "name": "string_cache",
+      "version": "0.9.0",
+      "archive": "https://crates.io/api/v1/crates/string_cache/0.9.0/download",
+      "upstreamSource": "https://github.com/servo/string-cache"
+    },
+    {
+      "name": "string_cache_codegen",
+      "version": "0.6.1",
+      "archive": "https://crates.io/api/v1/crates/string_cache_codegen/0.6.1/download",
+      "upstreamSource": "https://github.com/servo/string-cache"
+    },
+    {
+      "name": "strsim",
+      "version": "0.11.1",
+      "archive": "https://crates.io/api/v1/crates/strsim/0.11.1/download",
+      "upstreamSource": "https://github.com/rapidfuzz/strsim-rs"
+    },
+    {
+      "name": "subtle",
+      "version": "2.6.1",
+      "archive": "https://crates.io/api/v1/crates/subtle/2.6.1/download",
+      "upstreamSource": "https://github.com/dalek-cryptography/subtle"
+    },
+    {
+      "name": "syn",
+      "version": "2.0.119",
+      "archive": "https://crates.io/api/v1/crates/syn/2.0.119/download",
+      "upstreamSource": "https://github.com/dtolnay/syn"
+    },
+    {
+      "name": "syn",
+      "version": "3.0.3",
+      "archive": "https://crates.io/api/v1/crates/syn/3.0.3/download",
+      "upstreamSource": "https://github.com/dtolnay/syn"
+    },
+    {
+      "name": "sync_wrapper",
+      "version": "1.0.2",
+      "archive": "https://crates.io/api/v1/crates/sync_wrapper/1.0.2/download",
+      "upstreamSource": "https://github.com/Actyx/sync_wrapper"
+    },
+    {
+      "name": "synstructure",
+      "version": "0.13.2",
+      "archive": "https://crates.io/api/v1/crates/synstructure/0.13.2/download",
+      "upstreamSource": "https://github.com/mystor/synstructure"
+    },
+    {
+      "name": "sysinfo",
+      "version": "0.31.4",
+      "archive": "https://crates.io/api/v1/crates/sysinfo/0.31.4/download",
+      "upstreamSource": "https://github.com/GuillaumeGomez/sysinfo"
+    },
+    {
+      "name": "tao",
+      "version": "0.35.3",
+      "archive": "https://crates.io/api/v1/crates/tao/0.35.3/download",
+      "upstreamSource": "https://github.com/tauri-apps/tao"
+    },
+    {
+      "name": "tar",
+      "version": "0.4.46",
+      "archive": "https://crates.io/api/v1/crates/tar/0.4.46/download",
+      "upstreamSource": "https://github.com/composefs/tar-rs"
+    },
+    {
+      "name": "tauri-build",
+      "version": "2.6.3",
+      "archive": "https://crates.io/api/v1/crates/tauri-build/2.6.3/download",
+      "upstreamSource": "https://github.com/tauri-apps/tauri"
+    },
+    {
+      "name": "tauri-codegen",
+      "version": "2.6.3",
+      "archive": "https://crates.io/api/v1/crates/tauri-codegen/2.6.3/download",
+      "upstreamSource": "https://github.com/tauri-apps/tauri"
+    },
+    {
+      "name": "tauri-macros",
+      "version": "2.6.3",
+      "archive": "https://crates.io/api/v1/crates/tauri-macros/2.6.3/download",
+      "upstreamSource": "https://github.com/tauri-apps/tauri"
+    },
+    {
+      "name": "tauri-plugin-dialog",
+      "version": "2.7.2",
+      "archive": "https://crates.io/api/v1/crates/tauri-plugin-dialog/2.7.2/download",
+      "upstreamSource": "https://github.com/tauri-apps/plugins-workspace"
+    },
+    {
+      "name": "tauri-plugin-fs",
+      "version": "2.5.1",
+      "archive": "https://crates.io/api/v1/crates/tauri-plugin-fs/2.5.1/download",
+      "upstreamSource": "https://github.com/tauri-apps/plugins-workspace"
+    },
+    {
+      "name": "tauri-plugin-notification",
+      "version": "2.4.0",
+      "archive": "https://crates.io/api/v1/crates/tauri-plugin-notification/2.4.0/download",
+      "upstreamSource": "https://github.com/tauri-apps/plugins-workspace"
+    },
+    {
+      "name": "tauri-plugin-process",
+      "version": "2.3.1",
+      "archive": "https://crates.io/api/v1/crates/tauri-plugin-process/2.3.1/download",
+      "upstreamSource": "https://github.com/tauri-apps/plugins-workspace"
+    },
+    {
+      "name": "tauri-plugin-single-instance",
+      "version": "2.4.3",
+      "archive": "https://crates.io/api/v1/crates/tauri-plugin-single-instance/2.4.3/download",
+      "upstreamSource": "https://github.com/tauri-apps/plugins-workspace"
+    },
+    {
+      "name": "tauri-plugin-updater",
+      "version": "2.12.0",
+      "archive": "https://crates.io/api/v1/crates/tauri-plugin-updater/2.12.0/download",
+      "upstreamSource": "https://github.com/tauri-apps/plugins-workspace"
+    },
+    {
+      "name": "tauri-plugin",
+      "version": "2.6.3",
+      "archive": "https://crates.io/api/v1/crates/tauri-plugin/2.6.3/download",
+      "upstreamSource": "https://github.com/tauri-apps/tauri"
+    },
+    {
+      "name": "tauri-runtime-wry",
+      "version": "2.11.4",
+      "archive": "https://crates.io/api/v1/crates/tauri-runtime-wry/2.11.4/download",
+      "upstreamSource": "https://github.com/tauri-apps/tauri"
+    },
+    {
+      "name": "tauri-runtime",
+      "version": "2.11.3",
+      "archive": "https://crates.io/api/v1/crates/tauri-runtime/2.11.3/download",
+      "upstreamSource": "https://github.com/tauri-apps/tauri"
+    },
+    {
+      "name": "tauri-utils",
+      "version": "2.9.3",
+      "archive": "https://crates.io/api/v1/crates/tauri-utils/2.9.3/download",
+      "upstreamSource": "https://github.com/tauri-apps/tauri"
+    },
+    {
+      "name": "tauri-winres",
+      "version": "0.3.6",
+      "archive": "https://crates.io/api/v1/crates/tauri-winres/0.3.6/download",
+      "upstreamSource": "https://github.com/tauri-apps/winres"
+    },
+    {
+      "name": "tauri-winrt-notification",
+      "version": "0.7.3",
+      "archive": "https://crates.io/api/v1/crates/tauri-winrt-notification/0.7.3/download",
+      "upstreamSource": "https://github.com/tauri-apps/winrt-notification"
+    },
+    {
+      "name": "tauri",
+      "version": "2.11.5",
+      "archive": "https://crates.io/api/v1/crates/tauri/2.11.5/download",
+      "upstreamSource": "https://github.com/tauri-apps/tauri"
+    },
+    {
+      "name": "tempfile",
+      "version": "3.27.0",
+      "archive": "https://crates.io/api/v1/crates/tempfile/3.27.0/download",
+      "upstreamSource": "https://github.com/Stebalien/tempfile"
+    },
+    {
+      "name": "tendril",
+      "version": "0.5.1",
+      "archive": "https://crates.io/api/v1/crates/tendril/0.5.1/download",
+      "upstreamSource": "https://github.com/servo/html5ever"
+    },
+    {
+      "name": "thiserror-impl",
+      "version": "1.0.69",
+      "archive": "https://crates.io/api/v1/crates/thiserror-impl/1.0.69/download",
+      "upstreamSource": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "name": "thiserror-impl",
+      "version": "2.0.19",
+      "archive": "https://crates.io/api/v1/crates/thiserror-impl/2.0.19/download",
+      "upstreamSource": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "name": "thiserror",
+      "version": "1.0.69",
+      "archive": "https://crates.io/api/v1/crates/thiserror/1.0.69/download",
+      "upstreamSource": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "name": "thiserror",
+      "version": "2.0.19",
+      "archive": "https://crates.io/api/v1/crates/thiserror/2.0.19/download",
+      "upstreamSource": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "name": "time-core",
+      "version": "0.1.9",
+      "archive": "https://crates.io/api/v1/crates/time-core/0.1.9/download",
+      "upstreamSource": "https://github.com/time-rs/time"
+    },
+    {
+      "name": "time-macros",
+      "version": "0.2.32",
+      "archive": "https://crates.io/api/v1/crates/time-macros/0.2.32/download",
+      "upstreamSource": "https://github.com/time-rs/time"
+    },
+    {
+      "name": "time",
+      "version": "0.3.54",
+      "archive": "https://crates.io/api/v1/crates/time/0.3.54/download",
+      "upstreamSource": "https://github.com/time-rs/time"
+    },
+    {
+      "name": "tiny_http",
+      "version": "0.12.0",
+      "archive": "https://crates.io/api/v1/crates/tiny_http/0.12.0/download",
+      "upstreamSource": "https://github.com/tiny-http/tiny-http"
+    },
+    {
+      "name": "tinystr",
+      "version": "0.8.3",
+      "archive": "https://crates.io/api/v1/crates/tinystr/0.8.3/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "tinyvec",
+      "version": "1.12.0",
+      "archive": "https://crates.io/api/v1/crates/tinyvec/1.12.0/download",
+      "upstreamSource": "https://github.com/Lokathor/tinyvec"
+    },
+    {
+      "name": "tinyvec_macros",
+      "version": "0.1.1",
+      "archive": "https://crates.io/api/v1/crates/tinyvec_macros/0.1.1/download",
+      "upstreamSource": "https://github.com/Soveu/tinyvec_macros"
+    },
+    {
+      "name": "tokio-macros",
+      "version": "2.7.2",
+      "archive": "https://crates.io/api/v1/crates/tokio-macros/2.7.2/download",
+      "upstreamSource": "https://github.com/tokio-rs/tokio"
+    },
+    {
+      "name": "tokio-native-tls",
+      "version": "0.3.1",
+      "archive": "https://crates.io/api/v1/crates/tokio-native-tls/0.3.1/download",
+      "upstreamSource": "https://github.com/tokio-rs/tls"
+    },
+    {
+      "name": "tokio-rustls",
+      "version": "0.26.4",
+      "archive": "https://crates.io/api/v1/crates/tokio-rustls/0.26.4/download",
+      "upstreamSource": "https://github.com/rustls/tokio-rustls"
+    },
+    {
+      "name": "tokio-stream",
+      "version": "0.1.19",
+      "archive": "https://crates.io/api/v1/crates/tokio-stream/0.1.19/download",
+      "upstreamSource": "https://github.com/tokio-rs/tokio"
+    },
+    {
+      "name": "tokio-tungstenite",
+      "version": "0.26.2",
+      "archive": "https://crates.io/api/v1/crates/tokio-tungstenite/0.26.2/download",
+      "upstreamSource": "https://github.com/snapview/tokio-tungstenite"
+    },
+    {
+      "name": "tokio-tungstenite",
+      "version": "0.28.0",
+      "archive": "https://crates.io/api/v1/crates/tokio-tungstenite/0.28.0/download",
+      "upstreamSource": "https://github.com/snapview/tokio-tungstenite"
+    },
+    {
+      "name": "tokio-util",
+      "version": "0.7.19",
+      "archive": "https://crates.io/api/v1/crates/tokio-util/0.7.19/download",
+      "upstreamSource": "https://github.com/tokio-rs/tokio"
+    },
+    {
+      "name": "tokio",
+      "version": "1.53.1",
+      "archive": "https://crates.io/api/v1/crates/tokio/1.53.1/download",
+      "upstreamSource": "https://github.com/tokio-rs/tokio"
+    },
+    {
+      "name": "toml",
+      "version": "0.9.12+spec-1.1.0",
+      "archive": "https://crates.io/api/v1/crates/toml/0.9.12+spec-1.1.0/download",
+      "upstreamSource": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml",
+      "version": "1.1.3+spec-1.1.0",
+      "archive": "https://crates.io/api/v1/crates/toml/1.1.3+spec-1.1.0/download",
+      "upstreamSource": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_datetime",
+      "version": "0.6.11",
+      "archive": "https://crates.io/api/v1/crates/toml_datetime/0.6.11/download",
+      "upstreamSource": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_datetime",
+      "version": "0.7.5+spec-1.1.0",
+      "archive": "https://crates.io/api/v1/crates/toml_datetime/0.7.5+spec-1.1.0/download",
+      "upstreamSource": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_datetime",
+      "version": "1.1.1+spec-1.1.0",
+      "archive": "https://crates.io/api/v1/crates/toml_datetime/1.1.1+spec-1.1.0/download",
+      "upstreamSource": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_edit",
+      "version": "0.22.27",
+      "archive": "https://crates.io/api/v1/crates/toml_edit/0.22.27/download",
+      "upstreamSource": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_parser",
+      "version": "1.1.2+spec-1.1.0",
+      "archive": "https://crates.io/api/v1/crates/toml_parser/1.1.2+spec-1.1.0/download",
+      "upstreamSource": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_write",
+      "version": "0.1.2",
+      "archive": "https://crates.io/api/v1/crates/toml_write/0.1.2/download",
+      "upstreamSource": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_writer",
+      "version": "1.1.2+spec-1.1.0",
+      "archive": "https://crates.io/api/v1/crates/toml_writer/1.1.2+spec-1.1.0/download",
+      "upstreamSource": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "tower-http",
+      "version": "0.6.11",
+      "archive": "https://crates.io/api/v1/crates/tower-http/0.6.11/download",
+      "upstreamSource": "https://github.com/tower-rs/tower-http"
+    },
+    {
+      "name": "tower-layer",
+      "version": "0.3.3",
+      "archive": "https://crates.io/api/v1/crates/tower-layer/0.3.3/download",
+      "upstreamSource": "https://github.com/tower-rs/tower"
+    },
+    {
+      "name": "tower-service",
+      "version": "0.3.3",
+      "archive": "https://crates.io/api/v1/crates/tower-service/0.3.3/download",
+      "upstreamSource": "https://github.com/tower-rs/tower"
+    },
+    {
+      "name": "tower",
+      "version": "0.5.3",
+      "archive": "https://crates.io/api/v1/crates/tower/0.5.3/download",
+      "upstreamSource": "https://github.com/tower-rs/tower"
+    },
+    {
+      "name": "tracing-attributes",
+      "version": "0.1.31",
+      "archive": "https://crates.io/api/v1/crates/tracing-attributes/0.1.31/download",
+      "upstreamSource": "https://github.com/tokio-rs/tracing"
+    },
+    {
+      "name": "tracing-core",
+      "version": "0.1.36",
+      "archive": "https://crates.io/api/v1/crates/tracing-core/0.1.36/download",
+      "upstreamSource": "https://github.com/tokio-rs/tracing"
+    },
+    {
+      "name": "tracing",
+      "version": "0.1.44",
+      "archive": "https://crates.io/api/v1/crates/tracing/0.1.44/download",
+      "upstreamSource": "https://github.com/tokio-rs/tracing"
+    },
+    {
+      "name": "tray-icon",
+      "version": "0.24.1",
+      "archive": "https://crates.io/api/v1/crates/tray-icon/0.24.1/download",
+      "upstreamSource": "https://github.com/tauri-apps/tray-icon"
+    },
+    {
+      "name": "try-lock",
+      "version": "0.2.5",
+      "archive": "https://crates.io/api/v1/crates/try-lock/0.2.5/download",
+      "upstreamSource": "https://github.com/seanmonstar/try-lock"
+    },
+    {
+      "name": "tungstenite",
+      "version": "0.26.2",
+      "archive": "https://crates.io/api/v1/crates/tungstenite/0.26.2/download",
+      "upstreamSource": "https://github.com/snapview/tungstenite-rs"
+    },
+    {
+      "name": "tungstenite",
+      "version": "0.28.0",
+      "archive": "https://crates.io/api/v1/crates/tungstenite/0.28.0/download",
+      "upstreamSource": "https://github.com/snapview/tungstenite-rs"
+    },
+    {
+      "name": "typed-path",
+      "version": "0.12.3",
+      "archive": "https://crates.io/api/v1/crates/typed-path/0.12.3/download",
+      "upstreamSource": "https://github.com/chipsenkbeil/typed-path"
+    },
+    {
+      "name": "typed-path",
+      "version": "0.13.0",
+      "archive": "https://crates.io/api/v1/crates/typed-path/0.13.0/download",
+      "upstreamSource": "https://github.com/chipsenkbeil/typed-path"
+    },
+    {
+      "name": "typeid",
+      "version": "1.0.3",
+      "archive": "https://crates.io/api/v1/crates/typeid/1.0.3/download",
+      "upstreamSource": "https://github.com/dtolnay/typeid"
+    },
+    {
+      "name": "typenum",
+      "version": "1.20.1",
+      "archive": "https://crates.io/api/v1/crates/typenum/1.20.1/download",
+      "upstreamSource": "https://github.com/paholg/typenum"
+    },
+    {
+      "name": "unic-char-property",
+      "version": "0.9.0",
+      "archive": "https://crates.io/api/v1/crates/unic-char-property/0.9.0/download",
+      "upstreamSource": "https://github.com/open-i18n/rust-unic/"
+    },
+    {
+      "name": "unic-char-range",
+      "version": "0.9.0",
+      "archive": "https://crates.io/api/v1/crates/unic-char-range/0.9.0/download",
+      "upstreamSource": "https://github.com/open-i18n/rust-unic/"
+    },
+    {
+      "name": "unic-common",
+      "version": "0.9.0",
+      "archive": "https://crates.io/api/v1/crates/unic-common/0.9.0/download",
+      "upstreamSource": "https://github.com/open-i18n/rust-unic/"
+    },
+    {
+      "name": "unic-ucd-ident",
+      "version": "0.9.0",
+      "archive": "https://crates.io/api/v1/crates/unic-ucd-ident/0.9.0/download",
+      "upstreamSource": "https://github.com/open-i18n/rust-unic/"
+    },
+    {
+      "name": "unic-ucd-version",
+      "version": "0.9.0",
+      "archive": "https://crates.io/api/v1/crates/unic-ucd-version/0.9.0/download",
+      "upstreamSource": "https://github.com/open-i18n/rust-unic/"
+    },
+    {
+      "name": "unicode-ident",
+      "version": "1.0.24",
+      "archive": "https://crates.io/api/v1/crates/unicode-ident/1.0.24/download",
+      "upstreamSource": "https://github.com/dtolnay/unicode-ident"
+    },
+    {
+      "name": "unicode-segmentation",
+      "version": "1.13.3",
+      "archive": "https://crates.io/api/v1/crates/unicode-segmentation/1.13.3/download",
+      "upstreamSource": "https://github.com/unicode-rs/unicode-segmentation"
+    },
+    {
+      "name": "untrusted",
+      "version": "0.9.0",
+      "archive": "https://crates.io/api/v1/crates/untrusted/0.9.0/download",
+      "upstreamSource": "https://github.com/briansmith/untrusted"
+    },
+    {
+      "name": "ureq-proto",
+      "version": "0.6.4",
+      "archive": "https://crates.io/api/v1/crates/ureq-proto/0.6.4/download",
+      "upstreamSource": "https://github.com/algesten/ureq-proto"
+    },
+    {
+      "name": "ureq",
+      "version": "2.12.1",
+      "archive": "https://crates.io/api/v1/crates/ureq/2.12.1/download",
+      "upstreamSource": "https://github.com/algesten/ureq"
+    },
+    {
+      "name": "ureq",
+      "version": "3.4.2",
+      "archive": "https://crates.io/api/v1/crates/ureq/3.4.2/download",
+      "upstreamSource": "https://github.com/algesten/ureq"
+    },
+    {
+      "name": "url",
+      "version": "2.5.8",
+      "archive": "https://crates.io/api/v1/crates/url/2.5.8/download",
+      "upstreamSource": "https://github.com/servo/rust-url"
+    },
+    {
+      "name": "urlencoding",
+      "version": "2.1.3",
+      "archive": "https://crates.io/api/v1/crates/urlencoding/2.1.3/download",
+      "upstreamSource": "https://github.com/kornelski/rust_urlencoding"
+    },
+    {
+      "name": "urlpattern",
+      "version": "0.3.0",
+      "archive": "https://crates.io/api/v1/crates/urlpattern/0.3.0/download",
+      "upstreamSource": "https://github.com/denoland/rust-urlpattern"
+    },
+    {
+      "name": "utf-8",
+      "version": "0.7.6",
+      "archive": "https://crates.io/api/v1/crates/utf-8/0.7.6/download",
+      "upstreamSource": "https://github.com/SimonSapin/rust-utf8"
+    },
+    {
+      "name": "utf8-zero",
+      "version": "0.8.1",
+      "archive": "https://crates.io/api/v1/crates/utf8-zero/0.8.1/download",
+      "upstreamSource": "https://github.com/algesten/utf8-zero"
+    },
+    {
+      "name": "utf8_iter",
+      "version": "1.0.4",
+      "archive": "https://crates.io/api/v1/crates/utf8_iter/1.0.4/download",
+      "upstreamSource": "https://github.com/hsivonen/utf8_iter"
+    },
+    {
+      "name": "uuid",
+      "version": "0.8.2",
+      "archive": "https://crates.io/api/v1/crates/uuid/0.8.2/download",
+      "upstreamSource": "https://github.com/uuid-rs/uuid"
+    },
+    {
+      "name": "uuid",
+      "version": "1.24.0",
+      "archive": "https://crates.io/api/v1/crates/uuid/1.24.0/download",
+      "upstreamSource": "https://github.com/uuid-rs/uuid"
+    },
+    {
+      "name": "vcpkg",
+      "version": "0.2.15",
+      "archive": "https://crates.io/api/v1/crates/vcpkg/0.2.15/download",
+      "upstreamSource": "https://github.com/mcgoo/vcpkg-rs"
+    },
+    {
+      "name": "version_check",
+      "version": "0.9.5",
+      "archive": "https://crates.io/api/v1/crates/version_check/0.9.5/download",
+      "upstreamSource": "https://github.com/SergioBenitez/version_check"
+    },
+    {
+      "name": "vswhom-sys",
+      "version": "0.1.3",
+      "archive": "https://crates.io/api/v1/crates/vswhom-sys/0.1.3/download",
+      "upstreamSource": "https://github.com/nabijaczleweli/vswhom-sys.rs"
+    },
+    {
+      "name": "vswhom",
+      "version": "0.1.0",
+      "archive": "https://crates.io/api/v1/crates/vswhom/0.1.0/download",
+      "upstreamSource": "https://github.com/nabijaczleweli/vswhom.rs"
+    },
+    {
+      "name": "walkdir",
+      "version": "2.5.0",
+      "archive": "https://crates.io/api/v1/crates/walkdir/2.5.0/download",
+      "upstreamSource": "https://github.com/BurntSushi/walkdir"
+    },
+    {
+      "name": "want",
+      "version": "0.3.1",
+      "archive": "https://crates.io/api/v1/crates/want/0.3.1/download",
+      "upstreamSource": "https://github.com/seanmonstar/want"
+    },
+    {
+      "name": "web_atoms",
+      "version": "0.2.5",
+      "archive": "https://crates.io/api/v1/crates/web_atoms/0.2.5/download",
+      "upstreamSource": "https://github.com/servo/html5ever"
+    },
+    {
+      "name": "webpki-root-certs",
+      "version": "1.0.9",
+      "archive": "https://crates.io/api/v1/crates/webpki-root-certs/1.0.9/download",
+      "upstreamSource": "https://github.com/rustls/webpki-roots"
+    },
+    {
+      "name": "webpki-roots",
+      "version": "0.26.11",
+      "archive": "https://crates.io/api/v1/crates/webpki-roots/0.26.11/download",
+      "upstreamSource": "https://github.com/rustls/webpki-roots"
+    },
+    {
+      "name": "webpki-roots",
+      "version": "1.0.9",
+      "archive": "https://crates.io/api/v1/crates/webpki-roots/1.0.9/download",
+      "upstreamSource": "https://github.com/rustls/webpki-roots"
+    },
+    {
+      "name": "webview2-com-macros",
+      "version": "0.8.1",
+      "archive": "https://crates.io/api/v1/crates/webview2-com-macros/0.8.1/download",
+      "upstreamSource": "https://github.com/wravery/webview2-rs"
+    },
+    {
+      "name": "webview2-com-sys",
+      "version": "0.38.2",
+      "archive": "https://crates.io/api/v1/crates/webview2-com-sys/0.38.2/download",
+      "upstreamSource": "https://github.com/wravery/webview2-rs"
+    },
+    {
+      "name": "webview2-com",
+      "version": "0.38.2",
+      "archive": "https://crates.io/api/v1/crates/webview2-com/0.38.2/download",
+      "upstreamSource": "https://github.com/wravery/webview2-rs"
+    },
+    {
+      "name": "which",
+      "version": "6.0.3",
+      "archive": "https://crates.io/api/v1/crates/which/6.0.3/download",
+      "upstreamSource": "https://github.com/harryfei/which-rs.git"
+    },
+    {
+      "name": "winapi-util",
+      "version": "0.1.11",
+      "archive": "https://crates.io/api/v1/crates/winapi-util/0.1.11/download",
+      "upstreamSource": "https://github.com/BurntSushi/winapi-util"
+    },
+    {
+      "name": "winapi",
+      "version": "0.3.9",
+      "archive": "https://crates.io/api/v1/crates/winapi/0.3.9/download",
+      "upstreamSource": "https://github.com/retep998/winapi-rs"
+    },
+    {
+      "name": "window-vibrancy",
+      "version": "0.6.0",
+      "archive": "https://crates.io/api/v1/crates/window-vibrancy/0.6.0/download",
+      "upstreamSource": "https://github.com/tauri-apps/tauri-plugin-vibrancy"
+    },
+    {
+      "name": "windows-collections",
+      "version": "0.2.0",
+      "archive": "https://crates.io/api/v1/crates/windows-collections/0.2.0/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-core",
+      "version": "0.54.0",
+      "archive": "https://crates.io/api/v1/crates/windows-core/0.54.0/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-core",
+      "version": "0.57.0",
+      "archive": "https://crates.io/api/v1/crates/windows-core/0.57.0/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-core",
+      "version": "0.61.2",
+      "archive": "https://crates.io/api/v1/crates/windows-core/0.61.2/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-future",
+      "version": "0.2.1",
+      "archive": "https://crates.io/api/v1/crates/windows-future/0.2.1/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-implement",
+      "version": "0.57.0",
+      "archive": "https://crates.io/api/v1/crates/windows-implement/0.57.0/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-implement",
+      "version": "0.60.2",
+      "archive": "https://crates.io/api/v1/crates/windows-implement/0.60.2/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-interface",
+      "version": "0.57.0",
+      "archive": "https://crates.io/api/v1/crates/windows-interface/0.57.0/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-interface",
+      "version": "0.59.3",
+      "archive": "https://crates.io/api/v1/crates/windows-interface/0.59.3/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-link",
+      "version": "0.1.3",
+      "archive": "https://crates.io/api/v1/crates/windows-link/0.1.3/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-link",
+      "version": "0.2.1",
+      "archive": "https://crates.io/api/v1/crates/windows-link/0.2.1/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-numerics",
+      "version": "0.2.0",
+      "archive": "https://crates.io/api/v1/crates/windows-numerics/0.2.0/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-registry",
+      "version": "0.6.1",
+      "archive": "https://crates.io/api/v1/crates/windows-registry/0.6.1/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-result",
+      "version": "0.1.2",
+      "archive": "https://crates.io/api/v1/crates/windows-result/0.1.2/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-result",
+      "version": "0.3.4",
+      "archive": "https://crates.io/api/v1/crates/windows-result/0.3.4/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-result",
+      "version": "0.4.1",
+      "archive": "https://crates.io/api/v1/crates/windows-result/0.4.1/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-strings",
+      "version": "0.4.2",
+      "archive": "https://crates.io/api/v1/crates/windows-strings/0.4.2/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-strings",
+      "version": "0.5.1",
+      "archive": "https://crates.io/api/v1/crates/windows-strings/0.5.1/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-sys",
+      "version": "0.48.0",
+      "archive": "https://crates.io/api/v1/crates/windows-sys/0.48.0/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-sys",
+      "version": "0.59.0",
+      "archive": "https://crates.io/api/v1/crates/windows-sys/0.59.0/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-sys",
+      "version": "0.60.2",
+      "archive": "https://crates.io/api/v1/crates/windows-sys/0.60.2/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-sys",
+      "version": "0.61.2",
+      "archive": "https://crates.io/api/v1/crates/windows-sys/0.61.2/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-targets",
+      "version": "0.48.5",
+      "archive": "https://crates.io/api/v1/crates/windows-targets/0.48.5/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-targets",
+      "version": "0.52.6",
+      "archive": "https://crates.io/api/v1/crates/windows-targets/0.52.6/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-targets",
+      "version": "0.53.5",
+      "archive": "https://crates.io/api/v1/crates/windows-targets/0.53.5/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-threading",
+      "version": "0.1.0",
+      "archive": "https://crates.io/api/v1/crates/windows-threading/0.1.0/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows-version",
+      "version": "0.1.7",
+      "archive": "https://crates.io/api/v1/crates/windows-version/0.1.7/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows",
+      "version": "0.54.0",
+      "archive": "https://crates.io/api/v1/crates/windows/0.54.0/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows",
+      "version": "0.57.0",
+      "archive": "https://crates.io/api/v1/crates/windows/0.57.0/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows",
+      "version": "0.61.3",
+      "archive": "https://crates.io/api/v1/crates/windows/0.61.3/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows_x86_64_msvc",
+      "version": "0.48.5",
+      "archive": "https://crates.io/api/v1/crates/windows_x86_64_msvc/0.48.5/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows_x86_64_msvc",
+      "version": "0.52.6",
+      "archive": "https://crates.io/api/v1/crates/windows_x86_64_msvc/0.52.6/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "windows_x86_64_msvc",
+      "version": "0.53.1",
+      "archive": "https://crates.io/api/v1/crates/windows_x86_64_msvc/0.53.1/download",
+      "upstreamSource": "https://github.com/microsoft/windows-rs"
+    },
+    {
+      "name": "winnow",
+      "version": "0.7.15",
+      "archive": "https://crates.io/api/v1/crates/winnow/0.7.15/download",
+      "upstreamSource": "https://github.com/winnow-rs/winnow"
+    },
+    {
+      "name": "winnow",
+      "version": "1.0.4",
+      "archive": "https://crates.io/api/v1/crates/winnow/1.0.4/download",
+      "upstreamSource": "https://github.com/winnow-rs/winnow"
+    },
+    {
+      "name": "winreg",
+      "version": "0.10.1",
+      "archive": "https://crates.io/api/v1/crates/winreg/0.10.1/download",
+      "upstreamSource": "https://github.com/gentoo90/winreg-rs"
+    },
+    {
+      "name": "winreg",
+      "version": "0.52.0",
+      "archive": "https://crates.io/api/v1/crates/winreg/0.52.0/download",
+      "upstreamSource": "https://github.com/gentoo90/winreg-rs"
+    },
+    {
+      "name": "winreg",
+      "version": "0.55.0",
+      "archive": "https://crates.io/api/v1/crates/winreg/0.55.0/download",
+      "upstreamSource": "https://github.com/gentoo90/winreg-rs"
+    },
+    {
+      "name": "winsafe",
+      "version": "0.0.19",
+      "archive": "https://crates.io/api/v1/crates/winsafe/0.0.19/download",
+      "upstreamSource": "https://github.com/rodrigocfd/winsafe"
+    },
+    {
+      "name": "writeable",
+      "version": "0.6.3",
+      "archive": "https://crates.io/api/v1/crates/writeable/0.6.3/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "wry",
+      "version": "0.55.1",
+      "archive": "https://crates.io/api/v1/crates/wry/0.55.1/download",
+      "upstreamSource": "https://github.com/tauri-apps/wry"
+    },
+    {
+      "name": "yoke-derive",
+      "version": "0.8.2",
+      "archive": "https://crates.io/api/v1/crates/yoke-derive/0.8.2/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "yoke",
+      "version": "0.8.3",
+      "archive": "https://crates.io/api/v1/crates/yoke/0.8.3/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "zerocopy",
+      "version": "0.8.55",
+      "archive": "https://crates.io/api/v1/crates/zerocopy/0.8.55/download",
+      "upstreamSource": "https://github.com/google/zerocopy"
+    },
+    {
+      "name": "zerofrom-derive",
+      "version": "0.1.7",
+      "archive": "https://crates.io/api/v1/crates/zerofrom-derive/0.1.7/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "zerofrom",
+      "version": "0.1.8",
+      "archive": "https://crates.io/api/v1/crates/zerofrom/0.1.8/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "zeroize",
+      "version": "1.9.0",
+      "archive": "https://crates.io/api/v1/crates/zeroize/1.9.0/download",
+      "upstreamSource": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "zeroize_derive",
+      "version": "1.5.0",
+      "archive": "https://crates.io/api/v1/crates/zeroize_derive/1.5.0/download",
+      "upstreamSource": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "zerotrie",
+      "version": "0.2.4",
+      "archive": "https://crates.io/api/v1/crates/zerotrie/0.2.4/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "zerovec-derive",
+      "version": "0.11.3",
+      "archive": "https://crates.io/api/v1/crates/zerovec-derive/0.11.3/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "zerovec",
+      "version": "0.11.6",
+      "archive": "https://crates.io/api/v1/crates/zerovec/0.11.6/download",
+      "upstreamSource": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "zip",
+      "version": "0.6.6",
+      "archive": "https://crates.io/api/v1/crates/zip/0.6.6/download",
+      "upstreamSource": "https://github.com/zip-rs/zip.git"
+    },
+    {
+      "name": "zip",
+      "version": "4.6.1",
+      "archive": "https://crates.io/api/v1/crates/zip/4.6.1/download",
+      "upstreamSource": "https://github.com/zip-rs/zip2.git"
+    },
+    {
+      "name": "zip",
+      "version": "7.2.0",
+      "archive": "https://crates.io/api/v1/crates/zip/7.2.0/download",
+      "upstreamSource": "https://github.com/zip-rs/zip2.git"
+    },
+    {
+      "name": "zip",
+      "version": "9.3.0",
+      "archive": "https://crates.io/api/v1/crates/zip/9.3.0/download",
+      "upstreamSource": "https://github.com/zip-rs/zip2"
+    },
+    {
+      "name": "zlib-rs",
+      "version": "0.6.8",
+      "archive": "https://crates.io/api/v1/crates/zlib-rs/0.6.8/download",
+      "upstreamSource": "https://github.com/trifectatechfoundation/zlib-rs"
+    },
+    {
+      "name": "zmij",
+      "version": "1.0.23",
+      "archive": "https://crates.io/api/v1/crates/zmij/1.0.23/download",
+      "upstreamSource": "https://github.com/dtolnay/zmij"
+    },
+    {
+      "name": "zopfli",
+      "version": "0.8.3",
+      "archive": "https://crates.io/api/v1/crates/zopfli/0.8.3/download",
+      "upstreamSource": "https://github.com/zopfli-rs/zopfli"
+    },
+    {
+      "name": "zstd-safe",
+      "version": "5.0.2+zstd.1.5.2",
+      "archive": "https://crates.io/api/v1/crates/zstd-safe/5.0.2+zstd.1.5.2/download",
+      "upstreamSource": "https://github.com/gyscos/zstd-rs"
+    },
+    {
+      "name": "zstd-safe",
+      "version": "8.2.0",
+      "archive": "https://crates.io/api/v1/crates/zstd-safe/8.2.0/download",
+      "upstreamSource": "https://github.com/gyscos/zstd-rs"
+    },
+    {
+      "name": "zstd-sys",
+      "version": "2.1.2+zstd.1.5.7",
+      "archive": "https://crates.io/api/v1/crates/zstd-sys/2.1.2+zstd.1.5.7/download",
+      "upstreamSource": "https://github.com/gyscos/zstd-rs"
+    },
+    {
+      "name": "zstd",
+      "version": "0.11.2+zstd.1.5.2",
+      "archive": "https://crates.io/api/v1/crates/zstd/0.11.2+zstd.1.5.2/download",
+      "upstreamSource": "https://github.com/gyscos/zstd-rs"
+    },
+    {
+      "name": "zstd",
+      "version": "0.14.3",
+      "archive": "https://crates.io/api/v1/crates/zstd/0.14.3/download",
+      "upstreamSource": "https://github.com/gyscos/zstd-rs"
+    }
+  ],
+  "native": {
+    "sherpa": "https://github.com/k2-fsa/sherpa-onnx/tree/v2.0.1",
+    "onnxruntime": "https://github.com/microsoft/onnxruntime/tree/v1.28.2",
+    "onnxProducer": "https://github.com/csukuangfj/onnxruntime-build",
+    "fbank": "https://github.com/csukuangfj/kaldi-native-fbank/tree/v1.22.4",
+    "decoder": "https://github.com/k2-fsa/kaldi-decoder/tree/v0.3.0",
+    "kaldifst": "https://github.com/k2-fsa/kaldifst/tree/v1.8.0",
+    "openfst": "https://github.com/csukuangfj/openfst/tree/v1.8.5-2026-07-09",
+    "kissfft": "https://github.com/mborgerding/kissfft/tree/febd4caeed32e33ad8b2e0bb5ea77542c40f18ec",
+    "sentencepiece": "https://github.com/pkufool/simple-sentencepiece/tree/v0.7",
+    "utf8proc": "https://github.com/JuliaStrings/utf8proc/tree/v2.12.0",
+    "json": "https://github.com/nlohmann/json/tree/v3.12.0"
+  }
+}

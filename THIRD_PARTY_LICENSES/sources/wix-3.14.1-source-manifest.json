@@ -1,0 +1,1744 @@
+{
+  "schema": 1,
+  "component": "WiX 3.14.1 UI custom action and UI resources",
+  "upstream": {
+    "url": "https://github.com/wixtoolset/wix3/archive/b40e9a32c24033e11b77baf2c91a704382f898ed.zip",
+    "revision": "b40e9a32c24033e11b77baf2c91a704382f898ed",
+    "sha256": "3cc4bdaca8070042a182675b047882211d042f35139efcb0eeac35eeb81bf9d3"
+  },
+  "selection": {
+    "completeTrees": [
+      "src/ext/UIExtension/",
+      "src/libs/dutil/",
+      "src/libs/wcautil/",
+      "src/common/",
+      "tools/"
+    ],
+    "rootFiles": "All upstream root files, including LICENSE.TXT, Readme.md, History.md, wix.proj and nuget.config.",
+    "omitted": "Unrelated extensions/tools, tests and their certificate/installer fixtures, documentation trees and precompiled tools/bin/NuGet.exe.",
+    "rationale": "Preserve the complete UI extension, dutil/wcautil source libraries, shared resources and source/build tooling; preserve every selected upstream file byte-for-byte. Microsoft SDK/compiler and public NuGet build tools are external prerequisites, not bundled binaries."
+  },
+  "archiveSHA256": "9b9e71a6efe2a4188702782395b9664486573a9d688fade8fd92640c248be3de",
+  "files": [
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/.editorconfig",
+      "sha256": "d5aeebf6df60aa280449512c02bc2433c10de649274b3f57dca6269743c0c9ed",
+      "bytes": 399
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/.gitattributes",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "bytes": 66
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/.gitignore",
+      "sha256": "a2744ae78f69c690e94ba4da8b2ce9edcdc836ae69f1ac9ad543253027e2e337",
+      "bytes": 222
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/CONTRIBUTING.md",
+      "sha256": "befec9ccf45ab5db3b99c9fc2c4dfa44484f895200be03326866be02287ddb82",
+      "bytes": 113
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/History.md",
+      "sha256": "980162ca35a29ac34b2b591fd5c11c6af032ec3743997e6a745adb59eb7db4e7",
+      "bytes": 2685
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/LICENSE.TXT",
+      "sha256": "dfdf2048787635215a6baf3b9d461dee89a2904d246787258a44f072a98d4786",
+      "bytes": 3341
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "0390ccb58cff67197341f7453ad37de118222590cf00b3d63265b730186cf52a",
+      "bytes": 785
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/Readme.md",
+      "sha256": "4e77843e1c5a4081cc5f66ca94e43dd635a3a5b2cdf4d9fe6c8c505010d51826",
+      "bytes": 854
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/nuget.config",
+      "sha256": "d5c4881afa72dce6f6e9d4c35f916c1e2a756b8709b50c135d427672920f1d23",
+      "bytes": 469
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/common/ProjectFile.ico",
+      "sha256": "3db901c479d2f64a03b2e1c4bbe99a5edad4938096bdcd2b15b4f1feace8c4e3",
+      "bytes": 83899
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/common/WixDistribution.cs",
+      "sha256": "b5ba14f66d3dfb151d330f4e5e30132f2fa9bd4e9b877840493d12e03eac9ba0",
+      "bytes": 4627
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/common/WixDistribution.h",
+      "sha256": "2ef5eb7153e3465fa7e4f514648459ae713fba55580e13639aadeaf6ae1becb9",
+      "bytes": 522
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/common/WixDistribution.wxl",
+      "sha256": "2b566ef63e7502bfd85faa42a6be4fb67c2ef9f8b8438251ef83641dee411661",
+      "bytes": 915
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/common/precomp.cpp",
+      "sha256": "ac63b666206ccfdc6361d4675c60812637181fdef475eeefc48a2ef77fd58eaf",
+      "bytes": 421
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/common/wix.rc",
+      "sha256": "e7832c706a2ff188a1a48f2251ad274c9d49bab392d115aac1012009075a8d92",
+      "bytes": 2986
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/common/wixstrsafe.h",
+      "sha256": "5b5fc015f1997e910b7570a41a8cd5915535590ed5233f4168f9079734bbf858",
+      "bytes": 1027
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/common/wixtoolset.org.ico",
+      "sha256": "78ac09089d90812efe2537fe6dafe4cebc0cbc2241674a5978dbb90d5ce58cda",
+      "bytes": 1150
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/ca/DriveCheck.cpp",
+      "sha256": "d48dd55ae104521a24256381371b0c6085a5b84f457dd5cdc1ecedc4e7339ce8",
+      "bytes": 4693
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/ca/PrintEula.cpp",
+      "sha256": "c2d3ef7b5146c82b623ce49c39bd543f1663123c93333b8edaa5838329f6452a",
+      "bytes": 16518
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/ca/cost.h",
+      "sha256": "058efd200c21a68b07ddb87d07f3d5b9e11a8374106e8f4671a133b1996de5cb",
+      "bytes": 347
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/ca/dllmain.cpp",
+      "sha256": "3bf9ade57eeb0c42db13ee75a83bf4ef2e14d4c490281c26628faaad53a987b8",
+      "bytes": 716
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/ca/precomp.h",
+      "sha256": "92788029f79e97839be3a33024bee951fdf14e2fc96599b0d2786c6f9ed0dde2",
+      "bytes": 493
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/ca/uica.def",
+      "sha256": "9ac71be34222657f90c23b218f8d3be449bf0a39fb0da52ef836be625a73b8a8",
+      "bytes": 247
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/ca/uica.rc",
+      "sha256": "176b4dc9aea53809f9c83a00e8762e2b60dfaa8fa2c8454f95ba895a5457543d",
+      "bytes": 409
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/ca/uica.vcxproj",
+      "sha256": "59f64d6ed619766b9359b623ef39127f7cf67d906c4dab8ec7a4cd2d69d38436",
+      "bytes": 2348
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/ui.proj",
+      "sha256": "2b3fbe84892193730cb34d35e05a188a2e0b951bfb7766521334ea386572f5fc",
+      "bytes": 696
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixext/AssemblyInfo.cs",
+      "sha256": "998c55f6a2223c2ef684742c8d19e23204009821c12a0ebe197d89c2235b6450",
+      "bytes": 694
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixext/UIDecompiler.cs",
+      "sha256": "af99bbfbdbee65b4d65fe90379ca3a3fbe1560a9dccc0604aa2a764a33024c12",
+      "bytes": 1865
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixext/UIExtension.cs",
+      "sha256": "8f8452ffaa5a1f38e09cb59aec143045f263aad5f57c87a9860fabcd037f934e",
+      "bytes": 1920
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixext/WixUIExtension.csproj",
+      "sha256": "220e6e593416e576c2ccc075a63753363404006c8d4fc97a9bb49fd7dc271ec6",
+      "bytes": 1352
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/AdvancedWelcomeEulaDlg.wxs",
+      "sha256": "f45ecaba5f646130c1bbb3ee8b00f687633277d8aae40c5480f50f9288fb7b8c",
+      "bytes": 5657
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/Bitmaps/New.ico",
+      "sha256": "4f92e804a11453382ebff7fb0958879bae88fe3366306911dec9d811cd306eed",
+      "bytes": 318
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/Bitmaps/Up.ico",
+      "sha256": "573e3260eed63604f24f6f10ce5294e25e22fda9e5bfd9010134de6e684bab98",
+      "bytes": 318
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/Bitmaps/bannrbmp.bmp",
+      "sha256": "92b3a0a230bbc2fa58e67e9ea3c4ac4e5296e3fe957049d3d24ed536409b1008",
+      "bytes": 2746
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/Bitmaps/dlgbmp.bmp",
+      "sha256": "ab097eab826add34f1f44d4fa1bf7ba93374640da04a6abd2684ce1037b23671",
+      "bytes": 68468
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/Bitmaps/exclamic.ico",
+      "sha256": "593f94ef1405422b3e453f4422b22c990d84303668d60344c6fd257318e92428",
+      "bytes": 766
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/Bitmaps/info.ico",
+      "sha256": "9ae4a96bf2a349667e844acc1e2ac4f89361a6182268438f4d063df3a6fc47bc",
+      "bytes": 1078
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/BrowseDlg.wxs",
+      "sha256": "14350b6e4aba3881849337913196962438125dd03ad4f2a46a97f2f09c6ec693",
+      "bytes": 3248
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/CancelDlg.wxs",
+      "sha256": "a03304755d2dc4d01bd019659ee250623cec5c8315dbdce0b6c44b6432eadaa7",
+      "bytes": 1238
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/Common.wxs",
+      "sha256": "fdc036601559a32e490498b8f696e6ae0dc71a4b08e39bf710756309522f0e6d",
+      "bytes": 4880
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/Common_Platform.wxi",
+      "sha256": "71aba02e7c985b8e31c9f21315a784fc3c2c239096215a3a95715083fe5bd3ed",
+      "bytes": 874
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/Common_x86.wxs",
+      "sha256": "d9225f4c6ef687f326faf3ad5af7cf6f104ee1c2fd34b407adf2606e7bf34d6a",
+      "bytes": 350
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/CustomizeDlg.wxs",
+      "sha256": "5845c15615fb849f9cef6ba34534cde2acb2f112e114c053c259574ad80e99bb",
+      "bytes": 4284
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/DiskCostDlg.wxs",
+      "sha256": "96c46c4af2baf1248888ebca2c3c8cbfb6d7382ba9bf1ef877c9a1a74e79f67d",
+      "bytes": 1665
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/ErrorDlg.wxs",
+      "sha256": "bb924d1a219a1d3b3f582c8325a30191704ef7c0dade19d63a813f3ee3f71d56",
+      "bytes": 2518
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/ErrorProgressText.wxs",
+      "sha256": "d162220fc13a4a7b33a4ec4313781e77c79da90ccb3529d94c79eb046805e80d",
+      "bytes": 19335
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/ExitDialog.wxs",
+      "sha256": "8bd79fbbdb05d5bb611265efd83f365ff4d6e060f96fcb322b3e15679368e492",
+      "bytes": 2406
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/FatalError.wxs",
+      "sha256": "6ad09fbb8d80b8c13551050e98de0ece9e45a9373432d99aee1119d8e1ec42b8",
+      "bytes": 1855
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/FeaturesDlg.wxs",
+      "sha256": "51754db464e2ec6e2e5aca5d8802a57f4025482d210b282c5d70f77661fdd80b",
+      "bytes": 6995
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/FilesInUse.wxs",
+      "sha256": "ae92c0ee3571866253e88f4d7b9c011aa77b52cc4175000e3d83e38fd4f7544c",
+      "bytes": 2093
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/InstallDirDlg.wxs",
+      "sha256": "070dc01d539207934c22aa383483561d042b705b1da46360ce2cbbb79c02564d",
+      "bytes": 2053
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/InstallScopeDlg.wxs",
+      "sha256": "dd2a7ef1228941781919046c84984ef82e6ddc36e37ab4e36466fb6f7b2eda58",
+      "bytes": 3207
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/InvalidDirDlg.wxs",
+      "sha256": "698c2651504ad52a8ef05819842cc1380ab8dfca7c137ee1dbd43d17ab4f8e6a",
+      "bytes": 1031
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/License.rtf",
+      "sha256": "0b73c0012454f2bf79ed41108ca966efc100515b1fdae767f0b7e93eadaa930a",
+      "bytes": 652
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/LicenseAgreementDlg.wxs",
+      "sha256": "ba496d8738f9baba90915173285f8c1573c7b2e5839469ad58277f991cc27890",
+      "bytes": 2683
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/MaintenanceTypeDlg.wxs",
+      "sha256": "032f26771721fca0c7efd5d94300c9be2913d05886ee1e3978c15a0f2ad57045",
+      "bytes": 4356
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/MaintenanceWelcomeDlg.wxs",
+      "sha256": "45354eca40a3fbe7490ab55594ab433a351796e748bd9698ec5ab4a50e336a97",
+      "bytes": 1975
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/MsiRMFilesInUse.wxs",
+      "sha256": "e687dd010901b639dffcc480332741fb5c6320c6db3954a76eeff06a2633db6f",
+      "bytes": 2580
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/OutOfDiskDlg.wxs",
+      "sha256": "9844106b8d96f416ff43dfb4007bae38683cf59f1662ab40b5b37a9396b715b6",
+      "bytes": 1672
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/OutOfRbDiskDlg.wxs",
+      "sha256": "979a3ca923153b0e7e44e16e8fb2e3b840254c7303631b73ca1cd9b61e8b6f00",
+      "bytes": 2029
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/PrepareDlg.wxs",
+      "sha256": "edf4cc0bb5835f41b0b4a0846f5963a44895bf3debeafa8d5f46483952136c1e",
+      "bytes": 2182
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/ProgressDlg.wxs",
+      "sha256": "2a567e995def30313f59db60152ede5194bc90b0b24a7b07b1646d434b005cc2",
+      "bytes": 5091
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/ResumeDlg.wxs",
+      "sha256": "7931d90d545e0a5da1e8e473d0cb3275cdbbd71b1b00c76ba0ceec6331937c0b",
+      "bytes": 3936
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/SetupTypeDlg.wxs",
+      "sha256": "5f4a23c69752c7e53488389e75b705cc6d82e5898df32c8562386ffbe7718e6a",
+      "bytes": 3124
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/UIExtension.wixproj",
+      "sha256": "ed4520121005ed05fbcbc7075e8366b60c0b9d2b95d925d3a52af640b0267329",
+      "bytes": 5380
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/UserExit.wxs",
+      "sha256": "25de90b3673def9fc825623771bdd0f18318b7bca5c889f13edaf011854c5141",
+      "bytes": 1841
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/VerifyReadyDlg.wxs",
+      "sha256": "17156daa48f9dc0bd25d0d6f9e0fe18928aeefcacd437807c4f7c1f0175b1cc5",
+      "bytes": 15366
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WaitForCostingDlg.wxs",
+      "sha256": "6f1e8b8da1d25a1d2780dd0ae3b2a2dca472033863b84118739c1462e7b27d4b",
+      "bytes": 1069
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WelcomeDlg.wxs",
+      "sha256": "d6ae1868a42dae608286de2f368b9e2be1d812f70d82f2c17fdf1f7fb556603d",
+      "bytes": 2390
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WelcomeEulaDlg.wxs",
+      "sha256": "72b7461f3d42446f17b293bdb15d72f0a0905362c444313c88c63a37ed306284",
+      "bytes": 4799
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixExt_de-de.wxl",
+      "sha256": "0ced634398def478a4952cae97a6e7bf989d14e4568c1cfc185b15ba568436e5",
+      "bytes": 19449
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_Advanced.wxs",
+      "sha256": "b0824a2a61bd194b623f08c4d631599eb9deec3b886f06073f8508572da0ae9d",
+      "bytes": 9463
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_FeatureTree.wxs",
+      "sha256": "7ce9a2c960a8ca4e366eb11366b2427e4910f5427f7cf1e158b62ec70820f878",
+      "bytes": 3573
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_InstallDir.wxs",
+      "sha256": "d106e533e72fa9a7ed664d100c72c7bcc3de23f85a5cb747b28fe810c36145f3",
+      "bytes": 4536
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_Minimal.wxs",
+      "sha256": "ed0bc9ee3756ebb62366da6260a58b2cc0125c0819ef9c24701ab329c55fc44f",
+      "bytes": 2757
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_Mondo.wxs",
+      "sha256": "dfdffd32fa8a4af3d8517f9edf58df14322607d51c6ffa70b6e0431406d5a5c7",
+      "bytes": 4505
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_ar-SA.wxl",
+      "sha256": "ec560fe535b04cbcacafbb76e72113fad10385b962c287ba2c94ffd98e74ab8b",
+      "bytes": 86007
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_bg-BG.wxl",
+      "sha256": "af60332fd1f257e81224d2b0562b1e7ed1aebb08e56251bbf3aac600721c0bf5",
+      "bytes": 99712
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_ca-ES.wxl",
+      "sha256": "25a63039e8e9915d770fe52f5a94278de792b1cc04fe484586b65019794cef9d",
+      "bytes": 77050
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_cs-CZ.wxl",
+      "sha256": "ff56a1e639539f29d4a2f379146f28f3919e3a8b495c673ea22209ac2f429fcf",
+      "bytes": 74454
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_da-DK.wxl",
+      "sha256": "fac235437a8c5ebf7b9903b2bbcceeb72aaeb70f228f861c2092b90de70aa772",
+      "bytes": 71807
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_de-de.wxl",
+      "sha256": "d06635830dacdaa3a633f068c2e91982cbb7d742621e8d4bba94ba6bb5142a46",
+      "bytes": 77114
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_el-GR.wxl",
+      "sha256": "b2e5eaec053ab7158f5539257cb2efd5516eea39cde07ae154b8ec286f32fc70",
+      "bytes": 108127
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_en-us.wxl",
+      "sha256": "b0131df8e8dee16041d211200e79546c53866fe9854df50b734b9352ed0c4cb0",
+      "bytes": 112668
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_es-es.wxl",
+      "sha256": "844123e3dbb243ecd4c4661f915a49968a0fac8b7a6bf533d01d4ba936000a64",
+      "bytes": 75109
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_et-EE.wxl",
+      "sha256": "c0df8b5f28e3f131b7dfcf1bed424bca3cc78088484485d50a90a87218df2d40",
+      "bytes": 70156
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_fi-FI.wxl",
+      "sha256": "48dabeba8e34e13634eb6cc1a82548d5fa607ee62dcb1bc6cf0f8d568b008be4",
+      "bytes": 71955
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_fr-fr.wxl",
+      "sha256": "a05c6189b2ecab5d406eae635abfe0bcf08b5a0afa4c21eaffb07a06d926f7be",
+      "bytes": 77465
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_he-IL.wxl",
+      "sha256": "2f8fa0891162eb2ac81eb17d978d6a82473f8e8e029d5e01733bcd844ef15c70",
+      "bytes": 79354
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_hi-IN.wxl",
+      "sha256": "68f4f8f803811252dee2bc8f9c5ec19211f961023c18c540493d71e863d7e2bf",
+      "bytes": 116954
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_hr-HR.wxl",
+      "sha256": "90a15a04a08122f6c5bf890974cfab49d3ef18cf7912b0741b759798433e962c",
+      "bytes": 72679
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_hu-HU.wxl",
+      "sha256": "bed4d9485e32d416477aa475a489b01bd9f80e4520aa0cfa02270dcb036dfcd4",
+      "bytes": 78322
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_it-it.wxl",
+      "sha256": "53f7f4ccf948323507d6560cbc85bb31778925adaf66b46dc1ee810b755c0edd",
+      "bytes": 76853
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_ja-jp.wxl",
+      "sha256": "b7ad1a7cc381b6d2f46aaf18daf906a0a80b462fedb011b7c065ade4ac8fcd09",
+      "bytes": 87506
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_kk-KZ.wxl",
+      "sha256": "85adad96ccc8698dd34056e73676541716e7225c9a0e70e1050b326725574c10",
+      "bytes": 96877
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_ko-KR.wxl",
+      "sha256": "cd66fd99f3f10cb41208ae506258cb639bdcab41106f6c07509bc53280a31c20",
+      "bytes": 77151
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_lt-LT.wxl",
+      "sha256": "017b0db9be2782f3e31209289c68d9e01ecff3da0f8ffbad23f6681cf584ad78",
+      "bytes": 72008
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_lv-LV.wxl",
+      "sha256": "8c4cd5aeb92c48ec2a243830b23e5fa9b87a4cd36100be90f9eb983a3146bbf1",
+      "bytes": 74494
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_nb-NO.wxl",
+      "sha256": "8c41888aede97ab08bf59da78fa4285684e995ea4452e209afec2164f377f2d1",
+      "bytes": 69967
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_nl-NL.wxl",
+      "sha256": "8f1731dc61b48a133b9679e861f819aed62d3be07485fbe65dd705ea08f8bb92",
+      "bytes": 74042
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_pl-pl.wxl",
+      "sha256": "8f43d4f5a690e40254dab9ce40ef01b08e079bd95ab7b42eac27ef779f57368c",
+      "bytes": 74419
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_pt-BR.wxl",
+      "sha256": "e1be9982a2a852bce89437f385a0a73cb70415133b512c705e5815d3eba9efbf",
+      "bytes": 73382
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_pt-PT.wxl",
+      "sha256": "7f8bbbf30888329c1d7255f6d3b4671ab380a4181e8e9a745671c510ba8c7515",
+      "bytes": 74772
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_ro-RO.wxl",
+      "sha256": "2696c49fb11a2f176329b7554ebca82205640ece3a1586b81e3687902c9b3e42",
+      "bytes": 75610
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_ru-ru.wxl",
+      "sha256": "d1131bde6d1762b70444202605edb3f295c232a9e9e48d360d146a75b12f4f87",
+      "bytes": 94715
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_sk-SK.wxl",
+      "sha256": "6f7e40a3ab259af2fca08651aaecb84809c927e53b065714959c3579f83a3b2f",
+      "bytes": 75282
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_sl-SI.wxl",
+      "sha256": "696b08607e9354f68e419ea49dc9222f0a7e5dad4fa3dc9891d8d9a5c4e1e9fe",
+      "bytes": 72593
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_sq-AL.wxl",
+      "sha256": "d31a358ebf80eaa1f68082a23a319df3ea42a784367d291cba36067f009ac847",
+      "bytes": 118384
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_sr-Latn-CS.wxl",
+      "sha256": "2034095ed5e4494fd7d7478ef24ea0d9a997fb92c75546e1c191c83c3e93c7d3",
+      "bytes": 74671
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_sv-SE.wxl",
+      "sha256": "1b98d3fdb2399a4e2e965c307fcc24bfdd6807bdd2807471cc0c32d1dd3be7f0",
+      "bytes": 71290
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_th-TH.wxl",
+      "sha256": "189164aca24ba9f2f764ab47115fc51eb26247c55b63a257521283f4d87add48",
+      "bytes": 120475
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_tr-TR.wxl",
+      "sha256": "db1c4ad891a9e7919d71656648edffb2e749033cd1eba8b11162d22b5b663ee3",
+      "bytes": 73060
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_uk-UA.wxl",
+      "sha256": "9a866bf1e54869d1710a393f228871f0348812b5e1f08ff56de2848c6ae91d48",
+      "bytes": 96430
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_zh-CN.wxl",
+      "sha256": "61cbfae0a52b3561df846999f6bcf81abf0d9208845d254887ee17c000938279",
+      "bytes": 66699
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_zh-HK.wxl",
+      "sha256": "e124bc69d489e496e940306e457a99c3778e4af211a85f815e9bf63019b432e4",
+      "bytes": 66595
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib/WixUI_zh-TW.wxl",
+      "sha256": "1479b6cbabfea55e8a90ab6e6dda0bf94a0641f679a170317c66ec87ddfb6cc9",
+      "bytes": 66589
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib_arm/UIExtension_ARM.wixproj",
+      "sha256": "1b731eac12e0fbb8ae43b5e3a4a84644562cb3c4f840bcbf1ae01d92da5254cc",
+      "bytes": 820
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/ext/UIExtension/wixlib_arm/UIExtension_arm.wxs",
+      "sha256": "0adb5cb9f5b22d242ded5f6197ac571537f9d35561157bfd30f88bc79ebfa5b1",
+      "bytes": 360
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/acl2util.cpp",
+      "sha256": "aa31dad1c3875c0a9e1d46187aedc7db1266316eaec1629b2cbaaaa2a46623fc",
+      "bytes": 4445
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/aclutil.cpp",
+      "sha256": "992d7b7aba67d5c0d1a2a69a73fc3e72ab4142fec19039232447b074bc9894d9",
+      "bytes": 30956
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/apputil.cpp",
+      "sha256": "0c49695263b366be5c8a638e68789eecb86e8b200204b31391a8ee47ea5a02d9",
+      "bytes": 3783
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/apuputil.cpp",
+      "sha256": "78b84707598e8dacd3d7eb261ad4d57d17e912e177f9c9c9915db84c49f73a60",
+      "bytes": 23104
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/atomutil.cpp",
+      "sha256": "b46db58951d6010c280326bc6b4ca58fbd37b67dad776044ce3e69dd7a718e9a",
+      "bytes": 40063
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/buffutil.cpp",
+      "sha256": "0274f8a3aa7e56260acb7c8f6b2260371b22a6e2d5f9da0d51bc79df7359ee36",
+      "bytes": 10547
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/butil.cpp",
+      "sha256": "8b559ad16eb7d55981c4dec52b5ec38d4adc9e368864194a1f29c385bd011e9f",
+      "bytes": 10563
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/cabcutil.cpp",
+      "sha256": "783786a966ce20a10f71d567559bc711ded58a45d0e40c7c096f74cbc2404bef",
+      "bytes": 55412
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/cabutil.cpp",
+      "sha256": "2e53c7b2bd64ad310cc90c7ee4288334f5529aad08e6161a6b8d5422e6da0649",
+      "bytes": 19558
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/certutil.cpp",
+      "sha256": "2c3c71528e4a6cbfaeb80ee7effb193e46c9826580068387c159d43dbbb411e9",
+      "bytes": 10566
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/conutil.cpp",
+      "sha256": "0ce1d0de30e0e28d9740f3fce621a1950d903893d4c3ba16e04cb53ef127cc08",
+      "bytes": 19511
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/cryputil.cpp",
+      "sha256": "5b0e7d1962be3efcbda49f3c5efe425fcb1c140da6c230a2e7382dc02175c6b6",
+      "bytes": 9586
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/dictutil.cpp",
+      "sha256": "93f69e70627e8282745018aa7171bfbc1b8d0a33affe0cd7fab23a51ee24ebc1",
+      "bytes": 23726
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/dirutil.cpp",
+      "sha256": "b7959233e96a8b6f03dd572d4c51d1016cd696957dade8685522b762bb267fba",
+      "bytes": 13254
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/dlutil.cpp",
+      "sha256": "7d1cc2d919efc4e9f6fa201b7efaf7a7bd36c6342cbebf1320e0432eb3f68d61",
+      "bytes": 26690
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/dutil.cpp",
+      "sha256": "ed967c1c4688b74278900d4a1240eb0501cdd4a131b597f4bc369019c897980b",
+      "bytes": 13452
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/dutil.vcxproj",
+      "sha256": "1bb95f1bc33743d92b52ddd9ba37545d5716cd8b1588f1abedb86324c96e95c7",
+      "bytes": 6756
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/dutil.vcxproj.filters",
+      "sha256": "183d6e1fbbe27a16b7a10b3c07de4d62ceee486b49bfeba6b3544e912f9ac01a",
+      "bytes": 10486
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/eseutil.cpp",
+      "sha256": "b20e08a6605b92e5182a65ea2b6c4f528396096b7a4585f75834559b72d2619b",
+      "bytes": 40809
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/fileutil.cpp",
+      "sha256": "d40defac979ce3333d7ac8d02cfabbdc3304869f6ba07a5b92c43449c15522cb",
+      "bytes": 53573
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/gdiputil.cpp",
+      "sha256": "82c045f7bf1d5d4106b32c69e43d7a5fe61d138ab0b59e8e5d0d54f777c00cbb",
+      "bytes": 4303
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/iis7util.cpp",
+      "sha256": "b6ffa668225d93e8f7b91e08091c6e10c36e7aada0b2dc772c057261bc6d9267",
+      "bytes": 13949
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/aclutil.h",
+      "sha256": "bf07802d024c6fb129c5f978df3a48af016cd05ef955f7795f6ab7c76ebc2460",
+      "bytes": 3943
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/apputil.h",
+      "sha256": "0ff25f9353f325226869a5a0e32c909c5de62ef9080f8f693fb4b446d206b204",
+      "bytes": 1461
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/apuputil.h",
+      "sha256": "4d7b376bb55d6bfc89d086ef6e0677f985ce9dff8d0430c94e396064e1f8b639",
+      "bytes": 1830
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/atomutil.h",
+      "sha256": "479ebdeae61c429e5e501883d6ffb1a3c5295e92faa5a883b7f5890688b80217",
+      "bytes": 2576
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/buffutil.h",
+      "sha256": "79f80e421a66c61641cad6f55d8c2c1172551070569bb6c429070ef860751399",
+      "bytes": 2038
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/butil.h",
+      "sha256": "1b191354ac2ca28deb448c2af381c445e835a70dc5a74adda33a06d1e1248292",
+      "bytes": 964
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/cabcutil.h",
+      "sha256": "ea090fdca6c214de691e24f7c22a3055f2ba79f31ffcb47f9df7d736da8de9dd",
+      "bytes": 1830
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/cabutil.h",
+      "sha256": "67de87bf23deb62eb7a9532a3dffc710b657b86e846e8ecb00f408ada1c2e7f0",
+      "bytes": 1874
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/certutil.h",
+      "sha256": "32ce7e27abf1401de7570b0971457d3faca290e5986913e14fcb84d34c17d136",
+      "bytes": 1835
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/conutil.h",
+      "sha256": "e4eb922c9bcdbcb11f31e05fbe81dea5c10aefbc257274242f638cb9ff4ce53d",
+      "bytes": 3219
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/cryputil.h",
+      "sha256": "7678aa5676f6329dbdddda1112479df684cbb2c82adfcba34bf441c83d5dc6bb",
+      "bytes": 2447
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/dictutil.h",
+      "sha256": "ac6ff46d46472ba8ea7b640276fdf60548e0adc627ec7133c571740da7d15f53",
+      "bytes": 2149
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/dirutil.h",
+      "sha256": "c19a5bf1161679414a2f9c911b9f7833528541c47e855e0d89f4937135b225c9",
+      "bytes": 1190
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/dlutil.h",
+      "sha256": "7a94920256a767671ac2e6ce83c5cf1ac3cf0a6f175958c8e3980463cd589987",
+      "bytes": 1333
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/dutil.h",
+      "sha256": "7c76d5e8e60a169dbdd60912ab56b8045554f7c3a0806f3a279f73412e5d71cc",
+      "bytes": 9238
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/eseutil.h",
+      "sha256": "957cbd2e5ffa27d1abcdb15e80213a19e7bdd3cb7ace7345171303ca45162a40",
+      "bytes": 5880
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/fileutil.h",
+      "sha256": "32f7362ada5082b99ec6f4853bb6ff085d3314171c5725aeaa51d0da1817cefb",
+      "bytes": 6318
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/gdiputil.h",
+      "sha256": "6062f8f54adb2733e6e7163bffad0152965e45d5818c5d7d584d6b5788e5339f",
+      "bytes": 1092
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/iis7util.h",
+      "sha256": "317d067b49b77389bc410fb53fedb9828f7d20aa7343f0fb04e45328b5e95a9d",
+      "bytes": 9586
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/inetutil.h",
+      "sha256": "e6e135429d625865732ab46d29197d3e53f26b394db8188119c69a40ce00d481",
+      "bytes": 889
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/iniutil.h",
+      "sha256": "4f7201380ca070730e596f759b880da3e5802d8c93aeac8c64dc0c768eca59c7",
+      "bytes": 2054
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/jsonutil.h",
+      "sha256": "d554e5f26d60a7816bd3d816234a3da282f867086b5a65baa488f41ee8b7facd",
+      "bytes": 2115
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/locutil.h",
+      "sha256": "d03009458336384c605a5ba05302ba309fcee50d442fc943a1fe3eb0837b4c1e",
+      "bytes": 3935
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/logutil.h",
+      "sha256": "1fa42c9ef09d15af2e21e0545f281a5b268c42eec8704b6be8c94a9a9962b186",
+      "bytes": 4859
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/memutil.h",
+      "sha256": "05d5439d147b9406fcffe7227f6ae6985560e7d5ed8cf70408d0fbeddf9da366",
+      "bytes": 1307
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/metautil.h",
+      "sha256": "4507024e2c1a7c907c4d300ffaf5b57cc964dfdd2e546d25b7058abd0582c85a",
+      "bytes": 1220
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/osutil.h",
+      "sha256": "b59941b9356596f98beb6a3f51181f2cdd829c948d30f8f880e2cf42999635fe",
+      "bytes": 852
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/pathutil.h",
+      "sha256": "5527972a683cfbc2437fdc39657d35817f72a4ff264fbbc699906dcf1561b371",
+      "bytes": 8536
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/perfutil.h",
+      "sha256": "a8087764caa398ebba28975d3c5ad6729367c6424975e4c902835f53fef9d80a",
+      "bytes": 482
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/polcutil.h",
+      "sha256": "d51d439f30a15310faeb1b71d62fc7e5cfe8e859e7261db73424c7aa092dc7ce",
+      "bytes": 1212
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/procutil.h",
+      "sha256": "4dc52c1ef2b58c34332d51a4b15227ff5272cf156e54ffba9c0cb6fb8492479a",
+      "bytes": 2014
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/regutil.h",
+      "sha256": "b5223a12d24bf0ef38b626b1f8e548860fbfa4a2bf799534307dfb81fee201be",
+      "bytes": 6361
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/resrutil.h",
+      "sha256": "676a1d5c6ef84bf95d86f1be4cb37aa102d6b6dad8d86abda6c05e1a37e9734e",
+      "bytes": 927
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/reswutil.h",
+      "sha256": "2cda84c85c415ef731122a04cf2324363eb042b33c8fdc8c3c2167767b57b798",
+      "bytes": 704
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/rexutil.h",
+      "sha256": "b66b9e3558773af6aba8981b125f06b83ba294aafc16f9b15420b5eaf5884b08",
+      "bytes": 1182
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/rmutil.h",
+      "sha256": "d5729b0b8568dd5c97434e73f93b989172472e164b0044bdc0e9aba20cab8f5a",
+      "bytes": 964
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/rssutil.h",
+      "sha256": "2a8e6200437f5a60c9d280de6ac8e154c2cf807c98f8a00d2f9459192faeb10d",
+      "bytes": 1663
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/sceutil.h",
+      "sha256": "5b1a99c8806deeb96da62abe8c831aa817e0a762e676385bce585c1b950308fc",
+      "bytes": 7877
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/shelutil.h",
+      "sha256": "d76f4fb0c62ea7af5d89b7abea48974e7d826ea226971a39afd50598db73e817",
+      "bytes": 1204
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/sqlutil.h",
+      "sha256": "451a901353cfc59c4d6dc35d780ffa833833aef0c3636e405bcc31d0d9ce2c63",
+      "bytes": 3841
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/srputil.h",
+      "sha256": "789edfaa2609db6f1bdf56d59f4c48525f5123795eecf2dacf253b8a1c574234",
+      "bytes": 1245
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/strutil.h",
+      "sha256": "4938e701825d888324d09e9a87327addf2c1720ba1455a4bc8f3a8b346defa65",
+      "bytes": 8490
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/svcutil.h",
+      "sha256": "c1b468e7969efc8c5be8d63dc3633b16ebcfb1160cba8bc9664318253b7f11c1",
+      "bytes": 461
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/thmutil.h",
+      "sha256": "68edce6ee0852f5260afe51ea0ee30248f1a11ebab9d5eb164f9801bdf80fd16",
+      "bytes": 15728
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/timeutil.h",
+      "sha256": "6f387f321970f9e961d6da2999992ca575e2d65383d14140413d930ec9c7741c",
+      "bytes": 770
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/uriutil.h",
+      "sha256": "26540c06a5cfe07cf57df15996973693b9a30574d5c9ad1ef50ef1c787821967",
+      "bytes": 2126
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/userutil.h",
+      "sha256": "aa0f385be2cd293a0daa7ee0ebe81f41dca87df8dd4c6583d2ff60a8f18dbe9c",
+      "bytes": 774
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/wiutil.h",
+      "sha256": "2a64ed896ffe5d6a445c269ca0be37f18bd7dbbea4e389851ba220bd8a00abdc",
+      "bytes": 11198
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/wuautil.h",
+      "sha256": "8e58b58c9f700879afe76dc1b2c9d9a0d04d6030ec9178fbfd7e12a5b82095d2",
+      "bytes": 447
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inc/xmlutil.h",
+      "sha256": "83ce8f54f5318a2c3a1d7b059e34913d5aaa422f56558a46964c2bf21e662cb3",
+      "bytes": 5873
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/inetutil.cpp",
+      "sha256": "cfb4a8ed91f72dc2086f95ee8448e0a88b1773cd0d660cf914b57277d17c5042",
+      "bytes": 3882
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/iniutil.cpp",
+      "sha256": "6fd8cf21d3289f9187b00daac5b18186889255d772fee7a5a02f41c0fc26285f",
+      "bytes": 21319
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/jsonutil.cpp",
+      "sha256": "f618fe4d5d54a44f5632f73fb342df5e5c22bdb9d12bd7b00f47bd4343bedcac",
+      "bytes": 14778
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/locutil.cpp",
+      "sha256": "ad2235f02b885187e3ec7146b33613d9fdb466b362ce45016d624a03dcad87ee",
+      "bytes": 18747
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/logutil.cpp",
+      "sha256": "b7f54b2153df6d8b260fead9fc4cfcbe2cf1a5a0592491ef341584f5b4d010b6",
+      "bytes": 26365
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/memutil.cpp",
+      "sha256": "1befe633c435497812922da57df3a263b3f48ba1c3e3e7ebd8d4dc26e815311c",
+      "bytes": 5260
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/metautil.cpp",
+      "sha256": "a89f03249194ae9e82e5f4fe0039f807436f703ed1fb32fcd0626c561bc92f53",
+      "bytes": 10519
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/osutil.cpp",
+      "sha256": "d6bbe49332f51d73ef554fdae12966214cb1cdf375f52fe5b9d0124d71bb0e52",
+      "bytes": 5589
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/path2utl.cpp",
+      "sha256": "2000146887accf5fa19b521d2398bea97b4f038d817088df1ae6153ac6580247",
+      "bytes": 2064
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/pathutil.cpp",
+      "sha256": "0ed8f6bfff798c4453287e4d80f4aaf4bfe5281a52bb2c7d51f3f060e049a476",
+      "bytes": 27070
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/perfutil.cpp",
+      "sha256": "b5e8cd0f201733886b56241cdcbd5f2114a844ab25299668097ddab7693c3e56",
+      "bytes": 2109
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/polcutil.cpp",
+      "sha256": "f1f20c69cfee6c2a70d2e87d0cf08c8411b0192c88ee1170ebab390d8750dde6",
+      "bytes": 2613
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/precomp.h",
+      "sha256": "eba3d0280863d2b15067df56a4f184cb6a82c6be519f8511ad15160cd0983604",
+      "bytes": 2218
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/proc2utl.cpp",
+      "sha256": "90dbfe00b973e4091a2965c5de8d8ef263ce246ab75369310c3b891f902a5cd9",
+      "bytes": 2216
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/proc3utl.cpp",
+      "sha256": "e0dfadcb2e0edc3e99ec8204011ab2c8e447b3fade2dc7dada411e2093f26614",
+      "bytes": 3047
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/procutil.cpp",
+      "sha256": "9b5c9b6c378444ea10363b637a298e8de470339479371010db738224cbef5a1a",
+      "bytes": 14747
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/regutil.cpp",
+      "sha256": "b5aeb852607f97da4de56ca1b849b8537c53f520dc6752690f0066b4d25d7c0a",
+      "bytes": 28708
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/resrutil.cpp",
+      "sha256": "835bbdb68c72e583cd3eaaebcd3a36eb387d280c11e9c57a0bbd398d48162f7f",
+      "bytes": 6753
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/reswutil.cpp",
+      "sha256": "e614f5107c2b36b203ffb25773a64dca98ce0733be01424013990dc954044605",
+      "bytes": 9852
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/rexutil.cpp",
+      "sha256": "0bde812ecdcd35647ff36570eff505ad7d3854c753e6860b391c9b3579ea0a9d",
+      "bytes": 17656
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/rmutil.cpp",
+      "sha256": "57c6d97383ad6e6687bc7074e08014c5a76b83df127f4b57c8bb85da64ffd21e",
+      "bytes": 14836
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/rssutil.cpp",
+      "sha256": "fe700445255f920f287eea9e26a89dc102fe986512ddfc4d0bb1d2984ee897c1",
+      "bytes": 19705
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/sceutil.cpp",
+      "sha256": "742699444259742f6152c9ca650753068218c4cffc7b094b5c0226e345060bf4",
+      "bytes": 82243
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/shelutil.cpp",
+      "sha256": "2170b5ed2eb5d2b27c12f0ab72040f00923bd72ea0f786a25c861a440859ff62",
+      "bytes": 9950
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/sqlutil.cpp",
+      "sha256": "f618195f658872e807181e930124fc8cc3bfec0b547d3dd77a0253b11b1fa2f9",
+      "bytes": 30917
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/srputil.cpp",
+      "sha256": "6b601c8bbf3f053ad913246896985ddbafd447c8a225a0b47aa28ef38e8a0939",
+      "bytes": 8620
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/strutil.cpp",
+      "sha256": "c92eace74cf27f65ca663c3085922c9255c6bf504d1947046403a088e33b25ea",
+      "bytes": 77725
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/svcutil.cpp",
+      "sha256": "a53c3c2b7d774178e366ef720cbb291eecaa0a9160271930e562cfadc5b486c3",
+      "bytes": 1371
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/thmutil.cpp",
+      "sha256": "e27abdb7f49208d466e67aa8a11d377a871bd44d09e30806c2c7ab47c6f36df6",
+      "bytes": 110849
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/timeutil.cpp",
+      "sha256": "a20cd85fd51190f1a321fdfe78ee1e7c6b95f68911accf9c07e2e033a7f19e67",
+      "bytes": 9242
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/uriutil.cpp",
+      "sha256": "7e78653aa59f4d04b2b8d65b289de608aa235f2b5893b119fbb94b74f822ce0e",
+      "bytes": 15269
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/userutil.cpp",
+      "sha256": "261f835da1595b293ec3ef3da0aff22e14ebb89f11974c129fe577d3307e9f94",
+      "bytes": 10148
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/wiutil.cpp",
+      "sha256": "6a8eab3ddf3517e38f29fe58c3fe262b02d6d7c70d90c590b859395372f32569",
+      "bytes": 49230
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/wuautil.cpp",
+      "sha256": "9c6257bd84ef6cbb77b828f5c82d02291cb3b83899e9a07db49f9e3e44185f10",
+      "bytes": 2580
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/xmlutil.cpp",
+      "sha256": "71b533f2487b3c836052c594cded0a9f85b1559a238aa047053dc74061417944",
+      "bytes": 36448
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/dutil/xsd/thmutil.xsd",
+      "sha256": "73a65d4c0b437a1ac698dc301406c01fad6709a54a5a9d1e14bd4dd201b25811",
+      "bytes": 36967
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/wcautil/custommsierrors.h",
+      "sha256": "7e0408579c118e7f24ebc1f9914f0abadb879fafe14f9878f9959bf5d3281367",
+      "bytes": 5935
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/wcautil/precomp.h",
+      "sha256": "66d4e6c133e31f7c78adf9caf60a27600c821d6fd7d2363adf0210846431db91",
+      "bytes": 507
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/wcautil/qtexec.cpp",
+      "sha256": "a415b880bdbfdc5d160abdccb65fdb683a2eda5534d7f4ccb3081725b1d002d1",
+      "bytes": 9330
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/wcautil/wcalog.cpp",
+      "sha256": "f0fab6bffc64e0dfe5e4a305c8b09332c59d1860e49d6123d28bbf7257ca8a0e",
+      "bytes": 8267
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/wcautil/wcalog.h",
+      "sha256": "eb287db4700bccf5e4fe0030784da6a0554cb8dd33b36fd26d59eadf5d13464f",
+      "bytes": 359
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/wcautil/wcascript.cpp",
+      "sha256": "05c4a32c9603c10ed3a5e460531586375cd9cb7e50012a77613fd8335d8cae2f",
+      "bytes": 13923
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/wcautil/wcautil.cpp",
+      "sha256": "b2a31343c9a650f3061e511bc5fffce2df24d8f173c8c30e35c1480300b3a272",
+      "bytes": 7213
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/wcautil/wcautil.h",
+      "sha256": "82e77c021a0e7eb0f49b8d1a1d4f05c7d428fd693cdc9c0e7d8492ac01d84ec8",
+      "bytes": 9894
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/wcautil/wcautil.vcxproj",
+      "sha256": "e64b5e0ce931df53f1dc5662ce74df892b9fc847ed026364b8a38c449f760d9c",
+      "bytes": 3327
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/wcautil/wcawow64.cpp",
+      "sha256": "90979b6997923823834a4f9f8723acdd8b88e0c7774c66f0f0a5f29bff6a5292",
+      "bytes": 5407
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/wcautil/wcawow64.h",
+      "sha256": "1ee482f742cfeb83c5b5d09c1d2c78ae7afc2317ac95f9883af7a56a3a754e31",
+      "bytes": 533
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/wcautil/wcawrap.cpp",
+      "sha256": "40e4a7da17599405ec4cac2b1280bf6531bb6ac283d04453953a62f6c4e24871",
+      "bytes": 46978
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/wcautil/wcawrapquery.cpp",
+      "sha256": "183f802d4157c418e1b8223ba22754394824c8928f8012f29ccf91089aa76bc2",
+      "bytes": 26645
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/src/libs/wcautil/wcawrapquery.h",
+      "sha256": "617db788b479e705114308c7e87dc3e6bfe91a359de23561228a997090bbd3e2",
+      "bytes": 4969
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/Nuget.targets",
+      "sha256": "739e7a6a104488150015bf3f5c886e0826870691d5b1d60fe8fc21969f1a670e",
+      "bytes": 3149
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/OneTimeWixBuildInitialization.proj",
+      "sha256": "32ad553bdf0eeabcb7c7ce566956d04544c9157de86fa8d1c1f86a407bdcf5db",
+      "bytes": 4546
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/Traversal.targets",
+      "sha256": "002472aa9fb602215a9b6d0baee7d932936f93c60a52176cba6cf3e8de570f58",
+      "bytes": 1632
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/Version.proj",
+      "sha256": "1398b260761eba8803837762480cb3e53e39e78adb37a7f44dea027d2a6ec3e8",
+      "bytes": 673
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/Wix.ruleset",
+      "sha256": "fec0fb9c4fa0ac68814a2b5ebcd82ed134b67220ca8de100b4772998654d6ac4",
+      "bytes": 655
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.Signing.targets",
+      "sha256": "6a6da643de9389702789f3696de77383708ef99a901aa7b40d9cde01390e3734",
+      "bytes": 2942
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.Tools.targets",
+      "sha256": "9bd91e21d037f2b08b9c63264a5e44fa9e94b897a84a87f9c42c46337f78ca7d",
+      "bytes": 22872
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.Version.targets",
+      "sha256": "c3f86bbc36a00011fa1444a257b57aac04960569b228fcb88716fed7bf23d02d",
+      "bytes": 7483
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.VisualStudioSdk.targets",
+      "sha256": "1de19a807579b3a0f704d7fa296eee45194a4740107370c96718867c29c23c71",
+      "bytes": 2430
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.csproj.props",
+      "sha256": "9d15eeec14bdd427e1099316d15b1dfb313673fc002c45bb19eedc4454eb14d6",
+      "bytes": 2698
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.csproj.targets",
+      "sha256": "648b7fdc99512faf2b0f6c74fe94af08254d140d8b0cd5c3bd0bcc3361dfdede",
+      "bytes": 773
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.helpproj.targets",
+      "sha256": "bc5f88acfff507563422271a5451cfd21165e98c2bec819a6d5657a63c4a26ec",
+      "bytes": 8201
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.props",
+      "sha256": "4d24b81fba942eb11ea08debb2eb87e042abea99537303e7ccc0a786e5dfadd1",
+      "bytes": 18618
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.relproj.targets",
+      "sha256": "4aad6f8abf49ac1791843da1621fa16c308d622648616da08ae13c67653c1442",
+      "bytes": 7489
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.shfbproj.props",
+      "sha256": "c835370719604c435938704e358479a0418ed4f8b006b1a003eb9536368d8783",
+      "bytes": 481
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.shfbproj.targets",
+      "sha256": "1876fadf92560cab6ff32bce4f44301ebfb30f5fae432d71d704bb1254a8c6b2",
+      "bytes": 519
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.targets",
+      "sha256": "adcda0549b3a0aaa22ce96bb7184117fb6f0f77701d4cae553a02e7325a51748",
+      "bytes": 1135
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.testproj.targets",
+      "sha256": "991dd38c435b6f8fc16f8cb1b2700fdbcd6b90da4e8cca800faca7c22d6064ab",
+      "bytes": 3627
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.tmp_proj.targets",
+      "sha256": "c7dd5d51c0cfb66c61a1f164ff968ab348e8a754063958c447df5b42076d10b6",
+      "bytes": 629
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.vcxproj.props",
+      "sha256": "44b8a29547529c30ef179725c7b166e1dd8417c16908f9ed501adf63f786aa41",
+      "bytes": 11099
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.vcxproj.targets",
+      "sha256": "4ee9a4f639e0f339028b26f3f3cac8d48edb387b1fed876d8ec8a8f3a3c03946",
+      "bytes": 720
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.wixproj.props",
+      "sha256": "0b96fcad9ceec82642f2369cc4006dd1fde5f48b8db876e6b5364d7decd34767",
+      "bytes": 2693
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.wixproj.targets",
+      "sha256": "30355f03d1187941134f56e8f6a0819336fc6739729152501502fc0db500e986",
+      "bytes": 545
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixBuild.zipproj.targets",
+      "sha256": "af87741b880bdcc9ca563965d2f59f210623c5097bcdb62e32598e2b6b6a8cf7",
+      "bytes": 3263
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/WixRelease.relproj",
+      "sha256": "915f5eac3c411a0cd51e612eccb6bbed12a94f8854d8047a700c19210bed6a70",
+      "bytes": 3423
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/appsettings.json",
+      "sha256": "7aafa40eabb317eb2267c91c63d917a3d63401d9d64aa9af3c650fcf34f8d1f6",
+      "bytes": 381
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/publickey_wix.snk",
+      "sha256": "27a940429580ae7f34ce66fdc56ea0b82341db2e2b7bd120a6f89792246e6f72",
+      "bytes": 160
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/release/WixBuildRelease.proj",
+      "sha256": "b152beac7128e4300b876adf1ce903a2f1038b35fe3c3601e9230668d3d8a553",
+      "bytes": 7324
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/release/WixHistory.proj",
+      "sha256": "78eff3a16765aaac2dab6140dda457164099771d4ca28b5c5f8e3c8c09f04021",
+      "bytes": 2493
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/release/histver.js",
+      "sha256": "6780142d2d5c66d5d0915bf020ae457723f05e93da3a6395e7d3136e6329cc1f",
+      "bytes": 1723
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/release/release.proj",
+      "sha256": "0cdafe382292419c00e1febd789896ccbbd71707a5825bed1b50f1b38c0c193e",
+      "bytes": 1602
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/signing-filter.none.txt",
+      "sha256": "cf152842da4a888c3badc9b5643cefb0bbcb82e0e07052956ec214793b57f550",
+      "bytes": 14
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocCompiler/AssemblyInfo.cs",
+      "sha256": "b09d0d1dec7b363b6d373b38bf4686e54994574e59194016f517704fa4ffb0db",
+      "bytes": 575
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocCompiler/CommandLine.cs",
+      "sha256": "b285b3bbd6e4d63bf32d41772045a7414a04577137defe6fb5aca7af16f3ee7b",
+      "bytes": 6928
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocCompiler/DocCompiler.cs",
+      "sha256": "31b720186ef347883a42bcb938124d7ee019d560a80af3f53d11081b3d68413e",
+      "bytes": 17940
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocCompiler/DocCompiler.csproj",
+      "sha256": "236099227b0b107378e999dc2a0947a953b31518c9748d3af43c7f11581e6f2c",
+      "bytes": 1378
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocCompiler/Document.cs",
+      "sha256": "b9dd927b607f00e73d272b6f2eea1a914867cac52dd94cb9bf4117d76ffaf0f1",
+      "bytes": 3274
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocCompiler/IndexedDocument.cs",
+      "sha256": "e6d05c34d35204547feb2284f2ba3cd04cc4dd50ca25f88748cdde48f9f717f3",
+      "bytes": 7322
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocCompiler/Markdown.cs",
+      "sha256": "12b77a02c101eb28d50302f3309409ef8b0e625a7e201ab162c1fb8cc79478a2",
+      "bytes": 68587
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocCompiler/VariableSubstitutions.cs",
+      "sha256": "a5815149a877de63a42bb0ab26374b8c59565a92d09024c812d93f0aef6f7f89",
+      "bytes": 2869
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocCompiler/Xsd/docCompiler.xsd",
+      "sha256": "29b5cbbd4389b99bcc61627d4a45f04bb0756376b9517c056709e37a9caf19f6",
+      "bytes": 2785
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocFromXsd/AssemblyInfo.cs",
+      "sha256": "b5bc0b232fc212be80894d70442c5bd5cc7ab2b78186cdde00f71c0a618bdf79",
+      "bytes": 519
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocFromXsd/CommandLine.cs",
+      "sha256": "141d5eabed1942b19bda1bc759699449b8b9e2b0a4724aeba4c08d90c3c52382",
+      "bytes": 3668
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocFromXsd/DocFromXsd.cs",
+      "sha256": "9bceb767423dd78c8972910a77408d61939af08c2a5c32a1c2f521be6cd25a76",
+      "bytes": 805
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocFromXsd/DocFromXsd.csproj",
+      "sha256": "a29d1db3bcdc96443eb4a97093940571dfc0cdb4111246a7edea0cdffb714d58",
+      "bytes": 1337
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocFromXsd/XmlSchemaCompiler.cs",
+      "sha256": "3718922c4c2647c4601db8d9295775dc9bc4e54205200e2cd92d53b88612cea3",
+      "bytes": 86533
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocFromXsd/docfromxsd.exe.manifest",
+      "sha256": "9e61733d7be4e6f353dc5e7e01eb0e63c442a425c4ab41543e8ee392edff420f",
+      "bytes": 678
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/DocFromXsd/docfromxsd.rc",
+      "sha256": "9587d74f9c4d86326c4d1e2101c06e19723cbf2fd2a3fed00297a63c022d90e4",
+      "bytes": 458
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/FlattenXml/AssemblyInfo.cs",
+      "sha256": "93ce07ea1a4d4a447c4fef2affa091ca26a282be998e719977f2f8866b1412d2",
+      "bytes": 534
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/FlattenXml/FlattenXml.cs",
+      "sha256": "cdfd726525a28bbd99ec8f7468ad96063149b4a6b35405164e9f25c320fbb3ff",
+      "bytes": 9845
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/FlattenXml/FlattenXml.csproj",
+      "sha256": "4db0bbff9b179663c3f6c3dbec8579861d3d253ce42dc9ec57b83b349a69aacb",
+      "bytes": 1097
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/FlattenXml/flattenxml.exe.manifest",
+      "sha256": "cfc876cd37c01eb02c54f091201aad9ae38a91cb1a43466891518df5e1fbd00a",
+      "bytes": 705
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/FlattenXml/flattenxml.rc",
+      "sha256": "408db9136482e885c6ea34a2494ec10f89cb9b2cfdf9460a3a8d521230613cd2",
+      "bytes": 458
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/GenerateWixInclude/App.ico",
+      "sha256": "382cd3997832491be248e19daf00e5881057c7a0818af23649341a2b97e12527",
+      "bytes": 1078
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/GenerateWixInclude/AssemblyInfo.cs",
+      "sha256": "6dde6e9736c8d236d0dd2e6818150997dbcf9e04935df6d01e98b861eda1b294",
+      "bytes": 582
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/GenerateWixInclude/GenerateWixInclude.cs",
+      "sha256": "5d2998d0f1cd93f7db36276677f5caa5b16a9dfc3897a0827d9e2f08015256ea",
+      "bytes": 8634
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/GenerateWixInclude/GenerateWixInclude.csproj",
+      "sha256": "777c194a56345ad30e94a56cebf69ebedc11008e79f7c237accd19c0e88f60ce",
+      "bytes": 998
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MdCompiler/AssemblyInfo.cs",
+      "sha256": "b52a3774e1ab297f6a964eb805e3d28789d9906399a6ae1ea5c3adf6c1fbd410",
+      "bytes": 530
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MdCompiler/CommandLine.cs",
+      "sha256": "572dbcc95a11370459d1372fd1f35898ddb8b6fbe9a696a34e5328e83b0120a1",
+      "bytes": 5881
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MdCompiler/Document.cs",
+      "sha256": "de78d0dd5b665fd890d4eac7720e8b00dc9781f8123be1c35e09d22603a9a7f5",
+      "bytes": 2484
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MdCompiler/Markdown.cs",
+      "sha256": "12b77a02c101eb28d50302f3309409ef8b0e625a7e201ab162c1fb8cc79478a2",
+      "bytes": 68587
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MdCompiler/MdCompiler.cs",
+      "sha256": "56dfd35e6bd8b72068451d571eb5ee56595e96a50285890faf476205552eae42",
+      "bytes": 5513
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MdCompiler/MdCompiler.csproj",
+      "sha256": "42082734744243d97e66804dd6d598adbaafbad891a2278db4c036c38e2c8819",
+      "bytes": 1258
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MdCompiler/VariableSubstitutions.cs",
+      "sha256": "94474f190195e12ba93dc0f4507a41df812d504720a8a54b940199fc32f90ba9",
+      "bytes": 2868
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MdCompiler/mdcompiler.exe.manifest",
+      "sha256": "9517c7f304ab1e12ccc08dc6df694e80fca5d949a8ac030339af0bd8f5404e42",
+      "bytes": 678
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MdCompiler/mdcompiler.rc",
+      "sha256": "49409db49e7ea1789f388ae7cded8d9c422dc68a9ef6fa18fd0134df15099f15",
+      "bytes": 465
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MsgGen/App.ico",
+      "sha256": "382cd3997832491be248e19daf00e5881057c7a0818af23649341a2b97e12527",
+      "bytes": 1078
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MsgGen/AssemblyInfo.cs",
+      "sha256": "a46089b74c58811198aba1d77f2f088bf81eb5f194292f65073b8b87e1568fbc",
+      "bytes": 570
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MsgGen/GenerateMessageFiles.cs",
+      "sha256": "ac3c098f4da355e10af43be9fc2f623c5cf914d34bae2660740e7096fdbe869d",
+      "bytes": 12525
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MsgGen/MsgGen.cs",
+      "sha256": "877ecbae1985cd2b141e2b7c453be9122740e18ff63f06047cea5ed2bbd4c48d",
+      "bytes": 10501
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MsgGen/MsgGen.csproj",
+      "sha256": "c68265be125b1f17da03e7950803a89eda7574d0d45fbce7c5cee65bbb0f7a26",
+      "bytes": 1139
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/MsgGen/Xsd/messages.xsd",
+      "sha256": "efd3a8604c8913f3ae37b48ed03733b7af697f36595fa9dc964247873e6bfdf4",
+      "bytes": 4955
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/TildeToRelative/AssemblyInfo.cs",
+      "sha256": "ce0672a436562005404932f32b250e2545cd853e8db7d7edb67f3cc2f18098f6",
+      "bytes": 526
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/TildeToRelative/TildeToRelative.cs",
+      "sha256": "261d8ae0f748b1125d1079900e546cce6c57812bc8f1ad91510c9ed95497a65f",
+      "bytes": 8270
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/TildeToRelative/TildeToRelative.csproj",
+      "sha256": "7f113ef4ae4e13767f8bf283b661be609d23efc3d9bb029a487af9209e2f3172",
+      "bytes": 1112
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/TildeToRelative/tildetorelative.exe.manifest",
+      "sha256": "17b6951693e7bc233ceb4aa5c082d68a298a9daed092dfbb568f2470118d3db3",
+      "bytes": 719
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/TildeToRelative/tildetorelative.rc",
+      "sha256": "cf83ed35ab45b2d0ef48f987b7f531cb47149a6e3a3731781b7f6b73fe7dc0d6",
+      "bytes": 478
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/WixBuild/AssemblyInfo.cs",
+      "sha256": "aa2ad9fd432ec4a65871430d9dc7760f617fdc2c0bc517bb8e239ffdbb9781c8",
+      "bytes": 538
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/WixBuild/DeleteRegistry.cs",
+      "sha256": "4c5d5fa525a87c7d4055ccc2708a14cbb22a44ce30e26ba41ae596bdcf264a22",
+      "bytes": 2814
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/WixBuild/DocCompiler.cs",
+      "sha256": "5bb442daaf1b3ccb4e2087b3ede3ea5949c3d6040cd9bdf88cdc7324540691d3",
+      "bytes": 6540
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/WixBuild/FlattenXml.cs",
+      "sha256": "9671d484af2a058084e3c51cdc5c6d1e3a6ee79046fe8851c761c55042efa923",
+      "bytes": 5072
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/WixBuild/GenerateReleaseInfo.cs",
+      "sha256": "e5ba3a7f6a6e8c4ac8a72ae279b9784cf31ed9aa03d3e15ac2eb73df1788aae3",
+      "bytes": 6100
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/WixBuild/MsgGen.cs",
+      "sha256": "4b13ef374a9c800415bcbe0d93c025d4cd63926088f0572512fe4a2c13c3d879",
+      "bytes": 4897
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/WixBuild/Rc.cs",
+      "sha256": "9fabd11c767036825abbbabfe5fff870c7ab8c3ec20b861d1dc2a42090262c54",
+      "bytes": 7080
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/WixBuild/ReadRegistry.cs",
+      "sha256": "e1887141ef18f3de084a841d38788ef68a30d2611d720db2e02ff2758541722b",
+      "bytes": 5443
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/WixBuild/RegistryBase.cs",
+      "sha256": "92f7f81069dc6de15aea69c0ee1df76580b3cb81f858237f84cee84aa84c473d",
+      "bytes": 3556
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/WixBuild/TransformHistoryEntries.cs",
+      "sha256": "092720edba9ee773be407208d63ebf27319ac15f7bb91f36324ac57369056231",
+      "bytes": 7742
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/WixBuild/WixBuild.csproj",
+      "sha256": "00d1cd62e32a037161f81b2f00e708bf94f320f51fb85685bb9dc86b7d01daa8",
+      "bytes": 1435
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/WixBuild/WriteRegistry.cs",
+      "sha256": "2775faebaa914a1300829f5f8f263a3a75fdceb329f34807b1d4d14b7deba162",
+      "bytes": 3857
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/WixBuild/XsdGen.cs",
+      "sha256": "08caf772203b54022f95dc092d77b8a76c24f75b28724bd3cf8e521974e87c85",
+      "bytes": 5091
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/XsdGen/AssemblyInfo.cs",
+      "sha256": "363504cddf7d01ab60b38aec1c84ffefcaa46e3d56857be210461d789f1025c9",
+      "bytes": 558
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/XsdGen/CodeDomInterfaces.cs",
+      "sha256": "d74a91bdff75f03ce517b3ce8bc997e9b2369c27b0d891c1ba7937c43c8fa989",
+      "bytes": 3340
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/XsdGen/CodeDomReader.cs",
+      "sha256": "aeef9d32f10d62da00facaef75f3cb6afd9e7a695cb756ea79d7491ad828a07b",
+      "bytes": 6386
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/XsdGen/ElementCollection.cs",
+      "sha256": "7fe6d7b59867eeea1c0a5990eb1dae19d4ac20321e9e5542e8f3e404249ee920",
+      "bytes": 23543
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/XsdGen/StronglyTypedClasses.cs",
+      "sha256": "13726fd3ffa3b922fb8cb573ef45e57f474e350953c8251ee1c2832b30108ec3",
+      "bytes": 89290
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/XsdGen/XsdGen.cs",
+      "sha256": "f3f1c127ce75bfaf67954f11b4bf3146be5f0b65477e7ba62b50a7522f1e5c0a",
+      "bytes": 4155
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/XsdGen/XsdGen.csproj",
+      "sha256": "629a29fd0381cd2f67c9ad018b5310605ae17a6ab693c7869fe55a8bc3a0aee9",
+      "bytes": 1088
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/XsdGen/xsdgen.exe.manifest",
+      "sha256": "7873d688637c37e8cf3414cc927eabc19f69f5a223910a14b9bc68c7e1f5bf52",
+      "bytes": 701
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/XsdGen/xsdgen.rc",
+      "sha256": "86cba27f4813f613d03e7e2c4742023a36c09d95ad8edcb983b9df748037b2af",
+      "bytes": 442
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/XsdStitch/AssemblyInfo.cs",
+      "sha256": "4cac8f0f2a884ff35b237bd04119aed722ec16d9617bc4584936d7f4220ce5fc",
+      "bytes": 564
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/XsdStitch/XsdStitch.cs",
+      "sha256": "a7f4656a714969d68f79f90cd0b34f5fea9e1b890311d3b0601d05ea750c98b0",
+      "bytes": 20112
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/XsdStitch/XsdStitch.csproj",
+      "sha256": "77d30e598ffbae335cc23cce8456cabc15f5e0c1776ba2984656d50e8c159d92",
+      "bytes": 996
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/tools/src/tools.proj",
+      "sha256": "f06cfc3ea8572882c9ae8353a9b78111cbaa708bb9004d306c4a32f6c0046ff5",
+      "bytes": 1165
+    },
+    {
+      "path": "wix3-b40e9a32c24033e11b77baf2c91a704382f898ed/wix.proj",
+      "sha256": "ea629d15f6c6f2c54f2a97af45c979c8ca1acabde7826a22f4bfed99245adf34",
+      "bytes": 1377
+    }
+  ]
+}

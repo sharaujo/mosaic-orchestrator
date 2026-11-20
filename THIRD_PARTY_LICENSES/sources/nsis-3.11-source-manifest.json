@@ -1,0 +1,4189 @@
+{
+  "schema": 1,
+  "component": "NSIS 3.11 complete root source tree",
+  "upstream": {
+    "url": "https://github.com/NSIS-Dev/nsis/archive/7359413009afd4f0fff472d841fc2f2cc0e0a5f8.zip",
+    "revision": "7359413009afd4f0fff472d841fc2f2cc0e0a5f8",
+    "sha256": "e114ddaf187c12725938095e600d242041f978664c332e14740da7c359c167f3"
+  },
+  "selection": {
+    "completeTrees": [
+      "Complete upstream root source/build/resource tree, excluding redundant trunk/ mirror"
+    ],
+    "omitted": "The nested trunk/ repeats 833 root files byte-for-byte and differs only in SConstruct menu ZIP packaging. The complete root SConstruct and all source/resources are retained.",
+    "rationale": "Deduplicate the upstream mirror without trimming the NSIS runtime, plugins, LZMA source, original license/linking exception, build files or source artwork."
+  },
+  "archiveSHA256": "f4d62f728351609c6f22e5efde50f537c238f14eb4b389c1aa9bd94a75681db7",
+  "files": [
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/.github/workflows/build.yml",
+      "sha256": "5926989a8e365dff1667c16aa8fd211866ab3a3013908c1abfcbe9f685917bdc",
+      "bytes": 5372
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/.github/workflows/copy-svn.yml",
+      "sha256": "36eab3947e85e31ff4c01b5104ebcbe0c44a20a96d413ba04a7a0e93287badb0",
+      "bytes": 4302
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/.github/workflows/svn-authors",
+      "sha256": "ffdcd07e0e4a73ab3165e838e6a1b9b08a2236706f004f150a7ec9df4449d38c",
+      "bytes": 1354
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/COPYING",
+      "sha256": "dc0f74a312c08ffc900548a67ae9a3670ed28ad25a3afda1fe0504da16f89361",
+      "bytes": 15488
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/AdvSplash/Example.nsi",
+      "sha256": "44a73c016ea1c4ad0b53241c92587d8cd6c7a9d57277da32bed1fd5f017ef1ec",
+      "bytes": 1137
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/AdvSplash/SConscript",
+      "sha256": "ac80313e9e3ef80f8be6f8fe252aa726cc5bc6d7446c31850f9e0abbf5ab324f",
+      "bytes": 264
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/AdvSplash/advsplash.c",
+      "sha256": "5df2b4cb1ee040ba9619b53a688068f65b1d59765535014edf4c42aadcabdf7e",
+      "bytes": 7842
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/AdvSplash/advsplash.txt",
+      "sha256": "1943d1a7d0d6358cee967653d9ac15754298f5b8816cfd3ddf6ef32fe02badf6",
+      "bytes": 1969
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Banner/Banner.c",
+      "sha256": "0f3d11fe49a00852eca2bc546a52af816eabb9b0409be80febd5e590a1782143",
+      "bytes": 4040
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Banner/Example.nsi",
+      "sha256": "7cb30b11a3540277df83caeebe12fd417f0506a0cb4f0fc823c0d16838e01fcb",
+      "bytes": 661
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Banner/Readme.txt",
+      "sha256": "04fc2a4168aa90a7c764cabee18283116f409bbed35cc7acb7f0f25792985b45",
+      "bytes": 1169
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Banner/SConscript",
+      "sha256": "b3a31894c3c6a7f9917173e6c7f72c53242c4e39802246347760cc2a7f4809d9",
+      "bytes": 241
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/BgImage/BgImage.cpp",
+      "sha256": "c899a59ab166b18873a7fa0be411ec5fe163f49ce237539c05d824dab44255a8",
+      "bytes": 15941
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/BgImage/BgImage.txt",
+      "sha256": "3d5f606319238105149cef3f9c381a09adda087dd2f24f3eacee6dfc32343074",
+      "bytes": 3042
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/BgImage/Example.nsi",
+      "sha256": "2c364620cfcf28702a9b3d2d7e616615bd83bf35c055db180c89b772739d84f0",
+      "bytes": 2746
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/BgImage/SConscript",
+      "sha256": "bfe48cc5cbc5a61d6fafc070c7bbaffb62fc0afce71a8c7b388ff2eaee47e62f",
+      "bytes": 276
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Dialer/Dialer.txt",
+      "sha256": "5a695b1fae8ad13a0f5004c1d393ddb8c1dd00ea0bc7ea091b74a5a81fcc3677",
+      "bytes": 2873
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Dialer/SConscript",
+      "sha256": "5c66f91e02da88c4e24a865b5e1307a26584ff9fe0b19b11dcb986df1fdf48a4",
+      "bytes": 207
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Dialer/dialer.c",
+      "sha256": "93e90ed06d9e1e5914c0d0c06a9c0968355319a9bbe64196022f08eb68f7fccb",
+      "bytes": 3403
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/SConscript",
+      "sha256": "ab3ee3bc1d42fa6bd28930e843755b65d7226dd228e64a0c44ff50c349aa15b4",
+      "bytes": 1784
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/exdll-vs2008.sln",
+      "sha256": "62dd7dd4a7dfbde0b4eb5f2e4887c339608ae1375a70aace975ef025ef6fcc34",
+      "bytes": 882
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/exdll-vs2008.vcproj",
+      "sha256": "1e7a8ce6702baaff3019d4bd01d6e250dc8aaeabd626f14970eb640e1847291c",
+      "bytes": 6303
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/exdll.c",
+      "sha256": "11228585743a3dc4e36b6e5273f82fb55dd5ca8d0ba3d6a4c39df7e53e9e0fbe",
+      "bytes": 1285
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/exdll.dpr",
+      "sha256": "3cfad5f65b6b77a1156cd3c4817f6ccf3e515d010f542abc46d20c5d22a2fc91",
+      "bytes": 2777
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/exdll.dsp",
+      "sha256": "8828cfceaa1b7f8b4818e60dce47d16eae95958c624ae38d60b04acab36b86e8",
+      "bytes": 4346
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/exdll.dsw",
+      "sha256": "60b5bcf7b5ba6263d9402ada17ddaadb2034b606b47365f0acf9911e7287a236",
+      "bytes": 533
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/exdll.h",
+      "sha256": "514ae825eaaf55c2e6ea02153d3eb01941f2ea6e4b76142c75e35a9435096947",
+      "bytes": 341
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/exdll_with_unit.dpr",
+      "sha256": "396b4b2a6846e6c4037f42fedd47a2be41817e82307e583ff5e5c972b063a4e9",
+      "bytes": 2280
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/extdll.inc",
+      "sha256": "4832a6c0b1462991a7498b03b7f82ee694ccac30788ad36eeab0e95d3009520b",
+      "bytes": 2951
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/nsis.pas",
+      "sha256": "6065cd68b5f969fd35b7c517bb1e7af05b1b8c0073bbdb9ed964c44bc612af7a",
+      "bytes": 6471
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/nsis_tchar.h",
+      "sha256": "e767ab4f87109466fb4d53ee7224d5ffc71beffe6da6970fc5281694ad47509e",
+      "bytes": 5054
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/pluginapi.c",
+      "sha256": "05afdef6e372198cc92b83aa3e0e0b36ae30ca5b20a1a745246629eddf011a15",
+      "bytes": 7183
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/ExDLL/pluginapi.h",
+      "sha256": "7c3e26aca38de6a9b3715266b1fdf27edb263cd4b6f0a27d0c44a014cb9e12f0",
+      "bytes": 3148
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Checks/big.bmp",
+      "sha256": "c22b2ada7263ec33431ff251f1484c7a554c36f34ec30beb25e34861f9e1dfc9",
+      "bytes": 886
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Checks/classic-cross.bmp",
+      "sha256": "438a514508b56db7c188d9826662fe39639f470e877ef2f659edae7139e4e32c",
+      "bytes": 886
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Checks/classic.bmp",
+      "sha256": "c0a5e0e33a8c8af0ddc313126a7767632890373444f58a4f20c7fee75eeca65c",
+      "bytes": 886
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Checks/colorful.bmp",
+      "sha256": "4318c3d4f25b1fcfabe3a1b44d56957da06224f64534944aedd4b7d1c55a8a84",
+      "bytes": 2512
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Checks/grey-cross.bmp",
+      "sha256": "ca1c42c656e4f687ed4ee54321d8f23ff4e80242b104388c1d275ad921e0e011",
+      "bytes": 886
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Checks/grey.bmp",
+      "sha256": "1d5ffd9b69b50071b44603fa517230456af743b4a8abe117ceeb64104769c2ac",
+      "bytes": 886
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Checks/modern.bmp",
+      "sha256": "5ac685bb79e6fe75e6e54b9fd4e9524d8da6bc8acb269f50c42bf372af671570",
+      "bytes": 1652
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Checks/red-round.bmp",
+      "sha256": "4b74ffb1131596fa3059c3f025e28720b41b4fceb512b7388cd1e19894908fe9",
+      "bytes": 886
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Checks/red.bmp",
+      "sha256": "e12080d15e31fc428116a72c32245e9c7c3b222cae4e4608a8433f16cc56f7bf",
+      "bytes": 886
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Checks/simple-round.bmp",
+      "sha256": "2e84996353100d025920cd81a0f21b81b3849c20fc4e4a547692d5d0afc6e17a",
+      "bytes": 1616
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Checks/simple-round2.bmp",
+      "sha256": "dfcd7729376479d5df262fedcc7f5a6b3fffc4f8d6b9d5fc2cba304f944f7710",
+      "bytes": 1844
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Checks/simple.bmp",
+      "sha256": "b22aca4a5b82422a009b91a046176df6cd7265050b7c9d4950c71b1b93f4c78f",
+      "bytes": 1616
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/nsis-r.bmp",
+      "sha256": "2a54f3e88dc3176c97f104546c8aa913172f0bfbb826d0e8aea9abcfdc3979f0",
+      "bytes": 9744
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/nsis.bmp",
+      "sha256": "766a893fe962aefd27c574cb05f25cf895d3fc70a00db5a6fa73d573f571aefc",
+      "bytes": 9744
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/nsis3-branding-r.bmp",
+      "sha256": "0f3b85a4a7bd2c6baa7b2b24590ea69e656384130fa8212e944016c46ac7e7d1",
+      "bytes": 25820
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/nsis3-branding.bmp",
+      "sha256": "4b6dadddb9bd51c4c25283fb726a3115295d872b786df2e73872a41d00e80fea",
+      "bytes": 25820
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/nsis3-grey-right.bmp",
+      "sha256": "533588be2790810fb372797e7355c948c0b13ac544ea34f0e021735ca48e5907",
+      "bytes": 8932
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/nsis3-grey.bmp",
+      "sha256": "51016cfd0222dadd7a0ce445c9a87e51bf3593adcd669b0782a86f7c5391d4eb",
+      "bytes": 8956
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/nsis3-metro-right.bmp",
+      "sha256": "ed4326ae071f3db133a58252786b39c1a76146b9263e03dd7e8566013d5dbba1",
+      "bytes": 25820
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/nsis3-metro.bmp",
+      "sha256": "b74ed1397c5a50c22ddd4da1c01cf1a36484fa38623051b4959bb6e01d657547",
+      "bytes": 25820
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/nsis3-vintage-right.bmp",
+      "sha256": "38ff3142812ae83d094add3c1f4ece7ef917aff44a19dbca1882603f0c6200e0",
+      "bytes": 8996
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/nsis3-vintage.bmp",
+      "sha256": "6ec748997c1c8ea0e9d3dd660d4acb696bc6cf160c201a48c04d608cff779d3a",
+      "bytes": 9008
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/orange-nsis.bmp",
+      "sha256": "552f10c2b0a34eaea274ed8ccbc9d754eeae5826a10a3ef224685bf1d8eac2cf",
+      "bytes": 9740
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/orange-r-nsis.bmp",
+      "sha256": "6cfebb59f0ba1b9f1e8d7aa6387f223a468eb2ff74a9ed3c3f4bb688c2b6455e",
+      "bytes": 9740
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/orange-r.bmp",
+      "sha256": "bd146e39af28cec251d63da453cb8f04b74904a643f4c3dab52ef2b5bcb4bb3a",
+      "bytes": 9744
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/orange-uninstall-nsis.bmp",
+      "sha256": "87d1eed1ee12e91bc38a58108139fa8d3a220382069ff8c0eb9261ea52f35326",
+      "bytes": 9740
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/orange-uninstall-r-nsis.bmp",
+      "sha256": "bd6cde334e9a70979efad038bc1ddc62191974e99b662c3f264b2e95e966c052",
+      "bytes": 9740
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/orange-uninstall-r.bmp",
+      "sha256": "7e3e16598f8fed5a42f4597dac5c1773e7e471797872accff0042affabeb0b4f",
+      "bytes": 9744
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/orange-uninstall.bmp",
+      "sha256": "b9f6b1effac717dcb899f45b99f5755a5b12825a1b61d7d6bf23efffb3ac36e7",
+      "bytes": 9744
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/orange.bmp",
+      "sha256": "4c9e804ce1a391f8e603b7b9c732a6529c1e81be4d12f125c8562ea9d49095c2",
+      "bytes": 9744
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Header/win.bmp",
+      "sha256": "8e58b3e6e3896a4bae05fa2f6adc238d391aa80bc51c138f851f373c6c23e518",
+      "bytes": 9744
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/arrow-install.ico",
+      "sha256": "ad8e1efce449a4c6658305f979f2826153fa97d48579259cd09180ba2010b995",
+      "bytes": 4710
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/arrow-uninstall.ico",
+      "sha256": "cd58c15fb0848994cb3f1bcc179e53a9db7d962778ee036b560b8fedd07792d8",
+      "bytes": 4710
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/arrow2-install.ico",
+      "sha256": "7446a65155c7d71816bf6321796a3e2c004eb4a2f50717035cd96f7b21b14f1f",
+      "bytes": 4710
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/arrow2-uninstall.ico",
+      "sha256": "e725e4c212b71d426cd85cb44741fb0e5fd50406c0cdca447663d3fd4003fceb",
+      "bytes": 4710
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/box-install.ico",
+      "sha256": "6a2ca9ce7cea0ba7215dd257920790156933f1a50054ea051419c00f37477456",
+      "bytes": 4710
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/box-uninstall.ico",
+      "sha256": "797f66b21534d429f052180423fc22b730311a9c97bdf98d632948f9f859c04c",
+      "bytes": 4710
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/classic-install.ico",
+      "sha256": "a09769e39fa641ae88851ed5b64173a8abe0d494dc937a0c78e0255df9d2fed1",
+      "bytes": 1078
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/classic-uninstall.ico",
+      "sha256": "d9673909834dcedf34932d59a80eb6ae19210afdfa054241959ac226bf504a27",
+      "bytes": 1078
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/llama-blue.ico",
+      "sha256": "87df44f81ac4ff83e4dce0b5d819afa7fa65288f515a5219cf54d7317be8b295",
+      "bytes": 2238
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/llama-grey.ico",
+      "sha256": "7f17ec9f401f9e91c88c5cd4d216397d714c05c549340acccd3221abf9c92b0c",
+      "bytes": 2238
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/modern-install-blue-full.ico",
+      "sha256": "5a2bd76e8d1e601f93c667ae6319cf4aeed24ee30508dca7f1b845789033e3ed",
+      "bytes": 23558
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/modern-install-blue.ico",
+      "sha256": "666d7f1da2d3aa65a638be9818e4bb24e9632eabab4d642f7d9dbf8cf3bffc01",
+      "bytes": 13902
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/modern-install-colorful.ico",
+      "sha256": "f5681d2ed2efef52faf7fbcecc9da2e07ba6f8eefde7dc89cb33abecccfc1d3f",
+      "bytes": 23558
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/modern-install-full.ico",
+      "sha256": "13a9fc72823ead4f0065b032b81adecda1ed0f1789c23b15e52df531912db1d0",
+      "bytes": 23558
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/modern-install.ico",
+      "sha256": "95c36884a12b4bde8db9a3587f7bdb05e7232a4e9a095202ace4eba693412e05",
+      "bytes": 13902
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/modern-uninstall-blue-full.ico",
+      "sha256": "ff5435163d7d1e79ca1cfda01ba929dcd4dbf29cf69ed60f5448d822f0e26d03",
+      "bytes": 23558
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/modern-uninstall-blue.ico",
+      "sha256": "2a766a15db31e4fec07226cceea64ab411854d751354a35dec2aa305fc8849f3",
+      "bytes": 13902
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/modern-uninstall-colorful.ico",
+      "sha256": "fb365bd8f0ca0b17d7a94e67b0b6aad3ed7aced6fad233907a492e796ff3c337",
+      "bytes": 23558
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/modern-uninstall-full.ico",
+      "sha256": "47bd1830e3e05311ad5c4c6abdcb6f7cfe8f13c79a51fc48669729a28ac8a181",
+      "bytes": 23558
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/modern-uninstall.ico",
+      "sha256": "5037c877cb134c1cd303367cfcc2afecb0517522ff8ad98544d4eb158ddc6bda",
+      "bytes": 13902
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/nsis-menu.ico",
+      "sha256": "e007305cc3e89bb786c212f14bb37a5b5e7f80cb5755ffe9e4eb9110f97c1f8c",
+      "bytes": 39119
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/nsis1-install.ico",
+      "sha256": "dd1a02e00f70f5e8a90568a06e9953af6688d7083851f3d14453b4a2030fec73",
+      "bytes": 1078
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/nsis1-uninstall.ico",
+      "sha256": "04fa9188e475bf1698d4a6953c4ad6f4bfc25677d7cf149a605fd91e3f12100c",
+      "bytes": 1078
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/nsis3-install-alt.ico",
+      "sha256": "453dc599a43ba980b310e0420fc8fcc95ea06dc653413efd5b64e087635045b7",
+      "bytes": 13111
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/nsis3-install.ico",
+      "sha256": "747ef2a4ef0eecc653d86a86b3f38cb36ea18d799e39b6d948ed5340ae354ab8",
+      "bytes": 11697
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/nsis3-uninstall.ico",
+      "sha256": "96899982c23b43956b425c9fed6118651397b8602748236fc8d89203d02bfd87",
+      "bytes": 12533
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/orange-install-nsis.ico",
+      "sha256": "af57f376d93c091c7deff84082c0b8267962a70c9a018f3981300ece8be165e9",
+      "bytes": 25214
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/orange-install.ico",
+      "sha256": "20f5116dd02ab3004ce701135f7d09211b6be3aadfb4c1559d7620ca05f11bf8",
+      "bytes": 25214
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/orange-uninstall-nsis.ico",
+      "sha256": "9f45b9a6aaa741ab473ed4e53811cf0b40eeab7c4477d4bc47f06c94b443e99a",
+      "bytes": 25214
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/orange-uninstall.ico",
+      "sha256": "48498bf6cee860bc17e00a4426a0b7a9633b264a74e89fa288668a8e69c02ade",
+      "bytes": 25214
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/pixel-install.ico",
+      "sha256": "e8080918da76cbc0a9df627c59eccaea1b6142008a67f9affd1a688fcfb66c0e",
+      "bytes": 5390
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/pixel-uninstall.ico",
+      "sha256": "652f01a3a81456cc1cd1aabc7e14e9506db3c1298139e82da3b522563e933b4e",
+      "bytes": 5390
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/win-install.ico",
+      "sha256": "1a3ec42f393635307ae2e369ef50a8eb0fbbe02cd2f82c4c6d3486d294ddcceb",
+      "bytes": 1078
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Icons/win-uninstall.ico",
+      "sha256": "5f5bae653fd5a00b6baf38a4eab2b2a0412c1932fa533570cd233d01437bf7bf",
+      "bytes": 1078
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/SConscript",
+      "sha256": "1166a2643c0e37504da8316f894c23738392d268f8ff8f3ba6af5159c0c6aa25",
+      "bytes": 1868
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Wizard/arrow.bmp",
+      "sha256": "f1dfb50efbd9dc69818175eadd0ca8c8f975ae6916f83523505e488d48f21e6a",
+      "bytes": 52576
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Wizard/llama.bmp",
+      "sha256": "c9af52dc2c1444a2ae53f3cca9282bb433af4ef4ed850c1133447b7ba731174c",
+      "bytes": 26494
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Wizard/nsis.bmp",
+      "sha256": "c1cd4e5a3d2ebfdc477ca00b5b8c127df149df80cf089e851369db75c61cef4b",
+      "bytes": 26494
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Wizard/nsis3-branding.bmp",
+      "sha256": "411961864a8edb7cc2ba384e702bbb787040ea47488d2cefc2ef2c6f0a55a832",
+      "bytes": 154544
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Wizard/nsis3-grey.bmp",
+      "sha256": "2e138faec4410e66f0b4e3199badf019bc83c1fa13f4409e8719b6762ed908be",
+      "bytes": 51832
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Wizard/nsis3-metro.bmp",
+      "sha256": "2079f7a3eba60e0d9ee827a7208aa052a71b384873b641de5e299aeb8e733109",
+      "bytes": 154544
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Wizard/nsis3-vintage.bmp",
+      "sha256": "34b4a33ada04c9919fed2028562042ca5ffa8918f45905f6c41c68850f58ff5a",
+      "bytes": 51920
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Wizard/nullsoft.bmp",
+      "sha256": "b7a5b209189b77423be7e213444e30f2d6f79ba688fcf9c063b5618ebb625a51",
+      "bytes": 26494
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Wizard/orange-nsis.bmp",
+      "sha256": "076221b4527ff13c3e1557abbbd48b0cb8e5f7d724c6b9171c6aadadb80561dd",
+      "bytes": 52572
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Wizard/orange-uninstall-nsis.bmp",
+      "sha256": "b0278ae60eddd3e03cdb37a873221df0656eeb4541b0190898de1ce8f0427a5e",
+      "bytes": 52572
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Wizard/orange-uninstall.bmp",
+      "sha256": "498d402163d5d4578d8e76a22c97ab927cf31bf16f7125938cf03cc200c7a290",
+      "bytes": 52576
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Wizard/orange.bmp",
+      "sha256": "a7b2f12e01cbea88d4f645f797f2ca6107d76ae13cd1be6dc532b759bfe0d925",
+      "bytes": 52576
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Graphics/Wizard/win.bmp",
+      "sha256": "3ad2dc318056d0a2024af1804ea741146cfc18cc404649a44610cbf8b2056cf2",
+      "bytes": 26494
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/Changelog.txt",
+      "sha256": "f87f1b3c92fd232f276dea1f8b45282a375464716563032db37c370d582571f8",
+      "bytes": 6170
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/InstallOptions.nsh",
+      "sha256": "cd3e2d1ae1db18f604a53946b5aec37a0cbee3f5e8fc5efc4bca9b21e18675f8",
+      "bytes": 4576
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/InstallerOptions.cpp",
+      "sha256": "e562c474c7066f5428262cdd9ccbb78b52debf166afdccfaaec2c8ed4908e867",
+      "bytes": 54998
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/Readme.html",
+      "sha256": "aa7f4654fc8ee1df3e7d0629efbd5ff60b6ecd910f93c706beb60780d1551fc4",
+      "bytes": 52108
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/SConscript",
+      "sha256": "48c576cd5c3817fc1d4989ed004f88848dc933dd58eb4343b14c7543517cdb96",
+      "bytes": 708
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/ioptdll.rc",
+      "sha256": "f38e49936afb726594779bdabb45dff6e7d4de07b68d16429cdde152e11064e5",
+      "bytes": 1917
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/resource.h",
+      "sha256": "535ab63c80de1287a29b528c9a654e1ea218859211a31138a6c657a3917db7ca",
+      "bytes": 440
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/test.ini",
+      "sha256": "41b39cceab58d2839cf02e5d1406fe16f5e42806ef34d725036e0711cd3a82dd",
+      "bytes": 1013
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/test.nsi",
+      "sha256": "507687f234d5944315bf11c4b90ca9470af270c4b6188befc4b75b39e97a1573",
+      "bytes": 2097
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/testimgs.ini",
+      "sha256": "c18c78c47726f2448cf11f649296acd0c50f952f271a4c49913413d3c39927fe",
+      "bytes": 1936
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/testimgs.nsi",
+      "sha256": "c390b3e48420a3a5c2d27eac40b1ad554cefc23156e18497e685d46e546c2993",
+      "bytes": 1913
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/testlink.ini",
+      "sha256": "d33608273d1bcd2724d541e5723ebc60a7a50c441457b09711e7658962d73352",
+      "bytes": 614
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/testlink.nsi",
+      "sha256": "b29275035137e8776a6c7fc79ca7d59f65a0eeb5ae115069f2aefd1f92276b11",
+      "bytes": 1224
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/testnotify.ini",
+      "sha256": "7ecfe6fd9bb84b94ebc569187389629f056188d8fb2e1365d680a67f19338af5",
+      "bytes": 1395
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/InstallOptions/testnotify.nsi",
+      "sha256": "d9b61a1be930a70d18f909cee08a11d882d072a7b6ba35087e134601b5fc84f8",
+      "bytes": 4245
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/LangDLL/LangDLL.c",
+      "sha256": "3d48f697cc0f31c542cc3a68ec081739895f727c5db9ef4f16bb665c7eeac9ae",
+      "bytes": 7481
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/LangDLL/SConscript",
+      "sha256": "5f3de92c059154a59191879146f3aef171db42875193eeb4db80835de75ee424",
+      "bytes": 217
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/LangDLL/resource.h",
+      "sha256": "133918cf2930b01d99b2270c966644af0df52fdb2721945e916c39eb08cd026b",
+      "bytes": 576
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/LangDLL/resource.rc",
+      "sha256": "a6faf2eb29a5aa92a33496d25baa4b5844608f840a260d7451e5f630b9ed6f0d",
+      "bytes": 2673
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Afrikaans.nlf",
+      "sha256": "8db12941460eda9e69ffeb7dbbc9df8fe5c2314853d3e2cc66b19a326b181532",
+      "bytes": 4876
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Afrikaans.nsh",
+      "sha256": "5053f038f8641b62d33d8b358fce88ac50343313055d9fc7368a983f17ab20dd",
+      "bytes": 7010
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Albanian.nlf",
+      "sha256": "842f88c081ed8c8a42a87e6c7e1d3f58837955bceb72909b581213e051c9f60d",
+      "bytes": 5537
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Albanian.nsh",
+      "sha256": "ce04a41b45b0799e6a165744c46abb43103b1d5c99b15453a0b4e2bc51b1ddf8",
+      "bytes": 7936
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Arabic.nlf",
+      "sha256": "686b85e458dcdd30b0dfd2a902b1f671abfc5e3358485699e23d952e34f74c7d",
+      "bytes": 6290
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Arabic.nsh",
+      "sha256": "138dd690611539cfbc5aa34a968de98cd4b8771ac8ed045b016db7507459dc32",
+      "bytes": 8568
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Armenian.nlf",
+      "sha256": "a342f1d35f9ac1ec9fd0deb5a0ff76a9e2bab8786f77bedd0d44f34a319cf636",
+      "bytes": 7230
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Armenian.nsh",
+      "sha256": "6cc2dfe15b83e89d61ad5c93b74da27f69795a5d558e84a24dddc1b7164abe30",
+      "bytes": 9799
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Asturian.nlf",
+      "sha256": "112da4de3de9959ba66e677f3800870129e6126cfa930512b818528c56cf14b5",
+      "bytes": 5607
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Asturian.nsh",
+      "sha256": "e1199d5a15916e4104ddd7b8b03a7e3ffd5d8739e0c0f5e7ce66b1a6db9c0a9e",
+      "bytes": 7897
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Basque.nlf",
+      "sha256": "4ef56a6886873c6c847635fa474bb086b45738f13d0bf1f85ed2569c5cdb183a",
+      "bytes": 5249
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Basque.nsh",
+      "sha256": "c20e884e715548a1c4216014de81db5714c7d533fe181e55b9921366547c1e19",
+      "bytes": 7716
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Belarusian.nlf",
+      "sha256": "09f05a37db6f4e60574309dbcd4d3010006b888d8f214340c9846aa2c1f02963",
+      "bytes": 8498
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Belarusian.nsh",
+      "sha256": "53270f15fdc26e6679822ba1d6ef823637adabe6e11f168803a51f5140c40769",
+      "bytes": 10561
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Bosnian.nlf",
+      "sha256": "237cd0f56ba5c874bc177f03faa0b965a98d7e04ed035468b15e5f9fedf5a266",
+      "bytes": 5332
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Bosnian.nsh",
+      "sha256": "f6e7452f72fe6a222c2b399cf325b5da06f82744cc4ea9c4fcb5e477f61e2bfc",
+      "bytes": 7598
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Breton.nlf",
+      "sha256": "def6fb144908a12914b524beb13137d3c42649d65cb74700b3af86865f541702",
+      "bytes": 5554
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Breton.nsh",
+      "sha256": "1d6c8ce5528eed26f82756498b5f69de6329ff82eade164a1d555ffd50371e31",
+      "bytes": 7444
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Bulgarian.nlf",
+      "sha256": "ff6aab84349dd67f28a4c9911873bef9f6780fdb925dcab12a8209cb49ff1d04",
+      "bytes": 8143
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Bulgarian.nsh",
+      "sha256": "92835ce57d2237957d7e9ae0aec33eb64016424138df5026a22506bd3a70a0aa",
+      "bytes": 10121
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Catalan.nlf",
+      "sha256": "4a2f5586c36d9780820e80e6599682719d379a2fadb71f59a68c72897843b2f6",
+      "bytes": 5830
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Catalan.nsh",
+      "sha256": "1a3f86ae4b54250c748982a33325fb7362b5d6ac37aae75279be7e748ceb9cc9",
+      "bytes": 7907
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Cibemba.nlf",
+      "sha256": "2af036c26f743f16227d1c5dc645108bce9f1eb28b2eea5d05d226df45bab519",
+      "bytes": 5319
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Cibemba.nsh",
+      "sha256": "98cbe1e512063b4feb28cb6643779caf37c657ad7d9d51d071afa891bae554b4",
+      "bytes": 4655
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Corsican.nlf",
+      "sha256": "76067d17ebcb9a5ea701f9650609d796e9216bc20da28716fd3b95f23f03d53f",
+      "bytes": 6407
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Corsican.nsh",
+      "sha256": "ebc54bc3b61e88c1bb3f5a76377c64b02f20f377f38eba1dcc0746767f957bcf",
+      "bytes": 8436
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Croatian.nlf",
+      "sha256": "84420e45a4e0f0e1a8876b89dd429aaaa728af75d099cc9fa2864346c442484a",
+      "bytes": 5231
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Croatian.nsh",
+      "sha256": "e9b2f227787a0c8b16480ecece177ae9bcfb2ff1cbf504f032dc984b22b898e4",
+      "bytes": 7489
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Czech.nlf",
+      "sha256": "cb34da78591160e3b200175470b0138e164c59cc9d32fd7d0b477f2d565b9e3e",
+      "bytes": 5869
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Czech.nsh",
+      "sha256": "690a6fc502e72bc03a15fa4b12fb8c76ef258b09a1d7977c1d74dba915da3941",
+      "bytes": 8167
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Danish.nlf",
+      "sha256": "ee02dfa6029317172e463dabda9ac7f27fbbb03a3ef138bcb4df56a4330eca05",
+      "bytes": 5387
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Danish.nsh",
+      "sha256": "bd24163f67f7df030d458f5b0b6676d134e13f8ccf306d9c03d949a642dbb67b",
+      "bytes": 7861
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Dutch.nlf",
+      "sha256": "a23625928bdbecf724dfb31e313dea70ab4d37c1829234d6b9ada8451a5d2295",
+      "bytes": 5278
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Dutch.nsh",
+      "sha256": "a21e2349b92ddd97f1cd502ec376adec0d40e1987869197a782eb325cae012cb",
+      "bytes": 7796
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Efik.nlf",
+      "sha256": "3e93527e538878a3b68902345f08d25c8431ebb818d394151ce43184ead3c49c",
+      "bytes": 5659
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Efik.nsh",
+      "sha256": "9e3b0c5123962492b86f7c4965ed3111c39105338558ea485ead29c83e0bc34c",
+      "bytes": 4759
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/English.nlf",
+      "sha256": "1af27bb146b370531de867dc8eaabb8203504c488294b01a0980e2e6f5a84ea0",
+      "bytes": 4945
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/English.nsh",
+      "sha256": "d85f67c5ddeeff44cc2f036f1240b2bb7f1ba903492bdff48b56d4bc8c31ac07",
+      "bytes": 7616
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Esperanto.nlf",
+      "sha256": "a51547e4d35c2f3235fb30a30b069e43d1d3e77b3a91cfed5828320f60ea1a14",
+      "bytes": 5341
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Esperanto.nsh",
+      "sha256": "6eba3bd70a87bf8ccdf89a28101aed7774005716c7cd350ccc950754352b7bbd",
+      "bytes": 7865
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Estonian.nlf",
+      "sha256": "a1803d376d4383d4039ee11c7352c3508d9b1134f9656754dc1d05d6ef87a9a6",
+      "bytes": 4897
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Estonian.nsh",
+      "sha256": "17ba536f1df47f86333c7719bbe3c6d1bab5fd1b692546fd78766a8c4dd9d4d1",
+      "bytes": 6695
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Farsi.nlf",
+      "sha256": "f1495ed20b9ed1c24ddba107f226408d737d82516288e8d905c835e6b31b95c6",
+      "bytes": 6951
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Farsi.nsh",
+      "sha256": "133822c755cb44aad89ff9075ccb9740c6e42d5a10f8ad10ab54b5e96f1fc952",
+      "bytes": 9385
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Finnish.nlf",
+      "sha256": "cbfc5046fdba5b7a25571ff80801661a411467fd98a1fd4887c2bf877ef4c2c8",
+      "bytes": 5019
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Finnish.nsh",
+      "sha256": "e85ca23d66404efea148387ca4e4efc506e75a5e23414dce985ad13c50f90848",
+      "bytes": 7122
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/French.nlf",
+      "sha256": "08636d861bfbbf0e55a282cbf702a96b6b112ea64203a269b21c94501978cecc",
+      "bytes": 5820
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/French.nsh",
+      "sha256": "f64481709d6339132ae99008831a4c6f272373bb64d809d08324829972c49a43",
+      "bytes": 8511
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Galician.nlf",
+      "sha256": "0876dba60597d4c7e55b6ad3964b644ea1a59ab81be7936f07ebc06ee046ee29",
+      "bytes": 5428
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Galician.nsh",
+      "sha256": "7587bb6e37a6770b60b049d18bec0978e628d7f0af18aa811364250488cda593",
+      "bytes": 7298
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Georgian.nlf",
+      "sha256": "d5b075c6c1b402627c2199602080e6dba9c951ff4a6bea7aeca88da65bd0efd9",
+      "bytes": 10068
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Georgian.nsh",
+      "sha256": "dc29a977e990412b7fe841d1f6f2f8b4e6af1a4c26db409d6636efbfb68e70d0",
+      "bytes": 11613
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/German.nlf",
+      "sha256": "e2aa56d86cd597c6e302201009cb8118a39e5d46ec4c92e019b6bfea19756d21",
+      "bytes": 5777
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/German.nsh",
+      "sha256": "28229bef48cea2f3af819337caced0137ed9441c0e59c60097329c0ad64dfce0",
+      "bytes": 8694
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Greek.nlf",
+      "sha256": "b4a4176de414cebf277e06c055ea128ca06c2ba6fe6138937b7cbf33013d33e4",
+      "bytes": 8477
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Greek.nsh",
+      "sha256": "c97f2e91b5c4db8d20d04c2e0ca9f0690dd678e1229efb88ce39c7b3ffc24ae3",
+      "bytes": 10777
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Hebrew.nlf",
+      "sha256": "c954912110444c970b84e291fa73b020aa75f75f09021d5a6387c1b428f2ca6b",
+      "bytes": 5949
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Hebrew.nsh",
+      "sha256": "8b745ca2d4030a2985b85a05798a95409fbb4712c290e081e428b79cf73081bf",
+      "bytes": 8674
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Hindi.nlf",
+      "sha256": "f1fd207f4c6ece7121d69bf68bf0a108fc93eb0172fbf7cc241f4680d2a8ce59",
+      "bytes": 10610
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Hindi.nsh",
+      "sha256": "d0b71a695db4b50dc523a3bfc286d72793e8ac96cf3a314fe42afbf9e7285383",
+      "bytes": 13301
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Hungarian.nlf",
+      "sha256": "1e096270dcd8d8fddba34601c56e051abc89a793ec62445fdf14f0bbb9529c8e",
+      "bytes": 5806
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Hungarian.nsh",
+      "sha256": "6d46e05dcc816cc8d7a4eac811765ed27be700ebf568c4b2e576e454069cc3bb",
+      "bytes": 7534
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Icelandic.nlf",
+      "sha256": "d00b9681b6c185268f9ad097046c2b65835df1a34a2b7dc380a57de186c7d3c3",
+      "bytes": 5694
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Icelandic.nsh",
+      "sha256": "4a7479192d33ada318b0348e9148097d91716d59472423bccc842ff4f067f274",
+      "bytes": 7542
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Igbo.nlf",
+      "sha256": "4d9dfd08528fdae0861eb8afce21e66dcdd3fe74ce841e1a524e663fc9d32ad0",
+      "bytes": 5859
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Igbo.nsh",
+      "sha256": "acfcfd13603d9a715bd8594e5f0ac0f7e93136db1bd8f31c6ad91cd563dcc7ca",
+      "bytes": 4812
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Indonesian.nlf",
+      "sha256": "a095efb924f5aae164dc5a14faa7c529afe9c8b71d9027d7e7adff0efde15f32",
+      "bytes": 5758
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Indonesian.nsh",
+      "sha256": "313849fccbf78455c6eebda3c4b94e3ffab4b1ec53ef75d7350c2771a8c50cc5",
+      "bytes": 8091
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Irish.nlf",
+      "sha256": "d87c9e139f92703e589d83bc5a594d60eb829d7acd4c148f8623c818c8868236",
+      "bytes": 5873
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Irish.nsh",
+      "sha256": "d76b23b630237df35593b541af88e1715f2df1eb425226c8c6403be03c05dcf6",
+      "bytes": 7654
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Italian.nlf",
+      "sha256": "1371f958c8ccc3a0f23ab4bf1ceccefd962ba4785534531de70dacfe5d6041d6",
+      "bytes": 5598
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Italian.nsh",
+      "sha256": "cd2455066b261c7b5efef941836f4dcc0711aa27434052ddbbc8db926f2ed5bb",
+      "bytes": 8466
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Japanese.nlf",
+      "sha256": "3d4cdcf393b15802c75351273250e192db45d5af82d876cdc6c16151430e4642",
+      "bytes": 6614
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Japanese.nsh",
+      "sha256": "7454128269009564b11c4fccf486143c91513bae27c9f72a4ac0f4fd6edb46c6",
+      "bytes": 9655
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Khmer.nlf",
+      "sha256": "6089e94dae3482e550098a11e92fff1ce6469270b7fa35e196c18167b029365d",
+      "bytes": 11566
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Khmer.nsh",
+      "sha256": "40a743fe5ef4497f50a992866575a65d41fb93cc34178aae9adbea6471e6e9b6",
+      "bytes": 15565
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Korean.nlf",
+      "sha256": "f6ed4431ff6e6996773db8ea462f78a68bd1819fb2ab3fa78814ac57014b6238",
+      "bytes": 5499
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Korean.nsh",
+      "sha256": "c2fd7f2dd2d6014e40460b85dea7da9a5f6eaa8060e6665552f7e697b7bfcb4e",
+      "bytes": 7874
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Kurdish.nlf",
+      "sha256": "865d5c15fb58435fcfe28d7cac011b1d6b32898e23a8a606b4967df4c968d0ea",
+      "bytes": 5853
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Kurdish.nsh",
+      "sha256": "cfc0e8475daf71e8d8f84e21da96674681ddb6f802226fc1a4fdc1675d72e126",
+      "bytes": 7852
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Latvian.nlf",
+      "sha256": "84b7069796f18de481179537f2c55928e1da1272738f0c9a4f5f53b022264f3d",
+      "bytes": 5605
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Latvian.nsh",
+      "sha256": "00f1b2396cf58c41e35703ccdb290ea6d5408189e2be670aa8df451585f3e051",
+      "bytes": 7548
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Lithuanian.nlf",
+      "sha256": "b552f3f7ebc194101c52b11377445740a106ed689f34d9bea76b1c834fc888a0",
+      "bytes": 5330
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Lithuanian.nsh",
+      "sha256": "29ff966c37f8dc6178380ac16f429308c0947df1f02ec308c0943564542923c0",
+      "bytes": 7119
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Luxembourgish.nlf",
+      "sha256": "e641014e6ba4845af8798078d71ad166c9b0b3ebd90efe7fa316941e39a18307",
+      "bytes": 5714
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Luxembourgish.nsh",
+      "sha256": "a699be758fbd89063b6c86b92a3723b1d40b98c8daee07e02472f242af89e72d",
+      "bytes": 7713
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Macedonian.nlf",
+      "sha256": "9f05cffba5a82082dfed55524803d8e4a1674e8cb79a99bce699b0f3627e6e58",
+      "bytes": 8255
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Macedonian.nsh",
+      "sha256": "174f260ed1b71038b4acfefad0171c8a4557b441c094e66e8543c9852d1fa8aa",
+      "bytes": 10196
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Malagasy.nlf",
+      "sha256": "35f28b9e57859e7c2dffe6878a5c0fa05cc8bcc3bbab4b6a61278383b213cef3",
+      "bytes": 5707
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Malagasy.nsh",
+      "sha256": "90d5ea65c2a820da2553054cdd8b80ecbac8ca104cd4bfefcf121b898986e0e7",
+      "bytes": 4993
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Malay.nlf",
+      "sha256": "c6bc3b1413a63ea98a3a807581c87fa221a18fa11a0883e6bdecdf4e7380eae5",
+      "bytes": 4793
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Malay.nsh",
+      "sha256": "ca1ede4cc5231b63a60bc4f8bd6d9b7cc3896d562dc5c93fc643f8ad218b3fc6",
+      "bytes": 6802
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Mongolian.nlf",
+      "sha256": "53e0c247f0891dcd4c7df330c24845220d9b2500c934859b8ac343acdf6fcff5",
+      "bytes": 7228
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Mongolian.nsh",
+      "sha256": "bd6125ec32e379cdf5ec1b2d93ae293678bec7c1064d143659c652d1de23ca55",
+      "bytes": 9853
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Norwegian.nlf",
+      "sha256": "790be7026f30fa05c4d5ad1a94f97f4127969f3bee25d332918f0b250cae7fed",
+      "bytes": 5074
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Norwegian.nsh",
+      "sha256": "3476a686b32419c0764a928551f1ce2abb524a0284b422bbba239e9d3b597f43",
+      "bytes": 7869
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/NorwegianNynorsk.nlf",
+      "sha256": "2f995b7184a01fa2303a64c0be2c401c104e7e3c13237126638023cd7f977a65",
+      "bytes": 5025
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/NorwegianNynorsk.nsh",
+      "sha256": "4107b9a2c6cb449f77627763ddb25bce66e931382795fadc4e452731c8f111bf",
+      "bytes": 7655
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Pashto.nlf",
+      "sha256": "9952974c7a3aabae3dc1e2b553deb97cc7695e5060c1fa60cc16c211c5be8cb8",
+      "bytes": 6448
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Pashto.nsh",
+      "sha256": "bfde24291e4dcaf9ee27915e98a6be5b642865ecf62f9d7aee38071420543bfb",
+      "bytes": 8532
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Polish.nlf",
+      "sha256": "06bc02413e4bdd73b5169b35aa668459cf52d028aeca5f7adcb03b777fc3608f",
+      "bytes": 5607
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Polish.nsh",
+      "sha256": "256252b66e88a7dc4faebd8f00020eb71384de5da4bbbd3735968cdcac1229be",
+      "bytes": 8339
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Portuguese.nlf",
+      "sha256": "14325f19d8fdead0cc2831f5008acb8734ce4325fb5e09e5f260e47766c9ac98",
+      "bytes": 5426
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Portuguese.nsh",
+      "sha256": "8ff23a99c8c4f791dc068e036b67e7200f730c0a822ef561b8334deb4d5b07b0",
+      "bytes": 8005
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/PortugueseBR.nlf",
+      "sha256": "b3cde87d4c0d6410685670e4ecd511f39720be5b90843efe2f02a4060ac2a9ea",
+      "bytes": 5553
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/PortugueseBR.nsh",
+      "sha256": "e63dc9bce1297b71d01997c37a2fa57c17d8d88f0a4516a7c0cc3af11c794087",
+      "bytes": 8100
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Romanian.nlf",
+      "sha256": "679348a978000fcd237c160dc6cc7fddac9eaca9c3ddb1fd29dbe796538c0db1",
+      "bytes": 6242
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Romanian.nsh",
+      "sha256": "a7587a93e42784b40b2301de0d4c52115d39125ded411793f17a8efeb1816df7",
+      "bytes": 8081
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Russian.nlf",
+      "sha256": "0a0c8234cc4dbb91b09bca8cffe3add86c9c44dd0b5a82ca8c9045fe1fdfb37e",
+      "bytes": 7684
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Russian.nsh",
+      "sha256": "7b10b84b217b11075f3273364da9a1f26af63cef07f7572cf956bb08b394d150",
+      "bytes": 10387
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/SConscript",
+      "sha256": "16a4bff40b4221b9d7a59c1cb713128d992093ae1604f5eb31e42b9fea8ff63d",
+      "bytes": 923
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/ScotsGaelic.nlf",
+      "sha256": "6266a612b8eb4205666abefe566d11707b02129bd90dcab39f2f969cda0c5ab0",
+      "bytes": 6038
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/ScotsGaelic.nsh",
+      "sha256": "0f3cebc745b85ad4140746b7fe67b716bf552c1011646e50369568b7e35fe32c",
+      "bytes": 8398
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Serbian.nlf",
+      "sha256": "04b62a3cd1b8e7030545a050817200a5022f01cb423abe4c05e2ea859a9d1f20",
+      "bytes": 8193
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Serbian.nsh",
+      "sha256": "7a6247e86fd0df6e2c6a58359615c83f0d9a833f1214a29310b7231f4415832c",
+      "bytes": 10263
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/SerbianLatin.nlf",
+      "sha256": "43cc8d4530216a771d348d53398953b9cc87c6f4450359b0e60fae981da864ef",
+      "bytes": 5555
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/SerbianLatin.nsh",
+      "sha256": "5610e96c6108f1a66ec70fa743c83410a8acf8baf49a7cbf532cb302b7e61950",
+      "bytes": 7574
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/SimpChinese.nlf",
+      "sha256": "4d03518f6b472fa46d7b3719ded4eff0f1a458893feb0d0b7da2a29d65027657",
+      "bytes": 5050
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/SimpChinese.nsh",
+      "sha256": "256e3e07d35d172f6d8b5a26896a27edce8d4af67d27cf0adada96f637080c46",
+      "bytes": 7553
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Slovak.nlf",
+      "sha256": "800f5af00499c92fdedd42c5f3d2236d362b7a4f8aca028efe539d35365a56a2",
+      "bytes": 6488
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Slovak.nsh",
+      "sha256": "c703cf3952251ac7f5a15cfe81fba4f1894e062e4e1e4cc8bc3b036e4f0ef191",
+      "bytes": 8774
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Slovenian.nlf",
+      "sha256": "8b1947583a4e281b05d40da2f4a5d15fc461d0878747c6059836bd9a4df986b5",
+      "bytes": 5171
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Slovenian.nsh",
+      "sha256": "3fb68baeceda8e07c6ca7976e956bd3047ab822f1b2b7f1a9523bd8c9f4f02ea",
+      "bytes": 7961
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Spanish.nlf",
+      "sha256": "69a21d34f8fd911a69c2a4a8da27f501f6da902e9f4ec609871b22fcd0deb97d",
+      "bytes": 5554
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Spanish.nsh",
+      "sha256": "beb106f197639933d8931d55ee0aaa31ea7423426c883361e98ca0a6d57fdac3",
+      "bytes": 8083
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/SpanishInternational.nlf",
+      "sha256": "26eafd82568c0ee329a1f4eb291f423a81cf82dad04df6ffad5221ca95371c76",
+      "bytes": 5554
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/SpanishInternational.nsh",
+      "sha256": "c5a7bf92ba766bd48d656584143c96afc9cdc5996f5e14b1435688e7b4153385",
+      "bytes": 8196
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Swahili.nlf",
+      "sha256": "e5d2bc01727977329db10dcd8691b011850c3c7a92b5443cf6a27e6b81a8cc0b",
+      "bytes": 5523
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Swahili.nsh",
+      "sha256": "e34d13d36ede5489f28903458d4385e48c20e4ad9cf90f12a64a209f481ce3cb",
+      "bytes": 4792
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Swedish.nlf",
+      "sha256": "994679c93a66a6ab2a90905940a64e4e007336c52c15ca96a1d12d6021c0c47e",
+      "bytes": 5345
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Swedish.nsh",
+      "sha256": "28ebff21ad87f20e3829a2074bcfef371936d123e4d9614a52529ed6c92422bd",
+      "bytes": 7964
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Tatar.nlf",
+      "sha256": "5ac87cf1ac8eb8707751fa802a451c9ea1d6668a28eb83310788ff0eef2dae21",
+      "bytes": 7682
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Tatar.nsh",
+      "sha256": "15f27aebf9ce2c76a323497f260de6351455f79c7d92ad86927fca2494e504ff",
+      "bytes": 10183
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Thai.nlf",
+      "sha256": "b13695dd61cbdebe4a4025bed9fd01607ca6848a40beae837a8844adaf319b5d",
+      "bytes": 9985
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Thai.nsh",
+      "sha256": "3678a2567d47f4775493da558ed63040a1b8ac07542317720a600e448a264a39",
+      "bytes": 12621
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/TradChinese.nlf",
+      "sha256": "a92595266f734e272dffc5aa1abaa19ce94efe35c755329f4d9473266f39bf13",
+      "bytes": 5076
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/TradChinese.nsh",
+      "sha256": "1d74f01a256c9981e6fe94f5df3f5e13736f4409d1378cd5d2f0177846a19a80",
+      "bytes": 7519
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Turkish.nlf",
+      "sha256": "1774d493a5ffa87c0e8bbe2e95521ecefca4bf2017450bc3c51865111d2eac98",
+      "bytes": 5743
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Turkish.nsh",
+      "sha256": "7c2b74589797fa13a559fb81bf289c2c9e2051aeca1c43dbb37ba4657f4a16ce",
+      "bytes": 7951
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Ukrainian.nlf",
+      "sha256": "6ceb67eb19cfb40a790dca0bd9e7aab56a299839a65245d6e7c63d53df5a3a45",
+      "bytes": 8073
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Ukrainian.nsh",
+      "sha256": "d7e0f38ceb7844f506f32d4b09e428abe4713e7b4fa689c112d358fac180c14f",
+      "bytes": 10062
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Uzbek.nlf",
+      "sha256": "46b94d7d4f46a89be068e9fa41b288be5f170dd70450a042aaba0c087c40d0e6",
+      "bytes": 5495
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Uzbek.nsh",
+      "sha256": "ff50a5d2c5397cdeeefa67e95eb9e3462d4a327ee94a2488a601bef23e1c73e4",
+      "bytes": 7483
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Valencian.nlf",
+      "sha256": "8db5e7b6f4a4f8c32c791b6b41d8ff2465d3cf58b041c7490c9b8fcc95c995e4",
+      "bytes": 5445
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Valencian.nsh",
+      "sha256": "df104fa238c449b3d6124ed2a00b78af2d4d48e7d2bdc0f3f0c1b6ce9c548145",
+      "bytes": 7575
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Vietnamese.nlf",
+      "sha256": "2ef1a249a8b4dd3ed3f37606932a43bd0d424f602c50f9270ec146b5ca25b6e8",
+      "bytes": 6611
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Vietnamese.nsh",
+      "sha256": "c97345007ce05caab6453985634186137318494ae894f67b2130a11618038924",
+      "bytes": 9114
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Welsh.nlf",
+      "sha256": "d4aa0d517d4b0cfde3ae4aedd27d390d1eb6489bd50cffb96b07de2639cdf594",
+      "bytes": 4737
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Welsh.nsh",
+      "sha256": "cb7b2724e497f86816093f7f8d52bed564938f7492cb58d25b09ef864d58985d",
+      "bytes": 6891
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Yoruba.nlf",
+      "sha256": "2a21152e2b13494e5da0b9bf3a72ae55d95340661c9be535a30fae689541d964",
+      "bytes": 5999
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Language files/Yoruba.nsh",
+      "sha256": "41a88c2ae4c43821e2bac365dc7efc79faa57ca418dedd43d33a2f4ead0442ec",
+      "bytes": 4965
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Library/RegTool/RegTool.cpp",
+      "sha256": "f53625ebd172dfc3590db06d59a326901641a474fd5260179ec1df2ffd70e551",
+      "bytes": 15215
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Library/RegTool/SConscript",
+      "sha256": "11e390bca6d6949a478f047297716b68f555fbf14f51cedd37288cd42ad36d5e",
+      "bytes": 307
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Library/TypeLib/SConscript",
+      "sha256": "a2dabcbe017673e4bbe5fd869f01efb0b62b3ffc243833f6d62b7596a8040fdc",
+      "bytes": 165
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Library/TypeLib/TypeLib.cpp",
+      "sha256": "1747963b489a29152c6a443f5881cfc15c8b07113adcfe06036e067cce075d56",
+      "bytes": 2109
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/MakeLangId/MakeLangId.cpp",
+      "sha256": "1cb56a65d201465110930fde78929f0ef0881b30c64d6b14dc014d97ca0d5774",
+      "bytes": 14509
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/MakeLangId/MakeLangId.ico",
+      "sha256": "953f2a1d9f68f78b56d48dddb4b189c09820f3e9f3dbcde7392fc4df894e1c0e",
+      "bytes": 13094
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/MakeLangId/MakeLangId.xml",
+      "sha256": "6b7d0835f9d69d5d989d074f615f4f2448198b3b839c553117e42abbc5b52c78",
+      "bytes": 950
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/MakeLangId/SConscript",
+      "sha256": "a92855a8b67a6a6c81c13e0bee7ac5c8ba5658c21f1f90d02f453a4c1e1f6003",
+      "bytes": 325
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/MakeLangId/resource.h",
+      "sha256": "30be05fe78de5800b9883d47572ceaeac455d1113f4b220f1eb4776f931ab0bc",
+      "bytes": 842
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/MakeLangId/resource.rc",
+      "sha256": "833af805cfed30b2aac01f80d4871063d460bcaaeaf409245530278f34cd8b6b",
+      "bytes": 3322
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/License.txt",
+      "sha256": "45a364e0b59ad6602da5d84fc896caf3f1a29f58cf759d9ba6579346f26c2882",
+      "bytes": 893
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/Readme.txt",
+      "sha256": "b81a666da35fec3e0ed4b0841d51d29ef46002fab99d4c4abbf7c67d54f85463",
+      "bytes": 7151
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/SConscript",
+      "sha256": "8f51a10381a9916343b2126ac4fd29a90a15280c8db4c7b754ca88284dc5054a",
+      "bytes": 774
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/afxres.h",
+      "sha256": "4cc6a51950b79666fc656472819ea7d8350ff79063ff5aaf2d86a8109ef4040c",
+      "bytes": 241
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/assoc_nsh.ico",
+      "sha256": "d26ca5020ad23796140db428de0ef21dc752e8dc2c6b0933293714cc20253023",
+      "bytes": 278870
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/assoc_nsi.ico",
+      "sha256": "09c871d54e4924591c3884901576a077fd8661290b1a5d9a2fe090a32b4ac924",
+      "bytes": 278870
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/icon.ico",
+      "sha256": "e03e6b98c9aae1e9c4d77e4dc21f869c09dc0637a84aa6d377dfe49c758343c9",
+      "bytes": 302702
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/lookup.cpp",
+      "sha256": "4f3770cde166321d8d1ba487eb991f6a1360259041defed0edf3957d76ce90af",
+      "bytes": 13508
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/makensisw.cpp",
+      "sha256": "00dd144424c13edb8d67d94c76fa660f9fe7984aecaa61674c7203f3403abcb9",
+      "bytes": 56533
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/makensisw.h",
+      "sha256": "7c0a37bf8d246a5c3bd36481339e2927c354258aa6d2bab0060c16fa1045e29f",
+      "bytes": 10179
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/makensisw.xml",
+      "sha256": "ee26411441a4c504e364ed98e421203d6b015bca2e35779de9516b76169b85d9",
+      "bytes": 1138
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/resource.h",
+      "sha256": "a93f24936680a75087d0af2cc9aa196bffd247e026dc1b7b46da4d50d72f801c",
+      "bytes": 6098
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/resource.rc",
+      "sha256": "6246608466555521045ee88dac30431ab47e743c15bf971229d1afe22482ed33",
+      "bytes": 16924
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/toolbar.bmp",
+      "sha256": "bc303d16f7a50dc55facecdd84a1d027337e1c84d37dd98ac48b273316a210d5",
+      "bytes": 4662
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/toolbar.cpp",
+      "sha256": "42312451ce2a36839b14243ada17546150fe0a7f19967aa47f7338bf7da91663",
+      "bytes": 8369
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/toolbar.h",
+      "sha256": "10d1a0473419e3b693be507b6ac0a0ddf60e80f2fd9a5f740d2f7a46bd432604",
+      "bytes": 2614
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/toolbar16d24.bmp",
+      "sha256": "31abbcc4cabc001bb8fe215399bc64b90821d689d79bde322b9dd83174f52203",
+      "bytes": 10806
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/toolbar16h24.bmp",
+      "sha256": "f652dd84e41eed77f566a3c2f3970b770b407debf4a1aea35c753c41e42f4374",
+      "bytes": 4662
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/toolbar16n24.bmp",
+      "sha256": "0a522caa34e77a76c07f5fccc6fb9675e7c4197d602ad6c431dd5b7843014e70",
+      "bytes": 4662
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/toolbar24d24.bmp",
+      "sha256": "ee44051507bce81721ba8bcbdc4aa5aa071dcd3a0f98fcc1f5ceeccc5eaff158",
+      "bytes": 24246
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/toolbar24h24.bmp",
+      "sha256": "047f92f4d17d47562272816ab62c228bbc3be4db02eaafa58b1ff02c415a32d2",
+      "bytes": 24246
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/toolbar24n24.bmp",
+      "sha256": "01f6179bd8cb1bd6a93b088415d7e538d6fd07f2cf1c38aec2b7209e8cc69256",
+      "bytes": 24246
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/toolbar32d24.bmp",
+      "sha256": "34bdaab14bdfe8e485f8fd4b28db5a38881f30bfcef82b4d7d2acf48fdede824",
+      "bytes": 43062
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/toolbar32h24.bmp",
+      "sha256": "d51f3d22d08f1acfb35fcc8de27dab06d9a7da55a083ca42bbafb1b76c7355ae",
+      "bytes": 43062
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/toolbar32n24.bmp",
+      "sha256": "42f5df2eb8ce2a53cd81aaf65138f5d9c663371138bca86d3c775c3daffb83a0",
+      "bytes": 43062
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/update.cpp",
+      "sha256": "3990adea05b6ace393228cb51a6972d3d7d8da34dd3d518f3effe389e8dad639",
+      "bytes": 4876
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/update.h",
+      "sha256": "0d9f0d8f0eadaf8a7048592087609dba4fd38526d725937a6a34f04b443519e8",
+      "bytes": 95
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/utils.cpp",
+      "sha256": "83ec340cbe6950c19f12ac821ecd965912e7657f260d62ec08f662240c745578",
+      "bytes": 39668
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/utils.h",
+      "sha256": "e20c7fc6ff0c642ae2677b3552f106bdfb839e216bcde6c247687e4b782f8ba7",
+      "bytes": 7709
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/version.cpp",
+      "sha256": "7f0020bb1cc8f592b05c8ea6767983dee8c1d7f1ba5f60f771c352cfe6e88db5",
+      "bytes": 1262
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Makensisw/wndspy.cpp",
+      "sha256": "095d3d5461b5162de17f86ddbd21f070f027fa868d416d71deb15184f9070fc7",
+      "bytes": 15761
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Math/Math.txt",
+      "sha256": "16adef40e67894768f820a395345cb4e4b05195f69c615aa42a09267464fba74",
+      "bytes": 10062
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Math/SConscript",
+      "sha256": "9bc2bedc1f06836b219aad12e7a6480c005d527a6a65ae542b15f5aa83163e03",
+      "bytes": 374
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Math/Source/Math.c",
+      "sha256": "5158d99d05a87c2032f611a4ffc6917940a97b9155af5386a62c3318c552230e",
+      "bytes": 58961
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Math/Source/Math.h",
+      "sha256": "7b2399d27f1bff17f14a42f4081999546de28944050e1b1fda3a12f3df745c92",
+      "bytes": 738
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Math/Source/MyMath.c",
+      "sha256": "62e16856bfe2f749c36961893022b78bcf0cf5bd5ed076dd6633a7a1c9b1c5f0",
+      "bytes": 6214
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Math/Source/MyMath.h",
+      "sha256": "16552f472ec7ef32a7fcdc5d53ce93c89e733ff289efbe5334af1bbe2e6568b6",
+      "bytes": 4397
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Math/Source/plugin.c",
+      "sha256": "71951cadffad51695266bddff1156640df1501dde498791b9907dcfadd94cd73",
+      "bytes": 2642
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Math/math.nsi",
+      "sha256": "99a251cd74d8d471dd9dd1b9aceacc5a883ac034c5efcfc8cf1fb724332882de",
+      "bytes": 1180
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Math/mathtest.ini",
+      "sha256": "23584377db41787602314da35462d1fb80186f317b82f7bfda1d3dc98efd0513",
+      "bytes": 1122
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Math/mathtest.nsi",
+      "sha256": "e648a527804d61f59619ac8aafc4a21031e6d8bfda3b531a21c5e83cd00fcc10",
+      "bytes": 5530
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Math/mathtest.txt",
+      "sha256": "9953a6d326abbceb9c884c593b0b5d4a0a34f5194f107653be04e9ee6e992029",
+      "bytes": 475
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/Deprecated.nsh",
+      "sha256": "100b5b74b1d0d20924e0a66a59f394c36e062ea2b94d2cad3dfd9e2239fabdba",
+      "bytes": 1805
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/Interface.nsh",
+      "sha256": "a7c989dfe337798e92f6afda32fc474ce2b83c5bdc9f97e8f61a7f0dfbc51aa4",
+      "bytes": 9932
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/License.txt",
+      "sha256": "d74602745bb9ab1cb012257cb1cc71f37aad9cc26d5c1cd459d61ccef3e5463f",
+      "bytes": 831
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/Localization.nsh",
+      "sha256": "270325977996013febf436d927086628270a3221c3a8c8a10fae83ab4003953d",
+      "bytes": 4623
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/MUI2.nsh",
+      "sha256": "59a25e20a04b3ea654a366ae760478e4635a0aaf61f660791b2bcbb2a80545f7",
+      "bytes": 2237
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/Pages.nsh",
+      "sha256": "16521f235fba1e9e0b433aa030c579293865fea728e6d3037a46277c50a640fc",
+      "bytes": 9068
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/Pages/Components.nsh",
+      "sha256": "13805fd49072918d3cb71ced584c4e29823a126ecef7bcf5d332e11be332ba77",
+      "bytes": 6756
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/Pages/Directory.nsh",
+      "sha256": "aa0b7e92aca98ba6bbb0a7465abf18efc34f207ecb0cb8300f1dd2ede556e20e",
+      "bytes": 3472
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/Pages/Finish.nsh",
+      "sha256": "ac6e9bf4f6152ebce31d9136c5f86f474b04df9e89dda83544cd1ed0f37c8ac6",
+      "bytes": 17546
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/Pages/InstallFiles.nsh",
+      "sha256": "bbd10b77c7622bd78651c7c1cc86425a4dfc0e4f8c56591f746a895261b91a75",
+      "bytes": 4824
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/Pages/License.nsh",
+      "sha256": "10f270377e058dc9b7401050583346ff2dceb1c94b24c88e5f9fea71b214c1b3",
+      "bytes": 4334
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/Pages/StartMenu.nsh",
+      "sha256": "47c390a1c47a062b1cf00191d11f71356dfcf220827240a545abee566f54a28b",
+      "bytes": 7960
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/Pages/UninstallConfirm.nsh",
+      "sha256": "198b24698ecfd7b8b5cc33b06b51f87f6810c555036c24f83b0ceb1eb25c829b",
+      "bytes": 2272
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/Pages/Welcome.nsh",
+      "sha256": "ef5a1b6e273198322f7c0be5364f3d2302498a7a48b957ff0e4a0513712fd183",
+      "bytes": 5186
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/Readme.html",
+      "sha256": "bae900a1812d5affec3555289057f97b170b2e0bb02fe5e79c2c7306ccb7a9f5",
+      "bytes": 78646
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI 2/SConscript",
+      "sha256": "c5e11e06375ac7284dbfd4d966f968644827de2764dc71bdcaac8c3f53573508",
+      "bytes": 778
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI/Changelog.txt",
+      "sha256": "4e4d9c877affe3b0b0eec873bd6b7db1daaec5b2a009c0705f17043f00bdbcd4",
+      "bytes": 11471
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI/License.txt",
+      "sha256": "60a810a36630b3cb455ccbf361b987ca4860fa235fd9e1466f1d7cd92b7a6faf",
+      "bytes": 830
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI/Readme.html",
+      "sha256": "de8d1371a7d22e8973641848a9006823ce5de43d51780f9fbd434596d8852763",
+      "bytes": 81810
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI/SConscript",
+      "sha256": "4063f892bfbd64729fa0de51ca05ec1b4feee6d0f59b8c29e061caa3b98266c4",
+      "bytes": 510
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI/System.nsh",
+      "sha256": "1e899bf9d654ee232cbd935ede035282b50965df178ccc9c99b2fcfc81e52117",
+      "bytes": 66886
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI/images/closed.gif",
+      "sha256": "b601482dd9f13043f50fe3e85158a52833f697feb5bd490f76f7b017070d184a",
+      "bytes": 203
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI/images/header.gif",
+      "sha256": "7ab302133999a9443abafe3db3aca16112247b225949a63de800f72738c1b1ff",
+      "bytes": 6023
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI/images/open.gif",
+      "sha256": "dbf447ca33cd86e0b4424d111eb4337247bcddff5a89205d4a128b1a44bb5c1a",
+      "bytes": 138
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI/images/screen1.png",
+      "sha256": "2b24d171b68922e95d2335bd021812f53e96780c2a7ae576de3783ac3b585b8f",
+      "bytes": 15647
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI/images/screen2.png",
+      "sha256": "f211103afc4c797665fef17ba35ca87909f8219a9fe8c71eca243ea8a9f1b640",
+      "bytes": 18437
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Modern UI/ioSpecial.ini",
+      "sha256": "d95aed234f932a1c48a2b1b0d98c60ca31f962310c03158e2884ab4ddd3ea1e0",
+      "bytes": 211
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/MultiUser/MultiUser.nsh",
+      "sha256": "b730da1b023f7d8f3fe2e7950b50cc6245e16ae7597f263959bbe95fc5e77574",
+      "bytes": 14491
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/MultiUser/Readme.html",
+      "sha256": "cb450724804a7db34a0ed6fb6e7e5584922b2cdfe50c72272f9826c075a67202",
+      "bytes": 16615
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/MultiUser/SConscript",
+      "sha256": "a93d61888445460ff29b709bc61ed80273a8b954d905ad573628450baa4823a2",
+      "bytes": 208
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSIS Menu/SConscript",
+      "sha256": "be3d852a91aa49f6051f697b75cd0690c83117fc83c578f3986943e9051b5cf6",
+      "bytes": 2383
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSIS Menu/nsismenu/nsisicon.ico",
+      "sha256": "e03e6b98c9aae1e9c4d77e4dc21f869c09dc0637a84aa6d377dfe49c758343c9",
+      "bytes": 302702
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSIS Menu/nsismenu/nsismenu.cpp",
+      "sha256": "c1301a1500d434fbbec47f8a859815fcf0af0e4329f19e0c821c74979face5d8",
+      "bytes": 9305
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSIS Menu/nsismenu/nsismenu.rc",
+      "sha256": "fa77caf47aa248cca9a2096141dd7e46051a7561038a214a986f4a9048f17198",
+      "bytes": 94
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSIS Menu/nsismenu/nslinks.cpp",
+      "sha256": "1062da2d08b99d4f6900e2c2db8c1e68bd4edb75d97aecec0ffa48910bf98b18",
+      "bytes": 3408
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSIS Menu/nsismenu/resource.h",
+      "sha256": "7057a5845e43a2b49f1ce55fe08af131916b4c7de9bb5b51953e3ac80ce56b21",
+      "bytes": 426
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSIS Menu/wx/build.txt",
+      "sha256": "0f617e4e365ea2dde7a61c6c8dfcd4b873f75c6b9581e94c6b26a2591068d36c",
+      "bytes": 100
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSIS Menu/wx/setup.h",
+      "sha256": "ab1a94db456655c9337e8a02b987c698bc671710c450c7a739a7e00e1356b4ce",
+      "bytes": 44860
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSIS Menu/wx/wxbuild.bat",
+      "sha256": "0925becd0bd95e2428a10ac90b02a1d05c60013b92e3d6791c08a68f1b14ab70",
+      "bytes": 1468
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSISdl/License.txt",
+      "sha256": "daab4a8b00759c9a0712d9d15583ff947d2b6aa0db72e5292711c20986e4a0d2",
+      "bytes": 926
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSISdl/ReadMe.txt",
+      "sha256": "a9a91f9075c0aa99a2a55fd9f26c1cea2eaf6f5c4b816755ff01f02ccabf6e37",
+      "bytes": 2877
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSISdl/SConscript",
+      "sha256": "e113f1aeee83a5931fec0693a3fea18f3d7a40ba2be566dd62deef454e88a0a9",
+      "bytes": 326
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSISdl/asyncdns.cpp",
+      "sha256": "09229a9ac4192f96d25b859a08cf77b76ab881caff8129ca59e6a3c43b3c1663",
+      "bytes": 1632
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSISdl/asyncdns.h",
+      "sha256": "24583798b864a8b2ce0fa49c3c2c1e250a01da74b8202406f1d11bc3e9cf8f94",
+      "bytes": 1161
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSISdl/connection.cpp",
+      "sha256": "33382cc5afdfdca2562874f0e49314154be1b3ed05046553fdf71187ed48d9a1",
+      "bytes": 10537
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSISdl/connection.h",
+      "sha256": "75cd649d1b8d3785796afcbab2077b6afa60c50c50119cb82bf9e9232379ee2d",
+      "bytes": 5640
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSISdl/httpget.cpp",
+      "sha256": "9d22ab1cf077d081edb69c37216716e1e7e1426c847816114f6af2887a306f89",
+      "bytes": 13560
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSISdl/httpget.h",
+      "sha256": "7e604c7d2749f82eaff7f00ee3af3da295eeab3558b216495b8f4ce9779d89dc",
+      "bytes": 4344
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSISdl/netinc.h",
+      "sha256": "becd97a11887544dd5671f026f7e42c4af47988c43331b2e701bb8f7c2f4d638",
+      "bytes": 1269
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSISdl/nsisdl.cpp",
+      "sha256": "19f2650d910af5b194e9fb13b730720b260549437e772c539e6538b944835e6e",
+      "bytes": 18342
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSISdl/util.cpp",
+      "sha256": "745ef2bcb4f4dad327977a628e9dca7414aa65a0fcfb2e24207b4e5459cec6c1",
+      "bytes": 2460
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/NSISdl/util.h",
+      "sha256": "756978b73f6bd49c9e946d38c5209cf9ecd068af874802d937cdc58d8c5b032c",
+      "bytes": 1237
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Splash/Example.nsi",
+      "sha256": "fd8dd6d2e6a4aaa1dc19122a4d7b8579817eb90539ff8867a117bd8cbda7e70b",
+      "bytes": 533
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Splash/SConscript",
+      "sha256": "0b533649b23d85b667bdaca9f66109a5cccb89931fed19e83fb94d4ce2805a3e",
+      "bytes": 255
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Splash/splash.c",
+      "sha256": "4239f5a6920f0536a707487a684bad96a8e6e35836ef67c6c3ba09773d25ba57",
+      "bytes": 2809
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/Splash/splash.txt",
+      "sha256": "ef6f776c3904c3f5bcb172bf2de32d6125206afb56de9cf5ef91b24a95ebbb9f",
+      "bytes": 1194
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/StartMenu/Example.nsi",
+      "sha256": "9880210bd2c74d41c69c16c2b2ef25b5d2fc7af19ddeba63725c4a192f057657",
+      "bytes": 1182
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/StartMenu/Readme.txt",
+      "sha256": "bd0a616a8ae1110d4d9ee72c1d605f3eacf95c8e27465caeab1abadcb60f2559",
+      "bytes": 2218
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/StartMenu/SConscript",
+      "sha256": "9371d262468b11d7580591f4c76b628f17377dbab48177ddc264da40671d97ab",
+      "bytes": 329
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/StartMenu/StartMenu.c",
+      "sha256": "4614ba17ba0274cb00ce7db78f7c6d6773af40d5094ba1556facf450f95394f7",
+      "bytes": 11677
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/StartMenu/StartMenu.rc",
+      "sha256": "5353e42153a215d9b18e716817407fdb1b25238a572021f256880ff28f78e9e6",
+      "bytes": 2418
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/StartMenu/resource.h",
+      "sha256": "924a58122299835e86e8c58a129df08b01a038b5a4f74920fbf267422597553b",
+      "bytes": 667
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/SubStart/SConscript",
+      "sha256": "bd59f5f1a40670bdc1aee1050d34fbc6374e32eedfd9f32160c9007885e403e7",
+      "bytes": 356
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/SubStart/substart.c",
+      "sha256": "fa44831f2248d1da5ae9c637aebca190d54cb46cf3b9b4b0be360c7dce2fb5d6",
+      "bytes": 3161
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Resource/Icon.ico",
+      "sha256": "f559f61e4fef582ceef8eadcfb397032b927edfebf7d739b2b4a6a5b6014b033",
+      "bytes": 3310
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Resource/Main.c",
+      "sha256": "01c05efad0003cc88eade97da9e5edb9cf2e2bfdb259b4584a8fe48d01c670b3",
+      "bytes": 123
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Resource/Resource.h",
+      "sha256": "d8b4cbfe0204afb2f02baa5f4c973b42bf0eae8ed6708be0143a1f09df6ed4ca",
+      "bytes": 23
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Resource/Resource.rc",
+      "sha256": "d2e95ae59113108b15039491cb69d92f7b41bbaab71723cb418f10b32cd6521e",
+      "bytes": 85
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/SConscript",
+      "sha256": "e578c177b7934ede555d0ae2a6974a54365e40ff8b5183233e84162ccdc9a4d3",
+      "bytes": 1500
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Source/Buffers.c",
+      "sha256": "da7796fed92e3025664f0b465f55161756e84e60a4838682d541e29d9e682156",
+      "bytes": 3717
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Source/Buffers.h",
+      "sha256": "57a917ecb5a38f95b9d7d5ca83eefcc66daa749a3da3f5756d9098e977f45df3",
+      "bytes": 125
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Source/Call-amd64.S",
+      "sha256": "ecc8db6601bcedf176c29ecdb7fe34c1f37877ffc5b1a28082bd9c988abea2fd",
+      "bytes": 4439
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Source/Call-amd64CPP.S",
+      "sha256": "cea015ce4dc5830aacae4f160d7cab7ef54e70c24359ac1b6049f93926f82654",
+      "bytes": 154
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Source/Call-amd64CPP.sx",
+      "sha256": "1e764043e1432c08f7bb346571d805f2f3968eefefa1c2ac78304fa7ca2d7cf8",
+      "bytes": 157
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Source/Call.S",
+      "sha256": "0a5226965cb46032e55fed737cf8c15be67121e0a2c3f651493e89bdd0234bf7",
+      "bytes": 26021
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Source/CallCPP.S",
+      "sha256": "a1828ebbe93ac87168a4acb805204e5b1ad7503caa3d60b012b5e99096bb956c",
+      "bytes": 148
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Source/CallCPP.sx",
+      "sha256": "2a5cba9a45d6926b730286c0cacb434b0a6fbcd38addc808ccd80ad64ba73241",
+      "bytes": 151
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Source/Plugin.c",
+      "sha256": "a05a3b7f0a0e14e07df4a1f31eae2488aff6003da20de72ce7285434cc67e45c",
+      "bytes": 3676
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Source/Plugin.h",
+      "sha256": "36331e981e5daace07449dc2308459cbfb23881a0c52ee1432cf876db81228c5",
+      "bytes": 2069
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Source/System.c",
+      "sha256": "e7b804fac51da5a3b4fe59789aad127b6167bd06c19a44c26fad65f734d6f5d4",
+      "bytes": 54063
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Source/System.h",
+      "sha256": "78e2cae05a1a16ab3bbd1c789dc56d1afc692b1b3feb01f5d7d5c3f969aa6a5d",
+      "bytes": 6811
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Source/stdafx.c",
+      "sha256": "8d718eb84691c7015e6405b3202b0dab9e32991415807849a2aeb7330d2111d5",
+      "bytes": 285
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/Source/stdafx.h",
+      "sha256": "f0593ab65080e0ace9dc4baad5a5bcfae602b0dadf415d1044274520d1afd6dc",
+      "bytes": 501
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/SysFunc.nsh",
+      "sha256": "94bc9c3d3afd8e772d5236a91b9a2cbf6d94d90b89127cd9060fdcdac3670e5b",
+      "bytes": 10059
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/System.html",
+      "sha256": "266ea005292cea22d664298d52756279efb0b37433ee5e4b74130c0b56e1210a",
+      "bytes": 31131
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/System.nsh",
+      "sha256": "2399f3c694d639f909a87b6fb62fbad238bf6e17061c82d581fccd9d5cdd433b",
+      "bytes": 14163
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/System.nsi",
+      "sha256": "3f28d59eb76b016b43dd9bd80f17c5fc09ab6feb48df476e8f89dd1881c1f557",
+      "bytes": 5271
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/System/WhatsNew.txt",
+      "sha256": "a7ae6694ab8a958fa9e2c34214a711c633ea2d65a0c1264ae87b9965fba4781f",
+      "bytes": 2160
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/UIs/SConscript",
+      "sha256": "7b8720687487aa156cbd18d526338cb1282a2d736a19653bb7df2728ae13b01b",
+      "bytes": 366
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/UIs/default.rc",
+      "sha256": "83ff4b5bcc4259fccbdfb554a8a7a1aa94acd3f115d04debaa3ec4711b536b77",
+      "bytes": 4659
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/UIs/modern.rc",
+      "sha256": "8b06b7f5b4afca2988fca7dbf110ecd3b269d5f31c98d487f4f8e07533ac85e9",
+      "bytes": 5355
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/UIs/modern_headerbmp.rc",
+      "sha256": "aa6e8fd69839b0b6bd27d2f2e8f2c165957ce83b23a1f4b634d805c763ed2fce",
+      "bytes": 1176
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/UIs/modern_headerbmpr.rc",
+      "sha256": "3b448b81f10c15128f6f0f57c0c85ee2e595e6237af15d1d8935a2097b7a08e5",
+      "bytes": 1176
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/UIs/modern_nodesc.rc",
+      "sha256": "dc497b9d6d8c2d81950941ef0e8fdce8863645bef5229a362dba8f9c952cb26c",
+      "bytes": 769
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/UIs/modern_smalldesc.rc",
+      "sha256": "e3dfa896e147dc36b94d24a039e0fb6d021cdb8e7bdbeb5791d120c0fba10a91",
+      "bytes": 867
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/UIs/resource.h",
+      "sha256": "0d0990f53debb9f27efbae7e9b4e4645558aa9efb6a1540a27e50856027a540b",
+      "bytes": 1733
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/UIs/sdbarker_tiny.rc",
+      "sha256": "0acfc98efeed9969c4aba1784e1b74ea7303059f52f416eac4d1d1011e02a2cd",
+      "bytes": 4727
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/UIs/ui.c",
+      "sha256": "333ff33618269efdf613f434c1e74449c173e4569aabaded775f8c022168cf66",
+      "bytes": 2513
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/UserInfo/SConscript",
+      "sha256": "7dad4676b1d9c32810be2cd98f08fa80a8f01e0c564c27873846ad0484321632",
+      "bytes": 215
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/UserInfo/UserInfo.c",
+      "sha256": "3e9c856872eb95bc558c52d220417e0dbb4ce9b3b786c7dcd449994ec2575cf0",
+      "bytes": 5923
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/UserInfo/UserInfo.nsi",
+      "sha256": "08af705430e30b6827ca200e8831ed70d735af24269a398ffcc940328880bbd8",
+      "bytes": 1372
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Readme.html",
+      "sha256": "6620653202d756efcc6d687aea61df8924d94dfb5ff64a010599772f39731049",
+      "bytes": 14024
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/SConscript",
+      "sha256": "ab61a7312af08f01d81de8999a6eaabc143bc4159d157065d5b2ceec43825b7b",
+      "bytes": 317
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/Checksums.cpp",
+      "sha256": "889e57c71f5d8b719227d4e506ce9b127f06327223539aabb52b69632cf0c982",
+      "bytes": 3791
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/Checksums.h",
+      "sha256": "360be79022ad2f9cddd4308b5f30e0866fec3de332c89d75f544833531002ef3",
+      "bytes": 1885
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/ChunkedFile.cpp",
+      "sha256": "caa603f2a6f5d14abdbab50930bb871cff8cfcea11590e4d21b87bd5d98df23a",
+      "bytes": 3835
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/ChunkedFile.h",
+      "sha256": "63c4978f34d957df4d72ee73dfc6ecafe97b8ba3592adc291cce61f2be0457e6",
+      "bytes": 2833
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/FileFormat1.cpp",
+      "sha256": "641f623c2754bb86efe11669555fce1c479727ea06eb82981decdeee582d072e",
+      "bytes": 8952
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/FileFormat1.h",
+      "sha256": "a0cc8f3221630658a4b217102093af3b7353553d132b2e52f9936384b8416721",
+      "bytes": 1989
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/GlobalTypes.cpp",
+      "sha256": "d76b915deb75a1337e2ce1e493cde2ccf0dec6838e1e0c21f3391a809c109f61",
+      "bytes": 1441
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/GlobalTypes.h",
+      "sha256": "8514d939eb42aa02415352f7dcce4783107ca034c51524a6c028b1a8323d0b06",
+      "bytes": 5564
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/POSIXUtil.cpp",
+      "sha256": "1eec4490bd5bfdbc38ed1cad37d28f1076f31e50b4f5dfc44a5c385dd99a9538",
+      "bytes": 4210
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/POSIXUtil.h",
+      "sha256": "2c75f2510f35897bb270402727311dca5869c8d4b1409bf8c67eb43f7e80c450",
+      "bytes": 1832
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/PatchGenerator.cpp",
+      "sha256": "428b45a0df7f7d7bc978625de34972ee6581375636650da71d93fdb8f3dbb11a",
+      "bytes": 10232
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/PatchGenerator.h",
+      "sha256": "1a96fd11542917675c83aa9e95a33649d845894906ac6a07d91890bb377363eb",
+      "bytes": 2683
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/SConscript",
+      "sha256": "57c99a528ecafe51d594ade9c8a216ad25c0626d78d46d7df1a4884670d192c6",
+      "bytes": 316
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/adler32.cpp",
+      "sha256": "4bea8e3a53aa81a19a61d68d543908c822ec9967e63a78202341dbf292484171",
+      "bytes": 1426
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/adler32.h",
+      "sha256": "347ca64d9655f219a5cd577ddf6013ea07d10f4a6a87d269d44960dbd23d9a04",
+      "bytes": 547
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/main.cpp",
+      "sha256": "199e39195cb93aa52007b6b332366ae96e03dc4dd30cc61005f2c0e1927e6894",
+      "bytes": 11553
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/md5.c",
+      "sha256": "5062cca44686538c19f51abb4a05f060682f42bd7a946cecdf7c0b9f9aa0474d",
+      "bytes": 12684
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/md5.h",
+      "sha256": "42e5b743a799075b0ccb66938c63f9b8835caa7a781600f201a62b57f1b1b67e",
+      "bytes": 3452
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/GenPat/tchar.h",
+      "sha256": "3865943d8cc3f9fdeef9f1565d430f04d8864368688bb1a53277f737198dad3a",
+      "bytes": 823
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/Plugin/SConscript",
+      "sha256": "a37864cfe70dcc0e83a067850919e7e93ec173e466055b8c5d2b5eabd3811300",
+      "bytes": 220
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/Plugin/apply_patch.c",
+      "sha256": "ccef20b7604ff8e16db917e58feac4d999e0ec47c0ce9f6fe6f08d2897b423fc",
+      "bytes": 8182
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/Plugin/apply_patch.h",
+      "sha256": "0e1718f766f5d3728f9978d7a52fb646c0fe76918c25e520b699a4b1bac77f54",
+      "bytes": 1870
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/Plugin/checksum.c",
+      "sha256": "121b2fb57070fe8894d599f8eb839993698ee277d46886d16e797faa9369b1e7",
+      "bytes": 3702
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/Plugin/checksum.h",
+      "sha256": "9e8725d15d4f2f0177db7413a1068a27027758cbb9436acb192e1065c0b13f5a",
+      "bytes": 1962
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/Plugin/md5.c",
+      "sha256": "57259206d8012abda62d80d66ac5d6078c58d9ad082e7ba23ab70b2d2aba1478",
+      "bytes": 12696
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/Plugin/md5.h",
+      "sha256": "209a0d55afb7ec25fb9743dbf6597e66ad372ef2f115d631b40569d47a4b43dc",
+      "bytes": 3453
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/Source/Plugin/vpatchdll.c",
+      "sha256": "0fc0ba5dac7d9db3d37fd4e7a5645addf0105b059f22d9ecddc4ab71cd0fef0b",
+      "bytes": 5591
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/VPatchLib.nsh",
+      "sha256": "bbb84ce2b9188bb321014f156d4a7623e3effb91959375a7870439095eb97728",
+      "bytes": 677
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/example.nsi",
+      "sha256": "1cf15fac45d8cb1837975dd1089921dda76617fe6a74d120019122285c6bb16e",
+      "bytes": 1609
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/newfile.txt",
+      "sha256": "fdea8d771a4bb6ff89a41efc6c8377e603cc60a9135673e08c493b905034df61",
+      "bytes": 125
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/oldfile.txt",
+      "sha256": "d0b9718141accafaf1deeb5bbe4257a72c748bd29e3d8b02081d6d6842c0910f",
+      "bytes": 125
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/VPatch/patch.pat",
+      "sha256": "31fcf403adb523c74714cb11a21575b06164ec4e90f312a57bcd1ed290c40f66",
+      "bytes": 99
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/InstallOptions.nsi",
+      "sha256": "09535107c1dae24b44ca32bf3182bb7104fdf3da181e8e1d738b6f610b984c40",
+      "bytes": 1088
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/Readme.html",
+      "sha256": "d31c6a356b6d265d805546bea5800921d6ba94d685830ee586cb998f6c3d7e0b",
+      "bytes": 39832
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/SConscript",
+      "sha256": "3c27b4c4c90f7340b87c1a0b72580a2402639f65bf13b9210d8dcc7cd176ebb0",
+      "bytes": 647
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/browse.c",
+      "sha256": "eb5edb753dbb8948855f5751ac646f71f1528e7c5104b7a841656fe2249672c6",
+      "bytes": 4138
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/defs.h",
+      "sha256": "b130924d371882fbf4ac441a05e1ca002413178fe4fa55aa396e75d69e4f5030",
+      "bytes": 1386
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/dialog.rc",
+      "sha256": "2cd12f9d290359ab96ce9b54a029709bcd1a7aa165378e39f8df448e81da5413",
+      "bytes": 1870
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/example.nsi",
+      "sha256": "5e3c33b48986218d8f0b63ef8eaeb2e1272acdbe818569b99bb019b8ec70e95b",
+      "bytes": 7281
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/input.c",
+      "sha256": "909c629b740d48645d1af101be4cfbcf3ea9eeeaae2e127fe79662e3c540f94a",
+      "bytes": 1507
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/input.h",
+      "sha256": "ec29ddcd7c343fb134a967ee22594d2b9b66f73463c880e2e10f8845ac7cc06f",
+      "bytes": 243
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/nsDialogs.c",
+      "sha256": "1a007d33335555a1d1826ee52a5aa8e934145cce54c697d8a487b16091032ebb",
+      "bytes": 16297
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/nsDialogs.def",
+      "sha256": "6040d6d9dc35eaddd97101d0aad1ac080d64b4fb0fbd7112390cf50a11842f03",
+      "bytes": 51
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/nsDialogs.nsh",
+      "sha256": "2e069e250ade383c6972a00106a1edb4ae32ac87e54d84c8f008cba429c3a6df",
+      "bytes": 44242
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/rtl.c",
+      "sha256": "a88ee49e441b1b2922b1c1703dfbdbfb92fbe19e38c9384f94d95824e0b0b586",
+      "bytes": 1904
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/rtl.h",
+      "sha256": "c1036a0419b575f5a31e5fd1fd646c98d24312cf8537e09594bd3cdf86bf170a",
+      "bytes": 266
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/timer.nsi",
+      "sha256": "1749921eab797bffa0f02a3d5a7e5154f2de4d0754c33abe51f0e3be2c973ce4",
+      "bytes": 1928
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsDialogs/welcome.nsi",
+      "sha256": "c80ad1ff951c35c469b84bc91f234ea3b167c73f352035799032263227e8b16b",
+      "bytes": 5395
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsExec/SConscript",
+      "sha256": "ba49bc304dc1269b03c15660199579ef1cb33831035f2e3a790e5127acba8ad1",
+      "bytes": 249
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsExec/nsExec.txt",
+      "sha256": "329bef737b3b70d5333fc76b86b59ccaf915214f28e2f5c14a97ec4f74cb1586",
+      "bytes": 1578
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsExec/nsexec.c",
+      "sha256": "85a109de350979fcffeb474ec017bf98448f3bb6a0ae921fa701ca1a72d9f368",
+      "bytes": 20962
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/nsExec/test.nsi",
+      "sha256": "86337496adbe2ee6f3e0bd623805bdefc1cb5c9bec224076868de5ccfc4c7011",
+      "bytes": 782
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/zip2exe/Base.nsh",
+      "sha256": "2629f61064a08fae3dee74537e38be1231115e40f1b5b128c0710a8267d475cc",
+      "bytes": 1667
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/zip2exe/Classic.nsh",
+      "sha256": "96a49d7b55d69c09abb074a76dcff7eb0966b7af2b0a69ce5e5fd6d0354a98b9",
+      "bytes": 115
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/zip2exe/Modern.nsh",
+      "sha256": "a36050e49f4082d3c9f1333198f58714b305293f7beab85e8eca641127c2f065",
+      "bytes": 206
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/zip2exe/SConscript",
+      "sha256": "74da5d29094c5d6fe5b13cafb5b872e77a6085410d5ccf5ebb8cce2a28d13bf7",
+      "bytes": 437
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/zip2exe/icon.ico",
+      "sha256": "dbca06e4966ff7d0439e285fe34a25a8e448c8977d387d52ad79622b96d07f96",
+      "bytes": 766
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/zip2exe/main.cpp",
+      "sha256": "9f966b1770eaaffb280d05224b0b3fe2579ff3798736387b0cfc3361e0d8185b",
+      "bytes": 25770
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/zip2exe/res.rc",
+      "sha256": "772bed87de3978e669d388478856f13cdd8fc658f862a53841bf57fbf7bb1a84",
+      "bytes": 4888
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/zip2exe/resource.h",
+      "sha256": "3fc0a48b5592e95b2fe7a0386c4b302be8a89c96f6bd09ea62919c2a43c722f8",
+      "bytes": 1778
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/zip2exe/zip2exe.xml",
+      "sha256": "d801db750119268fa759055299aad511261f88171942c65b654e7318156e6640",
+      "bytes": 944
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/zip2exe/zlib/crypt.h",
+      "sha256": "4e7422234dab2501dded15ebcf1b1bc04025102897b0e88eb98ab6fa06880d59",
+      "bytes": 4705
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/zip2exe/zlib/ioapi.c",
+      "sha256": "9a076545ea75c18b4890c251533d6de185a2bddac37e0e22b9c25c2268646d07",
+      "bytes": 3756
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/zip2exe/zlib/ioapi.h",
+      "sha256": "6f34d9bffe361441b8a24ce5b99725a32f7a14753beafc2704642660d00df9b2",
+      "bytes": 2602
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/zip2exe/zlib/unzip.c",
+      "sha256": "5e8a332e999aa14394369e05d4fe3f93b5aee8ee93e22c6db055d8fe8fd96ac9",
+      "bytes": 49467
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Contrib/zip2exe/zlib/unzip.h",
+      "sha256": "1cca588ce50a52d8554c3a235937ff55d5369e581879fccf6d41c4758ee0c463",
+      "bytes": 13200
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/SConscript",
+      "sha256": "4918dfa2f974eef56be4c30c8008df8d9125e421b4cc728d95ddf52b30c91c19",
+      "bytes": 4600
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/attributes.but",
+      "sha256": "0a57ad9ee7613464788bfe0b4e5801d92d5aa81d2e503a854ee420e2adafd726",
+      "bytes": 27618
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/basic.but",
+      "sha256": "1529fcea36f4ce126825368724252947cb341b17907c6d632fe4a237c65b1e87",
+      "bytes": 11482
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/LICENSE",
+      "sha256": "9923094967612d55c7a301c75c586203e89cc71b38aeb828395b8c5bcd75be03",
+      "bytes": 1159
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/SConscript",
+      "sha256": "e9578668b86142f09e60d432c0259575c38868a702d86f49dec67d83bbf5ca58",
+      "bytes": 323
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/biblio.c",
+      "sha256": "df42f80fb996e9b955be7878a22cae02cef581a28c5f12feaf7da85d76288309",
+      "bytes": 2730
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/bk_xhtml.c",
+      "sha256": "dd46f6ff2f6e7d415c84c0d73ac3d17154ebac3d1edc11f512a79fcc2930d656",
+      "bytes": 62889
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/contents.c",
+      "sha256": "68b01bbf230148abad8230da8184b4fc9cd41ef26d7d70c38815dc96ac87e961",
+      "bytes": 6001
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/error.c",
+      "sha256": "d5197d8167bdd61480137a9fd26246f6433e0b691e9e36fb1673f722b5ae3a14",
+      "bytes": 6454
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/halibut.h",
+      "sha256": "ceec0d7f96e72fa7347565523865dfca5e7231fd8bcd9708543d907584ff2861",
+      "bytes": 13611
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/help.c",
+      "sha256": "2056c489db259113f74d1d4ab0c48f44bf076f08ba28484ebe674edcd5eea5e9",
+      "bytes": 331
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/index.c",
+      "sha256": "1f7c8dd01067123df9606c9495df202aca12b6e147ad9e3a767b6810b6286df2",
+      "bytes": 6122
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/input.c",
+      "sha256": "3107e22aab85d5c862d1191cc46b025aed52867c2bd03f8bfeec6713c3507a99",
+      "bytes": 42312
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/keywords.c",
+      "sha256": "dab7fc254e76237741d21075844e4541712b6c5a40b6c22a4762e6b76ac4f64e",
+      "bytes": 4006
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/licence.c",
+      "sha256": "67649ea2edbecd2b18fa9b639af125fc7702a602f91bb403c6686e55f0aae25f",
+      "bytes": 214
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/main.c",
+      "sha256": "51d6d5d6f764389f93bddde7e04b40a33c7ddc9369059f39a8edb06158eb6f76",
+      "bytes": 6430
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/malloc.c",
+      "sha256": "96e1213c02be371304c2f47920b5a5b44c8db3672150102153d0b238b11344ec",
+      "bytes": 3305
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/misc.c",
+      "sha256": "c5b348701417ba76beb352d276702b2da7e6a523505e21da19c25080b2a046a5",
+      "bytes": 8786
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/style.c",
+      "sha256": "e0975c6dec0b3aef34cbfb2c0e5229bc7758f11ea400cc8b2e6fd8edfeb5b8b9",
+      "bytes": 126
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/tree234.c",
+      "sha256": "acd32b9401efc6c39f8e2a27145cb4ebcf3177758d7db1ab7368ae3035f30684",
+      "bytes": 67162
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/tree234.h",
+      "sha256": "29dc7b1234cd5b4897e7389e9e3a80bf56b0eb798476d48824b023eb7a3ca8f8",
+      "bytes": 7283
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/ustring.c",
+      "sha256": "e7098a9923eaab7344c198ce9164486c146b34498b5ee014017df8dee91cd572",
+      "bytes": 4382
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/bin/halibut/version.c",
+      "sha256": "87f0ba428ede6a017fbab640404dd134d78ec647d0f7736064ba55181cbd4f4f",
+      "bytes": 920
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/build.but",
+      "sha256": "174c2d8a82e6ef0b0f7af66a84ed898292a19394deb5e24758d474607a234762",
+      "bytes": 8552
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/callback.but",
+      "sha256": "11d4f9e5171a0efdf6bac57b2ff1eb9a73f912b6b69e43e431647dd1f7e016ae",
+      "bytes": 8137
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/chmlink.js",
+      "sha256": "8a03022b42bda21c47997e36618802d3b28b6fb9e84c1c6b191870e790efd62a",
+      "bytes": 2060
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/compiler.but",
+      "sha256": "0f19b41066c4e1c458f56b209e8cef6894d58c334f71eed2ba145d47f3cc2cc2",
+      "bytes": 12758
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/compilerflags.but",
+      "sha256": "53f06a0f54006ffccc34478fc47b83f686db572e3de4be5be429e2c9743ee658",
+      "bytes": 8369
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/config.but",
+      "sha256": "7704caf225c9431f1f3bb860521e66eb04bacc5c51f8c79d5e67e360e56ee322",
+      "bytes": 1489
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/config_chm.but",
+      "sha256": "75ee6f3e2e9b932b8fbcd71817d1b7360b3b241313e1c0a9f3d08a0ce8c57004",
+      "bytes": 596
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/config_html.but",
+      "sha256": "4cc0931e6c2c8aaa47d78e5dd34ad189b23c62ba671a1700216567013011eb6c",
+      "bytes": 356
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/config_htmlsingle.but",
+      "sha256": "435162c429ee1c07ddecc741bf49c1461aeddd03f665dcb874dca2530d3ba051",
+      "bytes": 634
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/config_web.but",
+      "sha256": "a447da92aed049786dcc77b39fd1560d63d7b5f179e01fb857750ee1f83e4482",
+      "bytes": 620
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/credits.but",
+      "sha256": "7ae6138747bd17e7c9bf53aabbb1d8617ab8ddb74a9da9a2a251b0bdff8ef564",
+      "bytes": 4980
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/defines.but",
+      "sha256": "85a8a7290db1d0fe613272697fef82a7777333796b780a7affe21c630098884e",
+      "bytes": 7892
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/file.but",
+      "sha256": "4e332c6c4b8a8135b6b8fdd4bf451613b25ec40cca3cd68533a3d24a01d76772",
+      "bytes": 7177
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/flowcontrol.but",
+      "sha256": "8e557f0a7f8fd8acf9aa9c20d52b2407cc85d7010bc0b051a9d2115cf56bf980",
+      "bytes": 11273
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/functions.but",
+      "sha256": "fdc4b88b95e22e713605ae7bd2e189f52be299914eb2f2418e0506b981ae0c2e",
+      "bytes": 1065
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/generalpurpose.but",
+      "sha256": "74e2334ee3c82ecc30edbb8cfcde2464893cef4091e89d11dccd4d7624d7677d",
+      "bytes": 9954
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/headers.but",
+      "sha256": "a532c6d1955d51de543c4f296c63ec1897673d0564508fab3daf1ea675c336e3",
+      "bytes": 66598
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/history.but",
+      "sha256": "83162b71c5ad73a9d39f52f9e25c0e122b74747fdbbe35d8e89b64c0cab538c9",
+      "bytes": 154867
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/int.but",
+      "sha256": "212157d84d4e4a7abc263fd53ecebdf87eea659d239c592b83af5b38e658bdd4",
+      "bytes": 2117
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/intro.but",
+      "sha256": "90455783f6c47df98f32abdde6ea435484926c33155e2ab1e722be334f4bb85d",
+      "bytes": 7877
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/jumps.but",
+      "sha256": "8380588beb5b2e9768e8b4558abde1e905cebc354ffe6307fc4fa4623b25a46b",
+      "bytes": 1951
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/labels.but",
+      "sha256": "a902ab8272370ad0d80c0c415bcdbbfd4f9dee42cb9c2599d3e5e12ab63004f1",
+      "bytes": 934
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/langs.but",
+      "sha256": "01b73b89c3184d82c50f03686f8f629ed7edeba39d5c3bf5949d1f60d83da5d8",
+      "bytes": 5180
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/library.but",
+      "sha256": "3ccbfdc7540b2b6470ce5749ca15645c5a0456d5eb0823ad15afd46f82195b76",
+      "bytes": 9677
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/license.but",
+      "sha256": "eba8495e56c75ade8a0e5c1ef7457acce169f1725ee3a99d451887968410aa95",
+      "bytes": 15309
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/log.but",
+      "sha256": "133f6596a5c75f1deaae745a942be8353eb1309a87ae16199334324bba5ac605",
+      "bytes": 650
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/misc.but",
+      "sha256": "d8e8e84175d48406146ef12c743302fb9bf2de15d8301d48696624a630eb7d29",
+      "bytes": 2958
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/modernui.but",
+      "sha256": "bda5e0a9f1fc2c60f54354aae896884ae836edefbbedfd3c579712a0008e3dab",
+      "bytes": 1034
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/nsis.hhp",
+      "sha256": "5626d861c31f2ffe500cae8c09f894552b0342a42b85729e0c934973254ae591",
+      "bytes": 423
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/pages.but",
+      "sha256": "38d27766a8dbace519d37f6f1231f335cd67017f70f6ce3a0672bea34e3f29e9",
+      "bytes": 7916
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/plugin.but",
+      "sha256": "06573e863a67ac05ad22df5491fa982037d47508eb833046ddfa9c6747a5aedf",
+      "bytes": 1803
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/reboot.but",
+      "sha256": "1de1f1dbe91026c6d437c2111b99a7e1d6b8b24cb01db6a747e5f6297d4c7e05",
+      "bytes": 596
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/registry.but",
+      "sha256": "a161da9b941fdfb3cb233849f37ab1e13b6fab564b6c762f7d07e8c714ecf111",
+      "bytes": 10706
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/script.but",
+      "sha256": "4f95c10d2156149d520c98a032e32b149c214a654a2e9c3f95d404fb6320bc33",
+      "bytes": 3750
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/sec.but",
+      "sha256": "6b84dddf12a094d9ec5304aaa844903794f52703cb4ca2ec1c60514eabf57c70",
+      "bytes": 7098
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/sections.but",
+      "sha256": "c1e9c99283ad23071c4ed301c2f3d2fa4b87c243a611a0459be16ad17d99ab74",
+      "bytes": 4187
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/silent.but",
+      "sha256": "d782c219cfa6dac5382650e7874de35ffbdee16bef8a066ee1ac7d12e928e288",
+      "bytes": 3237
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/stack.but",
+      "sha256": "5111e71bd5c5b9faeafeb83e9e0c5461b2f09083c21f2ac2072293acd276ad62",
+      "bytes": 1308
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/string.but",
+      "sha256": "0a3619cddde7ae342542de6c89302c65045a307a49ce037a0e7f7e6601b0f213",
+      "bytes": 987
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/tutorial.but",
+      "sha256": "0c9b739f8818f92f5856edca15f00699ec83a754e9d5e25cfc608ad9fa1a5642",
+      "bytes": 19415
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/ui.but",
+      "sha256": "277a9b237fdacec7b9e9f52f9aadf1f0169eae76f5137b1d3eceb28d9cd58f02",
+      "bytes": 9199
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/uninstall.but",
+      "sha256": "91c996445c07949485a37d2eab6f5f19adc0c54d12c5847510c74ed4d8c6303f",
+      "bytes": 425
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/usage.but",
+      "sha256": "02531ffd999c4c17391124a9e6740ebc61aff2f4c4d1ab546288faae63225918",
+      "bytes": 4950
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/usection.but",
+      "sha256": "5b04844535c7a2ea26f7a9c790622694099fbac817530ee1fdf56a55773f4397",
+      "bytes": 872
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/usefulfunc.but",
+      "sha256": "6fafc635d77a306906a1f6a7ab685b45047726eb286dd4d6c0bbe01b7e3ca569",
+      "bytes": 3829
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/usefulinfos.but",
+      "sha256": "36baa67491b219ad1bcda806a1a847e8e7e69cbdba68315e1d6b32a6bca99068",
+      "bytes": 15075
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/src/var.but",
+      "sha256": "1816fdaed804a0684d5107f86243b7e5fe1c7c03fbc61acc5b8657849deb24d1",
+      "bytes": 12190
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/style.css",
+      "sha256": "0d3c48d88a1e5f071a5bf7d9712b7c28dc8a645a40c6fba974435a51a048bd98",
+      "bytes": 1353
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Docs/unreleased.png",
+      "sha256": "753d2b143a0beaa44939320eb0d527b5f0eae68515afb88b1609914eaa4f6cb4",
+      "bytes": 5239
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/AppGen.nsi",
+      "sha256": "2089cc6e5eb0b8eef1c9326576b0a7ab4c0d9442e1309a36958a392e87c67cc9",
+      "bytes": 1969
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/FileFunc.ini",
+      "sha256": "9ce2422db8fc0ff38f011295ae051979833f6b7bcec162b8b780f655639d5100",
+      "bytes": 1534
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/FileFunc.nsi",
+      "sha256": "2f6a09db751598395ab31c9ca6d0336f26f5109574ba9b3aa70d0c595e269391",
+      "bytes": 18653
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/FileFuncTest.nsi",
+      "sha256": "85176f962d7a4bcce102873675f0e543f830c81f380be4149deb70383afad176",
+      "bytes": 13711
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/Library.nsi",
+      "sha256": "5b33ad3ab342940b59411aa56ec6187a31287be5241dbe81afeece1f30bd6587",
+      "bytes": 8236
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/LogicLib.nsi",
+      "sha256": "3025e7a26451b39f39081f557c5344e585d99e293c5ed92bb27363018d58ee37",
+      "bytes": 11890
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/Memento.nsi",
+      "sha256": "545d9d001a1b9b927005ef08c866540b41351edd305c7dc2f78b0d8da9b81ef4",
+      "bytes": 1453
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/Modern UI/Basic.nsi",
+      "sha256": "83c7cb3f5aa4da1a6862e0a850d340956a3a9862a42248fe32d5e1e36bceb196",
+      "bytes": 1881
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/Modern UI/HeaderBitmap.nsi",
+      "sha256": "33f2fc969e33b3fc2270095b6e4fada6a1b6ab8ff29c3ab8b7a371e53a2a1ade",
+      "bytes": 2018
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/Modern UI/MultiLanguage.nsi",
+      "sha256": "81da6444a32c7990ea18288cb39819425510b4b526f6b77d11ac7d07c63a6448",
+      "bytes": 5792
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/Modern UI/StartMenu.nsi",
+      "sha256": "72243d5d62387c99db31ff061fc4308a4c444647702e9d64af984f951d5fa673",
+      "bytes": 2708
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/Modern UI/WelcomeFinish.nsi",
+      "sha256": "694dcafba56b97829d6cc0eefc867191bbf7207b1e32dbf56fbb21efee59da38",
+      "bytes": 2021
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/MultiUser.nsi",
+      "sha256": "e9db12795365fe14f352361983ea8f9c37797de22e18e0c949092881c66c3cca",
+      "bytes": 1828
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/NSISMenu.nsi",
+      "sha256": "2895bcde47ed08d8ba6b8cca3f292e62ba04c3db7484ec63fd0d9c6db3bdca4c",
+      "bytes": 12660
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/SConscript",
+      "sha256": "df669988262643785cca210eb3e3975245002d39d63a8578dbe8f67d8f15929c",
+      "bytes": 791
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/StrFunc.nsi",
+      "sha256": "d385f690064305ff9023e50592c44ccc7ef539d1a6f015ab46601c91f197b90c",
+      "bytes": 21040
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/TextFunc.ini",
+      "sha256": "32a950b9cacd0e3f0ce3c2441016603aa9e0bda1363f560b7277d35334f84d8b",
+      "bytes": 2007
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/TextFunc.nsi",
+      "sha256": "8e77bc742b0d4fd2e04bf7664abc866e6ba8c4e657028ee665c1657a50e76977",
+      "bytes": 23393
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/TextFuncTest.nsi",
+      "sha256": "3dfa51b4dc9dc4399e121ae261e5a25f793160836c24636907daf0a3178f177e",
+      "bytes": 8664
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/VersionInfo.nsi",
+      "sha256": "ef949e262d1c239e281ab8dc8feea671543706724426dc578815203063e246d6",
+      "bytes": 1000
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/WordFunc.ini",
+      "sha256": "7f8d04f580b87a892c49f41c84e440acda74ac2a0158fcc5cadf9a63c98f7f61",
+      "bytes": 1796
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/WordFunc.nsi",
+      "sha256": "8490e0e5c9d38df4036234cc28fecdfaee8c79afe90aba852c534e482bb97bd7",
+      "bytes": 15902
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/WordFuncTest.nsi",
+      "sha256": "3583f65f32ade97958880cf32f7d2bc6cc08bc8f9966b3cfdb23792a38161317",
+      "bytes": 15830
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/bigtest.nsi",
+      "sha256": "2553891b8c124391cdcfe8d32a6ca093e3f78ee9503fb80c6f4dce256e7034b9",
+      "bytes": 8302
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/example1.nsi",
+      "sha256": "e5e88d9ac95308e39a287c02bfa7645eb64ed40536f6a08d25d383ea0bd10c72",
+      "bytes": 973
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/example2.nsi",
+      "sha256": "1937de9b9bb62a6559d391900dd57e711796623097e1aed50292f3fe4cdd3d84",
+      "bytes": 2678
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/gfx.nsi",
+      "sha256": "a259905238dc330dbd6664b651b0a6568d28deb30885d35ee9d1feda555c9b45",
+      "bytes": 3178
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/install-per-user.nsi",
+      "sha256": "7077c4739c0d2ea1d8dcefaa83f8c3bc7e4a72c98684979d2441c84a33a27f27",
+      "bytes": 8772
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/install-shared.nsi",
+      "sha256": "4ffd851660c494bb6bf32091add34a7b5c99a42c285dd0a53cba99415de16de3",
+      "bytes": 2829
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/languages.nsi",
+      "sha256": "6206ecdd31783a4ccf4935a267b29e940170a6199a871b90b7da3b5d4141fec1",
+      "bytes": 7175
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/makensis.nsi",
+      "sha256": "c5415219c53fc63ec83001438ee159bcc0b4f97e793ccf8f00ad83f0c6125473",
+      "bytes": 34104
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/one-section.nsi",
+      "sha256": "e7080fd68a952dd2bc1489cbbe9649fa14dbaa03aff791a3afa4af1eab354ec0",
+      "bytes": 1513
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/primes.nsi",
+      "sha256": "a3ddb9f061bac6dfd97a3200e6d93ed86f7454127ab6caff17507aaf47517c60",
+      "bytes": 1587
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/rtest.nsi",
+      "sha256": "093397222fea2282cf05650865bcca5c3d9283ff81e739eb85dd3224a83c4bb6",
+      "bytes": 1233
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/silent.nsi",
+      "sha256": "108b9bda301c7324b22f16dbf1d7bb2152ea234dac1d2c9a2678ae05cb22fd24",
+      "bytes": 2155
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/unicode.nsi",
+      "sha256": "e4dab298560e0e792929fbe251d9f1191cd1956a148fcf424ace755825ae970c",
+      "bytes": 986
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Examples/waplugin.nsi",
+      "sha256": "f7f2083e1f26090f84e7495956276ab25d13127a4d3806ade685e9081518d43d",
+      "bytes": 4504
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/INSTALL",
+      "sha256": "a4bb632da105f404479a9c39203eecbbbdfcf159ed41e877aa668f77337cb7ea",
+      "bytes": 2885
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/Colors.nsh",
+      "sha256": "f9f08980af4a0c2a881be3a1bde2cd91dd3bbc4b29e20b7c8264bd1912e0ad03",
+      "bytes": 1784
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/FileFunc.nsh",
+      "sha256": "34cedfa096e73caf76d623eea7040ba450e874bb171c4cd3c54f3b3e070e87d0",
+      "bytes": 38510
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/Integration.nsh",
+      "sha256": "001534e5771e3e36f322ff6ebd204be2acf8d2bf06647e743965254cc8592b42",
+      "bytes": 1196
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/LangFile.nsh",
+      "sha256": "5a0b32e72e9b78d0b7f738d08250bffcaf06abb858e2b6931b9accea8481d140",
+      "bytes": 5303
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/Library.nsh",
+      "sha256": "9055b293eed9fa170195b6e8f27eda624abf05460065eeb4fa10e40b75278d39",
+      "bytes": 20900
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/LogicLib.nsh",
+      "sha256": "1f9cd8c70de5d8b4889a6176e6920322e494d8559ac9537157fb303835ead11e",
+      "bytes": 33310
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/MUI.nsh",
+      "sha256": "a8a897943521449db447c23d98609c4688e15cbfca631bddebda8c3729c7fc87",
+      "bytes": 50
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/MUI2.nsh",
+      "sha256": "2c847d2009b55ff46f8bc1591ffda00f0194fb08ffebc0876cda669b7957b396",
+      "bytes": 50
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/Memento.nsh",
+      "sha256": "59292c3822c20d405b8741af30cc5ec08bcb3c6482fbd5fa592813b8027fced6",
+      "bytes": 11537
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/SConscript",
+      "sha256": "1e07b19e22bf1a7babb429f14c54175a7ebdc28b8f21940613841370451a9e4a",
+      "bytes": 623
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/Sections.nsh",
+      "sha256": "b247820a09835d8da494b9b764150561bcc941381ac3ce1d2defcc6f7126c1c2",
+      "bytes": 6363
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/StrFunc.nsh",
+      "sha256": "34a8aa5df21fcfaab2acba10b3036c57ea5bd7f423f9956e0374daf9e6848b75",
+      "bytes": 44351
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/StrFunc.txt",
+      "sha256": "f1c92c099c8e27918490491c1ed1659d69a84b10ea8252daf18246b0b94b7c29",
+      "bytes": 23607
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/TextFunc.nsh",
+      "sha256": "360c304818e8561162192e164160a448668b0e5150dd3626267e7c4b812c910f",
+      "bytes": 23137
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/UpgradeDLL.nsh",
+      "sha256": "11ab6cb095d5c560c0ea212f88c479f9b66445e4a9ec0f798d24eb93f7f4dfb4",
+      "bytes": 4925
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/Util.nsh",
+      "sha256": "48b034ac0307b27bf81e91809c2dbfe2e1508d6dbbdc9edf78b5b3c5a81e28ec",
+      "bytes": 5028
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/VB6RunTime.nsh",
+      "sha256": "6510401a3bc3c5db93f3a88b4e1e748e5769ac31b39683fd9a5f5704d0627f23",
+      "bytes": 3374
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/Win/COM.nsh",
+      "sha256": "0091b5ecd9139f587a75ec20a63746c74c5d41a2593436f661bbdea5dec6ec95",
+      "bytes": 16856
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/Win/Propkey.nsh",
+      "sha256": "456f6b34b7a0cc3f0e1fef42659bdeb0c9f48b1bbb46ab25761e88ade2d64fc7",
+      "bytes": 8293
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/Win/RestartManager.nsh",
+      "sha256": "67149978412da9b283e2e1abe48a360093df9caf6363373e2cabe463978b7c0e",
+      "bytes": 3461
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/Win/WinDef.nsh",
+      "sha256": "ad8d51ab4813e2168a4fd43adf8a15d75b6a13cdb9f118988bb816e2dd6a27c0",
+      "bytes": 1730
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/Win/WinError.nsh",
+      "sha256": "b6f3584f9d1b3bf6779eae339fe4004bd5a0e8d143d4b00eb8a28b54fa2e657a",
+      "bytes": 8083
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/Win/WinNT.nsh",
+      "sha256": "3ef4f864b6fb526782eacecc3b59f1989cbf4926bc426e30f75c9f26ac57dc73",
+      "bytes": 10160
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/Win/WinUser.nsh",
+      "sha256": "eaac5ef935eb3deac12583e8d9df4a711c086ec1a1519d9798555bf4ac612382",
+      "bytes": 6130
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/WinCore.nsh",
+      "sha256": "7df9217fe0ea5870905e7698c48b4923057564567a3fc0ada53e1f05d520826f",
+      "bytes": 11657
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/WinMessages.nsh",
+      "sha256": "ead3b6612ba62012c06dca850635e389980ef5075d93df06023341e7801e45c8",
+      "bytes": 35867
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/WinVer.nsh",
+      "sha256": "7e5c39d4f53554c6d3983a57e70d80c42f08a2cf4018a576e14eeddff994f3d7",
+      "bytes": 23910
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/WordFunc.nsh",
+      "sha256": "53e9e928a5afc4d051c20ebd272b919b0ad2656a42530e30516ad9fe9254d2f5",
+      "bytes": 41776
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Include/x64.nsh",
+      "sha256": "94976d048f50174bdf3ba52f76edd5382e9228b748f7fae1b76a53618edacb71",
+      "bytes": 3842
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Menu/images/header-notext.gif",
+      "sha256": "1df1233efe7cc378f4eb48cb825232a8bd0594c51512599fd8942df2260a87f0",
+      "bytes": 9510
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Menu/images/header.gif",
+      "sha256": "0f773e518dce8d1e0ddf2fde1661f12f3ab159f09070dd5a0514ae856249a26c",
+      "bytes": 12451
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Menu/images/line.gif",
+      "sha256": "20f63b6ed7f1321a3eef5de991a8b1f48703dc527ca6b71fd366988cd2dcbef9",
+      "bytes": 45
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Menu/images/site.gif",
+      "sha256": "52889d4ca3b504f88f16ad2754febf4589d36465e8650489a9c15e527eaf7fc1",
+      "bytes": 951
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Menu/index.html",
+      "sha256": "4b5fa918333ec95dd459313fd9e931363e536cc26c16f7cb4e8251a8b19455a8",
+      "bytes": 2947
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Menu/notinstalled.html",
+      "sha256": "865eb29976583ef81843b9a44edf8005c49cfeb61bdd6e5f0ff9a4585bf3f22a",
+      "bytes": 710
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/README.md",
+      "sha256": "99f279a73840527bd407520aeedab42adf810ff657cd9f80375fe41acda97c20",
+      "bytes": 769
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/SCons/Config/default",
+      "sha256": "96e60e7d469edb582861e0b0634df357508983728bf45341869ae81eea0e9aa8",
+      "bytes": 1382
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/SCons/Config/gnu",
+      "sha256": "ef07e69f76f2654d1b66ec65603620f90b00018815a9bb132a3e108b7fc47d64",
+      "bytes": 11272
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/SCons/Config/hpc++",
+      "sha256": "b853f5d6864a73e53548a59b332b7751b79ba0d10e5e6ad0e859002e918b8d88",
+      "bytes": 3165
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/SCons/Config/linker_script",
+      "sha256": "d9b43aff44796b512563292bfe45005ce19a66ed8d9facffc865459bf3210125",
+      "bytes": 5003
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/SCons/Config/memcpy.c",
+      "sha256": "b994175a9abc757ebaf42de0fdc8f929b5302803862fce8557afe55d4d02be3f",
+      "bytes": 205
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/SCons/Config/memset.c",
+      "sha256": "f6359db965b6171b84325e6dd9211be2bfbe98d3ef0ae66c61979eff0c1e5e9d",
+      "bytes": 461
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/SCons/Config/ms",
+      "sha256": "8a7806eea641673487ffe81ea0c33f619840f03011cba98dcd0aa32306e7f8f1",
+      "bytes": 10398
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/SCons/Tools/crossmingw.py",
+      "sha256": "4cede90f1f20b9be670ae47fb3e03af812ec1ed4896c2196c2a28ae0a64fb3e9",
+      "bytes": 7022
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/SCons/Tools/mstoolkit.py",
+      "sha256": "145f02023cad8b5e556c86292384921493c2da4d4be34ce06643a8273fe30875",
+      "bytes": 13611
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/SCons/config.py",
+      "sha256": "1f612ad2008bae8cb0943fccfffd53e71e12b30cfb06627eea778748388e6c10",
+      "bytes": 11309
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/SCons/utils.py",
+      "sha256": "ab758dbdfa25aed0b2dafb33c2c3d678007a2a3890e202582aa6926d383bba7d",
+      "bytes": 9556
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/SConstruct",
+      "sha256": "a1c0bbd1988f365abfe55a7689da773f6caa7fff10285eb9612f388fb89206e0",
+      "bytes": 34428
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Scripts/RegRestore.nsi",
+      "sha256": "25195689d0e8a4330cafae30bd32b79306d1d42954e13e50fe5b54d0a1f3a94e",
+      "bytes": 565
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Scripts/release.py",
+      "sha256": "aa898c58f8f7d7f1af8ec9a804c61f1c07711aa5546e122daf39d9b3a8f8afae",
+      "bytes": 12393
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zGuids.cpp",
+      "sha256": "20c524d3a223c3a31c11a22fd6841160e9ebc475373a48fbe6fbf32f8c086350",
+      "bytes": 827
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Common/InBuffer.cpp",
+      "sha256": "efa19bc9caf52f7bfe5cfc1575e74f73dfdd64f800720e390c2bf170af9fe295",
+      "bytes": 2024
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Common/InBuffer.h",
+      "sha256": "8775e2773979ef83fb6f5b8e40eca0aa78c7e8567e5401b0d26f2cf712904616",
+      "bytes": 2034
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Common/OutBuffer.cpp",
+      "sha256": "e4abc59967b696042bc4686f3c237ed6a5ff35e149114a1e9e746caddfdb8015",
+      "bytes": 2674
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Common/OutBuffer.h",
+      "sha256": "f6ce2fee2bb24afbc6eea86f84fe0435b9c51eb44544177bf81877cf8ddd3749",
+      "bytes": 1734
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Common/StdAfx.h",
+      "sha256": "27719aa3cc597aaa0cc8ec4b31dd6792e30e0b5158098d3c6dedaffb198820d4",
+      "bytes": 97
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Common/StreamUtils.cpp",
+      "sha256": "aa6cc6927fd02137bf40f16554743c55a109e9c5e67c3c6a7baa97d516118021",
+      "bytes": 1625
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Common/StreamUtils.h",
+      "sha256": "4628610da67115f65b62d2c0eacae5e6b61b8d5fdaf841807b68ff8ed1769986",
+      "bytes": 802
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/BinTree/BinTree.h",
+      "sha256": "f004125559d23dec12f48f1e3932a89b804869c93a083e1edfcd54dc81a0f026",
+      "bytes": 1919
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/BinTree/BinTree2.h",
+      "sha256": "3c4ad7d045dcf65a48b5a18887412468d12d2a4d0f2de06b4974b01b25ec3675",
+      "bytes": 639
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/BinTree/BinTree3.h",
+      "sha256": "4e527b7bfac6cf36c00f5eb94e2915c0c84d8e24f7ee6de7972df035c06386e1",
+      "bytes": 682
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/BinTree/BinTree3Z.h",
+      "sha256": "c276952666611116f5ee7d4d34299a750047c5b8de95861ac03be149a80ccce8",
+      "bytes": 678
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/BinTree/BinTree3ZMain.h",
+      "sha256": "23531d5fe19faab1462b43bff8043a9de89cf758e2eb3ea89fe1ca631d6177ce",
+      "bytes": 692
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/BinTree/BinTree4.h",
+      "sha256": "c69a98216316c1dc53049543d1b21af15b49cd6421ca6472e8431cfc34d17670",
+      "bytes": 723
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/BinTree/BinTree4b.h",
+      "sha256": "4051e3311edfc5d94df8b402033457633e0e7e9b084820636c84a831a6365f62",
+      "bytes": 843
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/BinTree/BinTreeMF.h",
+      "sha256": "198431aa3aa294edf4baa4df8f6f9b3b969c6c62b0be6cd5dff4896dd652e3a1",
+      "bytes": 2941
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/BinTree/BinTreeMFMain.h",
+      "sha256": "92497eaa7d842c20859cff44098ff01540dea123967e13a9c88b472440692c14",
+      "bytes": 2560
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/BinTree/BinTreeMain.h",
+      "sha256": "2d1a20315e60bfc32e632f55647185ccc501b70200dfdf5e91f0eafb1389d48c",
+      "bytes": 12664
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/IMatchFinder.h",
+      "sha256": "95815cb829acd0f5a87d26f06345fc345aa1cdc155db41e6c3a7824845705222",
+      "bytes": 1464
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/LZInWindow.cpp",
+      "sha256": "2a02736fd05385da99ffd32184bf5f20c6e72018dd3baa3b1705171c2df1b3b4",
+      "bytes": 3034
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/LZInWindow.h",
+      "sha256": "e6515d734d1b4ea34a364918c2efc3fe87d4526a7ef54ae27fb9c2589064d745",
+      "bytes": 3015
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/LZOutWindow.cpp",
+      "sha256": "816c7cc3207fd66c6586d69106a7769281247ce1adf94645ab48bb915bdbd656",
+      "bytes": 734
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/LZOutWindow.h",
+      "sha256": "2583dc13d0c77af8ea05c3e3b510882feb1562df170d37f003a12eab9700b3ec",
+      "bytes": 1551
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZ/StdAfx.h",
+      "sha256": "0e18e37fc113aa62ee3ffbc5bd35421788a990f2e165238fa09b06c21d1717ed",
+      "bytes": 60
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZMA/LZMA.h",
+      "sha256": "26c507d52b206c0119162fa99658bb1a61508b212ae282089e17aa1a8a7078d2",
+      "bytes": 2760
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZMA/LZMAEncoder.cpp",
+      "sha256": "6e8accf3197b1627b8e84dcba719908b9b4656b0c3b37a472fffe5191a3f2d73",
+      "bytes": 45502
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZMA/LZMAEncoder.h",
+      "sha256": "29d3b41da899ab6711e4a022c94d084cb163252675e632993c80667a3764dbdc",
+      "bytes": 11248
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/LZMA/StdAfx.h",
+      "sha256": "c68042cc9f9a8866fa6f002359354b1b3efae2aec18b04588e201ab1c7f7a498",
+      "bytes": 99
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/RangeCoder/RangeCoder.h",
+      "sha256": "12b62b2ccb802f3915ae2ee732f2ec20350098de6c86164ec5e9d585fefaa7fc",
+      "bytes": 4491
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/RangeCoder/RangeCoderBit.cpp",
+      "sha256": "5f94888f52b555b13def9991e48c06f11b6bbfbbb4762443b6ca9ea96d191919",
+      "bytes": 2543
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/RangeCoder/RangeCoderBit.h",
+      "sha256": "61079bedd34e7dba19cdf94c3f80af84b4ee0e8e4e64957e5d43ef8bb809a0e5",
+      "bytes": 3447
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/RangeCoder/RangeCoderBitTree.h",
+      "sha256": "2ee4dfa5bfa32a73dbf1a869dd59359782b3d87fa2fca976a1cd65eb42fc8103",
+      "bytes": 4516
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/RangeCoder/RangeCoderOpt.h",
+      "sha256": "99a7333e678fdfb72436b9fb7ddeaf94b9a7d2df9b17c327b1832a89c7813fab",
+      "bytes": 1433
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/Compress/RangeCoder/StdAfx.h",
+      "sha256": "a3df70bcb5c6205240d022ff6822151dbd66e3262e46b0b4b065431800015fcf",
+      "bytes": 59
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/ICoder.h",
+      "sha256": "bc0cddecc9e39f70b9d250380d178e31f3f8b8f6ee9e265a294e9727d9a33d89",
+      "bytes": 4235
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/7zip/IStream.h",
+      "sha256": "0c3e276ebafe010a272b6140c2e256f0c29a267abebc39e64bf159c75b3582df",
+      "bytes": 2209
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/Common/Alloc.cpp",
+      "sha256": "43bbd604b16f1be4ac7bfe864f375b858b1e693b04f317a9c14c0c67d2f236f9",
+      "bytes": 3075
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/Common/Alloc.h",
+      "sha256": "b3bea9f375603a281ce3305dcdc0109099210e42c0b4e43000d04d132dfc6306",
+      "bytes": 1087
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/Common/CRC.cpp",
+      "sha256": "07d5cde1e73d96447bbbe893b4bb3dfc6eed21dc691ab7c4ca36466f79ed2ea3",
+      "bytes": 1599
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/Common/CRC.h",
+      "sha256": "5c0c63662fa8860c55ae669b7c1bc84bc7bf3a9e6c4184273e7b0dbd2359d4ba",
+      "bytes": 1335
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/Common/Defs.h",
+      "sha256": "c74ad6238c385672cde096eada4f35461aa322fe272a987366551f5b1d767efd",
+      "bytes": 934
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/Common/MyCom.h",
+      "sha256": "01ed2cfd469a7323056c02e3c309bc4030e844a071ca64afda60fd747236e562",
+      "bytes": 5543
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/Common/MyGuidDef.h",
+      "sha256": "3c413bd7f1884b98fa303df7e293bb4b5175bb6e53139f8a79807fd1d5c63e5e",
+      "bytes": 1575
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/Common/MyUnknown.h",
+      "sha256": "e1616775681c25a80ae520a8b7a9b6f6bb5ac62d77e1e6c29680c54ad9ae76ad",
+      "bytes": 790
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/Common/MyWindows.h",
+      "sha256": "8adace997ceaf147a4b875715fe3466abb30ef43c563fcbf74c7c55c757ace41",
+      "bytes": 4750
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/Common/StdAfx.h",
+      "sha256": "7608eb46076a8970ef9752f4a213cd21d1f57bd0b4cad77bb8d16e8bc9a362cd",
+      "bytes": 587
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/Common/Types.h",
+      "sha256": "c326be002f3e19441c314063d6917ea3d049e16acbf34a0d6091f8df1fa72895",
+      "bytes": 1889
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/LZMADecode.c",
+      "sha256": "8e6cca44f97511b39af085bf0e411e7a1faa2a12cc73bd902bccb39fdea3ee64",
+      "bytes": 14826
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/LZMADecode.h",
+      "sha256": "ab366ac4f76dbd605c496cc12380423f629eb2f1ffd8e6290392d6b05abeba4e",
+      "bytes": 2730
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/7zip/sdk.diff",
+      "sha256": "01b4a3008f1f814072af7e761e7b2bd7b88b8e33d8f79b90b606f2c6dc2d99ce",
+      "bytes": 4601
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/BinInterop.cpp",
+      "sha256": "e9588ea09ea3690724543fa46025e0d6c1d43a68fb7ed53f7caed8d66f332c44",
+      "bytes": 20200
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/BinInterop.h",
+      "sha256": "b26c059eb68f838391e48c61e810199cbdbf56a0e5446ccf72d9c09689218cbd",
+      "bytes": 1947
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/DialogTemplate.cpp",
+      "sha256": "4c0ed8c1be98cb52bf0891deab5b90a22a93ea3b2ad998a90212c4cffd359bfc",
+      "bytes": 21174
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/DialogTemplate.h",
+      "sha256": "07976ffa10ad1865426425dc291b2d295d8fdd7b609b23ce94a37f1d0ef3ce0c",
+      "bytes": 3796
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Platform.h",
+      "sha256": "c401af10d36cd0b8cdb5a3c506dac9ad803bf0f64a496538a16a17600bbf5f79",
+      "bytes": 27896
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Plugins.cpp",
+      "sha256": "ef820ba2125dda27d02b09b98b6d53cafef1f02e7650db7c30ae0d55c1cb5a38",
+      "bytes": 8772
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Plugins.h",
+      "sha256": "949d3bc84fb3c42400a0bd39a4bee5bdc25032a0160b858cc6b7827ed1f4f2fc",
+      "bytes": 2464
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/ResourceEditor.cpp",
+      "sha256": "8829c84404c7b8ae79c88930b55e2a2bca1db5dd735c1bcb953a5bf4b5d72f88",
+      "bytes": 61862
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/ResourceEditor.h",
+      "sha256": "f1a80ebda099d509106b1921208b9e95cb30fb86e01785d34848488bb7da4480",
+      "bytes": 13662
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/ResourceVersionInfo.cpp",
+      "sha256": "36f43bffce3ed758ed209fbf0a789bda079fbfd8b51015c56ac73d168ed2cf46",
+      "bytes": 9040
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/ResourceVersionInfo.h",
+      "sha256": "2d2305a016ba2ad6207b8df3722dd6754b4ecfe97eb9e4ffdcf808b5dc3a59f1",
+      "bytes": 3567
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/SConscript",
+      "sha256": "388a6bd099410a723b746ece7cfda9b37afbb69bc8d15b35ad62b2d3e5eff685",
+      "bytes": 1700
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/ShConstants.cpp",
+      "sha256": "59ed260a9bebd06987a7a07a1b4ed89b4464d392ba128d21a5ee948d2c158829",
+      "bytes": 2386
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/ShConstants.h",
+      "sha256": "291f0051130fdae7cc914e8d46fd1e416f20e17dd7124bd201e3cebbda1fef30",
+      "bytes": 1099
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/DialogTemplate.cpp",
+      "sha256": "26e6c4f473a47c46695b78c290b739f9eb7dd40a45065816d81e5b405818c59c",
+      "bytes": 1517
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/Platform.cpp",
+      "sha256": "48089360cd222020e25ca7027ab11844b65f4c82bafcb385e762b8e4a55cc5b5",
+      "bytes": 1525
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/ResourceEditor.cpp",
+      "sha256": "f95eafd7431b94b87bc0f2c529ff08ec92664cc3809c9a63816afdc7faed9a02",
+      "bytes": 36421
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/SConscript",
+      "sha256": "f7c56c1ca4fed1c46b2a138683f691019c2947ce46c69629228967752e243f74",
+      "bytes": 3202
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/compression.cpp",
+      "sha256": "6c17bc598ec782c374bfb9155f329b29dac4cbbc33cbabf79ae51bbfb2cbe03d",
+      "bytes": 4088
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/decompress.cpp",
+      "sha256": "f8169229587351a9c9a784c71d7dced5c7df401483b04e8ea5dfce66d88e490b",
+      "bytes": 2728
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/decompress.h",
+      "sha256": "a285c081bf359b7d2040f4abb966aa8c345c62146eedca16bdaa6ea1fba36376",
+      "bytes": 1231
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/endian.cpp",
+      "sha256": "ad4fda77d72fa417799c90ecc6bf136274c79eb3af889d8e6cac1afd6ed11c7a",
+      "bytes": 1460
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/icon1.nsi",
+      "sha256": "48cef952b68c47e6774a3f38846d446b2496d84a4e7f9c9cbba538bbc195f5ef",
+      "bytes": 248
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/icon2.nsi",
+      "sha256": "fc63d82770bd07abac69d1e34c5a4c993df97dfcbdf9a632ed318b373f6973a5",
+      "bytes": 248
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/icons.py",
+      "sha256": "2c17964f66030f95e94c450834a83c92ef047e336ce4478f220e0d284b2e7582",
+      "bytes": 640
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/memcpy.c",
+      "sha256": "0a8a3332c0accecb4666d349b48da1b036666e649e4d61cb68ab1b567382de83",
+      "bytes": 252
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/mmap.cpp",
+      "sha256": "93f0b41c968e2d0b0486045675b7d9ab48592d1d9d821bc0f0f0d492239c8efc",
+      "bytes": 2168
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/preprocessor.nsi",
+      "sha256": "1a0d668eea5e7c201a3445372b4a41470b04cf7f7f4aa58efb1b3fc471066baa",
+      "bytes": 7748
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/root.txt",
+      "sha256": "84bb865c588268ebef2389f99a4c667bb21eadbbe234d9aa6b498b7e39ba4986",
+      "bytes": 284
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/specmatch.cpp",
+      "sha256": "418b5f458d87580f81bc689ce719580a6167d2945c66e790d91c327320784b30",
+      "bytes": 1587
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/textrunner.cpp",
+      "sha256": "fcca489a8c52735ac598e7e7cc68e81151edcd5fb7dfc915e0420b45cfa19f7c",
+      "bytes": 867
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/winchar.cpp",
+      "sha256": "4c0f27abec6a90b7f26515fa2c58e8142c43df8ef1d2991b552f01838c173626",
+      "bytes": 3220
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/Tests/winver.nsi",
+      "sha256": "0fdfe68cb71530e763764113be107266500657653415bfef51d6f6c1f2c45989",
+      "bytes": 38749
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/afxres.h",
+      "sha256": "e7157e867f5fd0cd4d164ea481db2bb6d7694ee1ae6f8e43928dd7039a0227dc",
+      "bytes": 458
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/boost/checked_delete.hpp",
+      "sha256": "6c05b3de8ad2cbf273c6904279fb14763b0e84d44c3d74858cbafb0931762c62",
+      "bytes": 1757
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/boost/detail/workaround.hpp",
+      "sha256": "a985dbf7b8dfb55255171f99c9ddc99c2696034c0a7803dffbaa40d359a9f021",
+      "bytes": 2822
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/boost/scoped_array.hpp",
+      "sha256": "8f01da1cf6f9ef4a95c5b2483793422befac3576acc18276bc6828403c17142e",
+      "bytes": 2824
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/boost/scoped_ptr.hpp",
+      "sha256": "3a74e48bf869eb3998cc0bfd3fe0f95dcf1d67204b2dfa2df40d7553bc13db99",
+      "bytes": 3493
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/build.cpp",
+      "sha256": "a344721fb951d924cf7d77b60c8b66f54fa2f07ff6ff2e7bb94dd644882d556d",
+      "bytes": 135758
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/build.h",
+      "sha256": "4f5e6812ff902dfdb09f1a7a98f32c8d3a71e8c6db04c801015d7b0ef40ffde4",
+      "bytes": 28955
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/bzip2/blocksort.c",
+      "sha256": "4ee2dcb6ac0b3de5ab832ef6038f40a93898d36efe9452b695e16b829d64ba51",
+      "bytes": 31379
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/bzip2/bzlib.c",
+      "sha256": "ad61fa29608a46c9657d7f1d5afb65537b4d386991c3ced26eacab4788ee31d7",
+      "bytes": 18288
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/bzip2/bzlib.h",
+      "sha256": "c9419ff0d23b36a9980980184a375c5ce2efc1e1ee5519b787b0772fa9375b0e",
+      "bytes": 11950
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/bzip2/compress.c",
+      "sha256": "a4fb32cda1d20f6a7645653016a9e938b141cdc5c92b875cec69734a2827f921",
+      "bytes": 20016
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/bzip2/decompress.c",
+      "sha256": "3e18536eb6406685ccd86d9d6e43ef740671e9eacdd88a2faea7e8853fa54e09",
+      "bytes": 16116
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/bzip2/huffman.c",
+      "sha256": "c47c0fe7187ec7445ba36f56370c279fa95772281f042cf4ba65fd0bb3a3389f",
+      "bytes": 8106
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/cbzip2.h",
+      "sha256": "6e1ebd890b0eea1bcf97ba027ec5f4879f4e141ee87bb5a494d78c61bf28c9c6",
+      "bytes": 2327
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/clzma.cpp",
+      "sha256": "ef8ff730f463c7396c397d2cc9ef8c6452292720ef6f58658527987d734feb77",
+      "bytes": 9146
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/clzma.h",
+      "sha256": "910e0d8c8644d08c8d1a34a0145380231888d1b823e2ec948b7e30eefa186396",
+      "bytes": 2415
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/compressor.h",
+      "sha256": "6e78502748cf248607f28a341dc018afa429f5d1e72eb22b60bb68f26eaea7bb",
+      "bytes": 1114
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/crc32.c",
+      "sha256": "91a2df470817bafbf6f25d2e0518862e24581fe2a1e20a3155ffb3497c4d40cd",
+      "bytes": 1119
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/crc32.h",
+      "sha256": "adecd18adb19ab6828dc1c7f011a6ef4e051077ed84eae6c6d6b73a362a3c79b",
+      "bytes": 709
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/czlib.h",
+      "sha256": "07b2ed9e99df41276c8ccfbda133b05c1f28d2e14564d231515cac4df4ea94f6",
+      "bytes": 2260
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/dirreader.cpp",
+      "sha256": "71f08a169d86868b51b23d8055f0820c10ac5633588bbe9d4b3f3aa5f859222c",
+      "bytes": 5558
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/dirreader.h",
+      "sha256": "1ddeb4843ed4a09e65bb5f3e4c8d274eb0c419713836dca6000d2378faf9ca43",
+      "bytes": 1456
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/Main.c",
+      "sha256": "3e0720bf3a9efdd9a4358bf687f55815cfd61c047d820f3c3243653915ac4fe5",
+      "bytes": 16722
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/SConscript",
+      "sha256": "f23077dc6e95d53a5105e49d8ccb97df32d7b740a5a10262659fbcfcdd4d74b0",
+      "bytes": 1843
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/Ui.c",
+      "sha256": "84a573cb11532e28e7428164ebd9c12bf1ff1d153d1e0f7c575ef54e5999aa05",
+      "bytes": 52011
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/afxres.h",
+      "sha256": "534aee3fe12ff8330e2962d4924f471cb2d3d824d15afc86b11d7919e137e3d5",
+      "bytes": 461
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/api.h",
+      "sha256": "054ac31308972afeabd79bb43fb927c7274da98c0f493c90a5267052466a4351",
+      "bytes": 3330
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/bgbg.c",
+      "sha256": "b08aad0a6f408d56f593e351a174abe75707fdda1c63b2c2c2459875a2eb2ed7",
+      "bytes": 2760
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/bitmap1.bmp",
+      "sha256": "c0a5e0e33a8c8af0ddc313126a7767632890373444f58a4f20c7fee75eeca65c",
+      "bytes": 886
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/components.c",
+      "sha256": "342dce24084a98040bc6fcb1fca8fba4b87c715900f98af1e04a9daaa4b7660c",
+      "bytes": 3367
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/components.h",
+      "sha256": "50da52276076e036cea086abe94d02a9589ab3e4c0f431f61042cd85add75242",
+      "bytes": 896
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/config.h",
+      "sha256": "0ae32aae9bc96ce214de5e22a46074ce3f749eda3a78c2eb8268517c14dcbd98",
+      "bytes": 4536
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/exec.c",
+      "sha256": "b0c1470398f4e75af765d505f30fd7865b13c07597850a1b7c54c07ea1a30f62",
+      "bytes": 54233
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/exec.h",
+      "sha256": "a1bd5ac3d65ba2c38f22dcf338dd2db11b1671914881f0d80a484faa5808707c",
+      "bytes": 673
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/fileform.c",
+      "sha256": "33952eda32108ab35ab359a5a83f1d87b8bddced0fc80fc5ca76eeaf66b06c80",
+      "bytes": 15363
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/fileform.h",
+      "sha256": "25586574e80579fa617beaf8c1b9d348dc31a0c0ad8b3c79e7efa1ddeb95b0e4",
+      "bytes": 22190
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/lang.h",
+      "sha256": "aa851201bf12ae02872872b660852da1a99181a001503b15532a84efb673b0af",
+      "bytes": 2991
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/nsis.ico",
+      "sha256": "dbca06e4966ff7d0439e285fe34a25a8e448c8977d387d52ad79622b96d07f96",
+      "bytes": 766
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/plugin.c",
+      "sha256": "7d1aff78a74fa553f0ef86081cb37c126773f134dc995ee6acf75e7942acfeda",
+      "bytes": 1782
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/plugin.h",
+      "sha256": "df292611e85c4f4172d91032b1283f5e0b7bbee9bec9ff7adb61e08bfc80c1f1",
+      "bytes": 887
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/resource.h",
+      "sha256": "212dc6cbd78c4dadd980b985208e6544efc21b91f3ddc29f900b997a0aa4c75f",
+      "bytes": 2044
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/resource.rc",
+      "sha256": "95376370b26605088535b4f9561f0c09ca53d2f264d51b2ceec840cf86b00ea9",
+      "bytes": 9052
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/state.h",
+      "sha256": "47b3a1fb55e5ed3efd2226e7e7e3bafed7d31d35485996618492f00adaa5eb56",
+      "bytes": 2158
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/ui.h",
+      "sha256": "724376202488738d0f24315607de1004fa3760fa899c600291453e72bb908dc6",
+      "bytes": 1471
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/uninst.ico",
+      "sha256": "ba82bb5d90262417a18cec6631bbd8b880020eb159b45f264a9145196dfb8f3a",
+      "bytes": 766
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/util.c",
+      "sha256": "ae51fa944a84700bb9270581a84f2127b90b4e1e2564ffd3de1544cb3be24657",
+      "bytes": 38785
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/exehead/util.h",
+      "sha256": "152f643afa6b7f45b5ade686b144774ec9c0ad3c1622813447f0acad1bec4212",
+      "bytes": 9872
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/fileform.cpp",
+      "sha256": "3e9b01938e88db8ca2ae6cc59e0c81bbb4d48e0ef6fb6ae2d39bbfe02317d530",
+      "bytes": 6227
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/fileform.h",
+      "sha256": "8225414e7cbadcb2a9693410ca5cce95929c3489848337e1fbc13d43134f0440",
+      "bytes": 2239
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/growbuf.cpp",
+      "sha256": "b206360b8ef433be2b65d836e73a3d734a8076f88d730f38b10811458d9dedd7",
+      "bytes": 2948
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/growbuf.h",
+      "sha256": "0d6d15b779270e7db1dfa4f0cfe42471e6aca80adabf779275660521c51baf98",
+      "bytes": 3222
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/icon.cpp",
+      "sha256": "23b8f363ee342215e8d5797d4846afa8f03c7731b1e34483c534133b5ce59115",
+      "bytes": 12778
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/icon.h",
+      "sha256": "43c3fc6968be8a791ec91a0151be7c7e59d230f9ad291964649d2c1701a3bc68",
+      "bytes": 1785
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/lang.cpp",
+      "sha256": "a86fa82320fe9c4463f6688df4012f2f4ad5450c973b05abc882ab8e2f54cae1",
+      "bytes": 39434
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/lang.h",
+      "sha256": "11ece2166dce5c10de496957504257c96aabd18cb22f1ac04adb4ef256c679f8",
+      "bytes": 9168
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/lineparse.cpp",
+      "sha256": "61fca06a8e71df20e4d810bf1be8e75573bc69cf2f8a64a7bbadaddf9533f870",
+      "bytes": 10919
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/lineparse.h",
+      "sha256": "840fd0b92204503fc3bca4d0e1bd4609d4935a84d44c866591457df2d4df7098",
+      "bytes": 1858
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/makenssi.cpp",
+      "sha256": "a68d8508780d9bcf407400948ea21dd6450d5a49d1180bb7707dc3f01732cfe4",
+      "bytes": 24719
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/manifest.cpp",
+      "sha256": "a8ab8a2a709924e628f62c737dcff3de3ff1cd15f0867d7e50931adc971786bd",
+      "bytes": 8067
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/manifest.h",
+      "sha256": "461ca0d5319edffd69a6d37be134d2be6ca54c00a1695c8eb92257638d4fdefb",
+      "bytes": 2741
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/mmap.cpp",
+      "sha256": "931f9efb15c6f7b5f0e99dc25216b596cec467f2daceff94f5783647decb5b83",
+      "bytes": 11866
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/mmap.h",
+      "sha256": "8687857d614374704b2c07f10532ae42167f850758533eb1c14edce5be6457c3",
+      "bytes": 7571
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/script.cpp",
+      "sha256": "ddda4669cfb066c3f17603b888c05693a47ee271f4e1bbd83219258f40d772c7",
+      "bytes": 219592
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/scriptpp.cpp",
+      "sha256": "33c949377107b489cc95a16d4f8f579c7afbb36e8866ba57d6a65a0d62d70721",
+      "bytes": 48589
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/strlist.cpp",
+      "sha256": "54c91ac57c1e7779b7c6d339fd2ffc018f55f2f5274ebfeab105e975b12c1021",
+      "bytes": 10714
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/strlist.h",
+      "sha256": "0d0ca6466ee5025b4488766fb47ae1f199820dee161b76e9a15225ec7548ba2a",
+      "bytes": 19422
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/tchar.h",
+      "sha256": "5e02b47b209cf44b6f5f836215a40d1efc2468860003ef15fdbb3967be4414aa",
+      "bytes": 6237
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/tokens.cpp",
+      "sha256": "54a1c31fa108956b4ef1b9c0bdfb7eca5a2c9b87c4856339676313dfab002e5b",
+      "bytes": 31933
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/tokens.h",
+      "sha256": "5d1029c0b2b34ff591cfb2444ada03ed67e9ba7b03fce435adf28763cd03f63e",
+      "bytes": 6495
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/tstring.cpp",
+      "sha256": "94ed8a8c2c59d287c0acb50692fa3e1d3d89f42004ff4324ebcd391c4740ed9e",
+      "bytes": 1492
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/tstring.h",
+      "sha256": "62ad76f67c490d2c13ce5cc9b94201c85abc93dd53dec3948d1b7a19a8d48a02",
+      "bytes": 2295
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/uservars.h",
+      "sha256": "11367678c2a5c85f4b5a05f583530a58295060a90aff97bf856c42c84a1a464e",
+      "bytes": 3737
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/utf.cpp",
+      "sha256": "82ef4cf6ba6003ff51b2eab4608350ffc4eb8ac800553e14cc8ed00ee7c2b29c",
+      "bytes": 19656
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/utf.h",
+      "sha256": "8886b27169f9e5c16049b8ed278ccd0544816b470823db2dcb07d753aa15599d",
+      "bytes": 11596
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/util.cpp",
+      "sha256": "6fdc5df8ea039eaf0458f00b0e53b3fb03ea2338bc890523354e7ff0e5f10273",
+      "bytes": 44212
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/util.h",
+      "sha256": "71fead447e2598d61d28832bfdcb9c3a376cdbf28a5db76ec92ea4732b75b215",
+      "bytes": 16834
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/validateunicode.cpp",
+      "sha256": "4f47d3082acd00c1b1ee853a6082581b164cf24c4cc4a54a1d523f6816f39b31",
+      "bytes": 4606
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/validateunicode.h",
+      "sha256": "f3df2af96d2a214980a37ad24285fecf92d610ccf76cb54802647fb2cd8957d7",
+      "bytes": 1700
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/winchar.cpp",
+      "sha256": "5e50780295c8663c939ba419c90ecc95e55b3f77c4aa492aa0469778569ef0bd",
+      "bytes": 3029
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/winchar.h",
+      "sha256": "e0f02772ef2b80962ee16df9816496b5a47d3dfb22d79f5ff9a9138824c47eb4",
+      "bytes": 2366
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/writer.cpp",
+      "sha256": "5f06c761dee6c15c283ad6e5791cd8bc8cc27e1637f67add3a0de24a5a9ec066",
+      "bytes": 3227
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/writer.h",
+      "sha256": "f3cbfc581dbd53387795f9107a174f6f0dc0cfa1d0bc0a5e37cf834435628711",
+      "bytes": 2503
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/zlib/INFBLOCK.C",
+      "sha256": "21cae598788d14b9aabff71e763b04aa1aa3aaef3024d742da911d41e8892195",
+      "bytes": 22223
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/zlib/ZCONF.H",
+      "sha256": "b519d8eb0d250a588eb17faa90eba7ba2b21691856e3136cfb999cc93d76e1a6",
+      "bytes": 1625
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/zlib/ZLIB.H",
+      "sha256": "4aee3430fc32dec64e6a4563c795f887db15950c72f4669d3e4f694609857037",
+      "bytes": 9669
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/Source/zlib/ZUTIL.H",
+      "sha256": "ce3e3627c19067204407c6d6fca1035d0d822b863ac98a059bdc4cda59090b89",
+      "bytes": 2418
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/TODO.txt",
+      "sha256": "4e1f6017d8a53f6a4fdb6bd579480fa1da173d8a1ff4ce1b4da003a98e6ce2ce",
+      "bytes": 345
+    },
+    {
+      "path": "nsis-7359413009afd4f0fff472d841fc2f2cc0e0a5f8/nsisconf.nsh",
+      "sha256": "8273545fbb4f930f08af281edba7a1821447b85891a947790e7d6d89709e85a5",
+      "bytes": 1665
+    }
+  ]
+}
