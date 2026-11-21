@@ -9,6 +9,7 @@ export type ChangelogRelease = {
 
 export const CURRENT_VERSION = packageInfo.version
 export const CHANGELOG_RELEASES: ChangelogRelease[] = [
+  { version: '1.7.6', date: '2026-11-20T19:30:26Z', noteKeys: [] },
   { version: '1.7.5', date: '2026-10-06T22:00:00Z', noteKeys: [] },
   { version: '1.7.4', date: '2026-10-06T12:00:00Z', noteKeys: [] },
   { version: '1.7.3', date: '2026-10-05T21:50:00Z', noteKeys: ['whatsNew.m173'] },
