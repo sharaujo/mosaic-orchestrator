@@ -15,6 +15,7 @@ development history; v1.7.6 is the first public installer release.
 
 ## [1.7.6] - 2026-11-20
 
+- Backup imports on Windows now validate ZIP entry paths before replacing local workspace data.
 - Plugin discovery now fetches the catalogue from the canonical project repository, matching the bundled index and documentation.
 - Agent and editor controls now use neutral icons, and the remote companion uses text badges, replacing third-party logos with unverified provenance or incompatible brand requirements.
 - Offline speech recognition now uses Sherpa ONNX 2.0.1, preserving existing models and removing unused eSpeak/Piper code from Windows builds.
